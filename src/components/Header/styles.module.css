@@ -24,7 +24,7 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
-  color: #646363;
+  color: #575656;
   font-weight: 500;
   font-family: inter;
   position: relative;
@@ -47,7 +47,7 @@
 
 .contactButton {
   padding: 0.7rem 1.3rem;
-  border-radius: 6px;
+  border-radius: 20rem;
   background-color: #2a4033;
   border: none;
   font-size: 1rem;
