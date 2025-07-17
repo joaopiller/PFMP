@@ -1,0 +1,101 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 100vh;
+  background-image: url("../../assets/teste_diferenciais.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.contentBox {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(42, 64, 51);
+  padding: 3rem 2.5rem;
+  z-index: 2;
+  max-width: 65%;
+  width: 90%;
+  text-align: center;
+}
+
+.differentials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+  flex-wrap: wrap;
+}
+
+.differentialsTitle {
+  font-weight: 300;
+  font-family: inter;
+  color: #fafafa;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-bottom: 0.5rem;
+  width: fit-content;
+  text-align: left;
+  margin-bottom: 2.7rem;
+  position: relative;
+}
+
+.differentialsTitle::after {
+  content: "";
+  position: absolute;
+  bottom: -.8rem;
+  left: 0;
+  width: 20%;
+  height: 2px;
+  background-color: #db9f5d;
+}
+
+.differentialsTitle span {
+  font-weight: 600;
+  font-family: inter;
+  color: #fafafa;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.differential {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 15rem;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  gap: 0.5rem;
+  font-size: 1.7rem;
+  color: #fafafa;
+  font-family: inter;
+  font-weight: 500;
+}
+
+.differentialText {
+  font-weight: 400;
+  font-family: inter;
+  color: #fafafa;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
