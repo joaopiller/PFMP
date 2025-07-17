@@ -18,7 +18,7 @@ export default function HomeBanner() {
           </p>
           <button className={styles.button}>
             <FaWhatsapp size={20} />
-            Fale conosco
+            Entrar em contato
           </button>
         </div>
       </div>
