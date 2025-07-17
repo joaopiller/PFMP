@@ -1,0 +1,60 @@
+.expandButton {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  font-family: inherit;
+  width: fit-content;
+}
+
+.buttonCircle {
+  background-color: #DB9F5D; 
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  flex-shrink: 0;
+  z-index: 1;
+  position: relative;
+}
+
+.buttonText {
+  margin-left: .75rem;
+  color: #575656;
+  font-weight: 500;
+  transition: color 0.5s ease;
+  z-index: 1;
+  position: relative;
+  font-family: inter;
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+
+.expandButton::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 3rem;
+  background-color: #DB9F5D;
+  border-radius: 999px;
+  z-index: 0;
+  transition: width 0.5s ease;
+}
+
+.expandButton:hover::before {
+  width: 100%;
+}
+
+.expandButton:hover .buttonText { 
+  color: white;
+}
