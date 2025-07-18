@@ -8,7 +8,10 @@ export default function Header() {
         <img className={styles.logo} src={logo} alt="logo" />
         <nav className={styles.navBox}>
           <a className={styles.navItem} href="">
-            Quem somos
+            Home
+          </a>
+          <a className={styles.navItem} href="">
+            Quem Somos
           </a>
           <a className={styles.navItem} href="">
             Equipe
@@ -21,7 +24,7 @@ export default function Header() {
           </a>
         </nav>
         <button className={styles.contactButton}>
-          <FaWhatsapp size={18}/>
+          <FaWhatsapp size={18} />
           Fale conosco
         </button>
       </header>
