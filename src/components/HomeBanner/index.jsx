@@ -13,8 +13,7 @@ export default function HomeBanner() {
         <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
           <p className={styles.text}>
             Viverra felis, ultrices scelerisque lorem. urna. ex. fringilla Morbi
-            quis dui. non. urna Morbi efficitur. sit Sed tincidunt hendrerit
-            elit tincidunt Lorem vel.
+            quis dui. non. urna Morbi efficitur. sit Sed tincidunt hendrerit.
           </p>
           <button className={styles.button}>
             <FaWhatsapp size={20} />
