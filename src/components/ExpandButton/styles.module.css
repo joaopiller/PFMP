@@ -13,7 +13,7 @@
 
 .buttonCircle {
   background-color: #DB9F5D; 
-  color: white;
+  color: #efefef;
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -56,5 +56,5 @@
 }
 
 .expandButton:hover .buttonText { 
-  color: white;
+  color: #efefef;
 }
