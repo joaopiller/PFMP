@@ -1,0 +1,11 @@
+.areasDeAtuacaoSection {
+  background-color: #e8e8e8;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.areasDeAtuacaoContainer {
+  width: 85%;
+}

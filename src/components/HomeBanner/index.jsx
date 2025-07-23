@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import bannerImage from "../../assets/imagem_banner.svg";
+import bannerImage from "../../assets/bannerImage.jpg";
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function HomeBanner() {
@@ -7,13 +7,14 @@ export default function HomeBanner() {
     <section className={styles.homeBanner}>
       <div className={styles.bannerInfos}>
         <div className={styles.titles}>
-          <h1 className={styles.boldTitle}>Lorem ipsum</h1>
-          <h1 className={styles.lightTitle}>lorem etc</h1>
+          <h1 className={styles.boldTitle}>Tributário de verdade</h1>
+          <h1 className={styles.lightTitle}>para gente de verdade</h1>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
           <p className={styles.text}>
-            Viverra felis, ultrices scelerisque lorem. urna. ex. fringilla Morbi
-            quis dui. non. urna Morbi efficitur. sit Sed tincidunt hendrerit.
+            Aliando expertise jurídica e tecnologia para otimizar sua carga
+            tributária, fortalecer seu empreendimento e viabilizar a expansão do
+            seu negócio.
           </p>
           <button className={styles.button}>
             <FaWhatsapp size={20} />
@@ -21,11 +22,7 @@ export default function HomeBanner() {
           </button>
         </div>
       </div>
-      <img
-        className={styles.bannerImage}
-        src={bannerImage}
-        alt="Balão escrito 'Rompendo barreiras além das burocráticas'"
-      />
+      <img className={styles.bannerImage} src={bannerImage} alt="" />
     </section>
   );
 }
