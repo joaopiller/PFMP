@@ -26,7 +26,7 @@
   font-size: 1.1rem;
   color: #757575;
   font-weight: 500;
-  font-family: var(--font-manrope);
+  font-family: var(--font-scandia-medium);
   position: relative;
   transition: color 0.3s ease;
 }
@@ -34,7 +34,7 @@
 .navItem::after {
   content: " ";
   width: 0%;
-  height: 1px;
+  height: 2px;
   background-color: #757575;
   position: absolute;
   left: 0;
