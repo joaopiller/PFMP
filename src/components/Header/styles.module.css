@@ -10,8 +10,8 @@
 }
 
 .logo {
-  width: 10rem;
-  height: 3rem;
+  width: 11rem;
+  padding: .7rem 0;
 }
 
 .navBox {
@@ -23,10 +23,10 @@
 .navItem {
   text-decoration: none;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #757575;
   font-weight: 500;
-  font-family: inter;
+  font-family: var(--font-manrope);
   position: relative;
   transition: color 0.3s ease;
 }
@@ -34,7 +34,7 @@
 .navItem::after {
   content: " ";
   width: 0%;
-  height: 2px;
+  height: 1px;
   background-color: #757575;
   position: absolute;
   left: 0;
@@ -58,7 +58,7 @@
   font-size: 1rem;
   color: #efefef;
   font-weight: 500;
-  font-family: inter;
+  font-family: var(--font-scandia-medium);
   text-wrap: nowrap;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   cursor: pointer;

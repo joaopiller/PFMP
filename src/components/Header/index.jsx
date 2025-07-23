@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import logo from '../../assets/logo_teste.svg';
+import logo from '../../assets/logo_header.png';
 import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Header() {

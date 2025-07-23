@@ -13,9 +13,9 @@
 
 .equipeTitle {
   font-weight: 300;
-  font-family: inter;
+  font-family: var(--font-scandia-regular);
   color: #203029;
-  font-size: 2.25rem;
+  font-size: 2.2rem;
   width: fit-content;
   text-align: left;
   margin-bottom: 3rem;
@@ -33,7 +33,7 @@
 }
 
 .equipeTitle span {
-  font-weight: 500;
+  font-family: var(--font-scandia-medium);
 }
 
 .equipeMember {
@@ -85,7 +85,7 @@
 
 .equipeMember p {
   font-weight: 400;
-  font-family: inter;
+  font-family: var(--font-scandia-regular);
   color: #db9f5d;
   font-size: 1.4rem;
   line-height: 1.5rem;

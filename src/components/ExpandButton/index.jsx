@@ -5,7 +5,7 @@ export default function ExpandButton({text}) {
   return (
     <button className={styles.expandButton}>
       <span className={styles.buttonCircle}>
-        <IoIosArrowForward size={24} />
+        <IoIosArrowForward size={20} />
       </span>
       <span className={styles.buttonText}>{text}</span>
     </button>
