@@ -12,7 +12,7 @@ const WhatsAppButton = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 500); 
+    }, 500);
 
     return () => clearTimeout(timer);
   }, []);
@@ -29,6 +29,7 @@ const WhatsAppButton = () => {
         backgroundColor: "#25D366",
         color: "white",
         borderRadius: "50%",
+        borderBottomLeftRadius: "4px",
         padding: "16px",
         display: "flex",
         alignItems: "center",
@@ -42,6 +43,18 @@ const WhatsAppButton = () => {
           : "translateX(100px) scale(0.8)",
         opacity: isVisible ? 1 : 0,
         transition: "all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+      }}
+      onMouseEnter={(e) => {
+        if (isVisible) {
+          e.target.style.transform = "translateX(0) scale(1.05)";
+          e.target.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.4)";
+        }
+      }}
+      onMouseLeave={(e) => {
+        if (isVisible) {
+          e.target.style.transform = "translateX(0) scale(1)";
+          e.target.style.boxShadow = "0 2px 10px rgba(0, 0, 0, 0.3)";
+        }
       }}
     >
       <FaWhatsapp size={32} />

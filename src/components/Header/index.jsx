@@ -8,7 +8,7 @@ export default function Header() {
         <img className={styles.logo} src={logo} alt="logo" />
         <nav className={styles.navBox}>
           <a className={styles.navItem} href="">
-            Home
+            Início
           </a>
           <a className={styles.navItem} href="">
             Quem Somos
