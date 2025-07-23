@@ -8,4 +8,81 @@
 
 .areasDeAtuacaoContainer {
   width: 85%;
+  position: relative;
+}
+
+/* Setas customizadas */
+.customArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+  border: none;
+  color: #db9f5d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.customArrow:hover {
+  transform: translateY(-50%) scale(1.05);
+}
+
+.customPrevArrow {
+  left: -75px;
+}
+
+.customNextArrow {
+  right: -75px;
+}
+
+.areaDeAtuacaoCard {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px !important;
+  height: 18rem;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #203029;
+  padding: 1.2rem;
+  text-align: center;
+  color: #efefef;
+  transition: all 0.5s ease;
+  margin: 0 auto;
+  gap: .7rem;
+}
+
+.areaDeAtuacaoCard:hover {
+  background-color: #16211c;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.areaDeAtuacaoCard h3 {
+  font-size: 1.3rem;
+  color: #efefef;
+  font-family: var(--font-scandia-medium);
+  margin-top: 0.5rem;
+}
+
+.areaDeAtuacaoCard p {
+  font-size: 1rem;
+  color: #efefef;
+  font-family: var(--font-scandia-regular);
+  line-height: 1.4rem;
+  margin-top: 0.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
