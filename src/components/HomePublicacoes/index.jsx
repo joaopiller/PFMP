@@ -75,6 +75,7 @@ export default function HomePublicacoes() {
               <ExpandButton text={"Leia mais"} />
             </div>
           </article>
+          <button className={styles.verMaisButton}>Ver mais</button>
         </div>
       </div>
     </section>
