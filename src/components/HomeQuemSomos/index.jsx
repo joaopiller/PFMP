@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import quemSomos from "../../assets/home_quemsomos.png";
+import time from "../../assets/time.jpg";
 import ExpandButton from "../ExpandButton";
 
 export default function HomeQuemSomos() {
@@ -27,7 +27,7 @@ export default function HomeQuemSomos() {
         </p>
         <ExpandButton text={"Saiba mais"}/>
       </div>
-      <img className={styles.quemSomosImage} src={quemSomos} alt="Imagem" />
+      <img className={styles.quemSomosImage} src={time} alt="Imagem" />
     </section>
   );
 }

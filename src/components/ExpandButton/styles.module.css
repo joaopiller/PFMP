@@ -14,8 +14,8 @@
 .buttonCircle {
   background-color: #DB9F5D; 
   color: #efefef;
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -29,13 +29,12 @@
 .buttonText {
   margin-left: .75rem;
   color: #575656;
-  font-weight: 500;
   transition: color 0.5s ease;
   z-index: 1;
   position: relative;
-  font-family: inter;
+  font-family: var(--font-scandia-regular);
   padding-right: 1rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .expandButton::before {
@@ -44,7 +43,7 @@
   left: 0;
   top: 0;
   height: 100%;
-  width: 3rem;
+  width: 2.5rem;
   background-color: #DB9F5D;
   border-radius: 999px;
   z-index: 0;

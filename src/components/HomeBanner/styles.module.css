@@ -19,11 +19,11 @@
 }
 
 .boldTitle {
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    font-family: inter;
+    font-family: var(--font-scandia-medium);
     color: #DB9F5D;
     font-size: 4rem;
 }
@@ -33,17 +33,17 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    font-family: inter;
+    font-family: var(--font-scandia-regular);
     color: #DB9F5D;
     font-size: 4rem;
 }
 
 .text {
     font-weight: 400;
-    font-family: inter;
+    font-family: var(--font-scandia-regular);
     color: #efefef;
-    font-size: 1.5rem;
-    width: 23rem;
+    font-size: 1.4rem;
+    width: 24rem;
     font-weight: 300;
     line-height: 1.8rem;
 }
@@ -66,7 +66,7 @@
     gap: 0.5rem;
     color: #203029;
     font-weight: 500;
-    font-family: inter;
+    font-family: var(--font-scandia-medium);
     font-size: 1.1rem;
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
