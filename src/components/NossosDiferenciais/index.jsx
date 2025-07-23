@@ -1,5 +1,6 @@
 import { PiHandshakeLight } from "react-icons/pi";
 import styles from "./styles.module.css";
+import SectionTitle from "../SectionTitle";
 
 export default function NossosDiferenciais() {
   return (
@@ -7,9 +8,7 @@ export default function NossosDiferenciais() {
       <div className={styles.container}>
         <div className={styles.backgroundImage}></div>
         <div className={styles.contentBox}>
-          <h2 className={styles.differentialsTitle}>
-            Nossos<span> Diferenciais</span>
-          </h2>
+          <SectionTitle lightTitle="Nossos" boldTitle="Diferenciais" white />
           <div className={styles.differentials}>
             <div className={styles.differential}>
               <div className={styles.iconContainer}>
