@@ -1,10 +1,10 @@
 import styles from "./styles.module.css";
-import bannerImage from "../../assets/bannerImage.jpg";
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function HomeBanner() {
   return (
     <section className={styles.homeBanner}>
+      <div className={styles.bannerBlur}></div>
       <div className={styles.bannerInfos}>
         <div className={styles.titles}>
           <h1 className={styles.boldTitle}>Tributário de verdade</h1>
@@ -22,7 +22,6 @@ export default function HomeBanner() {
           </button>
         </div>
       </div>
-      <img className={styles.bannerImage} src={bannerImage} alt="" />
     </section>
   );
 }
