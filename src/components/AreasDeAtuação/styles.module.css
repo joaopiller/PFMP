@@ -1,0 +1,41 @@
+.areasDeAtuacaoSection {
+  background-color: #e8e8e8;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.areasDeAtuacaoContainer {
+  width: 85%;
+  position: relative;
+}
+
+.customArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+  border: none;
+  color: #db9f5d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.customArrow:hover {
+  transform: translateY(-50%) scale(1.05);
+}
+
+.customPrevArrow {
+  left: -75px;
+}
+
+.customNextArrow {
+  right: -75px;
+}
