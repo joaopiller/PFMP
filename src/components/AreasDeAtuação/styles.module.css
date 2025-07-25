@@ -8,7 +8,13 @@
 
 .areasDeAtuacaoContainer {
   width: 85%;
+}
+
+.areasDeAtuacaoSlider {
+  width: 90%;
   position: relative;
+  margin: 0 auto;
+  padding: .5rem 0 0 0;
 }
 
 .customArrow {
@@ -29,13 +35,13 @@
 }
 
 .customArrow:hover {
-  transform: translateY(-50%) scale(1.05);
+  color: #c99052;
 }
 
 .customPrevArrow {
-  left: -75px;
+  left: -80px;
 }
 
 .customNextArrow {
-  right: -75px;
+  right: -80px;
 }
