@@ -25,7 +25,7 @@ const CustomNextArrow = ({ onClick }) => (
   </button>
 );
 
-export default function AreasDeAtuacao() {
+export default function AreasDeAtuacao({whiteBackground = false}) {
   const settings = {
     infinite: true,
     speed: 700,
@@ -59,55 +59,58 @@ export default function AreasDeAtuacao() {
   };
 
   return (
-    <section className={styles.areasDeAtuacaoSection}>
+    <section
+      className={styles.areasDeAtuacaoSection}
+      style={{ backgroundColor: whiteBackground ? "#efefef" : "#e8e8e8" }}
+    >
       <div className={styles.areasDeAtuacaoContainer}>
         <SectionTitle lightTitle="Áreas de" boldTitle="Atuação" />
         <Slider {...settings}>
           <CardAreaDeAtuacao
             title="Direito Tributário"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
           >
             <MdLightbulbOutline color="#db9f5d" size={90} />
           </CardAreaDeAtuacao>
           <CardAreaDeAtuacao
             title="Direito Empresarial"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
           >
             <MdOutlineAttachMoney color="#db9f5d" size={90} />
           </CardAreaDeAtuacao>
           <CardAreaDeAtuacao
             title="Direito Tributário"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
           >
             <MdLightbulbOutline color="#db9f5d" size={90} />
           </CardAreaDeAtuacao>
           <CardAreaDeAtuacao
             title="Direito Empresarial"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
           >
             <MdOutlineAttachMoney color="#db9f5d" size={90} />
           </CardAreaDeAtuacao>
           <CardAreaDeAtuacao
             title="Direito Tributário"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
           >
             <MdLightbulbOutline color="#db9f5d" size={90} />
           </CardAreaDeAtuacao>
           <CardAreaDeAtuacao
             title="Direito Empresarial"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
           >
             <MdOutlineAttachMoney color="#db9f5d" size={90} />
           </CardAreaDeAtuacao>
           <CardAreaDeAtuacao
             title="Direito Tributário"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
           >
             <MdLightbulbOutline color="#db9f5d" size={90} />
           </CardAreaDeAtuacao>
           <CardAreaDeAtuacao
             title="Direito Empresarial"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
           >
             <MdOutlineAttachMoney color="#db9f5d" size={90} />
           </CardAreaDeAtuacao>

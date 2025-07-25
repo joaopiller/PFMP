@@ -162,3 +162,21 @@ table {
 * {
   box-sizing: border-box;
 }
+
+/* Layout para footer sticky */
+html,
+body {
+  height: 100%;
+  background-color: #efefef;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* O main content deve crescer para empurrar o footer para baixo */
+main {
+  flex: 1;
+}
