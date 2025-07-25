@@ -1,18 +1,18 @@
 import SectionTitle from "../../components/SectionTitle";
 import styles from "./styles.module.css";
-import { MdLightbulbOutline, MdOutlineAttachMoney } from "react-icons/md";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
 import CardAreaDeAtuacao from "./CardAreaDeAtuacao";
+import { GoLaw } from "react-icons/go";
 
 const CustomPrevArrow = ({ onClick }) => (
   <button
     className={styles.customArrow + " " + styles.customPrevArrow}
     onClick={onClick}
   >
-    <SlArrowLeft size={40} />
+    <SlArrowLeft size={36} />
   </button>
 );
 
@@ -21,7 +21,7 @@ const CustomNextArrow = ({ onClick }) => (
     className={styles.customArrow + " " + styles.customNextArrow}
     onClick={onClick}
   >
-    <SlArrowRight size={40} />
+    <SlArrowRight size={36} />
   </button>
 );
 
@@ -65,56 +65,58 @@ export default function AreasDeAtuacao({whiteBackground = false}) {
     >
       <div className={styles.areasDeAtuacaoContainer}>
         <SectionTitle lightTitle="Áreas de" boldTitle="Atuação" />
-        <Slider {...settings}>
-          <CardAreaDeAtuacao
-            title="Direito Tributário"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
-          >
-            <MdLightbulbOutline color="#db9f5d" size={90} />
-          </CardAreaDeAtuacao>
-          <CardAreaDeAtuacao
-            title="Direito Empresarial"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
-          >
-            <MdOutlineAttachMoney color="#db9f5d" size={90} />
-          </CardAreaDeAtuacao>
-          <CardAreaDeAtuacao
-            title="Direito Tributário"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
-          >
-            <MdLightbulbOutline color="#db9f5d" size={90} />
-          </CardAreaDeAtuacao>
-          <CardAreaDeAtuacao
-            title="Direito Empresarial"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
-          >
-            <MdOutlineAttachMoney color="#db9f5d" size={90} />
-          </CardAreaDeAtuacao>
-          <CardAreaDeAtuacao
-            title="Direito Tributário"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
-          >
-            <MdLightbulbOutline color="#db9f5d" size={90} />
-          </CardAreaDeAtuacao>
-          <CardAreaDeAtuacao
-            title="Direito Empresarial"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
-          >
-            <MdOutlineAttachMoney color="#db9f5d" size={90} />
-          </CardAreaDeAtuacao>
-          <CardAreaDeAtuacao
-            title="Direito Tributário"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
-          >
-            <MdLightbulbOutline color="#db9f5d" size={90} />
-          </CardAreaDeAtuacao>
-          <CardAreaDeAtuacao
-            title="Direito Empresarial"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit."
-          >
-            <MdOutlineAttachMoney color="#db9f5d" size={90} />
-          </CardAreaDeAtuacao>
-        </Slider>
+        <div className={styles.areasDeAtuacaoSlider}>
+          <Slider {...settings}>
+            <CardAreaDeAtuacao
+              title="Direito Tributário"
+              description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+            >
+              <GoLaw color="#db9f5d" size={90} />
+            </CardAreaDeAtuacao>
+            <CardAreaDeAtuacao
+              title="Direito Empresarial"
+              description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+            >
+              <GoLaw color="#db9f5d" size={90} />
+            </CardAreaDeAtuacao>
+            <CardAreaDeAtuacao
+              title="Direito Tributário"
+              description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+            >
+              <GoLaw color="#db9f5d" size={90} />
+            </CardAreaDeAtuacao>
+            <CardAreaDeAtuacao
+              title="Direito Empresarial"
+              description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+            >
+              <GoLaw color="#db9f5d" size={90} />
+            </CardAreaDeAtuacao>
+            <CardAreaDeAtuacao
+              title="Direito Tributário"
+              description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+            >
+              <GoLaw color="#db9f5d" size={90} />
+            </CardAreaDeAtuacao>
+            <CardAreaDeAtuacao
+              title="Direito Empresarial"
+              description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+            >
+              <GoLaw color="#db9f5d" size={90} />
+            </CardAreaDeAtuacao>
+            <CardAreaDeAtuacao
+              title="Direito Tributário"
+              description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+            >
+              <GoLaw color="#db9f5d" size={90} />
+            </CardAreaDeAtuacao>
+            <CardAreaDeAtuacao
+              title="Direito Empresarial"
+              description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+            >
+              <GoLaw color="#db9f5d" size={90} />
+            </CardAreaDeAtuacao>
+          </Slider>
+        </div>
       </div>
     </section>
   );

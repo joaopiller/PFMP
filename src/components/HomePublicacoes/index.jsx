@@ -24,7 +24,7 @@ export default function HomePublicacoes() {
             title="Senado aprova tornar permanentes benefícios fiscais ao esporte"
             description="Breve descrição da publicação. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Breve descrição da publicação. Lorem ipsum dolor sit amet, consectetur adipiscing, consectetur adipiscing..."
           />
-          <button className={styles.verMaisButton}>Ver mais</button>
+          <button className={styles.verMaisButton}>Ver mais publicações</button>
         </div>
       </div>
     </section>
