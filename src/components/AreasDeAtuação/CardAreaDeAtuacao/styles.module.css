@@ -5,11 +5,11 @@
   justify-content: center;
   width: 300px !important;
   height: 18rem;
-  border-radius: 4px;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   background-color: #203029;
-  padding: 1.2rem;
+  padding: 1rem;
   text-align: center;
   color: #efefef;
   transition: all 0.5s ease;

@@ -4,7 +4,7 @@
   align-items: center;
   padding: 1.3rem 8rem;
   background-color: #efefef;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
   position: relative;
   z-index: 1000;
 }
@@ -25,7 +25,7 @@
   font-weight: 500;
   font-size: 1.1rem;
   color: #757575;
-  font-weight: 500;
+  font-weight: 400;
   font-family: var(--font-scandia-medium);
   position: relative;
   transition: color 0.3s ease;
@@ -34,11 +34,11 @@
 .navItem::after {
   content: " ";
   width: 0%;
-  height: 2px;
+  height: 1px;
   background-color: #757575;
   position: absolute;
   left: 0;
-  bottom: -5px;
+  bottom: -4px;
   transition: 0.5s ease-in-out;
 }
 

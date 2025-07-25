@@ -4,7 +4,7 @@ import victor from "../../assets/victor.jpg";
 import flavia from "../../assets/flavia.jpg";
 import marchesi from "../../assets/marchesi.jpg";
 import SectionTitle from "../SectionTitle";
-import CardMembro from "./CardMembro";
+import CardMembro from "../CardMembro";
 
 export default function HomeEquipe() {
   return (

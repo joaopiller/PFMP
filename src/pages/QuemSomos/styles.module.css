@@ -1,0 +1,120 @@
+.quemSomosContent {
+  width: 85%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quemSomosSubtitle {
+  font-size: 1.8rem;
+  font-family: var(--font-scandia-medium);
+  color: #2c4239;
+  margin-bottom: 1.5rem;
+  line-height: 2.2rem;
+  width: 70%;
+}
+
+.quemSomosDescription {
+  font-size: 1.2rem;
+  font-family: var(--font-manrope);
+  color: #575656;
+  line-height: 1.6rem;
+  margin-bottom: 1rem;
+  width: 70%;
+}
+
+.quemSomosMVV {
+  background-color: #e8e8e8;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quemSomosMVVContainer {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+.quemSomosMVVBalloon {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    border-bottom-left-radius: 4px;
+    background-color: #203029;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 2.7rem 2rem 2rem;
+}
+
+.quemSomosMVVBalloon h3 {
+  font-size: 1.8rem;
+  color: #db9f5d;
+  font-family: var(--font-scandia-medium);
+  margin-bottom: 0.5rem;
+}
+
+.quemSomosMVVBalloon p {
+  font-size: 1rem;
+  color: #e8e8e8;
+  font-family: var(--font-scandia-regular);
+  text-align: center;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quemSomosEquipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #efefef;
+    padding: 4rem 0;
+}
+
+.quemSomosEquipeInfos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 35rem;
+}
+
+.quemSomosEquipeTitle {
+    font-weight: 600;
+    font-family: var(--font-scandia-medium);
+    color: #2c4239;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: .2rem;
+    width: 70%;
+}
+
+.quemSomosEquipeText {
+    font-weight: 400;
+    font-family: var(--font-manrope);
+    color: #575656;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 70%;
+}
+
+.quemSomosEquipeImage {
+    width: 28rem;
+    height: 28rem;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    object-position: top;
+}
