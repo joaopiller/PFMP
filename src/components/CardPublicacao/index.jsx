@@ -1,4 +1,4 @@
-import ExpandButton from "../../ExpandButton";
+import ExpandButton from "../ExpandButton";
 import styles from "./styles.module.css";
 
 export default function CardPublicacao({image, title, description}) {

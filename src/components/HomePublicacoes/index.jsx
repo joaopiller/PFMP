@@ -1,6 +1,6 @@
 import publicacao from "../../assets/publicacao.jpg";
+import CardPublicacao from "../CardPublicacao";
 import SectionTitle from "../SectionTitle";
-import CardPublicacao from "./CardPublicacao";
 import styles from "./styles.module.css";
 
 export default function HomePublicacoes() {
