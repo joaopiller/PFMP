@@ -5,15 +5,15 @@
 }
 
 .equipeSubtitle {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-family: var(--font-scandia-medium);
   color: #2c4239;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
   padding-left: 2rem;
 }
 
 .equipeDescription {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: var(--font-manrope);
   color: #575656;
   line-height: 1.6rem;
