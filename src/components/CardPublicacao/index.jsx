@@ -1,7 +1,14 @@
+import { useNavigate } from "react-router-dom";
 import ExpandButton from "../ExpandButton";
 import styles from "./styles.module.css";
 
-export default function CardPublicacao({image, title, description}) {
+export default function CardPublicacao({image, title, description, id}) {
+  const navigate = useNavigate();
+
+  const handleCardClick = () => {
+    navigate(`/publicacoes/${id}`);
+  };
+
   return (
     <article className={styles.publicacaoCard}>
       <img
@@ -18,7 +25,7 @@ export default function CardPublicacao({image, title, description}) {
            {description}
           </p>
         </div>
-        <ExpandButton text={"Leia mais"} />
+        <ExpandButton text={"Leia mais"} onClick={handleCardClick} />
       </div>
     </article>
   );
