@@ -4,8 +4,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
-import CardAreaDeAtuacao from "./CardAreaDeAtuacao";
 import { GoLaw } from "react-icons/go";
+import CardAreaDeAtuacao from "../CardAreaDeAtuacao";
 
 const CustomPrevArrow = ({ onClick }) => (
   <button
@@ -70,48 +70,56 @@ export default function AreasDeAtuacao({whiteBackground = false}) {
             <CardAreaDeAtuacao
               title="Direito Tributário"
               description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+              margin
             >
               <GoLaw color="#db9f5d" size={90} />
             </CardAreaDeAtuacao>
             <CardAreaDeAtuacao
               title="Direito Empresarial"
               description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+              margin
             >
               <GoLaw color="#db9f5d" size={90} />
             </CardAreaDeAtuacao>
             <CardAreaDeAtuacao
               title="Direito Tributário"
               description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+              margin
             >
               <GoLaw color="#db9f5d" size={90} />
             </CardAreaDeAtuacao>
             <CardAreaDeAtuacao
               title="Direito Empresarial"
               description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+              margin
             >
               <GoLaw color="#db9f5d" size={90} />
             </CardAreaDeAtuacao>
             <CardAreaDeAtuacao
               title="Direito Tributário"
               description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+              margin
             >
               <GoLaw color="#db9f5d" size={90} />
             </CardAreaDeAtuacao>
             <CardAreaDeAtuacao
               title="Direito Empresarial"
               description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+              margin
             >
               <GoLaw color="#db9f5d" size={90} />
             </CardAreaDeAtuacao>
             <CardAreaDeAtuacao
               title="Direito Tributário"
               description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+              margin
             >
               <GoLaw color="#db9f5d" size={90} />
             </CardAreaDeAtuacao>
             <CardAreaDeAtuacao
               title="Direito Empresarial"
               description="Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur."
+              margin
             >
               <GoLaw color="#db9f5d" size={90} />
             </CardAreaDeAtuacao>
