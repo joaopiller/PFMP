@@ -3,8 +3,6 @@ import city from "../../assets/city.jpg";
 import styles from "./styles.module.css";
 import ExpandButton from "../../components/ExpandButton";
 import time from "../../assets/equipe_quem_somos.jpg";
-import NossosDiferenciais from "../../components/NossosDiferenciais";
-import AreasDeAtuacao from "../../components/AreasDeAtuação";
 
 export default function QuemSomos() {
   return (
@@ -83,8 +81,6 @@ export default function QuemSomos() {
         </div>
         <img className={styles.quemSomosEquipeImage} src={time} alt="Imagem" />
       </section>
-      <NossosDiferenciais />
-      <AreasDeAtuacao whiteBackground={true} />
     </>
   );
 }

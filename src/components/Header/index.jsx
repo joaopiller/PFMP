@@ -17,12 +17,12 @@ export default function Header() {
         <Link className={styles.navItem} to="/equipe">
           Equipe
         </Link>
-        <a className={styles.navItem} href="">
+        <Link className={styles.navItem} to="/areas-de-atuacao">
           Áreas de Atuação
-        </a>
-        <a className={styles.navItem} href="">
+        </Link>
+        <Link className={styles.navItem} to="/publicacoes">
           Publicações
-        </a>
+        </Link>
       </nav>
       <button className={styles.contactButton}>
         <FaWhatsapp size={18} />
