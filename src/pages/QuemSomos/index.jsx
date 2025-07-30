@@ -21,7 +21,8 @@ export default function QuemSomos() {
           mundo atual. Com advogados especializados em suas áreas de atuação e
           dedicados a entender as necessidades de nossos clientes, criamos uma
           rede multidisciplinar. Estamos preparados para os desafios jurídicos
-          do mundo atual.
+          do mundo atual. Estamos preparados para os desafios jurídicos do mundo
+          atual.
         </p>
         <p className={styles.quemSomosDescription}>
           Com advogados especializados em suas áreas de atuação e dedicados a
@@ -36,7 +37,10 @@ export default function QuemSomos() {
           Com advogados especializados em suas áreas de atuação e dedicados a
           entender as necessidades de nossos clientes, criamos uma rede
           multidisciplinar. Estamos preparados para os desafios jurídicos do
-          mundo atual.
+          mundo atual. Com advogados especializados em suas áreas de atuação e
+          dedicados a entender as necessidades de nossos clientes, criamos uma
+          rede multidisciplinar. Estamos preparados para os desafios jurídicos
+          do mundo atual. 
         </p>
       </section>
       <section className={styles.quemSomosMVV}>
@@ -69,7 +73,9 @@ export default function QuemSomos() {
       </section>
       <section className={styles.quemSomosEquipe}>
         <div className={styles.quemSomosEquipeInfos}>
-          <h2 className={styles.quemSomosEquipeTitle}>Conheça nosso time de especialistas</h2>
+          <h2 className={styles.quemSomosEquipeTitle}>
+            Conheça nosso time de especialistas
+          </h2>
           <p className={styles.quemSomosEquipeText}>
             <span>
               Nossa equipe reúne profissionais altamente qualificados, com

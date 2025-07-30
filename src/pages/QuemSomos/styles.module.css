@@ -1,7 +1,7 @@
 .quemSomosContent {
   width: 80%;
   margin: 0 auto;
-  padding: 4rem 0;
+  padding: 4rem 0 3rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,8 +21,8 @@
   font-family: var(--font-manrope);
   color: #575656;
   line-height: 1.6rem;
-  margin-bottom: 1rem;
   width: 70%;
+  margin-bottom: 1rem;
 }
 
 .quemSomosMVV {
@@ -79,7 +79,7 @@
     align-items: center;
     gap: 2rem;
     background-color: #efefef;
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 
 .quemSomosEquipeInfos {
@@ -112,10 +112,10 @@
 }
 
 .quemSomosEquipeImage {
-    width: 30rem;
-    height: 30rem;
+    width: 28rem;
+    height: 28rem;
     object-fit: cover;
-    border-radius: 4px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     object-position: top;
 }
