@@ -7,7 +7,7 @@ import esg from "../assets/esg.jpg";
 
 const posts = [
     {
-        id: 1,
+        id: "beneficio-esporte",
         title: "Senado aprova tornar permanentes benefícios fiscais ao esporte",
         date: "18/08/2025",
         authors: "Victor Hugo Piller e Flávia Perim",
@@ -23,7 +23,7 @@ const posts = [
         ]
     },
     {
-        id: 2,
+        id: "nova-regulamentacao-lgpd",
         title: "Nova regulamentação da LGPD: impactos para empresas de tecnologia",
         date: "15/07/2025",
         authors: "Pedro Marchesi e Victor Hugo Piller",
@@ -39,7 +39,7 @@ const posts = [
         ]
     },
     {
-        id: 3,
+        id: "alteracoes-codigo-civil",
         title: "Alterações no Código Civil: impactos nos contratos empresariais",
         date: "02/07/2025",
         authors: "Flávia Perim e Pedro Marchesi",
@@ -55,7 +55,7 @@ const posts = [
         ]
     },
     {
-        id: 4,
+        id: "marco-regulatorio-open-banking",
         title: "Marco regulatório do Open Banking: oportunidades e desafios",
         date: "28/06/2025",
         authors: "Victor Hugo Piller e Flávia Perim",
@@ -71,7 +71,7 @@ const posts = [
         ]
     },
     {
-        id: 5,
+        id: "tributacao-criptomoedas",
         title: "Tributação de criptomoedas: novidades da Receita Federal",
         date: "20/06/2025",
         authors: "Pedro Marchesi e Victor Hugo Piller",
@@ -87,7 +87,7 @@ const posts = [
         ]
     },
     {
-        id: 6,
+        id: "esg-compliance",
         title: "ESG e compliance: nova era da governança corporativa",
         date: "12/06/2025",
         authors: "Flávia Perim e Pedro Marchesi",
