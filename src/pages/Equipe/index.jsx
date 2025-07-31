@@ -22,10 +22,10 @@ export default function Equipe() {
           mundo atual.
         </p>
         <div className={styles.equipeMembers}>
-          <CardMembro image={victor} name="Victor H. Piller" />
-          <CardMembro image={pedro} name="Pedro H. Fonseca" />
-          <CardMembro image={marchesi} name="João Marchesi" />
-          <CardMembro image={flavia} name="Flávia Perim" />
+          <CardMembro id="vhpiller" image={victor} name="Victor H. Piller" />
+          <CardMembro id="phfonseca" image={pedro} name="Pedro H. Fonseca" />
+          <CardMembro id="jmarchesi" image={marchesi} name="João Marchesi" />
+          <CardMembro id="fperim" image={flavia} name="Flávia Perim" />
         </div>
       </section>
     </>

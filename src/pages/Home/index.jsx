@@ -1,4 +1,4 @@
-import AreasDeAtuacao from "../../components/AreasDeAtuação";
+import HomeAreasDeAtuacao from "../../components/HomeAreasDeAtuação";
 import HomeBanner from "../../components/HomeBanner";
 import HomeEquipe from "../../components/HomeEquipe";
 import HomePublicacoes from "../../components/HomePublicacoes";
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <HomeBanner />
-      <AreasDeAtuacao />
+      <HomeAreasDeAtuacao />
       <HomeQuemSomos />
       <NossosDiferenciais />
       <HomeEquipe />

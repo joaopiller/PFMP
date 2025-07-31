@@ -4,9 +4,9 @@ import Home from "./pages/Home";
 import Equipe from "./pages/Equipe";
 import QuemSomos from "./pages/QuemSomos";
 import MembroDetalhes from "./pages/MembroDetalhes";
-import AreasDeAtuacaoPage from "./pages/AreasDeAtuacaoPage";
 import Publicacoes from "./pages/Publicacoes";
 import Publicacao from "./pages/Publicacao";
+import AreasDeAtuacao from "./pages/AreasDeAtuacao";
 
 const router = createBrowserRouter([
   {
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: "areas-de-atuacao",
-        element: <AreasDeAtuacaoPage />,
+        element: <AreasDeAtuacao />,
       },
       {
         path: "publicacoes",
@@ -40,7 +40,7 @@ const router = createBrowserRouter([
       {
         path: "publicacoes/:publicacaoId",
         element: <Publicacao />,
-      }
+      },
     ],
   },
 ]);

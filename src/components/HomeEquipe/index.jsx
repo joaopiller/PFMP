@@ -12,10 +12,10 @@ export default function HomeEquipe() {
       <div className={styles.equipeContainer}>
         <SectionTitle lightTitle="Nossa" boldTitle="Equipe" />
         <div className={styles.equipeMembers}>
-          <CardMembro image={victor} name="Victor H. Piller" />
-          <CardMembro image={pedro} name="Pedro H. Fonseca" />
-          <CardMembro image={marchesi} name="João Marchesi" />
-          <CardMembro image={flavia} name="Flávia Perim" />
+          <CardMembro id="vhpiller" image={victor} name="Victor H. Piller" />
+          <CardMembro id="phfonseca" image={pedro} name="Pedro H. Fonseca" />
+          <CardMembro id="jmarchesi" image={marchesi} name="João Marchesi" />
+          <CardMembro id="fperim" image={flavia} name="Flávia Perim" />
         </div>
       </div>
     </section>

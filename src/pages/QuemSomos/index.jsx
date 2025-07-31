@@ -3,8 +3,15 @@ import city from "../../assets/city.jpg";
 import styles from "./styles.module.css";
 import ExpandButton from "../../components/ExpandButton";
 import time from "../../assets/equipe_quem_somos.jpg";
+import { useNavigate } from "react-router-dom";
 
 export default function QuemSomos() {
+  const navigate = useNavigate();
+  const handleVerEquipeClick = () => {
+    navigate("/equipe");
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <PageBanner title="Quem Somos" image={city} />
@@ -83,7 +90,7 @@ export default function QuemSomos() {
               país.
             </span>
           </p>
-          <ExpandButton text={"Ver equipe"} />
+          <ExpandButton onClick={handleVerEquipeClick} text={"Ver equipe"} />
         </div>
         <img className={styles.quemSomosEquipeImage} src={time} alt="Imagem" />
       </section>

@@ -7,6 +7,7 @@ export default function CardPublicacao({image, title, description, id}) {
 
   const handleCardClick = () => {
     navigate(`/publicacoes/${id}`);
+    window.scrollTo(0, 0);
   };
 
   return (

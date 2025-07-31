@@ -1,8 +1,15 @@
 import styles from "./styles.module.css";
 import time from "../../assets/time.jpg";
 import ExpandButton from "../ExpandButton";
+import { useNavigate } from "react-router-dom";
 
 export default function HomeQuemSomos() {
+  const navigate = useNavigate();
+  const handleExpandClick = () => {
+    navigate("/quem-somos");
+    window.scrollTo(0, 0);
+  };
+
   return (
     <section className={styles.quemSomosHome}>
       <div className={styles.quemSomosInfos}>
@@ -25,7 +32,7 @@ export default function HomeQuemSomos() {
             placerat.
           </span>
         </p>
-        <ExpandButton text={"Saiba mais"}/>
+        <ExpandButton onClick={handleExpandClick} text={"Saiba mais"}/>
       </div>
       <img className={styles.quemSomosImage} src={time} alt="Imagem" />
     </section>
