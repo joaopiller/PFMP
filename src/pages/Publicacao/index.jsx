@@ -7,7 +7,7 @@ import { useParams } from "react-router-dom";
 
 export default function Publicacao() {
   const { publicacaoId } = useParams();
-  const post = posts.find((p) => p.id === Number(publicacaoId));
+  const post = posts.find((p) => p.id === publicacaoId);
 
   return (
     <>
