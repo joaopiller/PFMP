@@ -1,31 +1,35 @@
 import PageBanner from "../../components/PageBanner";
 import nossa_equipe from "../../assets/nossa_equipe.jpg";
 import styles from "./styles.module.css";
-import victor from "../../assets/victor.jpg";
 import { FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { useParams } from "react-router-dom";
+import equipeMembers from "../../data/equipeMembers.js";
 
 export default function MembroDetalhes() {
+  const { memberId } = useParams();
+  const membro = equipeMembers.find((m) => m.id === memberId);
+
   return (
     <div>
       <PageBanner image={nossa_equipe} title="Equipe" />
       <section className={styles.membroDetalhesContent}>
         <div className={styles.membroDetalhesCard}>
-          <img className={styles.membroDetalhesImage} src={victor} alt="" />
+          <img className={styles.membroDetalhesImage} src={membro.image} alt="" />
           <div className={styles.membroDetalhesContact}>
             <div className={styles.membroDetalhesContactInfo}>
               <div className={styles.membroDetalhesContactData}>
                 <FaPhoneAlt size={16} color="#db9f5d" />
-                <span>(11) 91234-5678</span>
+                <span>{membro.phoneNumber}</span>
               </div>
               <div className={styles.membroDetalhesContactData}>
                 <MdEmail size={16} color="#db9f5d" />
-                <span>victor@example.com</span>
+                <span>{membro.email}</span>
               </div>
               <div className={styles.membroDetalhesContactData}>
                 <FaLinkedinIn size={16} color="#db9f5d" />
                 <a
-                  href="https://www.linkedin.com/in/victor"
+                  href={membro.linkedinLink}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -36,38 +40,32 @@ export default function MembroDetalhes() {
             <div className={styles.membroDetalhesIdiomas}>
               <h3>Idiomas</h3>
               <ul>
-                <li>Português</li>
-                <li>Inglês</li>
-                <li>Espanhol</li>
+                {membro.languages.map((language, index) => (
+                  <li key={index}>{language}</li>
+                ))}
               </ul>
             </div>
           </div>
         </div>
         <div className={styles.membroDetalhesInfo}>
           <div className={styles.membroDetalhesInfoHeader}>
-            <h2>Victor Hugo Piller</h2>
-            <p>Sócio fundador</p>
+            <h2>{membro.name}</h2>
+            <p>{membro.role}</p>
           </div>
           <div className={styles.membroDetalhesFormacaoAtuacao}>
             <h3>Formação Acadêmica</h3>
             <ul>
-              <li>Graduação em Direito pela Universidade de São Paulo (USP)</li>
-              <li>
-                Mestrado em Direito Empresarial pela Fundação Getúlio Vargas
-                (FGV)
-              </li>
-              <li>
-                Doutorado em Direito Tributário pela Pontifícia Universidade
-                Católica de São Paulo (PUC-SP)
-              </li>
+              {membro.academic.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
             </ul>
           </div>
           <div className={styles.membroDetalhesFormacaoAtuacao}>
             <h3>Áreas de Atuação</h3>
             <ul>
-              <li>Direito Tributário</li>
-              <li>Direito Empresarial</li>
-              <li>Direito Civil</li>
+              {membro.areas.map((area, index) => (
+                <li key={index}>{area}</li>
+              ))}
             </ul>
           </div>
         </div>

@@ -1,9 +1,16 @@
+import { useNavigate } from "react-router-dom";
 import publicacao from "../../assets/publicacao.jpg";
 import CardPublicacao from "../CardPublicacao";
 import SectionTitle from "../SectionTitle";
 import styles from "./styles.module.css";
 
 export default function HomePublicacoes() {
+  const navigate = useNavigate();
+  const handleVerMaisClick = () => {
+    navigate("/publicacoes");
+    window.scrollTo(0, 0);
+  };
+
   return (
     <section className={styles.publicacoesSection}>
       <div className={styles.publicacoesContainer}>
@@ -24,7 +31,7 @@ export default function HomePublicacoes() {
             title="Senado aprova tornar permanentes benefícios fiscais ao esporte"
             description="Breve descrição da publicação. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Breve descrição da publicação. Lorem ipsum dolor sit amet, consectetur adipiscing, consectetur adipiscing..."
           />
-          <button className={styles.verMaisButton}>Ver mais publicações</button>
+          <button onClick={handleVerMaisClick} className={styles.verMaisButton}>Ver mais publicações</button>
         </div>
       </div>
     </section>

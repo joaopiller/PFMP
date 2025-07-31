@@ -36,7 +36,6 @@ const WhatsAppButton = () => {
         justifyContent: "center",
         fontSize: "28px",
         zIndex: 1000,
-        boxShadow: "0 2px 10px rgba(0, 0, 0, 0.3)",
         cursor: "pointer",
         transform: isVisible
           ? "translateX(0) scale(1)"
@@ -47,13 +46,11 @@ const WhatsAppButton = () => {
       onMouseEnter={(e) => {
         if (isVisible) {
           e.target.style.transform = "translateX(0) scale(1.05)";
-          e.target.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.4)";
         }
       }}
       onMouseLeave={(e) => {
         if (isVisible) {
           e.target.style.transform = "translateX(0) scale(1)";
-          e.target.style.boxShadow = "0 2px 10px rgba(0, 0, 0, 0.3)";
         }
       }}
     >

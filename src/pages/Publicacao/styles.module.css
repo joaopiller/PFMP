@@ -9,6 +9,13 @@
   justify-content: center;
 }
 
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+
 .title {
   font-family: var(--font-scandia-medium);
   font-size: 2.3rem;
@@ -21,13 +28,21 @@
 .author {
   font-family: var(--font-scandia-regular);
   color: #575656;
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.date {
+  font-family: var(--font-scandia-regular);
+  color: #575656;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .imageWrapper {
   position: relative;
-  width: 60%;
+  width: 48rem;
   margin: 0 auto;
   object-fit: cover;
   object-position: center;

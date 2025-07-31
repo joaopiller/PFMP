@@ -8,7 +8,7 @@
 }
 
 .publicacaoImage {
-  width: 100%;
+  width: 23rem;
   height: 15rem;
   object-fit: cover;
   object-position: center;
@@ -25,7 +25,8 @@
 .publicacaoText {
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  justify-content: space-between;
+  height: 75%;
 }
 
 .publicacaoTitle {
@@ -33,6 +34,12 @@
   line-height: 1.4rem;
   color: #203029;
   font-family: var(--font-scandia-medium);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .publicacaoDescription {
