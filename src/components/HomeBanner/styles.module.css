@@ -37,7 +37,7 @@
   padding-left: 6rem;
   padding-top: 3rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    z-index: 3;
+  z-index: 3;
 }
 
 .titles {
@@ -112,4 +112,58 @@
 .button:hover {
   background-color: #cc9356;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 800px) {
+  .homeBanner {
+    justify-content: center;
+    text-align: center;
+    min-height: 90vh;
+  }
+
+  .bannerBlur {
+    background-color: rgba(32, 48, 41, .95);
+  }
+
+  .bannerInfos {
+    width: 95%;
+    height: fit-content;
+    border-radius: 14px;
+    padding: 3rem 2rem;
+    margin: 0;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: none;
+    gap: 1rem;
+  }
+
+  .lightTitle {
+    width: 100%;
+    font-size: 2.4rem;
+  }
+
+  .titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .boldTitle {
+    width: 100%;
+    font-size: 3rem;
+  }
+
+  .text {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .bannerImage {
+    display: none;
+  }
+
+  .button {
+    margin: 0 auto;
+  }
 }

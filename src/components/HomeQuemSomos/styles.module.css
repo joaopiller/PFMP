@@ -15,11 +15,11 @@
 }
 
 .quemSomosTitle {
-    font-weight: 600;
+    font-weight: 500;
     font-family: var(--font-scandia-medium);
     color: #2c4239;
     font-size: 2.2rem;
-    line-height: 2.4rem;
+    line-height: 2.5rem;
     margin-bottom: .5rem;
 }
 

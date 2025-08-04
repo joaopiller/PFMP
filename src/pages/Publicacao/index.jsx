@@ -11,7 +11,7 @@ export default function Publicacao() {
 
   return (
     <>
-      <PageBanner title="Publicação" image={publicacao_banner} />
+      <PageBanner title="Publicações" image={publicacao_banner} />
       <section className={styles.publicacaoContainer}>
         <h2 className={styles.title}>
           {post.title}
