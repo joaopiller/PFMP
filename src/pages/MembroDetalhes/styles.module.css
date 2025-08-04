@@ -13,6 +13,7 @@
     box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     overflow: hidden;
+    background-color: #f5f5f5;
 }
 
 .membroDetalhesImage {
@@ -142,4 +143,93 @@
     margin-right: 0.4rem;
     color: #db9f5d;
     font-size: 1.2rem;
+}
+
+@media (max-width: 1000px) {
+    .membroDetalhesContent {
+        flex-direction: column;
+        width: 85%;
+        padding: 2rem 0;
+        gap: 2rem;
+    }
+
+    .membroDetalhesCard {
+        width: 100%;
+        flex-direction: row;
+        height: 16rem;
+    }
+
+    .membroDetalhesImage {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 30%;
+    }
+
+    .membroDetalhesContactInfo {
+        padding: 1rem;
+        width: 50%;
+        gap: 1rem;
+        flex-direction: row;
+        text-wrap: nowrap;
+        flex-wrap: wrap;
+        font-size: .8rem;
+    }
+
+    .membroDetalhesIdiomas {
+        padding: 1rem;
+        width: 60%;
+        gap: 0.5rem;
+    }
+
+    .membroDetalhesInfo {
+        width: 100%;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .membroDetalhesInfoHeader h2 {
+        font-size: 1.5rem;
+    }
+
+    .membroDetalhesInfoHeader p {
+        font-size: 1rem;
+    }
+
+    .membroDetalhesFormacaoAtuacao h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .membroDetalhesContent {
+        width: 85%;
+        padding: 2rem 0;
+    }
+
+    .membroDetalhesCard {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .membroDetalhesImage {
+        width: 100%;
+        max-height: 22rem;
+    }
+
+    .membroDetalhesContactInfo {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.5rem ;
+    }
+
+    .membroDetalhesIdiomas {
+        width: 100%;
+        padding: 0 1.5rem 1.5rem 1.5rem;
+    }
+
+    .membroDetalhesInfo {
+        width: 100%;
+    }
 }

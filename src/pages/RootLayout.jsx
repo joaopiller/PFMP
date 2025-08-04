@@ -4,14 +4,14 @@ import WhatsAppButton from "../components/WhatsappButton";
 import Footer from "../components/Footer";
 
 export default function RootLayout() {
-    return (
-      <>
-      <Header/>
-        <main>
-          <Outlet />
-        </main>
-        <WhatsAppButton />
-        <Footer />
-      </>
-    );
+  return (
+    <>
+      <Header />
+      <main>
+        <Outlet />
+      </main>
+      <WhatsAppButton />
+      <Footer />
+    </>
+  );
 }

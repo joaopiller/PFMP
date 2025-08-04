@@ -51,4 +51,26 @@
     color: #203029;
     font-family: var(--font-scandia-regular);
     font-size: 0.9rem;
+    text-align: center;
+}
+
+@media (max-width: 870px) {
+    .footerContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .footerImage {
+        width: 15rem;
+    }
+
+    .footerInfo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .socialMedia {
+        justify-content: center;
+    }
 }
