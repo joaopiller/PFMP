@@ -5,6 +5,7 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  height: 30rem;
 }
 
 .publicacaoImage {
@@ -53,4 +54,31 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+@media (max-width: 600px) {
+  .publicacaoCard {
+    width: 85%;
+    margin: 0 auto;
+    height: 26rem;
+  }
+
+  .publicacaoDescription {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+
+  .publicacaoImage {
+    width: 100%;
+    height: 11rem;
+  }
+
+  .publicacaoContent {
+    padding: 1rem;
+  }
+
+  .publicacaoTitle {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
 }

@@ -38,7 +38,7 @@ export default function Header() {
       />
 
       <button className={styles.hamburger} onClick={toggleMenu}>
-        {isMenuOpen ? <HiX size={36} /> : <HiMenu size={36} />}
+        {isMenuOpen ? <HiX size={40} /> : <HiMenu size={40} />}
       </button>
 
       <nav className={styles.navBox}>

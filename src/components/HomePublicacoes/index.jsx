@@ -25,9 +25,11 @@ export default function HomePublicacoes() {
               description={post.description}
             />
           ))}
-          <button onClick={handleVerMaisClick} className={styles.verMaisButton}>Ver mais publicações</button>
         </div>
       </div>
+      <button onClick={handleVerMaisClick} className={styles.verMaisButton}>
+        Ver mais publicações
+      </button>
     </section>
   );
 }

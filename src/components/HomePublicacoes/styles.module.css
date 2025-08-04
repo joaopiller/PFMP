@@ -30,6 +30,7 @@
   cursor: pointer;
   transition: all 0.2s ease;
   box-shadow: none;
+  margin-top: 2.5rem;
 }
 
 .verMaisButton:hover {
