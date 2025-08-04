@@ -45,3 +45,34 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     object-position: center;
 }
+
+@media (max-width: 1200px) {
+    .quemSomosHome {
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 2rem;
+        gap: 2rem;
+    }
+
+    .quemSomosInfos {
+        max-width: 90%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .quemSomosTitle {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .quemSomosText {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    .quemSomosImage {
+        width: 20rem;
+        height: 20rem;
+
+    }
+}

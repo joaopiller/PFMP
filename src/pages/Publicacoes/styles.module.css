@@ -116,3 +116,27 @@
   color: #efefef;
   border-color: #354f44;
 }
+
+@media (max-width: 768px) {
+  .publicacoesContainer {
+    width: 85%;
+    padding: 4rem 0;
+  }
+
+  .searchContainer {
+    width: 80%;
+  }
+
+  .searchInput {
+    width: 80%;
+  }
+
+  .searchButton {
+    width: 20%;
+  }
+
+  .publicacoes {
+    flex-direction: column;
+    align-items: center;
+  }
+}
