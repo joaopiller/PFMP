@@ -1,3 +1,7 @@
+.quemSomosContainer {
+  width: 100%;
+}
+
 .quemSomosContent {
   width: 80%;
   margin: 0 auto;
@@ -26,96 +30,208 @@
 }
 
 .quemSomosMVV {
-  background-color: #e8e8e8;
   padding: 3rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  background-color: #e8e8e8;
 }
 
-.quemSomosMVVContainer {
-  width: 85%;
+.quemSomosMVContainer {
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3.5rem;
+  flex-wrap: wrap;
+  gap: 6rem
 }
 
-.quemSomosMVVBalloon {
-    width: 18rem;
-    height: 18rem;
-    border-radius: 50%;
-    border-bottom-left-radius: 4px;
-    background-color: #203029;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2.5rem 2.7rem 2rem 2rem;
+.quemSomosMVItem {
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
 }
 
-.quemSomosMVVBalloon h3 {
+.quemSomosMVItem h3 {
   font-size: 2rem;
-  color: #db9f5d;
+  color: #2c4239;
   font-family: var(--font-scandia-medium);
   margin-bottom: 0.7rem;
 }
 
-.quemSomosMVVBalloon p {
-  font-size: 1rem;
-  color: #e8e8e8;
+.quemSomosMVItem p {
+  font-size: 1.1rem;
+  color: #575656;
   font-family: var(--font-scandia-regular);
   text-align: center;
-  height: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 1.2rem;
+  line-height: 1.3rem;
+}
+
+.quemSomosValores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.quemSomosValoresContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 90%;
+}
+
+.quemSomosValoresItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 14.5rem;
+  height: 14.5rem;
+  padding: 1.5rem;
+  background-color: #2c4239;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  gap: .7rem;
+}
+
+.quemSomosValoresItem h4 {
+  font-size: 1.2rem;
+  color: #efefef;
+  font-family: var(--font-scandia-medium);
+  text-align: center;
+}
+
+.quemSomosValoresText {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  height: 8rem;
+}
+
+.quemSomosValoresItem p {
+  font-size: .8rem;
+  color: #efefef;
+  font-family: var(--font-scandia-regular);
+  text-align: center;
+  line-height: 1rem;
+}
+
+.quemSomosValores h3 {
+  font-size: 2rem;
+  color: #2c4239;
+  font-family: var(--font-scandia-medium);
 }
 
 .quemSomosEquipe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    background-color: #efefef;
-    padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #efefef;
+  padding: 3rem 0;
+  margin: 0 auto;
+  background-color: #e8e8e8;
 }
 
 .quemSomosEquipeInfos {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 32rem;
 }
 
 .quemSomosEquipeTitle {
-    font-weight: 600;
-    font-family: var(--font-scandia-medium);
-    color: #2c4239;
-    font-size: 2rem;
-    line-height: 2.4rem;
-    margin-bottom: .2rem;
-    width: 70%;
+  font-weight: 600;
+  font-family: var(--font-scandia-medium);
+  color: #2c4239;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 0.2rem;
+  width: 70%;
 }
 
 .quemSomosEquipeText {
-    font-weight: 400;
-    font-family: var(--font-manrope);
-    color: #575656;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    width: 70%;
+  font-weight: 400;
+  font-family: var(--font-manrope);
+  color: #575656;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 70%;
 }
 
 .quemSomosEquipeImage {
-    width: 28rem;
-    height: 28rem;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    object-position: top;
+  width: 24rem;
+  height: 24rem;
+  object-fit: cover;
+  border-radius: 1000px;
+  border-bottom-left-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  object-position: top;
+}
+
+@media (max-width: 1000px) {
+  .quemSomosContent {
+    width: 85%;
+    padding: 3rem 0;
+  }
+
+  .quemSomosMVContainer {
+    gap: 3rem
+  }
+
+  .quemSomosSubtitle,
+  .quemSomosDescription {
+    width: 100%;
+  }
+
+  .quemSomosSubtitle {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+  }
+
+  .quemSomosDescription {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .quemSomosEquipe {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .quemSomosEquipeInfos {
+    align-items: center;
+    text-align: center;
+  }
+
+  .quemSomosEquipeTitle {
+    width: 85%;
+  }
+
+  .quemSomosEquipeText {
+    width: 85%;
+  }
+
+  .quemSomosEquipeImage {
+    width: 18rem;
+    height: 18rem;
+  }
+
+
 }
