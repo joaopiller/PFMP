@@ -6,6 +6,10 @@
   background-color: #efefef;
 }
 
+.mobileBox {
+  display: none;
+}
+
 .backgroundImage {
   position: absolute;
   top: 0;
@@ -38,4 +42,45 @@
   align-items: center;
   gap: 3.5rem;
   flex-wrap: wrap;
+}
+
+@media (max-width: 1420px) {
+  .mobileBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #203029;
+    padding: 3rem;
+  }
+
+  .differentials {
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 10rem;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .mobileTitle {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1241px) {
+  .differentials {
+    padding: 0 10rem;
+  }
+}
+
+@media (max-width: 1048px) {
+  .differentials {
+    padding: 0 .5rem;
+    gap: 2rem;
+  }
+
+  .mobileBox {
+    padding: 3rem 0;
+  }
 }

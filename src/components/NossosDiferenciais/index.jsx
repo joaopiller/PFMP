@@ -5,51 +5,96 @@ import Diferencial from "./Diferencial";
 
 export default function NossosDiferenciais() {
   return (
-    <section>
-      <div className={styles.container}>
-        <div className={styles.backgroundImage}></div>
-        <div className={styles.contentBox}>
-          <SectionTitle lightTitle="Nossos" boldTitle="Diferenciais" white />
-          <div className={styles.differentials}>
-            <Diferencial
-              title="Flexibilidade"
-              description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
-            >
-              <PiHandshakeLight color="#DB9F5D" size={36} />
-            </Diferencial>
-            <Diferencial
-              title="Flexibilidade"
-              description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
-            >
-              <PiHandshakeLight color="#DB9F5D" size={36} />
-            </Diferencial>
-            <Diferencial
-              title="Flexibilidade"
-              description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
-            >
-              <PiHandshakeLight color="#DB9F5D" size={36} />
-            </Diferencial>
-            <Diferencial
-              title="Flexibilidade"
-              description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
-            >
-              <PiHandshakeLight color="#DB9F5D" size={36} />
-            </Diferencial>
-            <Diferencial
-              title="Flexibilidade"
-              description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
-            >
-              <PiHandshakeLight color="#DB9F5D" size={36} />
-            </Diferencial>
-            <Diferencial
-              title="Flexibilidade"
-              description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
-            >
-              <PiHandshakeLight color="#DB9F5D" size={36} />
-            </Diferencial>
+    <>
+      <section>
+        <div className={styles.container}>
+          <div className={styles.backgroundImage}></div>
+          <div className={styles.contentBox}>
+            <SectionTitle lightTitle="Nossos" boldTitle="Diferenciais" white />
+            <div className={styles.differentials}>
+              <Diferencial
+                title="Flexibilidade"
+                description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
+              >
+                <PiHandshakeLight color="#DB9F5D" size={36} />
+              </Diferencial>
+              <Diferencial
+                title="Flexibilidade"
+                description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
+              >
+                <PiHandshakeLight color="#DB9F5D" size={36} />
+              </Diferencial>
+              <Diferencial
+                title="Flexibilidade"
+                description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
+              >
+                <PiHandshakeLight color="#DB9F5D" size={36} />
+              </Diferencial>
+              <Diferencial
+                title="Flexibilidade"
+                description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
+              >
+                <PiHandshakeLight color="#DB9F5D" size={36} />
+              </Diferencial>
+              <Diferencial
+                title="Flexibilidade"
+                description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
+              >
+                <PiHandshakeLight color="#DB9F5D" size={36} />
+              </Diferencial>
+              <Diferencial
+                title="Flexibilidade"
+                description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
+              >
+                <PiHandshakeLight color="#DB9F5D" size={36} />
+              </Diferencial>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section className={styles.mobileBox}>
+        <div className={styles.mobileTitle}>
+          <SectionTitle lightTitle="Nossos" boldTitle="Diferenciais" white />
+        </div>
+        <div className={styles.differentials}>
+          <Diferencial
+            title="Flexibilidade"
+            description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
+          >
+            <PiHandshakeLight color="#DB9F5D" size={36} />
+          </Diferencial>
+          <Diferencial
+            title="Flexibilidade"
+            description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
+          >
+            <PiHandshakeLight color="#DB9F5D" size={36} />
+          </Diferencial>
+          <Diferencial
+            title="Flexibilidade"
+            description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
+          >
+            <PiHandshakeLight color="#DB9F5D" size={36} />
+          </Diferencial>
+          <Diferencial
+            title="Flexibilidade"
+            description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
+          >
+            <PiHandshakeLight color="#DB9F5D" size={36} />
+          </Diferencial>
+          <Diferencial
+            title="Flexibilidade"
+            description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
+          >
+            <PiHandshakeLight color="#DB9F5D" size={36} />
+          </Diferencial>
+          <Diferencial
+            title="Flexibilidade"
+            description="Nossa equipe é flexível na tratativa com o cliente. Você é chamado pelo nome, entendemos a sua realidade e momento. Independentemente do certame que você almeja."
+          >
+            <PiHandshakeLight color="#DB9F5D" size={36} />
+          </Diferencial>
+        </div>
+      </section>
+    </>
   );
 }

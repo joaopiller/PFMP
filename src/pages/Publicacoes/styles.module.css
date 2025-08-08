@@ -120,11 +120,12 @@
 @media (max-width: 768px) {
   .publicacoesContainer {
     width: 85%;
-    padding: 4rem 0;
+    padding: 3rem 0;
   }
 
   .searchContainer {
-    width: 80%;
+    width: 100%;
+
   }
 
   .searchInput {
@@ -138,5 +139,6 @@
   .publicacoes {
     flex-direction: column;
     align-items: center;
+    margin: 2rem 0;
   }
 }

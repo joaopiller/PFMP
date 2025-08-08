@@ -2,63 +2,51 @@ import { GoLaw } from "react-icons/go";
 
 const areasDeAtuacao = [
     {
-        name: "Direito Tributário",
-        description: "Atuação em questões relacionadas a tributos, impostos e contribuições, incluindo planejamento tributário.",
+        name: "Defesa em Autuações Fiscais",
         icon: GoLaw
     },
     {
-        name: "Direito Empresarial",
-        description: "Assessoria jurídica para empresas, incluindo contratos, societário, fusões e aquisições, e compliance.",
+        name: "Contencioso Judicial Estratégico",
         icon: GoLaw
     },
     {
-        name: "Direito Tributário",
-        description: "Atuação em questões relacionadas a tributos, impostos e contribuições, incluindo planejamento tributário.",
+        name: "Planejamento Tributário",
         icon: GoLaw
     },
     {
-        name: "Direito Empresarial",
-        description: "Assessoria jurídica para empresas, incluindo contratos, societário, fusões e aquisições, e compliance.",
+        name: "Recuperação de Créditos Tributários",
         icon: GoLaw
     },
     {
-        name: "Direito Tributário",
-        description: "Atuação em questões relacionadas a tributos, impostos e contribuições, incluindo planejamento tributário.",
+        name: "Planejamento Patrimonial e Sucessório",
         icon: GoLaw
     },
     {
-        name: "Direito Empresarial",
-        description: "Assessoria jurídica para empresas, incluindo contratos, societário, fusões e aquisições, e compliance.",
+        name: "Negociações e Transações Tributárias",
         icon: GoLaw
     },
     {
-        name: "Direito Tributário",
-        description: "Atuação em questões relacionadas a tributos, impostos e contribuições, incluindo planejamento tributário.",
+        name: "Relações Institucionais e Governamentais",
         icon: GoLaw
     },
     {
-        name: "Direito Empresarial",
-        description: "Assessoria jurídica para empresas, incluindo contratos, societário, fusões e aquisições, e compliance.",
+        name: "Gestão de Passivos Tributários",
         icon: GoLaw
     },
     {
-        name: "Direito Tributário",
-        description: "Atuação em questões relacionadas a tributos, impostos e contribuições, incluindo planejamento tributário.",
+        name: "Consultoria Tributária Geral",
         icon: GoLaw
     },
     {
-        name: "Direito Empresarial",
-        description: "Assessoria jurídica para empresas, incluindo contratos, societário, fusões e aquisições, e compliance.",
+        name: "Assessoria na Declaração de Saída Definitiva do Brasil",
         icon: GoLaw
     },
     {
-        name: "Direito Tributário",
-        description: "Atuação em questões relacionadas a tributos, impostos e contribuições, incluindo planejamento tributário.",
+        name: "Assessoria na Transição da Reforma Tributária",
         icon: GoLaw
     },
     {
-        name: "Direito Empresarial",
-        description: "Assessoria jurídica para empresas, incluindo contratos, societário, fusões e aquisições, e compliance.",
+        name: "Gestão e Contencioso Imobiliário",
         icon: GoLaw
     }
 ]
