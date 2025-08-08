@@ -20,3 +20,9 @@
   width: 100%;
   margin-top: 1rem;
 }
+
+@media (max-width: 800px) {
+  .equipeSection {
+    padding: 3rem 0;
+  }
+}

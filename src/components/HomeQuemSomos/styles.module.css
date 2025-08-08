@@ -55,7 +55,7 @@
     }
 
     .quemSomosInfos {
-        max-width: 90%;
+        max-width: 100%;
         text-align: center;
         align-items: center;
     }
@@ -74,5 +74,12 @@
         width: 20rem;
         height: 20rem;
 
+    }
+}
+
+@media (max-width: 600px) {
+    .quemSomosImage {
+        width: 18rem;
+        height: 18rem;
     }
 }

@@ -13,14 +13,16 @@ export default function HomeBanner() {
       <div className={styles.bannerBlur}></div>
       <div className={styles.bannerInfos}>
         <div className={styles.titles}>
-          <h1 className={styles.boldTitle}>Tributário de verdade</h1>
-          <h1 className={styles.lightTitle}>para gente de verdade</h1>
+          <h1 className={styles.boldTitle}>
+            Advocacia Tributária
+          </h1>
+          <h1 className={styles.lightTitle}>com Atuação Nacional</h1>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
           <p className={styles.text}>
-            Aliando expertise jurídica e tecnologia para otimizar sua carga
-            tributária, fortalecer seu empreendimento e viabilizar a expansão do
-            seu negócio.
+            Consultoria e contencioso tributário para empresas e pessoas
+            físicas, com soluções fiscais estratégicas, digitais e juridicamente
+            seguras em todo o Brasil.
           </p>
           <a
             href={whatsappLink}

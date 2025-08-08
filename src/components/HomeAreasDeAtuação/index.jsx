@@ -73,7 +73,7 @@ export default function HomeAreasDeAtuacao({ whiteBackground = false }) {
                 title={area.name}
                 description={area.description}
               >
-                <area.icon color="#db9f5d" size={85} />
+                <area.icon color="#db9f5d" size={100} />
               </CardAreaDeAtuacao>
             ))}
           </Slider>

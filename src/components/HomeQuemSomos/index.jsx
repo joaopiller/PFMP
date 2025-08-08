@@ -18,21 +18,13 @@ export default function HomeQuemSomos() {
         </h2>
         <p className={styles.quemSomosText}>
           <span>
-            Maximus id maximus Sed Lorem placerat commodo at Cras tincidunt
-            Morbi nec eu Cras malesuada id in commodo vel elit eget sapien
-            Quisque venenatis lacus, luctus non, tempor massa quam enim.
-            elementum turpis placerat. tempor eget tempor massa sed commodo
-            Lorem Sed tortor. Lacus, scelerisque cursus vel lacus elit Quisque
-            Cras Donec hendrerit sodales. urna.
-          </span>
-          <span>
-            Lacus, scelerisque cursus vel lacus elit Quisque Cras Donec
-            hendrerit sodales. urna. nec ultrices dui. Consectetur ex
-            consectetur Nunc placerat non, vitae id ipsum volutpat diam
-            placerat.
+            Somos o PFMP Advogados, um escritório digital com atuação nacional e
+            foco em Direito Tributário. Atendemos empresas, profissionais
+            liberais e pessoas físicas com soluções jurídicas claras, acessíveis
+            e eficientes. Tributário de verdade, para gente de verdade.
           </span>
         </p>
-        <ExpandButton onClick={handleExpandClick} text={"Saiba mais"}/>
+        <ExpandButton onClick={handleExpandClick} text={"Saiba mais"} />
       </div>
       <img className={styles.quemSomosImage} src={time} alt="Imagem" />
     </section>
