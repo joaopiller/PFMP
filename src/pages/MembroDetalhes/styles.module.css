@@ -241,6 +241,14 @@
   .membroDetalhesFormacaoAtuacao h3 {
     font-size: 1.2rem;
   }
+
+  .informacoesAdicionaisButton {
+    font-size: 1.2rem;
+  }
+
+  .informacoesAdicionaisButton span {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 560px) {

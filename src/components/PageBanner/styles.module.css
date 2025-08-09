@@ -45,6 +45,17 @@
   left: 2.8rem
 }
 
+@media (max-width: 1440px) {
+  .equipeBanner {
+    height: 20rem;
+  }
+
+  .bannerBalloon {
+    width: 11rem;
+    height: 11rem;
+  }
+} 
+
 
 @media (max-width: 660px) {
   .bannerBalloon {
