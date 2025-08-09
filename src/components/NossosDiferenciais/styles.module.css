@@ -45,7 +45,13 @@
   padding: 1rem
 }
 
-@media (max-width: 1420px) {
+@media (max-width: 1475px) {
+  .contentBox {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 1255px) {
   .mobileBox {
     display: flex;
     flex-direction: column;
