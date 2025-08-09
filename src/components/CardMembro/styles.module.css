@@ -70,3 +70,9 @@
   box-sizing: border-box;
   line-height: 1.5rem;
 }
+
+@media (max-width: 631px) {
+  .equipeMember img {
+    filter: grayscale(0%);
+  }
+}
