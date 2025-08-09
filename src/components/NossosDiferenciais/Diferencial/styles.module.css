@@ -37,8 +37,10 @@
 @media (max-width: 1048px) {
   .differential {
     width: 75%;
+    height: fit-content;
   }
+
   .differentialText {
-    max-height: 4.5rem;
+    height: fit-content;
   }
 }
