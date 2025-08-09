@@ -4,18 +4,28 @@ import styles from "./styles.module.css";
 import { FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { useParams } from "react-router-dom";
+import { useState } from "react";
 import equipeMembers from "../../data/equipeMembers.js";
 
 export default function MembroDetalhes() {
   const { memberId } = useParams();
   const membro = equipeMembers.find((m) => m.id === memberId);
+  const [showAdditionalInfo, setShowAdditionalInfo] = useState(false);
+
+  const toggleAdditionalInfo = () => {
+    setShowAdditionalInfo(!showAdditionalInfo);
+  };
 
   return (
     <div>
       <PageBanner image={nossa_equipe} title="Equipe" />
       <section className={styles.membroDetalhesContent}>
         <div className={styles.membroDetalhesCard}>
-          <img className={styles.membroDetalhesImage} src={membro.image} alt="" />
+          <img
+            className={styles.membroDetalhesImage}
+            src={membro.image}
+            alt=""
+          />
           <div className={styles.membroDetalhesContact}>
             <div className={styles.membroDetalhesContactInfo}>
               <div className={styles.membroDetalhesContactData}>
@@ -67,6 +77,24 @@ export default function MembroDetalhes() {
                 <li key={index}>{area}</li>
               ))}
             </ul>
+          </div>
+          <div className={styles.membroDetalhesFormacaoAtuacao}>
+            <button
+              className={styles.informacoesAdicionaisButton}
+              onClick={toggleAdditionalInfo}
+            >
+              <span>{showAdditionalInfo ? "-" : "+"}</span>
+              Informações Adicionais
+            </button>
+            {showAdditionalInfo && (
+              <div className={styles.informacoesAdicionaisContent}>
+                <ul>
+                  {membro.additional.map((info, index) => (
+                    <li key={index}>{info}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </section>
