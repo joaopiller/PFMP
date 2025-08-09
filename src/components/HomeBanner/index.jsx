@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function HomeBanner() {
-  const phoneNumber = "22988587782";
+  const phoneNumber = "31997127831";
   const message = "Olá, gostaria de entrar em contato!";
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message

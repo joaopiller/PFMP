@@ -1,9 +1,20 @@
 import { GoLaw } from "react-icons/go";
+import { IoDocumentTextOutline } from "react-icons/io5";
+import { LuChartNoAxesCombined } from "react-icons/lu";
+import { PiHandCoins } from "react-icons/pi";
+import { AiOutlineHome } from "react-icons/ai";
+import { PiHandshakeLight } from "react-icons/pi";
+import { RiGovernmentLine } from "react-icons/ri";
+import { FaRegFolderOpen } from "react-icons/fa";
+import { MdAttachMoney } from "react-icons/md";
+import { LuPlaneTakeoff } from "react-icons/lu";
+import { FaGears } from "react-icons/fa6";
+import { IoMdKey } from "react-icons/io";
 
 const areasDeAtuacao = [
     {
         name: "Defesa em Autuações Fiscais",
-        icon: GoLaw
+        icon: IoDocumentTextOutline
     },
     {
         name: "Contencioso Judicial Estratégico",
@@ -11,43 +22,43 @@ const areasDeAtuacao = [
     },
     {
         name: "Planejamento Tributário",
-        icon: GoLaw
+        icon: LuChartNoAxesCombined
     },
     {
         name: "Recuperação de Créditos Tributários",
-        icon: GoLaw
+        icon: PiHandCoins
     },
     {
         name: "Planejamento Patrimonial e Sucessório",
-        icon: GoLaw
+        icon: AiOutlineHome
     },
     {
         name: "Negociações e Transações Tributárias",
-        icon: GoLaw
+        icon: PiHandshakeLight
     },
     {
         name: "Relações Institucionais e Governamentais",
-        icon: GoLaw
+        icon: RiGovernmentLine
     },
     {
         name: "Gestão de Passivos Tributários",
-        icon: GoLaw
+        icon:  FaRegFolderOpen
     },
     {
         name: "Consultoria Tributária Geral",
-        icon: GoLaw
+        icon: MdAttachMoney
     },
     {
         name: "Assessoria na Declaração de Saída Definitiva do Brasil",
-        icon: GoLaw
+        icon: LuPlaneTakeoff
     },
     {
         name: "Assessoria na Transição da Reforma Tributária",
-        icon: GoLaw
+        icon: FaGears
     },
     {
         name: "Gestão e Contencioso Imobiliário",
-        icon: GoLaw
+        icon: IoMdKey
     }
 ]
 

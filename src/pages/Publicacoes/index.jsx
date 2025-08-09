@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { IoSearch } from "react-icons/io5";
-import publicacoes from "../../assets/publicacoes.jpg";
+import publicacoes from "../../assets/images/banner_publicacoes.jpg";
 import PageBanner from "../../components/PageBanner";
 import styles from "./styles.module.css";
 import CardPublicacao from "../../components/CardPublicacao";

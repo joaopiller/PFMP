@@ -1,10 +1,13 @@
 import PageBanner from "../../components/PageBanner";
-import city from "../../assets/city.jpg";
+import city from "../../assets/images/city.jpg";
 import styles from "./styles.module.css";
 import ExpandButton from "../../components/ExpandButton";
-import time from "../../assets/equipe_quem_somos.jpg";
+import equipeQuemSomos from "../../assets/images/equipe_quem_somos.JPG";
 import { useNavigate } from "react-router-dom";
-import { PiHandshakeLight } from "react-icons/pi";
+import { TbBulb } from "react-icons/tb";
+import { IoChatbubblesOutline } from "react-icons/io5";
+import { LuHandshake } from "react-icons/lu";
+import { GoPeople } from "react-icons/go";
 
 export default function QuemSomos() {
   const navigate = useNavigate();
@@ -18,38 +21,40 @@ export default function QuemSomos() {
       <PageBanner title="Quem Somos" image={city} />
       <section className={styles.quemSomosContainer}>
         <div className={styles.quemSomosContent}>
-          <h2 className={styles.quemSomosSubtitle}>
-            O BFA Advogados é um escritório de advocacia de negócios, que tem
-            seu foco na qualidade técnica e no atendimento individualizado de
-            cada cliente.
-          </h2>
           <p className={styles.quemSomosDescription}>
-            Com advogados especializados em suas áreas de atuação e dedicados a
-            entender as necessidades de nossos clientes, criamos uma rede
-            multidisciplinar. Estamos preparados para os desafios jurídicos do
-            mundo atual. Com advogados especializados em suas áreas de atuação e
-            dedicados a entender as necessidades de nossos clientes, criamos uma
-            rede multidisciplinar. Estamos preparados para os desafios jurídicos
-            do mundo atual. Estamos preparados para os desafios jurídicos do
-            mundo atual.
+            O PFMP Advogados é um escritório de advocacia com atuação nacional e
+            foco em soluções jurídicas na área do Direito Tributário. Atendemos
+            pequenas e médias empresas, profissionais liberais e pessoas físicas
+            que buscam apoio jurídico especializado, claro e acessível para
+            enfrentar desafios fiscais.
           </p>
           <p className={styles.quemSomosDescription}>
-            Com advogados especializados em suas áreas de atuação e dedicados a
-            entender as necessidades de nossos clientes, criamos uma rede
-            multidisciplinar. Estamos preparados para os desafios jurídicos do
-            mundo atual. Com advogados especializados em suas áreas de atuação e
-            dedicados a entender as necessidades de nossos clientes, criamos uma
-            rede multidisciplinar. Estamos preparados para os desafios jurídicos
-            do mundo atual.
+            Nosso time é composto por quatro advogados tributaristas, todos
+            formados pela Universidade Federal de Minas Gerais (UFMG), com
+            sólida experiência nos maiores escritórios de advocacia do país e no
+            setor público. Atuamos de forma digital, o que nos permite oferecer
+            serviços jurídicos tributários em todo o Brasil, com agilidade,
+            clareza e foco no resultado.
           </p>
           <p className={styles.quemSomosDescription}>
-            Com advogados especializados em suas áreas de atuação e dedicados a
-            entender as necessidades de nossos clientes, criamos uma rede
-            multidisciplinar. Estamos preparados para os desafios jurídicos do
-            mundo atual. Com advogados especializados em suas áreas de atuação e
-            dedicados a entender as necessidades de nossos clientes, criamos uma
-            rede multidisciplinar. Estamos preparados para os desafios jurídicos
-            do mundo atual.
+            Sabemos que muitos contribuintes enfrentam dificuldades para acessar
+            um serviço jurídico de qualidade. Já ouviram promessas vagas, foram
+            mal atendidos ou sequer entenderam o que estavam contratando. Nossa
+            proposta é romper com esse modelo: oferecemos uma advocacia
+            tributária eficiente, com linguagem simples, escuta ativa e entrega
+            real de valor.
+          </p>
+          <p className={styles.quemSomosDescription}>
+            Se você é empresário, profissional liberal ou pessoa física que
+            enfrenta ou quer evitar problemas com o fisco, pode contar com um
+            escritório de direito tributário preparado para defender seus
+            direitos e buscar soluções. Somos o PFMP Advogados.
+          </p>
+          <p
+            className={styles.quemSomosDescription}
+            style={{ fontFamily: "var(--font-scandia-medium)" }}
+          >
+            Tributário de verdade para gente de verdade.
           </p>
         </div>
       </section>
@@ -58,21 +63,19 @@ export default function QuemSomos() {
           <div className={styles.quemSomosMVItem}>
             <h3>Missão</h3>
             <p>
-              Nossa missão é fornecer serviços jurídicos de alta qualidade, com
-              foco nas necessidades de nossos clientes e na busca por soluções
-              eficazes. Nossa missão é fornecer serviços jurídicos de alta
-              qualidade. Nossa missão é fornecer serviços jurídicos de alta
-              qualidade.
+              Nossa missão é defender os direitos dos contribuintes e garantir
+              que tenham acesso a um serviço jurídico tributário de qualidade,
+              acessível e comprometido com resultados concretos para os nossos
+              clientes.
             </p>
           </div>
           <div className={styles.quemSomosMVItem}>
             <h3>Visão</h3>
             <p>
-              Nossa missão é fornecer serviços jurídicos de alta qualidade, com
-              foco nas necessidades de nossos clientes e na busca por soluções
-              eficazes. Nossa missão é fornecer serviços jurídicos de alta
-              qualidade. Nossa missão é fornecer serviços jurídicos de alta
-              qualidade.
+              Queremos ser o escritório de referência nacional em advocacia
+              tributária para quem nunca teve acesso ou já se decepcionou com a
+              advocacia tradicional oferecendo soluções jurídicas de alto nível,
+              com linguagem acessível e foco total no resultado.
             </p>
           </div>
         </div>
@@ -81,53 +84,34 @@ export default function QuemSomos() {
         <h3>Valores</h3>
         <div className={styles.quemSomosValoresContainer}>
           <div className={styles.quemSomosValoresItem}>
-            <PiHandshakeLight color="#efefef" size={80} />
+            <IoChatbubblesOutline color="#db9f5d" size={80} />
             <div className={styles.quemSomosValoresText}>
-              <h4>Ética</h4>
+              <h4>Comunicamos de forma clara</h4>
+              <p>Juridiquês afasta, a gente simplifica.</p>
+            </div>
+          </div>
+          <div className={styles.quemSomosValoresItem}>
+            <LuHandshake color="#db9f5d" size={80} />
+            <div className={styles.quemSomosValoresText}>
+              <h4>Não vendemos promessas</h4>
               <p>
-                Agimos com transparência, integridade e respeito em todas as
-                nossas relações.
+                Somos sinceros e diretos na análise dos casos dos nossos
+                clientes.
               </p>
             </div>
           </div>
           <div className={styles.quemSomosValoresItem}>
-            <PiHandshakeLight color="#efefef" size={80} />
+            <TbBulb color="#db9f5d" size={80} />
             <div className={styles.quemSomosValoresText}>
-              <h4>Excelência</h4>
-              <p>
-                Buscamos constantemente a melhoria contínua e a inovação em
-                nossos serviços.
-              </p>
+              <h4>Pensamos em saídas</h4>
+              <p>Apontar problemas não basta, é preciso buscar soluções.</p>
             </div>
           </div>
           <div className={styles.quemSomosValoresItem}>
-            <PiHandshakeLight color="#efefef" size={80} />
+            <GoPeople color="#db9f5d" size={80} />
             <div className={styles.quemSomosValoresText}>
-              <h4>Compromisso</h4>
-              <p>
-                Estamos comprometidos com o sucesso de nossos clientes e com a
-                entrega de resultados concretos.
-              </p>
-            </div>
-          </div>
-          <div className={styles.quemSomosValoresItem}>
-            <PiHandshakeLight color="#efefef" size={80} />
-            <div className={styles.quemSomosValoresText}>
-              <h4>Colaboração</h4>
-              <p>
-                Acreditamos na força do trabalho em equipe e na construção de
-                parcerias duradouras.
-              </p>
-            </div>
-          </div>
-          <div className={styles.quemSomosValoresItem}>
-            <PiHandshakeLight color="#efefef" size={80} />
-            <div className={styles.quemSomosValoresText}>
-              <h4>Responsabilidade</h4>
-              <p>
-                Contribuímos para o desenvolvimento sustentável e para a
-                promoção da justiça social.
-              </p>
+              <h4>Escutamos com atenção</h4>
+              <p>Valorizamos e buscamos compreender a dor de cada cliente.</p>
             </div>
           </div>
         </div>
@@ -139,14 +123,18 @@ export default function QuemSomos() {
           </h2>
           <p className={styles.quemSomosEquipeText}>
             <span>
-              Nossa equipe reúne profissionais altamente qualificados, com
-              formação e atuação nas instituições de ensino mais conceituadas do
-              país.
+              Nossa equipe é composta por profissionais de excelência, com
+              sólida formação e experiência acadêmica adquirida nas instituições
+              de ensino mais renomadas do país.
             </span>
           </p>
           <ExpandButton onClick={handleVerEquipeClick} text={"Ver equipe"} />
         </div>
-        <img className={styles.quemSomosEquipeImage} src={time} alt="Imagem" />
+        <img
+          className={styles.quemSomosEquipeImage}
+          src={equipeQuemSomos}
+          alt="Imagem"
+        />
       </section>
     </>
   );

@@ -7,7 +7,9 @@ export default function PageBanner({ image, title }) {
       className={styles.equipeBanner}
     >
       <div className={styles.bannerOverlay}>
-        <h1 className={styles.bannerTitle}>{title}</h1>
+        <div className={styles.bannerBalloon}>
+          <h1 className={styles.bannerTitle}>{title}</h1>
+        </div>
       </div>
     </section>
   );
