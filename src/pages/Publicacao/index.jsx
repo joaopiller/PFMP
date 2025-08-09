@@ -1,5 +1,5 @@
 import PageBanner from "../../components/PageBanner";
-import publicacao_banner from "../../assets/publicacao_banner.jpg";
+import publicacoes from "../../assets/images/banner_publicacoes.jpg";
 import styles from "./styles.module.css";
 import { FaCalendar } from "react-icons/fa";
 import posts from "../../data/posts.js";
@@ -11,7 +11,7 @@ export default function Publicacao() {
 
   return (
     <>
-      <PageBanner title="Publicações" image={publicacao_banner} />
+      <PageBanner title="Publicações" image={publicacoes} />
       <section className={styles.publicacaoContainer}>
         <h2 className={styles.title}>
           {post.title}

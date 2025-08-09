@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import footerImage from '../../assets/logo_bege.png';
+import footerImage from '../../assets/images/logo_bege.png';
 import { FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 export default function Footer() {
@@ -9,16 +9,14 @@ export default function Footer() {
           <img className={styles.footerImage} src={footerImage} alt="" />
           <div className={styles.footerInfo}>
             <h2>Endereço</h2>
-            <p>
-              Av. Milton Tavares de Souza, s/n - Sala 115 B - Boa Viagem,
-              Niterói - RJ
-            </p>
-            <p>CEP: 24210-315 </p>
+            <p>Rua Paraíba nº 550, sala 900</p>
+            <p>Savassi, Belo Horizonte - MG</p>
+            <p>CEP: 30130-141 </p>
           </div>
           <div className={styles.footerInfo}>
             <h2>Contato</h2>
-            <p>Email: contato@exemplo.com</p>
-            <p>Telefone: (21) 99999-9999</p>
+            <p>Email: contato@pfmp.com.br</p>
+            <p>Telefone: (31) 99712-7831</p>
             <div className={styles.socialMedia}>
               <a href="">
                 <FaInstagram color="#efefef" size={26} />
@@ -33,7 +31,7 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.footerBottom}>
-            <p>© 2025 PFMP Advogados | Todos os direitos reservados</p>
+          <p>© 2025 PFMP Advogados | Todos os direitos reservados</p>
         </div>
       </footer>
     );

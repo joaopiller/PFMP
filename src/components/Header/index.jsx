@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import logo from "../../assets/logo_header.png";
+import logo from "../../assets/images/logo_header.png";
 import { FaWhatsapp } from "react-icons/fa";
 import { HiMenu, HiX } from "react-icons/hi";
 import { Link, useNavigate } from "react-router-dom";
@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const phoneNumber = "22988587782";
+  const phoneNumber = "31997127831";
   const message = "Olá, gostaria de entrar em contato!";
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message

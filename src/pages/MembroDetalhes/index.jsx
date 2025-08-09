@@ -1,5 +1,5 @@
 import PageBanner from "../../components/PageBanner";
-import nossa_equipe from "../../assets/nossa_equipe.jpg";
+import nossa_equipe from "../../assets/images/equipe_banner.JPG";
 import styles from "./styles.module.css";
 import { FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";

@@ -1,6 +1,6 @@
 .publicacoesSection {
   background-color: #e8e8e8;
-  padding: 4rem 0;
+  padding: 3rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,10 +37,4 @@
   background-color: #db9f5d;
   color: #efefef;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-@media (max-width: 800px) {
-  .publicacoesSection {
-    padding: 3rem 0;
-  }
 }

@@ -1,85 +1,84 @@
 .quemSomosHome {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    background-color: #efefef;
-    padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+  padding: 4rem 0;
+  gap: 1.5rem;
 }
 
 .quemSomosInfos {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-    max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 40rem;
 }
 
 .quemSomosTitle {
-    font-weight: 500;
-    font-family: var(--font-scandia-medium);
-    color: #2c4239;
-    font-size: 2.2rem;
-    line-height: 2.5rem;
-    margin-bottom: .5rem;
+  font-weight: 500;
+  font-family: var(--font-scandia-medium);
+  color: #2c4239;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
 }
 
 .quemSomosText {
-    font-weight: 400;
-    font-family: var(--font-manrope);
-    color: #575656;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
+  font-weight: 400;
+  font-family: var(--font-manrope);
+  color: #575656;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 75%;
 }
 
 .quemSomosImage {
-    width: 26rem;
-    height: 26rem;
-    object-fit: cover;
-    border-top-left-radius: 1000px;
-    border-top-right-radius: 1000px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 1000px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    object-position: center;
+  width: 26rem;
+  height: 26rem;
+  object-fit: cover;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 1000px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  object-position: 55% center;
 }
 
 @media (max-width: 1200px) {
-    .quemSomosHome {
-        flex-direction: column;
-        align-items: center;
-        padding: 3rem 2rem;
-        gap: 2rem;
-    }
+  .quemSomosHome {
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+    gap: 2rem;
+  }
 
-    .quemSomosInfos {
-        max-width: 100%;
-        text-align: center;
-        align-items: center;
-    }
+  .quemSomosInfos {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+  }
 
-    .quemSomosTitle {
-        font-size: 1.8rem;
-        line-height: 2rem;
-    }
+  .quemSomosTitle {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
 
-    .quemSomosText {
-        font-size: 1rem;
-        line-height: 1.4rem;
-    }
+  .quemSomosText {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
 
-    .quemSomosImage {
-        width: 20rem;
-        height: 20rem;
-
-    }
+  .quemSomosImage {
+    width: 20rem;
+    height: 20rem;
+  }
 }
 
 @media (max-width: 600px) {
-    .quemSomosImage {
-        width: 18rem;
-        height: 18rem;
-    }
+  .quemSomosImage {
+    width: 18rem;
+    height: 18rem;
+  }
 }
