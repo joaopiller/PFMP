@@ -13,15 +13,13 @@ export default function HomeQuemSomos() {
   return (
     <section className={styles.quemSomosHome}>
       <div className={styles.quemSomosInfos}>
-        <h2 className={styles.quemSomosTitle}>
-          Somos o PFMP Advogados
-        </h2>
+        <h2 className={styles.quemSomosTitle}>Somos o PFMP Advogados</h2>
         <p className={styles.quemSomosText}>
           <span>
-            Um escritório digital com atuação nacional e
-            foco em Direito Tributário. Atendemos empresas, profissionais
-            liberais e pessoas físicas com soluções jurídicas claras, acessíveis
-            e eficientes. Tributário de verdade, para gente de verdade.
+            Um escritório digital com atuação nacional e foco em Direito
+            Tributário. Atendemos empresas, profissionais liberais e pessoas
+            físicas com soluções jurídicas claras, acessíveis e eficientes.
+            Tributário de verdade para gente de verdade.
           </span>
         </p>
         <ExpandButton onClick={handleExpandClick} text={"Saiba mais"} />
