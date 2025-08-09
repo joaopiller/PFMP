@@ -9,7 +9,7 @@ export default function AreasDeAtuacao() {
     <>
       <PageBanner image={areas_de_atuacao} title="Áreas de Atuação" />
       <h2 className={styles.areasDeAtuacaoTitle}>
-        Conheça as áreas que o PFMP Advogados atua
+        Conheça as áreas em que o PFMP Advogados atua
       </h2>
       <section className={styles.areasDeAtuacaoContent}>
         <div className={styles.areasDeAtuacaoCards}>

@@ -26,7 +26,7 @@ const equipeMembers = [
         email: "pedro@pfmp.com.br",
         linkedinLink: "https://www.linkedin.com/in/phefonseca",
         languages: ["Inglês", "Espanhol"],
-        academic: ["Bacharel em Direito pela Universidade Federal de Minas Gerais (UFMG)", "Especialista em Legislativo pelo IDP", "Especializando em Ciência Política pela Universidade Federal do Rio Grande do Sul (UFRGS)"],
+        academic: ["Bacharel em Direito pela Universidade Federal de Minas Gerais (UFMG)", "Especialista em Direito Legislativo pelo IDP", "Especializando em Ciência Política pela Universidade Federal do Rio Grande do Sul (UFRGS)"],
         areas: ["Defesa em Autuações Fiscais", "Contencioso Judicial Estratégico", "Negociações e Transações Tributárias", "Relações Institucionais e Governamentais", "Gestão de Passivos Tributários", "Consultoria Tributária Geral"],
         additional: ["Foi fundador, presidente e conselheiro da Liga Acadêmica de Direito Financeiro e Tributário da Universidade Federal de Minas Gerais (LAFT/UFMG)", "Foi fundador e coordenador discente do Núcleo de Estudos em Direito e Relações Governamentais da Universidade Federal de Minas Gerais (NDRELGOV/UFMG)", "Tem passagens pelo setor público e privado na interlocução entre empresas e governo, monitoramento legislativo e direito tributário"]
     },
