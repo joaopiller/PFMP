@@ -40,9 +40,9 @@ export default function QuemSomos() {
             Sabemos que muitos contribuintes enfrentam dificuldades para acessar
             um serviço jurídico de qualidade. Já ouviram promessas vagas, foram
             mal atendidos ou sequer entenderam o que estavam contratando. Nossa
-            proposta é romper com esse modelo: oferecemos uma advocacia
-            tributária eficiente, com linguagem simples, escuta ativa e entrega
-            real de valor.
+            proposta é romper com esse modelo. Oferecemos uma advocacia
+            tributária eficiente, com linguagem simples, escuta ativa e
+            entrega real de valor.
           </p>
           <p className={styles.quemSomosDescription}>
             Se você é empresário, profissional liberal ou pessoa física que
@@ -74,8 +74,8 @@ export default function QuemSomos() {
             <p>
               Queremos ser o escritório de referência nacional em advocacia
               tributária para quem nunca teve acesso ou já se decepcionou com a
-              advocacia tradicional oferecendo soluções jurídicas de alto nível,
-              com linguagem acessível e foco total no resultado.
+              advocacia tradicional. Oferecemos soluções jurídicas de alto
+              nível, com linguagem acessível e foco total no resultado.
             </p>
           </div>
         </div>
