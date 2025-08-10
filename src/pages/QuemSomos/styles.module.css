@@ -209,6 +209,7 @@
   .quemSomosEquipeInfos {
     align-items: center;
     text-align: center;
+    gap: 1.2rem;
   }
 
   .quemSomosEquipeTitle {
@@ -218,7 +219,8 @@
   }
 
   .quemSomosEquipeText {
-    width: 85%;
+    width: 80%;
+    font-size: 1rem;
   }
 
   .quemSomosEquipeImage {

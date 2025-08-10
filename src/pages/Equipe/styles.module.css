@@ -33,11 +33,13 @@
 @media (max-width: 800px) {
   .equipeDescription {
     width: 95%;
+    font-size: 1rem;
     padding-left: 1rem;
   }
 
   .equipeSubtitle {
     width: 95%;
+    font-size: 1.6rem;
     padding-left: 1rem;
   }
 
