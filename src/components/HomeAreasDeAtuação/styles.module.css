@@ -11,37 +11,7 @@
 }
 
 .areasDeAtuacaoSlider {
-  width: 87%;
+  width: 90%;
   position: relative;
   margin: 0 auto;
-  padding: .5rem 0 0 0;
-}
-
-.customArrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 90px;
-  height: 90px;
-  background-color: transparent;
-  border: none;
-  color: #db9f5d;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 10;
-  transition: all 0.3s ease;
-}
-
-.customArrow:hover {
-  color: #c99052;
-}
-
-.customPrevArrow {
-  left: -80px;
-}
-
-.customNextArrow {
-  right: -65px;
 }

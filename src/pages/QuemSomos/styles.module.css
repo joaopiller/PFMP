@@ -213,6 +213,8 @@
 
   .quemSomosEquipeTitle {
     width: 85%;
+    line-height: 2.2rem;
+    font-size: 1.8rem;
   }
 
   .quemSomosEquipeText {
@@ -225,11 +227,11 @@
   }
 
   .quemSomosMVItem p {
-    height: 10rem;
+    height: fit-content;
     font-size: 1rem;
   }
 
   .quemSomosMVContainer {
-    gap: 1rem;
+    gap: 2rem;
   }
 }

@@ -16,10 +16,11 @@ export default function Equipe() {
           Advogados especialistas em Direito Tributário
         </h2>
         <p className={styles.equipeDescription}>
-          Com advogados especializados em suas áreas de atuação e dedicados a
-          entender as necessidades de nossos clientes, criamos uma rede
-          multidisciplinar. Estamos preparados para os desafios jurídicos do
-          mundo atual.
+          Com atuação especializada em Direito Tributário, nosso time reúne
+          sócios com passagem por grandes escritório, experiência no setor
+          público e atuação direta em empresas. Essa vivência diversificada nos
+          permite compreender os desafios do ambiente de negócios e oferecer
+          soluções jurídicas alinhadas às demandas dos nossos clientes.
         </p>
         <div className={styles.equipeMembers}>
           <CardMembro id="vhpiller" image={victorImg} name="Victor H. Piller" />
