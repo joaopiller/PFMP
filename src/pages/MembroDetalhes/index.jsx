@@ -7,6 +7,58 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 import equipeMembers from "../../data/equipeMembers.js";
 
+// Função para renderizar texto com links
+const renderTextWithLinks = (textItem) => {
+  if (typeof textItem === "string") {
+    // Compatibilidade com formato antigo
+    return textItem;
+  }
+
+  let { text, links } = textItem;
+
+  // Se não há links, retorna o texto normal
+  if (!links || Object.keys(links).length === 0) {
+    return text;
+  }
+
+  // Substitui as palavras por links
+  let renderedText = text;
+  const parts = [];
+  let lastIndex = 0;
+
+  Object.entries(links).forEach(([linkText, url]) => {
+    const index = renderedText.indexOf(linkText);
+    if (index !== -1) {
+      // Adiciona texto antes do link
+      if (index > lastIndex) {
+        parts.push(renderedText.substring(lastIndex, index));
+      }
+
+      // Adiciona o link
+      parts.push(
+        <a
+          key={url}
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.linkDestaque}
+        >
+          {linkText}
+        </a>
+      );
+
+      lastIndex = index + linkText.length;
+    }
+  });
+
+  // Adiciona texto restante
+  if (lastIndex < renderedText.length) {
+    parts.push(renderedText.substring(lastIndex));
+  }
+
+  return parts.length > 1 ? parts : text;
+};
+
 export default function MembroDetalhes() {
   const { memberId } = useParams();
   const membro = equipeMembers.find((m) => m.id === memberId);
@@ -90,7 +142,7 @@ export default function MembroDetalhes() {
               <div className={styles.informacoesAdicionaisContent}>
                 <ul>
                   {membro.additional.map((info, index) => (
-                    <li key={index}>{info}</li>
+                    <li key={index}>{renderTextWithLinks(info)}</li>
                   ))}
                 </ul>
               </div>
