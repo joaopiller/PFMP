@@ -39,8 +39,9 @@
 
   .equipeSubtitle {
     width: 95%;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding-left: 1rem;
+    line-height: 1.8rem;
   }
 
   .equipeContent {

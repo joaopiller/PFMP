@@ -17,7 +17,7 @@ export default function Equipe() {
         </h2>
         <p className={styles.equipeDescription}>
           Com atuação especializada em Direito Tributário, nosso time reúne
-          sócios com passagem por grandes escritório, experiência no setor
+          sócios com passagem por grandes escritórios, experiência no setor
           público e atuação direta em empresas. Essa vivência diversificada nos
           permite compreender os desafios do ambiente de negócios e oferecer
           soluções jurídicas alinhadas às demandas dos nossos clientes.

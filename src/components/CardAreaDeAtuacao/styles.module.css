@@ -8,7 +8,7 @@
   border-radius: 6px;
   overflow: hidden;
   background-color: #203029;
-  padding: 1.3rem;
+  padding: 1.2rem;
   text-align: center;
   color: #efefef;
   transition: all 0.5s ease;
@@ -22,7 +22,7 @@
 }
 
 .areaDeAtuacaoCard h3 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   color: #efefef;
   font-family: var(--font-scandia-medium);
   line-height: 1.65rem;

@@ -19,7 +19,7 @@ export default function AreasDeAtuacao() {
               title={area.name}
               description={area.description}
             >
-              <area.icon color="#db9f5d" size={85} />
+              <area.icon color="#db9f5d" size={95} />
             </CardAreaDeAtuacao>
           ))}
         </div>

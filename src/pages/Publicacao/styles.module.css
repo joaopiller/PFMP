@@ -103,10 +103,6 @@
     width: 100%;
   }
 
-  .image {
-    border: 4px solid #2c4239;
-  }
-
   .meta {
     flex-direction: column;
     align-items: center;
