@@ -1,15 +1,15 @@
 import { GoLaw } from "react-icons/go";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { LuChartNoAxesCombined } from "react-icons/lu";
-import { PiHandCoins } from "react-icons/pi";
+import { PiHandCoinsFill } from "react-icons/pi";
 import { AiOutlineHome } from "react-icons/ai";
 import { PiHandshakeLight } from "react-icons/pi";
 import { RiGovernmentLine } from "react-icons/ri";
 import { FaRegFolderOpen } from "react-icons/fa";
-import { MdAttachMoney } from "react-icons/md";
-import { LuPlaneTakeoff } from "react-icons/lu";
+import { FaMoneyBillWave } from "react-icons/fa6";
+import { IoAirplaneSharp } from "react-icons/io5";
 import { FaGears } from "react-icons/fa6";
-import { IoMdKey } from "react-icons/io";
+import { LiaKeySolid } from "react-icons/lia";
 
 const areasDeAtuacao = [
     {
@@ -26,7 +26,7 @@ const areasDeAtuacao = [
     },
     {
         name: "Recuperação de Créditos Tributários",
-        icon: PiHandCoins
+        icon: PiHandCoinsFill
     },
     {
         name: "Planejamento Patrimonial e Sucessório",
@@ -46,11 +46,11 @@ const areasDeAtuacao = [
     },
     {
         name: "Consultoria Tributária Geral",
-        icon: MdAttachMoney
+        icon: FaMoneyBillWave
     },
     {
         name: "Assessoria na Declaração de Saída Definitiva do Brasil",
-        icon: LuPlaneTakeoff
+        icon: IoAirplaneSharp
     },
     {
         name: "Assessoria na Transição da Reforma Tributária",
@@ -58,7 +58,7 @@ const areasDeAtuacao = [
     },
     {
         name: "Gestão e Contencioso Imobiliário",
-        icon: IoMdKey
+        icon: LiaKeySolid
     }
 ]
 

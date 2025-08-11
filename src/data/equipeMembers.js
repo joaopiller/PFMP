@@ -40,7 +40,7 @@ const equipeMembers = [
         linkedinLink: "https://www.linkedin.com/in/jo%C3%A3o-marchesi-areal-592573155",
         languages: ["Inglês"],
         academic: ["Bacharel em Direito pela Universidade Federal de Minas Gerais (UFMG)"],
-        areas: ["Contencioso tributário judicial", "Planejamento sucessório e patrimonial", "Contencioso e consultoria imobiliário"],
+        areas: ["Contencioso Tributário Judicial", "Planejamento Sucessório e Patrimonial", "Contencioso e Consultoria Imobiliário"],
         additional: ["Foi fundador, diretor e conselheiro da Liga Acadêmica de Direito Financeiro e Tributário da Universidade Federal de Minas Gerais (LAFT/UFMG)", "Foi diretor na Solucione Consultoria jurídica - UFMG", "Empresário atuante no ramo de Tecnologia da Informação na Empresa Ata Sistemas de Identificação LTDA"]
     },
     {
