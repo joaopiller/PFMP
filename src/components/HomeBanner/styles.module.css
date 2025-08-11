@@ -155,7 +155,52 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-height: 530px) {
+  .bannerInfos {
+    padding-left: 3.5vw;
+  }
+
+  .boldTitle {
+    font-size: 1.7rem;
+  }
+
+  .lightTitle {
+    font-size: 1.5rem;
+  }
+
+  .text {
+    font-size: .9rem;
+    line-height: 1.3rem;
+    max-width: 20rem;
+  }
+
+  .button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-height: 550px) {
+  .bannerInfos {
+    padding-left: 3vw;
+  }
+
+  .boldTitle {
+    font-size: 1.8rem;
+  }
+
+  .lightTitle {
+    font-size: 1.6rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    max-width: 18rem;
+  }
+}
+
+@media (max-width: 800px), (max-height: 500px) {
   .homeBanner {
     justify-content: center;
     text-align: center;
