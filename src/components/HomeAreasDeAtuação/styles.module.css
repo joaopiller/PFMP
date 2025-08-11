@@ -8,10 +8,120 @@
 
 .areasDeAtuacaoContainer {
   width: 85%;
+  position: relative;
+}
+
+/* Setas Customizadas */
+.customArrowPrev,
+.customArrowNext {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: none;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #354f44;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.customArrowPrev {
+  left: 00px;
+}
+
+.customArrowNext {
+  right: 10px;
+}
+
+.customArrowPrev:hover,
+.customArrowNext:hover {
+  background-color: #354f44;
+  color: white;
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.customArrowPrev:active,
+.customArrowNext:active {
+  transform: translateY(-50%) scale(0.95);
 }
 
 .areasDeAtuacaoSlider {
-  width: 90%;
+  width: calc(100% - 160px);
   position: relative;
   margin: 0 auto;
+}
+
+/* Responsividade */
+@media (max-width: 780px) {
+  .areasDeAtuacaoSlider {
+    width: calc(100% - 80px);
+  }
+
+  .customArrowPrev,
+  .customArrowNext {
+    width: 35px;
+    height: 35px;
+  }
+
+  .customArrowPrev {
+    left: 5px;
+  }
+
+  .customArrowNext {
+    right: 5px;
+  }
+
+  /* Força 1 slide em telas menores que 780px */
+  .areasDeAtuacaoSlider :global(.swiper-slide) {
+    width: 100% !important;
+    margin-right: 16px !important;
+  }
+}
+
+@media (max-width: 1185px) {
+  .areasDeAtuacaoSlider {
+    width: calc(100% - 120px);
+  }
+
+  .customArrowPrev,
+  .customArrowNext {
+    width: 45px;
+    height: 45px;
+  }
+
+  .customArrowPrev {
+    left: 15px;
+  }
+
+  .customArrowNext {
+    right: 15px;
+  }
+}
+
+@media (max-width: 100px) {
+  .areasDeAtuacaoSlider {
+    width: calc(100% - 80px);
+  }
+
+  .customArrowPrev,
+  .customArrowNext {
+    width: 35px;
+    height: 35px;
+  }
+
+  .customArrowPrev {
+    left: 5px;
+  }
+
+  .customArrowNext {
+    right: 5px;
+  }
 }

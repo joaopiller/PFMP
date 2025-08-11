@@ -159,11 +159,11 @@
   .homeBanner {
     justify-content: center;
     text-align: center;
-    height: 85vh;
+    height: 90vh;
   }
 
   .bannerBlur {
-    background-color: rgba(32, 48, 41, .95);
+    background-color: rgba(32, 48, 41, .92);
   }
 
   .bannerInfos {
@@ -176,6 +176,7 @@
     background-color: transparent;
     box-shadow: none;
     gap: 1rem;
+    margin-bottom: 2rem;
   }
 
   .lightTitle {
@@ -187,23 +188,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0;
+    gap: .2rem;
     text-wrap: wrap;
   }
   .boldTitle {
     width: 100%;
-    font-size: 3.2rem;
+    font-size: 1.9rem;
+    text-wrap: nowrap;
   }
   
   .lightTitle {
     width: 100%;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+    text-wrap: nowrap;
   }
 
   .text {
     width: 100%;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
   }
 
   .bannerImage {
@@ -212,5 +215,7 @@
 
   .button {
     margin: 0 auto;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
   }
 }
