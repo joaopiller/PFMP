@@ -43,3 +43,19 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+@media (max-width: 480px) {
+  .areaDeAtuacaoCard {
+    width: 85vw !important;
+    max-width: 280px !important;
+    height: 13rem;
+  }
+
+  .areaDeAtuacaoCard h3 {
+    font-size: 1.1rem;
+    height: 3.5rem;
+  }
+
+  .areaDeAtuacaoCard p {
+    font-size: 0.8rem;
+  }
+}

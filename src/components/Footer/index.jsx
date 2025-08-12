@@ -3,6 +3,12 @@ import footerImage from '../../assets/images/logo_bege.png';
 import { FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 export default function Footer() {
+  const phoneNumber = "31997127831";
+  const message = "Olá, gostaria de entrar em contato!";
+  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    message
+  )}`;
+
     return (
       <footer className={styles.footer}>
         <div className={styles.footerContainer}>
@@ -15,16 +21,21 @@ export default function Footer() {
           </div>
           <div className={styles.footerInfo}>
             <h2>Contato</h2>
-            <p>Email: contato@pfmp.com.br</p>
             <p>Telefone: (31) 99712-7831</p>
             <div className={styles.socialMedia}>
-              <a href="">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/pfmp.adv?igsh=NWN6MTVuMXFpeHVm"
+              >
                 <FaInstagram color="#efefef" size={26} />
               </a>
-              <a href="">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/pfmp-advogados/"
+              >
                 <FaLinkedin color="#efefef" size={26} />
               </a>
-              <a href="">
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <FaWhatsapp color="#efefef" size={26} />
               </a>
             </div>

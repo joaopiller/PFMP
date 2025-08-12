@@ -18,110 +18,104 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  background-color: rgba(255, 255, 255, 0.95);
   border: none;
   border-radius: 50%;
-  width: 55px;
-  height: 55px;
   display: flex;
-  align-items: center;
   justify-content: center;
   color: #354f44;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
-}
-
-.customArrowPrev {
-  left: 00px;
-}
-
-.customArrowNext {
-  right: 10px;
+  background-color: transparent;
 }
 
 .customArrowPrev:hover,
 .customArrowNext:hover {
-  background-color: #354f44;
-  color: white;
-  transform: translateY(-50%) scale(1.1);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  background-color: transparent;
 }
 
-.customArrowPrev:active,
-.customArrowNext:active {
-  transform: translateY(-50%) scale(0.95);
+.customArrowPrev {
+  left: 15px;
+}
+
+.customArrowNext {
+  right: 15px;
+}
+
+.carouselWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .areasDeAtuacaoSlider {
-  width: calc(100% - 160px);
+  width: calc(100% - 80px);
   position: relative;
   margin: 0 auto;
+  max-width: 1118px;
 }
 
-/* Responsividade */
-@media (max-width: 780px) {
+@media (max-width: 1501px) {
   .areasDeAtuacaoSlider {
-    width: calc(100% - 80px);
+    max-width: 850px;
   }
 
-  .customArrowPrev,
-  .customArrowNext {
-    width: 35px;
-    height: 35px;
-  }
-
-  .customArrowPrev {
-    left: 5px;
-  }
-
-  .customArrowNext {
-    right: 5px;
-  }
-
-  /* Força 1 slide em telas menores que 780px */
-  .areasDeAtuacaoSlider :global(.swiper-slide) {
-    width: 100% !important;
-    margin-right: 16px !important;
+  .carouselWrapper {
+    max-width: 1030px;
   }
 }
 
 @media (max-width: 1185px) {
   .areasDeAtuacaoSlider {
-    width: calc(100% - 120px);
+    max-width: 540px;
   }
 
-  .customArrowPrev,
-  .customArrowNext {
-    width: 45px;
-    height: 45px;
-  }
-
-  .customArrowPrev {
-    left: 15px;
-  }
-
-  .customArrowNext {
-    right: 15px;
+  .carouselWrapper {
+    max-width: 730px;
   }
 }
 
-@media (max-width: 100px) {
-  .areasDeAtuacaoSlider {
-    width: calc(100% - 80px);
+@media (max-width: 834px) {
+  .areasDeAtuacaoContainer {
+    width: 85%;
+    padding: 0 1rem;
   }
 
-  .customArrowPrev,
-  .customArrowNext {
-    width: 35px;
-    height: 35px;
+  .areasDeAtuacaoSlider {
+    width: 100%;
+    max-width: none;
+  }
+
+  .carouselWrapper {
+    max-width: 470px;
+  }
+}
+
+@media (max-width: 550px) {
+  .areasDeAtuacaoContainer {
+    width: 95%;
+    padding: 0 1rem;
+  }
+
+  .areasDeAtuacaoSlider {
+    width: 100%;
+    max-width: none;
   }
 
   .customArrowPrev {
-    left: 5px;
+    display: none;
   }
 
   .customArrowNext {
-    right: 5px;
+    display: none;
+  }
+
+  /* Garantir que os slides ficam centralizados no mobile */
+  .areasDeAtuacaoSlider :global(.swiper-slide) {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
 }
