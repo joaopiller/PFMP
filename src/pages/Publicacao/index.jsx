@@ -37,9 +37,9 @@ export default function Publicacao() {
                 </p>
               ))}
           <p className={styles.signature}>
-            Entre em contato com nosso time de especialistas em Tributário para
-            entender como essas soluções podem se aplicar ao seu caso e apoiar a
-            regularização fiscal da sua empresa.
+            Conte com a equipe do PFMP Advogados para aprofundar seu
+            entendimento sobre este tema e avaliar como ele pode se
+            aplicar ao seu caso.
           </p>
         </div>
       </section>

@@ -85,10 +85,6 @@ export default function MembroDetalhes() {
                 <span>{membro.phoneNumber}</span>
               </div>
               <div className={styles.membroDetalhesContactData}>
-                <MdEmail size={16} color="#db9f5d" />
-                <span>{membro.email}</span>
-              </div>
-              <div className={styles.membroDetalhesContactData}>
                 <FaLinkedinIn size={16} color="#db9f5d" />
                 <a
                   href={membro.linkedinLink}
