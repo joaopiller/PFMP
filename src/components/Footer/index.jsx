@@ -42,7 +42,16 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.footerBottom}>
-          <p>© 2025 PFMP Advogados | Todos os direitos reservados</p>
+          <p>
+            © 2025 PFMP Advogados | Todos os direitos reservados | Feito por{" "}
+            <a
+              style={{ fontWeight: "bold", cursor: "pointer", color: "#203029", textDecoration: "none" }}
+              target="_blank"
+              href="https://www.linkedin.com/in/joaopiller/"
+            >
+              João Vicente Piller
+            </a>
+          </p>
         </div>
       </footer>
     );
