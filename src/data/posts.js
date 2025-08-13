@@ -125,7 +125,7 @@ const posts = [
         id: "mudanca-itcmd",
         title: "Doar um bem vai ficar mais caro em 2026: entenda o que muda no ITCMD",
         date: "10/08/2025",
-        authors: "João Marquesi",
+        authors: "João Marchesi",
         description: "A partir de 2026, o ITCMD será progressivo em todo o país, com alíquotas maiores para doações e heranças de maior valor; 2025 pode ser a última chance de antecipar doações com custo menor em Estados que ainda usam taxa fixa.",
         image: itcmd,
         content: [
