@@ -1,202 +1,338 @@
-import beneficioEsporte from "../assets/publicacao_image.jpg";
-import lgpd from "../assets/lgpd.jpg";
-import sociedade from "../assets/sociedade.jpg";
-import financas from "../assets/financas.jpg";
-import criptomoedas from "../assets/criptomoeda.jpg";
+import transacaoTributaria from "../assets/images/transacao-tributaria.jpeg"
+import itcmd from "../assets/images/itcmd.jpg";
+import regularizacaoSaidaDoBrasil from "../assets/images/regularizacao-saida-do-brasil.jpg"
 
 const posts = [
     {
-        id: "beneficio-esporte",
-        title: "Senado aprova tornar permanentes benefícios fiscais ao esporte",
-        date: "18/08/2025",
-        authors: "Victor Hugo Piller e Flávia Perim",
-        description: "O Senado aprovou nesta quarta-feira (25) o projeto que torna permanentes os benefícios fiscais ao esporte, como a Lei de Incentivo ao Esporte e a Lei do Mecenato Esportivo.",
-        image: beneficioEsporte,
-        paragraphs: [
-            "Fruto de um esforço para fomentar o ambiente de negócios e promover o aumento da oferta de capital para investimento em empreendedorismo inovador, o Brasil editou a Lei Complementar nº 182, que passou a ser conhecida como o Marco Legal das Startups.",
-            "A Lei, no caput de seu art. 4º, buscou enquadrar as startups como “organizações empresariais ou societárias, nascentes ou em operação recente, cuja atuação caracteriza-se pela inovação aplicada a modelo de negócios ou a produtos ou serviços ofertados”.",
-            "Deixando a seara dos conceitos legais, uma definição muito utilizada é a do estudioso americano Eric Ries, que definiu startup como uma “instituição humana projetada para criar novos produtos e serviços sob condições de extrema incerteza”. O autor, ao trazer essa reflexão, pondera que o diferencial reside justamente no que o conceito não diz sobre as startups.",
-            "Sem a intenção de esgotar a discussão sobre o tema, podemos concluir que startups são empresas cujo histórico operacional costuma ser limitado, que como a própria tradução literal do termo sugere, encontra-se em fase inicial, que atraem investidores pelo perfil de risco e recompensa de maior retorno potencial sobre o investimento através da escalabilidade de uma empresa que, um dia, foi apenas uma ideia.",
-            "Sem a intenção de esgotar a discussão sobre o tema, podemos concluir que startups são empresas cujo histórico operacional costuma ser limitado, que como a própria tradução literal do termo sugere, encontra-se em fase inicial, que atraem investidores pelo perfil de risco e recompensa de maior retorno potencial sobre o investimento através da escalabilidade de uma empresa que, um dia, foi apenas uma ideia.",
-            "Fruto de um esforço para fomentar o ambiente de negócios e promover o aumento da oferta de capital para investimento em empreendedorismo inovador, o Brasil editou a Lei Complementar nº 182, que passou a ser conhecida como o Marco Legal das Startups."
+        id: "transacao-tributaria",
+        title: "Transação Tributária: como negociar dívidas federais, estaduais e municipais",
+        date: "10/08/2025",
+        authors: "Pedro H. Fonseca",
+        description: "Transação tributária permite a empresas negociar dívidas fiscais com descontos, prazos estendidos e condições adaptadas ao caixa, abrangendo débitos federais, estaduais e municipais, conforme legislação vigente.",
+        image: transacaoTributaria,
+        content: [
+            {
+                type: "paragraph",
+                text: "Você é empresário e sente que as dívidas tributárias estão travando o crescimento?"
+            },
+            {
+                type: "paragraph",
+                text: "A transação tributária pode ser o caminho ideal para recuperar a regularidade fiscal sem sufocar o fluxo de caixa da sua empresa."
+            },
+            {
+                type: "paragraph",
+                text: "E o melhor: ela não se limita apenas à esfera federal."
+            },
+            {
+                type: "paragraph",
+                text: "Ou seja, você sabia que a transação tributária pode ser utilizada para negociar dívidas tributárias em diferentes níveis (federal, estadual e até municipal) dependendo da legislação?"
+            },
+            {
+                type: "subtitle",
+                text: "O que é transação tributária?"
+            },
+            {
+                type: "paragraph",
+                text: "A transação tributária é um mecanismo legal que permite negociar dívidas tributárias com condições diferenciadas, como descontos, entrada facilitada e prazos alongados, adaptados à capacidade de pagamento."
+            },
+            {
+                type: "paragraph",
+                text: "Embora seja mais conhecida na esfera federal, administrada pela Procuradoria-Geral da Fazenda Nacional (PGFN), também pode existir em Estados e Municípios que tenham editado leis próprias e aberto programas específicos de transação."
+            },
+            {
+                type: "subtitle",
+                text: "O problema de adiar a regularização"
+            },
+            {
+                type: "paragraph",
+                text: "Empurrar a dívida com a barriga só piora a situação:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "O saldo cresce com juros e multas;", "O risco de bloqueio de contas e bens aumenta;", "Sem certidões fiscais, negócios e crédito ficam comprometidos;", "Parcelamentos comuns nem sempre cabem no orçamento."
+                ]
+            },
+            {
+                type: "subtitle",
+                text: "Vantagens da transação tributária"
+            },
+            {
+                type: "paragraph",
+                text: "Seja na União, no Estado ou no Município, a transação tributária pode oferecer:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Descontos sobre juros, multas e encargos (respeitados os limites legais de cada ente);", "Prazos alongados, que variam conforme a legislação ou edital aplicável;", "Possibilidade de usar créditos tributários para amortizar a dívida (em alguns casos);", "Regras adaptadas à capacidade de pagamento do contribuinte."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: "Empresário, este pode ser o seu caso."
+            },
+            {
+                type: "paragraph",
+                text: "Imagine uma empresa com dívidas federais, estaduais e municipais, acumulando valores significativos."
+            },
+            {
+                type: "paragraph",
+                text: "No parcelamento convencional, as parcelas seriam pesadas e o risco de novo atraso alto."
+            },
+            {
+                type: "paragraph",
+                text: "Por meio da transação, poderia haver redução de valores devidos, prazos mais longos e condições ajustadas ao faturamento, permitindo regularizar a situação em todas as esferas e manter a operação."
+            },
+            {
+                type: "subtitle",
+                text: "Quando considerar a transação tributária?"
+            },
+            {
+                type: "paragraph",
+                text: "A negociação por transação pode fazer sentido se a empresa tiver:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Débitos inscritos em dívida ativa (União, Estado ou Município);", "Parcelamentos anteriores inviáveis para o caixa;", "Necessidade de retomar certidões para contratos e crédito;",
+                    "Programas abertos em seu Estado ou Município com condições vantajosas."
+                ]
+            },
+            {
+                type: "subtitle",
+                text: "Como iniciar a negociação?"
+            },
+            {
+                type: "ordered_list",
+                items: [
+                    "Mapeie todos os débitos, separando por esfera (federal, estadual e municipal);",
+                    "Verifique editais e leis vigentes no ente responsável pela cobrança;",
+                    "Simule cenários de pagamento conforme a capacidade financeira;",
+                    "Formalize a adesão nos canais oficiais de cada esfera."
+                ]
+            },
+            {
+                type: "subtitle",
+                text: "Estratégia certa para cada esfera tributária"
+            },
+            {
+                type: "paragraph",
+                text: "No PFMP Advogados, estruturamos negociações tributárias considerando as particularidades de cada ente federativo, buscando a melhor condição disponível para preservar o caixa e garantir a continuidade do negócio."
+            }
         ]
     },
     {
-        id: "nova-regulamentacao-lgpd",
-        title: "Nova regulamentação da LGPD: impactos para empresas de tecnologia",
-        date: "15/07/2025",
-        authors: "Pedro Marchesi e Victor Hugo Piller",
-        description: "A Autoridade Nacional de Proteção de Dados publicou novas diretrizes que alteram significativamente o compliance em proteção de dados para o setor tecnológico.",
-        image: lgpd,
-        paragraphs: [
-            "A evolução do marco regulatório de proteção de dados no Brasil tem gerado impactos significativos no ambiente empresarial, especialmente para organizações que lidam intensivamente com dados pessoais e informações sensíveis dos usuários.",
-            "A Lei Geral de Proteção de Dados, em seu artigo 7º, estabelece as bases legais para o tratamento de dados pessoais, sendo fundamental que as empresas compreendam cada uma dessas hipóteses para garantir conformidade legal em suas operações.",
-            "Considerando a complexidade do ambiente digital contemporâneo, as empresas de tecnologia precisam implementar medidas técnicas e organizacionais adequadas para proteger os dados pessoais sob sua responsabilidade, conforme determina o princípio da accountability previsto na legislação.",
-            "O conceito de privacy by design tornou-se essencial no desenvolvimento de produtos e serviços digitais, exigindo que a proteção de dados seja considerada desde as fases iniciais de concepção de qualquer projeto tecnológico que envolva tratamento de dados pessoais.",
-            "As sanções administrativas previstas na LGPD podem alcançar valores de até 2% do faturamento da empresa, limitado a R$ 50 milhões por infração, o que torna fundamental a implementação de programas de compliance robusto e eficiente.",
-            "Diante desse cenário regulatório, as empresas devem estabelecer políticas claras de governança de dados, treinar adequadamente seus colaboradores e manter documentação detalhada de todas as atividades de tratamento de dados realizadas em suas operações."
+        id: "mudanca-itcmd",
+        title: "Doar um bem vai ficar mais caro em 2026: entenda o que muda no ITCMD",
+        date: "10/08/2025",
+        authors: "João Marquesi",
+        description: "A partir de 2026, o ITCMD será progressivo em todo o país, com alíquotas maiores para doações e heranças de maior valor; 2025 pode ser a última chance de antecipar doações com custo menor em Estados que ainda usam taxa fixa.",
+        image: itcmd,
+        content: [
+            {
+                type: "paragraph",
+                text: "Você já pensou em doar um imóvel ou planejar a herança para os seus filhos?"
+            },
+            {
+                type: "paragraph",
+                text: "Pois é… a partir de 2026, isso pode pesar bem mais no seu bolso."
+            },
+            {
+                type: "paragraph",
+                text: "Uma mudança na lei vai obrigar todos os Estados a cobrarem o ITCMD (Imposto de Transmissão Causa Mortis e Doação) de forma progressiva, ou seja, quanto maior o valor do bem, maior a alíquota."
+            },
+            {
+                type: "subtitle",
+                text: "O que está acontecendo?"
+            },
+            {
+                type: "paragraph",
+                text: "A Emenda Constitucional 132/2023 alterou o art. 155 da Constituição Federal e acabou com a possibilidade de alíquota fixa para o ITCMD."
+            },
+            {
+                type: "paragraph",
+                text: "Antes, cada Estado podia decidir se aplicava ou não essa progressividade. Agora, será obrigatória."
+            },
+            {
+                type: "paragraph",
+                text: "Isso significa que, a partir de 2026, doações e heranças de maior valor deverão pagar alíquotas mais altas, enquanto bens de menor valor terão alíquotas menores."
+            },
+            {
+                type: "subtitle",
+                text: "Por que isso importa para você?"
+            },
+            {
+                type: "paragraph",
+                text: "Veja se você se identifica com este cenário:"
+            },
+            {
+                type: "paragraph",
+                text: "Você tem um imóvel, aplicações financeiras ou outros bens que pretende doar em vida ou deixar como herança."
+            },
+            {
+                type: "paragraph",
+                text: "Hoje, em alguns Estados, como São Paulo, Minas Gerais e Espírito Santo, a alíquota é única."
+            },
+            {
+                type: "paragraph",
+                text: "Em 2026, a maioria dos Estados vai se adequar à nova sistemática. A depender do valor do bem, a conta pode subir muito!"
+            },
+            {
+                type: "paragraph",
+                text: "Além disso, mais uma novidade está chegando: o PLP 108/2024 (ainda em tramitação) vai impedir que sejam feitas várias doações de menor valor com o intuito de escapar de alíquotas mais altas."
+            },
+            {
+                type: "paragraph",
+                text: "Ou seja, se ele for aprovado, a alíquota (%) aplicada irá levar em conta todas as doações já feitas pelo doador àquela mesma pessoa."
+            },
+            {
+                type: "paragraph",
+                text: "Não será mais possível doar quantias menores várias vezes com o intuito de fugir de impostos maiores."
+            },
+            {
+                type: "paragraph",
+                text: "Objetivamente, isso pode levar você a cair em faixas mais altas de tributação, mesmo que cada doação, isoladamente, seja de valor menor."
+            },
+            {
+                type: "subtitle",
+                text: "Oportunidade em 2025"
+            },
+            {
+                type: "paragraph",
+                text: "Alguns Estados ainda não aplicam a alíquota progressiva, como é o caso de São Paulo, Minas Gerais, Espírito Santo, Paraná, Mato Grosso do Sul e Roraima."
+            },
+            {
+                type: "paragraph",
+                text: "Para quem reside ou possui bens imóveis nesses locais, 2025 pode ser o último ano para fazer doações com custo menor."
+            },
+            {
+                type: "subtitle",
+                text: "O que fazer agora"
+            },
+            {
+                type: "paragraph",
+                text: "Se você tem intenção de doar bens ou planejar a sucessão, este é o momento para:"
+            },
+            {
+                type: "ordered_list",
+                items: [
+                    "Revisar o planejamento sucessório;",
+                    "Simular o impacto do ITCMD progressivo nas suas doações ou herança;",
+                    "Considerar antecipar operações antes de 2026."
+                ]
+            },
+            {
+                type: "subtitle",
+                text: "Resumo rápido"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "2026: ITCMD progressivo passa a ser obrigatório em todo o país.",
+                    "Quanto maior o valor, maior a alíquota.",
+                    "PLP 108/2024: se aprovado, pode somar todas as doações para definir a alíquota.",
+                    "Alguns Estados ainda não aplicam progressividade, o que pode haver vantagem em agir em 2025."
+                ]
+            },
         ]
     },
     {
-        id: "alteracoes-codigo-civil",
-        title: "Alterações no Código Civil: impactos nos contratos empresariais",
-        date: "02/07/2025",
-        authors: "Flávia Perim e Pedro Marchesi",
-        description: "As recentes modificações na legislação civil brasileira trouxeram mudanças importantes para a elaboração e execução de contratos no ambiente empresarial.",
-        image: sociedade,
-        paragraphs: [
-            "As modificações introduzidas no Código Civil brasileiro representam um marco importante na evolução do direito contratual, especialmente no que se refere às relações comerciais e empresariais contemporâneas.",
-            "O princípio da boa-fé objetiva, consolidado no artigo 422 do Código Civil, passou a ter aplicação ainda mais ampla, exigindo das partes contratantes um comportamento leal e cooperativo durante todas as fases da relação contratual.",
-            "A teoria da imprevisão, prevista no artigo 478 do Código Civil, ganhou novos contornos interpretativos que permitem maior flexibilidade na revisão de contratos quando ocorrem circunstâncias extraordinárias e imprevisíveis que alterem significativamente o equilíbrio contratual.",
-            "Os contratos empresariais modernos devem incorporar cláusulas que contemplem cenários de força maior e caso fortuito, bem como mecanismos alternativos de resolução de conflitos, como mediação e arbitragem, que proporcionam maior agilidade na solução de disputas.",
-            "A interpretação dos contratos deve considerar não apenas a literalidade das cláusulas, mas também o contexto econômico e social em que foram celebrados, aplicando-se os princípios da função social do contrato e do equilíbrio das prestações.",
-            "Empresários e advogados devem estar atentos às novas diretrizes jurisprudenciais que vêm sendo estabelecidas pelos tribunais superiores, adaptando suas práticas contratuais para garantir maior segurança jurídica nas relações comerciais."
+        id: "regularizacao-saida-do-brasil",
+        title: "Saí do Brasil e não declarei saída definitiva: como regularizar e evitar problemas fiscais",
+        date: "10/08/2025",
+        authors: "Flávia Perim",
+        description: "Não fazer a Declaração de Saída Definitiva ao morar no exterior pode gerar bitributação, multas e restrições no CPF; regularizar evita problemas fiscais e protege seu patrimônio.",
+        image: regularizacaoSaidaDoBrasil,
+        content: [
+            {
+                type: "paragraph",
+                text: "Você saiu do Brasil para morar no exterior e nunca fez a Declaração de Saída Definitiva?"
+            },
+            {
+                type: "paragraph",
+                text: "Pois é… isso pode trazer dores de cabeça fiscais e até resultar em tributação dupla sobre sua renda."
+            },
+            {
+                type: "paragraph",
+                text: "Muita gente não sabe, mas a saída definitiva é obrigatória para informar à Receita Federal que você deixou de ser residente fiscal no Brasil."
+            },
+            {
+                type: "paragraph",
+                text: "Sem esse procedimento, o fisco pode entender que você continua obrigado a pagar impostos sobre rendimentos recebidos no exterior."
+            },
+             {
+                type: "subtitle",
+                text: "O que pode acontecer se você não regularizar?"
+            },
+            {
+                type: "paragraph",
+                text: "Veja se isso soa familiar: você mudou de país, mantém seu CPF ativo, mas nunca comunicou formalmente à Receita Federal a sua saída."
+            },
+            {
+                type: "paragraph",
+                text: "Nesse caso, o governo brasileiro pode considerar que você ainda é residente fiscal no Brasil, o que significa:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Imposto de Renda sobre rendimentos no exterior.",
+                    "Multas por atraso na entrega de declarações obrigatórias.",
+                    "Pendências no CPF que podem bloquear transações no Brasil.",
+                    "Dificuldade para justificar transferências de recursos entre países."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: "E aqui vai um alerta importante:"
+            },
+            {
+                type: "paragraph",
+                text: "No [Relatório de Fiscalização de 2025](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/fiscalizacao/relatorio-anual-da-fiscalizacao-2024-2025-1.pdf/view), onde a Receita Federal detalha os principais alvos de sua autuação para o próximo ano, foi destacado que, com base em dados obtidos pelo intercâmbio automático de informações financeiras (via CRS e FATCA), a Receita já identificou contribuintes brasileiros que não declararam contas e investimentos no exterior."
+            },
+            {
+                type: "paragraph",
+                text: "Ou seja, as autoridades brasileiras já recebem informações diretamente de bancos estrangeiros, e cruzam esses dados com o que consta (ou não consta) na sua declaração."
+            },
+            {
+                type: "subtitle",
+                text: "Declaração de Saída Definitiva: Ainda dá tempo de corrigir?"
+            },
+            {
+                type: "paragraph",
+                text: "A boa notícia é: sim, existe caminho para regularizar. No entanto, quanto antes você agir, melhor."
+            },
+            {
+                type: "paragraph",
+                text: "O processo normalmente envolve:"
+            },
+            {
+                type: "ordered_list",
+                items: [
+                    "Entregar a Declaração de Saída Definitiva do País no sistema da Receita Federal, mesmo fora do prazo.",
+                    "Ajustar declarações anteriores de Imposto de Renda.",
+                    "Informar oficialmente eventuais fontes pagadoras no Brasil.",
+                    "Avaliar se houve tributação indevida e, quando possível, pedir restituição.",
+                    "Atualizar seu CPF para evitar restrições."
+                ]
+            },
+            {
+                type: "subtitle",
+                text: "E por que fazer isso agora?"
+            },
+            {
+                type: "paragraph",
+                text: "A Receita Federal está cada vez mais integrada a sistemas internacionais, praticando acordos internacionais de troca automática de informações financeiras."
+            },
+            {
+                type: "paragraph",
+                text: "Isso significa que movimentações no exterior podem ser identificadas e cruzadas com sua situação fiscal no Brasil."
+            },
+            {
+                type: "paragraph",
+                text: "Se você está nessa situação, não espere a Receita Federal bater à porta. Regularizar a saída definitiva é proteger seu patrimônio, evitar a bitributação e ter tranquilidade para viver no exterior."
+            }
         ]
-    },
-    {
-        id: "marco-regulatorio-open-banking",
-        title: "Marco regulatório do Open Banking: oportunidades e desafios",
-        date: "28/06/2025",
-        authors: "Victor Hugo Piller e Flávia Perim",
-        description: "A implementação do sistema financeiro aberto no Brasil cria novas possibilidades de negócio, mas também traz importantes questões jurídicas e regulatórias.",
-        image: financas,
-        paragraphs: [
-            "O Sistema Financeiro Aberto brasileiro representa uma transformação fundamental na forma como as instituições financeiras operam e se relacionam com seus clientes, criando um ecossistema mais integrado e competitivo no mercado financeiro nacional.",
-            "A Resolução nº 4.658 do Banco Central estabelece os pilares fundamentais do Open Banking, determinando que as instituições financeiras devem compartilhar dados e serviços através de interfaces padronizadas, mediante consentimento expresso dos clientes.",
-            "A proteção de dados assume papel central nesse novo modelo, exigindo que todas as instituições participantes implementem medidas rigorosas de segurança cibernética e privacidade, em conformidade com a Lei Geral de Proteção de Dados e as normas específicas do Banco Central.",
-            "As fintechs e empresas de tecnologia encontram nesse ambiente regulatório novas oportunidades de negócio, podendo oferecer serviços financeiros inovadores através da integração com os sistemas das instituições tradicionais, democratizando o acesso a produtos financeiros.",
-            "Os aspectos de responsabilidade civil e criminal no compartilhamento de dados financeiros demandam atenção especial dos operadores do direito, uma vez que eventuais falhas de segurança podem gerar consequências jurídicas significativas para todas as partes envolvidas.",
-            "A evolução deste marco regulatório exigirá adaptações constantes por parte das instituições financeiras e empresas de tecnologia, sendo fundamental o acompanhamento das diretrizes emanadas pelo Banco Central e demais órgãos reguladores do sistema financeiro nacional."
-        ]
-    },
-    {
-        id: "tributacao-criptomoedas",
-        title: "Tributação de criptomoedas: novidades da Receita Federal",
-        date: "20/06/2025",
-        authors: "Pedro Marchesi e Victor Hugo Piller",
-        description: "A Receita Federal publicou novas instruções normativas sobre a tributação de operações com criptomoedas, esclarecendo importantes aspectos fiscais.",
-        image: criptomoedas,
-        paragraphs: [
-            "O mercado de criptomoedas no Brasil passou por significativas mudanças regulatórias com a publicação de novas instruções normativas pela Receita Federal, estabelecendo diretrizes claras para a tributação dessas operações financeiras.",
-            "A Instrução Normativa RFB nº 1.888/2019 foi atualizada para contemplar novos cenários de tributação, incluindo operações de staking, mining e negociação de tokens não fungíveis (NFTs), ampliando o escopo de incidência tributária sobre ativos digitais.",
-            "Para pessoas físicas, as operações com criptomoedas estão sujeitas à tributação pelo imposto de renda quando há ganho de capital, aplicando-se alíquotas progressivas conforme o valor das operações mensais realizadas pelo contribuinte.",
-            "As empresas que desenvolvem atividades relacionadas a criptomoedas devem observar as regras específicas de tributação corporativa, incluindo a correta classificação contábil dos ativos digitais e o cumprimento das obrigações acessórias perante a Receita Federal.",
-            "A fiscalização tributária tem se intensificado neste setor, com a implementação de sistemas automatizados de cruzamento de dados entre exchanges e a Receita Federal, exigindo maior rigor no cumprimento das obrigações tributárias por parte dos contribuintes.",
-            "Profissionais do direito tributário devem acompanhar atentamente a evolução desta legislação, uma vez que o mercado de criptomoedas continua em constante transformação, demandando interpretações jurídicas atualizadas sobre questões fiscais complexas."
-        ]
-    },
-    {
-        id: "beneficio-esportee",
-        title: "Senado aprova tornar permanentes benefícios fiscais ao esporte",
-        date: "18/08/2025",
-        authors: "Victor Hugo Piller e Flávia Perim",
-        description: "O Senado aprovou nesta quarta-feira (25) o projeto que torna permanentes os benefícios fiscais ao esporte, como a Lei de Incentivo ao Esporte e a Lei do Mecenato Esportivo.",
-        image: beneficioEsporte,
-        paragraphs: [
-            "Fruto de um esforço para fomentar o ambiente de negócios e promover o aumento da oferta de capital para investimento em empreendedorismo inovador, o Brasil editou a Lei Complementar nº 182, que passou a ser conhecida como o Marco Legal das Startups.",
-            "A Lei, no caput de seu art. 4º, buscou enquadrar as startups como “organizações empresariais ou societárias, nascentes ou em operação recente, cuja atuação caracteriza-se pela inovação aplicada a modelo de negócios ou a produtos ou serviços ofertados”.",
-            "Deixando a seara dos conceitos legais, uma definição muito utilizada é a do estudioso americano Eric Ries, que definiu startup como uma “instituição humana projetada para criar novos produtos e serviços sob condições de extrema incerteza”. O autor, ao trazer essa reflexão, pondera que o diferencial reside justamente no que o conceito não diz sobre as startups.",
-            "Sem a intenção de esgotar a discussão sobre o tema, podemos concluir que startups são empresas cujo histórico operacional costuma ser limitado, que como a própria tradução literal do termo sugere, encontra-se em fase inicial, que atraem investidores pelo perfil de risco e recompensa de maior retorno potencial sobre o investimento através da escalabilidade de uma empresa que, um dia, foi apenas uma ideia.",
-            "Sem a intenção de esgotar a discussão sobre o tema, podemos concluir que startups são empresas cujo histórico operacional costuma ser limitado, que como a própria tradução literal do termo sugere, encontra-se em fase inicial, que atraem investidores pelo perfil de risco e recompensa de maior retorno potencial sobre o investimento através da escalabilidade de uma empresa que, um dia, foi apenas uma ideia.",
-            "Fruto de um esforço para fomentar o ambiente de negócios e promover o aumento da oferta de capital para investimento em empreendedorismo inovador, o Brasil editou a Lei Complementar nº 182, que passou a ser conhecida como o Marco Legal das Startups."
-        ]
-    },
-    {
-        id: "nova-regulamentacao-lgpdd",
-        title: "Nova regulamentação da LGPD: impactos para empresas de tecnologia",
-        date: "15/07/2025",
-        authors: "Pedro Marchesi e Victor Hugo Piller",
-        description: "A Autoridade Nacional de Proteção de Dados publicou novas diretrizes que alteram significativamente o compliance em proteção de dados para o setor tecnológico.",
-        image: lgpd,
-        paragraphs: [
-            "A evolução do marco regulatório de proteção de dados no Brasil tem gerado impactos significativos no ambiente empresarial, especialmente para organizações que lidam intensivamente com dados pessoais e informações sensíveis dos usuários.",
-            "A Lei Geral de Proteção de Dados, em seu artigo 7º, estabelece as bases legais para o tratamento de dados pessoais, sendo fundamental que as empresas compreendam cada uma dessas hipóteses para garantir conformidade legal em suas operações.",
-            "Considerando a complexidade do ambiente digital contemporâneo, as empresas de tecnologia precisam implementar medidas técnicas e organizacionais adequadas para proteger os dados pessoais sob sua responsabilidade, conforme determina o princípio da accountability previsto na legislação.",
-            "O conceito de privacy by design tornou-se essencial no desenvolvimento de produtos e serviços digitais, exigindo que a proteção de dados seja considerada desde as fases iniciais de concepção de qualquer projeto tecnológico que envolva tratamento de dados pessoais.",
-            "As sanções administrativas previstas na LGPD podem alcançar valores de até 2% do faturamento da empresa, limitado a R$ 50 milhões por infração, o que torna fundamental a implementação de programas de compliance robusto e eficiente.",
-            "Diante desse cenário regulatório, as empresas devem estabelecer políticas claras de governança de dados, treinar adequadamente seus colaboradores e manter documentação detalhada de todas as atividades de tratamento de dados realizadas em suas operações."
-        ]
-    },
-    {
-        id: "alteracoes-codigo-civill",
-        title: "Alterações no Código Civil: impactos nos contratos empresariais",
-        date: "02/07/2025",
-        authors: "Flávia Perim e Pedro Marchesi",
-        description: "As recentes modificações na legislação civil brasileira trouxeram mudanças importantes para a elaboração e execução de contratos no ambiente empresarial.",
-        image: sociedade,
-        paragraphs: [
-            "As modificações introduzidas no Código Civil brasileiro representam um marco importante na evolução do direito contratual, especialmente no que se refere às relações comerciais e empresariais contemporâneas.",
-            "O princípio da boa-fé objetiva, consolidado no artigo 422 do Código Civil, passou a ter aplicação ainda mais ampla, exigindo das partes contratantes um comportamento leal e cooperativo durante todas as fases da relação contratual.",
-            "A teoria da imprevisão, prevista no artigo 478 do Código Civil, ganhou novos contornos interpretativos que permitem maior flexibilidade na revisão de contratos quando ocorrem circunstâncias extraordinárias e imprevisíveis que alterem significativamente o equilíbrio contratual.",
-            "Os contratos empresariais modernos devem incorporar cláusulas que contemplem cenários de força maior e caso fortuito, bem como mecanismos alternativos de resolução de conflitos, como mediação e arbitragem, que proporcionam maior agilidade na solução de disputas.",
-            "A interpretação dos contratos deve considerar não apenas a literalidade das cláusulas, mas também o contexto econômico e social em que foram celebrados, aplicando-se os princípios da função social do contrato e do equilíbrio das prestações.",
-            "Empresários e advogados devem estar atentos às novas diretrizes jurisprudenciais que vêm sendo estabelecidas pelos tribunais superiores, adaptando suas práticas contratuais para garantir maior segurança jurídica nas relações comerciais."
-        ]
-    },
-    {
-        id: "marco-regulatorio-open-bankingg",
-        title: "Marco regulatório do Open Banking: oportunidades e desafios",
-        date: "28/06/2025",
-        authors: "Victor Hugo Piller e Flávia Perim",
-        description: "A implementação do sistema financeiro aberto no Brasil cria novas possibilidades de negócio, mas também traz importantes questões jurídicas e regulatórias.",
-        image: financas,
-        paragraphs: [
-            "O Sistema Financeiro Aberto brasileiro representa uma transformação fundamental na forma como as instituições financeiras operam e se relacionam com seus clientes, criando um ecossistema mais integrado e competitivo no mercado financeiro nacional.",
-            "A Resolução nº 4.658 do Banco Central estabelece os pilares fundamentais do Open Banking, determinando que as instituições financeiras devem compartilhar dados e serviços através de interfaces padronizadas, mediante consentimento expresso dos clientes.",
-            "A proteção de dados assume papel central nesse novo modelo, exigindo que todas as instituições participantes implementem medidas rigorosas de segurança cibernética e privacidade, em conformidade com a Lei Geral de Proteção de Dados e as normas específicas do Banco Central.",
-            "As fintechs e empresas de tecnologia encontram nesse ambiente regulatório novas oportunidades de negócio, podendo oferecer serviços financeiros inovadores através da integração com os sistemas das instituições tradicionais, democratizando o acesso a produtos financeiros.",
-            "Os aspectos de responsabilidade civil e criminal no compartilhamento de dados financeiros demandam atenção especial dos operadores do direito, uma vez que eventuais falhas de segurança podem gerar consequências jurídicas significativas para todas as partes envolvidas.",
-            "A evolução deste marco regulatório exigirá adaptações constantes por parte das instituições financeiras e empresas de tecnologia, sendo fundamental o acompanhamento das diretrizes emanadas pelo Banco Central e demais órgãos reguladores do sistema financeiro nacional."
-        ]
-    },
-    {
-        id: "tributacao-criptomoedass",
-        title: "Tributação de criptomoedas: novidades da Receita Federal",
-        date: "20/06/2025",
-        authors: "Pedro Marchesi e Victor Hugo Piller",
-        description: "A Receita Federal publicou novas instruções normativas sobre a tributação de operações com criptomoedas, esclarecendo importantes aspectos fiscais.",
-        image: criptomoedas,
-        paragraphs: [
-            "O mercado de criptomoedas no Brasil passou por significativas mudanças regulatórias com a publicação de novas instruções normativas pela Receita Federal, estabelecendo diretrizes claras para a tributação dessas operações financeiras.",
-            "A Instrução Normativa RFB nº 1.888/2019 foi atualizada para contemplar novos cenários de tributação, incluindo operações de staking, mining e negociação de tokens não fungíveis (NFTs), ampliando o escopo de incidência tributária sobre ativos digitais.",
-            "Para pessoas físicas, as operações com criptomoedas estão sujeitas à tributação pelo imposto de renda quando há ganho de capital, aplicando-se alíquotas progressivas conforme o valor das operações mensais realizadas pelo contribuinte.",
-            "As empresas que desenvolvem atividades relacionadas a criptomoedas devem observar as regras específicas de tributação corporativa, incluindo a correta classificação contábil dos ativos digitais e o cumprimento das obrigações acessórias perante a Receita Federal.",
-            "A fiscalização tributária tem se intensificado neste setor, com a implementação de sistemas automatizados de cruzamento de dados entre exchanges e a Receita Federal, exigindo maior rigor no cumprimento das obrigações tributárias por parte dos contribuintes.",
-            "Profissionais do direito tributário devem acompanhar atentamente a evolução desta legislação, uma vez que o mercado de criptomoedas continua em constante transformação, demandando interpretações jurídicas atualizadas sobre questões fiscais complexas."
-        ]
-    },
-    {
-        id: "nova-regulamentacao-lgpddd",
-        title: "Nova regulamentação da LGPD: impactos para empresas de tecnologia",
-        date: "15/07/2025",
-        authors: "Pedro Marchesi e Victor Hugo Piller",
-        description: "A Autoridade Nacional de Proteção de Dados publicou novas diretrizes que alteram significativamente o compliance em proteção de dados para o setor tecnológico.",
-        image: lgpd,
-        paragraphs: [
-            "A evolução do marco regulatório de proteção de dados no Brasil tem gerado impactos significativos no ambiente empresarial, especialmente para organizações que lidam intensivamente com dados pessoais e informações sensíveis dos usuários.",
-            "A Lei Geral de Proteção de Dados, em seu artigo 7º, estabelece as bases legais para o tratamento de dados pessoais, sendo fundamental que as empresas compreendam cada uma dessas hipóteses para garantir conformidade legal em suas operações.",
-            "Considerando a complexidade do ambiente digital contemporâneo, as empresas de tecnologia precisam implementar medidas técnicas e organizacionais adequadas para proteger os dados pessoais sob sua responsabilidade, conforme determina o princípio da accountability previsto na legislação.",
-            "O conceito de privacy by design tornou-se essencial no desenvolvimento de produtos e serviços digitais, exigindo que a proteção de dados seja considerada desde as fases iniciais de concepção de qualquer projeto tecnológico que envolva tratamento de dados pessoais.",
-            "As sanções administrativas previstas na LGPD podem alcançar valores de até 2% do faturamento da empresa, limitado a R$ 50 milhões por infração, o que torna fundamental a implementação de programas de compliance robusto e eficiente.",
-            "Diante desse cenário regulatório, as empresas devem estabelecer políticas claras de governança de dados, treinar adequadamente seus colaboradores e manter documentação detalhada de todas as atividades de tratamento de dados realizadas em suas operações."
-        ]
-    },
-    {
-        id: "alteracoes-codigo-civilll",
-        title: "Alterações no Código Civil: impactos nos contratos empresariais",
-        date: "02/07/2025",
-        authors: "Flávia Perim e Pedro Marchesi",
-        description: "As recentes modificações na legislação civil brasileira trouxeram mudanças importantes para a elaboração e execução de contratos no ambiente empresarial.",
-        image: sociedade,
-        paragraphs: [
-            "As modificações introduzidas no Código Civil brasileiro representam um marco importante na evolução do direito contratual, especialmente no que se refere às relações comerciais e empresariais contemporâneas.",
-            "O princípio da boa-fé objetiva, consolidado no artigo 422 do Código Civil, passou a ter aplicação ainda mais ampla, exigindo das partes contratantes um comportamento leal e cooperativo durante todas as fases da relação contratual.",
-            "A teoria da imprevisão, prevista no artigo 478 do Código Civil, ganhou novos contornos interpretativos que permitem maior flexibilidade na revisão de contratos quando ocorrem circunstâncias extraordinárias e imprevisíveis que alterem significativamente o equilíbrio contratual.",
-            "Os contratos empresariais modernos devem incorporar cláusulas que contemplem cenários de força maior e caso fortuito, bem como mecanismos alternativos de resolução de conflitos, como mediação e arbitragem, que proporcionam maior agilidade na solução de disputas.",
-            "A interpretação dos contratos deve considerar não apenas a literalidade das cláusulas, mas também o contexto econômico e social em que foram celebrados, aplicando-se os princípios da função social do contrato e do equilíbrio das prestações.",
-            "Empresários e advogados devem estar atentos às novas diretrizes jurisprudenciais que vêm sendo estabelecidas pelos tribunais superiores, adaptando suas práticas contratuais para garantir maior segurança jurídica nas relações comerciais."
-        ]
-    },
+    }
 ]
 
 export default posts;
