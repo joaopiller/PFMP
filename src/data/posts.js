@@ -1,8 +1,348 @@
 import transacaoTributaria from "../assets/images/transacao-tributaria.jpeg"
 import itcmd from "../assets/images/itcmd.jpg";
 import regularizacaoSaidaDoBrasil from "../assets/images/regularizacao-saida-do-brasil.jpg"
+import drex from "../assets/images/drex.jpeg";
+import inssTetoMedicos from "../assets/images/inss_teto_medicos.png"
+import previdenciaPrivadaITCMD from "../assets/images/previdencia-privada-pgbl.jpg"
 
 const posts = [
+    {
+        id: "previdencia-privada-itcmd",
+        title: "Você pagou ITCMD em previdência privada? STF abre caminho para restituição",
+        date: "21/08/2025",
+        authors: "Flávia Perim",
+        description: "Você sabia que em muitos casos, os beneficiários de planos de previdência privada pagaram imposto a mais sem nem perceber? Isso porque os Estados cobravam ITCMD (Imposto de Transmissão Causa Mortis e Doação) sobre valores recebidos em PGBL e VGBL após o falecimento do titular.",
+        image: previdenciaPrivadaITCMD,
+        content: [
+    {
+        type: "paragraph",
+        text: "Você sabia que em muitos casos, os beneficiários de planos de previdência privada pagaram imposto a mais sem nem perceber?"
+    },
+    {
+        type: "paragraph",
+        text: "Isso porque os Estados cobravam ITCMD (Imposto de Transmissão Causa Mortis e Doação) sobre valores recebidos em PGBL e VGBL após o falecimento do titular."
+    },
+    {
+        type: "paragraph",
+        text: "Mas agora, o STF bateu o martelo e firmou um entendimento que representa uma oportunidade de restituição para milhares de brasileiros."
+    },
+    {
+        type: "paragraph",
+        text: "Se esse pode ser o seu caso, acompanhe abaixo!"
+    },
+    {
+        type: "subtitle",
+        text: "O problema: imposto indevido sobre previdência privada"
+    },
+    {
+        type: "paragraph",
+        text: "Imagine a seguinte situação: um ente querido falece, e os beneficiários vão até a seguradora resgatar os valores de previdência privada. No momento do saque, se deparam com a cobrança do ITCMD, que pode resultar em valores bem expressivos."
+    },
+    {
+        type: "paragraph",
+        text: "Isso vinha acontecendo em pelo menos 70% dos Estados do país, muitas vezes sem base legal para a cobrança."
+    },
+    {
+        type: "paragraph",
+        text: "Resultado? Famílias recebendo menos do que realmente teriam direito."
+    },
+    {
+        type: "subtitle",
+        text: "O julgamento do STF que mudou tudo"
+    },
+    {
+        type: "paragraph",
+        text: "No recente Tema 1214, o STF decidiu que não incide ITCMD sobre PGBL e VGBL quando o titular falece. Veja o que fixou o STF:"
+    },
+    {
+        type: "paragraph",
+        text: "“É inconstitucional a incidência do imposto sobre transmissão causa mortis e doação (ITCMD) sobre o repasse aos beneficiários de valores e direitos relativos ao plano vida gerador de benefício livre (VGBL) ou ao plano gerador de benefício livre (PGBL) na hipótese de morte do titular do plano.”"
+    },
+    {
+        type: "paragraph",
+        text: "Segundo a Corte, esses planos têm natureza securitária, como se fossem um seguro de vida, e não devem integrar o inventário ou sofrer a tributação estadual."
+    },
+    {
+        type: "subtitle",
+        text: "Impactos imediatos dessa decisão:"
+    },
+    {
+        type: "unordered_list",
+        items: [
+            "Fim da cobrança de ITCMD sobre previdência privada na sucessão.",
+            "Direito de restituição para quem pagou nos últimos 5 anos.",
+            "Possibilidade de impedir cobranças futuras de forma preventiva."
+        ]
+    },
+    {
+        type: "paragraph",
+        text: "Além do impacto tributário, a decisão reforça uma característica muito atrativa da previdência privada: a liquidez imediata."
+    },
+    {
+        type: "paragraph",
+        text: "Isso porque os valores não entram no inventário, e os beneficiários podem recebê-los logo após o óbito do ente querido, apenas apresentando a documentação básica à seguradora."
+    },
+    {
+        type: "paragraph",
+        text: "Ou seja, além de planejamento de aposentadoria, o PGBL e VGBL funcionam como um instrumento estratégico de sucessão, garantindo segurança financeira à família."
+    },
+    {
+        type: "subtitle",
+        text: "Restituição do ITCMD pago indevidamente"
+    },
+    {
+        type: "paragraph",
+        text: "Se você ou alguém da sua família já pagou esse imposto nos últimos 5 (cinco) anos, existe a oportunidade de recuperar os valores."
+    },
+    {
+        type: "paragraph",
+        text: "Além disso, contar com um apoio especializado é essencial para garantir a segurança da restituição, ainda mais porque, apesar da decisão do STF, alguns Estados mantêm a cobrança do ITCMD sobre valores de previdência privada, seja por resistência à decisão ou pela demora na adequação da legislação estadual."
+    },
+    {
+        type: "paragraph",
+        text: "Para buscar a restituição, veja o passo a passo do requerimento:"
+    },
+    {
+        type: "ordered_list",
+        items: [
+            "Verifique se houve o pagamento de ITCMD no resgate do plano.",
+            "Reúna a documentação, como certidão de óbito, documentos do plano e comprovantes do imposto recolhido.",
+            "Identifique a melhor via para restituição: se administrativa (devolução direta pela Secretaria da Fazenda do Estado) ou judicial (medida cabível para restituição dos valores pagos ou para impedir a cobrança indevida)."
+        ]
+    },
+    {
+        type: "subtitle",
+        text: "O que fazer agora?"
+    },
+    {
+        type: "paragraph",
+        text: "O julgamento do STF trouxe um cenário muito mais favorável aos contribuintes. Mas atenção: o direito à restituição só vale para pagamentos feitos nos últimos 5 anos."
+    },
+    {
+        type: "unordered_list",
+        items: [
+            "Se você pagou ITCMD em previdência privada, este pode ser o momento certo para agir.",
+            "Se tem planos ativos, é fundamental entender como protegê-los contra tributações indevidas."
+        ]
+    }
+]
+    },
+    {
+        id: "inss-teto-medicos",
+        title: "INSS acima do teto: como parar descontos indevidos e recuperar valores",
+        date: "21/08/2025",
+        authors: "Pedro H. Fonseca",
+        description: "Você pode estar pagando INSS a mais sem perceber. Isso acontece quando alguém trabalha em mais de um lugar e cada fonte pagadora faz o desconto sem considerar o valor total dos rendimentos.",
+        image: inssTetoMedicos,
+        content: [
+    {
+        type: "paragraph",
+        text: "Você pode estar pagando INSS a mais sem perceber."
+    },
+    {
+        type: "paragraph",
+        text: "Isso acontece quando alguém trabalha em mais de um lugar e cada fonte pagadora faz o desconto sem considerar o valor total dos rendimentos."
+    },
+    {
+        type: "paragraph",
+        text: "O INSS tem um limite, chamado de teto. Em 2025, ele é de R$ 8.157,41."
+    },
+    {
+        type: "paragraph",
+        text: "Se a soma dos seus salários ultrapassa esse valor, não precisa contribuir sobre o que passa do teto."
+    },
+    {
+        type: "paragraph",
+        text: "Na prática, porém, muita gente paga duas ou até três vezes sem necessidade."
+    },
+    {
+        type: "subtitle",
+        text: "Por que isso é um problema?"
+    },
+    {
+        type: "paragraph",
+        text: "Esse valor extra não aumenta sua aposentadoria."
+    },
+    {
+        type: "paragraph",
+        text: "O INSS simplesmente ignora tudo o que ultrapassa o teto."
+    },
+    {
+        type: "paragraph",
+        text: "Ou seja: você perde dinheiro sem nenhum benefício futuro."
+    },
+    {
+        type: "subtitle",
+        text: "Como resolver"
+    },
+    {
+        type: "paragraph",
+        text: "A boa notícia é que existem duas soluções simples:"
+    },
+    {
+        type: "ordered_list",
+        items: [
+            "Parar os descontos indevidos: Notifique corretamente seus empregadores ou contratantes para não recolherem além do teto.",
+            "Recuperar o que já foi pago: É possível pedir a restituição administrativa na Receita Federal."
+        ]
+    },
+    {
+        type: "paragraph",
+        text: "Você pode reaver até 5 anos de contribuições pagas a mais, sem precisar entrar na Justiça."
+    },
+    {
+        type: "paragraph",
+        text: "O pedido costuma levar de 90 a 120 dias e o valor é depositado direto na sua conta bancária."
+    },
+    {
+        type: "subtitle",
+        text: "Exemplo prático"
+    },
+    {
+        type: "paragraph",
+        text: "Imagine um médico que trabalha em dois hospitais, e ganha acima do teto em ambos."
+    },
+    {
+        type: "paragraph",
+        text: "Cada um desconta o INSS cheio, como se não houvesse o outro."
+    },
+    {
+        type: "paragraph",
+        text: "Resultado: ele paga muito além do teto. Na prática, pelo menos o dobro."
+    },
+    {
+        type: "paragraph",
+        text: "Com a medida correta, ele para de pagar em duplicidade e ainda consegue de volta o que pagou indevidamente."
+    },
+    {
+        type: "subtitle",
+        text: "Como verificar se você paga INSS a mais"
+    },
+    {
+        type: "paragraph",
+        text: "Se você trabalha em mais de um lugar ao mesmo tempo, veja se a soma dos seus rendimentos passa do teto do INSS."
+    },
+    {
+        type: "paragraph",
+        text: "Se passar, verifique se você já comunicou uma fonte sobre a outra."
+    },
+    {
+        type: "paragraph",
+        text: "Se não comunicou, é bem provável que esteja contribuindo acima do teto."
+    },
+    {
+        type: "subtitle",
+        text: "Conclusão"
+    },
+    {
+        type: "paragraph",
+        text: "Contribuir acima do teto é mais comum do que parece."
+    },
+    {
+        type: "paragraph",
+        text: "Se isso acontece com você, é possível parar os descontos agora e ainda recuperar até 5 anos de valores pagos a mais."
+    }
+]   
+    },
+    {
+        id: "drex",
+        title: "DREX: o que é e como vai mudar a vida do contribuinte",
+        date: "21/08/2025",
+        authors: "João Marchesi",
+        description: "A partir dos próximos anos, essa nova moeda digital criada pelo Banco Central vai mudar a forma como o dinheiro circula no Brasil. E a pergunta que não quer calar: junto com ela, vem também uma grande transformação na fiscalização tributária.",
+        image: drex,
+        content: [
+        {
+            type: "subtitle",
+            text: "O que é o DREX?"
+        },
+        {
+            type: "paragraph",
+            text: "O DREX é a versão digital do Real, desenvolvida pelo Banco Central do Brasil."
+        },
+        {
+            type: "paragraph",
+            text: "Ele faz parte das chamadas CBDCs (Central Bank Digital Currencies), moedas digitais emitidas por bancos centrais em todo o mundo."
+        },
+        {
+            type: "paragraph",
+            text: "Diferente das criptomoedas privadas, como Bitcoin ou Ethereum, o DREX será lastreado no Real e terá o mesmo valor da moeda em papel."
+        },
+        {
+            type: "paragraph",
+            text: "Ou seja: 1 DREX = 1 Real."
+        },
+        {
+            type: "paragraph",
+            text: "A grande diferença está na tecnologia."
+        },
+        {
+            type: "paragraph",
+            text: "Ele funcionará em uma plataforma digital chamada DLT (Distributed Ledger Technology), que registra e rastreia cada transação de forma transparente e segura."
+        },
+        {
+            type: "paragraph",
+            text: "Isso pode abrir espaço para:"
+        },
+        {
+            type: "unordered_list",
+            items: [
+                "Contratos inteligentes (pagamentos condicionados a regras pré-definidas – ex: só recebe o dinheiro quando entrega o produto);",
+                "Integração com o sistema financeiro nacional;",
+                "Maior rastreabilidade das operações."
+            ]
+        },
+        {
+            type: "subtitle",
+            text: "Como o DREX vai afetar quem paga impostos?"
+        },
+        {
+            type: "paragraph",
+            text: "Aqui está o ponto que mais gera debate: a chegada do DREX significa mais transparência nas transações financeiras."
+        },
+        {
+            type: "paragraph",
+            text: "E isso, inevitavelmente, aumenta a capacidade de fiscalização da Receita Federal."
+        },
+        {
+            type: "paragraph",
+            text: "Principais impactos:"
+        },
+        {
+            type: "ordered_list",
+            items: [
+                "Maior rastreabilidade: Cada movimentação em DREX poderá ser registrada de forma imutável na rede. Isso facilita a identificação de doações, transferências e pagamentos que antes poderiam passar despercebidos.",
+                "Fiscalização mais eficiente: Com dados mais estruturados, a Receita pode cruzar informações em sistemas como o T-Rex (já usado hoje para grandes volumes de dados financeiros).",
+                "Redução da sonegação: Com o DREX, fica muito mais difícil esconder movimentações de dinheiro, porque ele tira aquela “zona cinzenta” que existe quando alguém usa dinheiro em espécie.",
+                "Sigilo bancário preservado (em tese): O Banco Central afirma que o sigilo continuará protegido e só poderá ser quebrado por ordem judicial. Mas, na prática, críticos alertam que a moeda digital pode facilitar o acesso a informações sensíveis."
+            ]
+        },
+        {
+            type: "subtitle",
+            text: "Como se preparar?"
+        },
+        {
+            type: "unordered_list",
+            items: [
+                "Empresas e contribuintes devem revisar desde já seus controles internos: doações, heranças, transferências e movimentações relevantes tendem a ficar mais visíveis.",
+                "Planejamento tributário será ainda mais importante para reduzir riscos de autuações.",
+                "Acompanhamento das regras: o DREX está em fase piloto e deve ser implementado gradualmente até 2026. É importante se manter atualizado por fontes de confiança."
+            ]
+        },
+        {
+            type: "subtitle",
+            text: "Resumo"
+        },
+        {
+            type: "paragraph",
+            text: "O DREX é o Real em versão digital, que promete mais praticidade, mas também trará mais poder de fiscalização para a Receita Federal."
+        },
+        {
+            type: "paragraph",
+            text: "Para o contribuinte, isso significa menos espaço para erros ou omissões fiscais e a necessidade de um planejamento financeiro ainda mais cuidadoso."
+        }
+    ]
+    },
     {
         id: "transacao-tributaria",
         title: "Transação Tributária: como negociar dívidas federais, estaduais e municipais",
