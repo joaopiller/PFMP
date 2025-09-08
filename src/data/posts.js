@@ -4,8 +4,461 @@ import regularizacaoSaidaDoBrasil from "../assets/images/regularizacao-saida-do-
 import drex from "../assets/images/drex.jpeg";
 import inssTetoMedicos from "../assets/images/inss_teto_medicos.png"
 import previdenciaPrivadaITCMD from "../assets/images/previdencia-privada-pgbl.jpg"
+import simplesNacional from "../assets/images/simples-nacional.jpg"
+import restituicaoITBI from "../assets/images/restituicao-do-itbi.jpg"
+import transacaoSimplesNacional from "../assets/images/transacao-simples-nacional.png"
 
 const posts = [
+    {
+        id: "transacao-tributaria-de-pequeno-valor",
+        title: "Transação Tributária de Pequeno Valor: oportunidade para empresas do Simples Nacional",
+        date: "28/08/2025",
+        authors: "Pedro H. Fonseca",
+        description: "Empresas do Simples Nacional convivem com uma rotina de elevada carga burocrática e margens de lucro apertadas. Não é raro que micro e pequenas empresas acumulem dívidas tributárias de valores relativamente baixos.",
+        image: transacaoSimplesNacional,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Empresas do Simples Nacional convivem com uma rotina de elevada carga burocrática e margens de lucro apertadas. Não é raro que micro e pequenas empresas acumulem dívidas tributárias de valores relativamente baixos."
+            },
+            {
+                "type": "paragraph",
+                "text": "O problema é que, uma vez inscritas em Dívida Ativa da União, essas dívidas podem gerar consequências sérias:"
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Restrição no Cadin (Cadastro Informativo de Créditos não Quitados do Setor Público Federal);",
+                    "Impossibilidade de emitir certidões negativas de débito (CND);",
+                    "Bloqueios judiciais;",
+                    "Restrição de crédito junto a bancos."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Em muitos casos, débitos que parecem pequenos acabam inviabilizando a regularidade fiscal e dificultam o acesso a licitações, financiamentos e linhas de crédito."
+            },
+            {
+                "type": "subtitle",
+                "text": "O que trouxe o Edital PGDAU nº 11/2025"
+            },
+            {
+                "type": "paragraph",
+                "text": "Para dar uma resposta a esse problema, a Procuradoria-Geral da Fazenda Nacional (PGFN) publicou o Edital nº 11/2025, que disciplina novas modalidades de transação tributária."
+            },
+            {
+                "type": "paragraph",
+                "text": "No artigo 10, foi criada a Transação de Pequeno Valor, voltada para pessoas físicas, microempreendedores individuais (MEI), microempresas (ME) e empresas de pequeno porte (EPP)."
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa modalidade é especialmente vantajosa para empresas do Simples Nacional, já que muitas delas possuem débitos nessa faixa de valor e encontram dificuldade em arcar com negociações mais rígidas."
+            },
+            {
+                "type": "subtitle",
+                "text": "Quem pode se beneficiar"
+            },
+            {
+                "type": "paragraph",
+                "text": "Segundo o edital, podem aderir à transação de pequeno valor os contribuintes que tenham:"
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Dívidas de até 60 salários mínimos (cerca de R$ 91 mil em 2025);",
+                    "Débitos inscritos em dívida ativa até 2 de junho de 2024;",
+                    "Inscrição válida em nome de pessoa física, MEI, ME ou EPP."
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Condições gerais e benefícios previstos"
+            },
+            {
+                "type": "paragraph",
+                "text": "A transação de pequeno valor segue o modelo tradicional de negociação da PGFN, mas com regras simplificadas e benefícios claros:"
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Entrada reduzida: pagamento inicial correspondente a 5% do valor consolidado, dividido em até cinco parcelas mensais;",
+                    "Descontos proporcionais no saldo devedor, que variam conforme o prazo escolhido;",
+                    "Prazos flexíveis, que podem se estender por até 55 meses;",
+                    "Correção monetária com base na taxa Selic, acrescida de 1% no mês do pagamento."
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Prazos importantes e cuidados necessários"
+            },
+            {
+                "type": "paragraph",
+                "text": "O prazo de adesão à transação de pequeno valor vai até 30 de setembro de 2025, às 19h."
+            },
+            {
+                "type": "paragraph",
+                "text": "Alguns pontos exigem atenção:"
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "A primeira parcela deve ser paga até o último dia útil do mês da adesão;",
+                    "Contribuintes com ações judiciais em curso sobre os débitos precisam formalizar a desistência da demanda em até 60 dias;",
+                    "O acordo pode ser rescindido em caso de inadimplência."
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Importância para empresas do Simples Nacional"
+            },
+            {
+                "type": "paragraph",
+                "text": "Para empresas enquadradas no Simples Nacional, a possibilidade de negociar débitos de pequeno valor representa mais do que um alívio financeiro. É também um meio de:"
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Recuperar a regularidade fiscal;",
+                    "Voltar a emitir CNDs;",
+                    "Participar de licitações e programas públicos;",
+                    "Ter acesso a linhas de crédito e investimentos."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A modalidade criada pelo Edital PGDAU nº 11/2025 é, portanto, uma oportunidade concreta de reorganização para empresas que muitas vezes são as mais afetadas por dívidas relativamente pequenas, mas com grande impacto prático."
+            }
+        ]
+    },
+    {
+        id: "restituicao-ibti-compra-e-venda-de-imoveis",
+        title: "Restituição do ITBI na compra e venda de imóveis: STJ define ilegalidade de diversos municípios na cobrança do imposto.",
+        date: "28/08/2025",
+        authors: "João Marchesi",
+        description: "Você comprou um imóvel e teve a sensação de que pagou imposto a mais? Pois é… esse é um problema comum quando falamos do ITBI (Imposto de Transmissão de Bens Imóveis). E agora, com o julgamento do STJ no Tema Repetitivo 1.113, muitos contribuintes podem ter direito à restituição de valores pagos indevidamente.",
+        image: restituicaoITBI,
+        content: [
+            {
+                type: "paragraph",
+                text: "Você comprou um imóvel e teve a sensação de que pagou imposto a mais? Pois é… esse é um problema comum quando falamos do ITBI (Imposto de Transmissão de Bens Imóveis)."
+            },
+            {
+                type: "paragraph",
+                text: "E agora, com o julgamento do STJ no Tema Repetitivo 1.113, muitos contribuintes podem ter direito à restituição de valores pagos indevidamente."
+            },
+            {
+                type: "subtitle",
+                text: "O que é o ITBI?"
+            },
+            {
+                type: "paragraph",
+                text: "O ITBI é o imposto municipal cobrado toda vez que ocorre a transmissão de um imóvel (como em uma compra e venda)."
+            },
+            {
+                type: "paragraph",
+                text: "A regra geral é simples: o imposto deve ser calculado sobre o valor de mercado do imóvel — aquele que comprador e vendedor efetivamente negociaram em condições normais de mercado."
+            },
+            {
+                type: "paragraph",
+                text: "Mas, na prática, muitos municípios vinham usando o chamado “valor venal de referência”, definido por eles mesmos, que quase sempre era mais alto do que o valor real da compra."
+            },
+            {
+                type: "paragraph",
+                text: "Resultado: o contribuinte acaba pagando mais imposto do que deveria."
+            },
+            {
+                type: "subtitle",
+                text: "O julgamento do STJ no Tema 1.113"
+            },
+            {
+                type: "paragraph",
+                text: "O Superior Tribunal de Justiça (STJ) analisou a questão em recurso repetitivo (Tema 1.113) e decidiu que:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "A base de cálculo do ITBI é o valor de mercado do imóvel, que é presumidamente o valor da transação.",
+                    "O município não pode usar automaticamente um valor de referência para cobrar o imposto em valor diverso do que foi declarado.",
+                    "Caso desconfie do valor declarado, a prefeitura precisa abrir um processo administrativo específico, garantindo o direito de defesa do contribuinte."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: "Em resumo: a cobrança com base no valor venal de referência é ilegal e grande parte dos municípios terão que restituir valores cobrados ilegalmente dos contribuintes."
+            },
+            {
+                type: "subtitle",
+                text: "E como isso afeta você?"
+            },
+            {
+                type: "paragraph",
+                text: "Veja se você se identifica: Você comprou um imóvel, declarou que o imóvel vale 300 mil reais e o Município disse que o imóvel vale, na verdade, 800 mil reais. Isso sem sequer te perguntar os detalhes da negociação."
+            },
+            {
+                type: "paragraph",
+                text: "Se isso aconteceu, você pode ter direito de pedir a restituição da diferença, ou seja, de 500 mil reais (800 - 300 = 500)."
+            },
+            {
+                type: "paragraph",
+                text: "Nesse caso, se o imóvel for em Belo Horizonte, por exemplo, você poderá ter restituído valores superiores a 15 mil reais."
+            },
+            {
+                type: "paragraph",
+                text: "Isso vale inclusive para quem já pagou o imposto nos últimos 5 anos, desde que comprove a cobrança indevida."
+            },
+            {
+                type: "subtitle",
+                text: "Como funciona a restituição do ITBI?"
+            },
+            {
+                type: "ordered_list",
+                items: [
+                    "Revisar a escritura para identificar se a cobrança foi feita com base no valor venal de referência.",
+                    "Comparar os valores: quanto foi pago X quanto deveria ter sido pago (valor da transação - declarado).",
+                    "Protocolar o pedido administrativo junto à prefeitura com documentos que comprovem a diferença.",
+                    "Se negado, é possível ingressar judicialmente para garantir o direito à restituição, com base no Tema 1.113 do STJ."
+                ]
+            },
+            {
+                type: "subtitle",
+                text: "Conclusão: oportunidade de recuperar valores pagos indevidamente"
+            },
+            {
+                type: "paragraph",
+                text: "A decisão do STJ no Tema 1.113 foi uma vitória importante para os contribuintes."
+            },
+            {
+                type: "paragraph",
+                text: "Agora, quem pagou ITBI a mais nos últimos anos pode buscar a restituição e garantir que, em futuras compras de imóveis, o imposto seja calculado de forma correta."
+            }
+        ]
+    },
+    {
+        id: "simples-nacional-sempre-vale-a-pena",
+        title: "Simples Nacional sempre vale a pena?",
+        date: "28/08/2025",
+        authors: "Flávia Perim",
+        description: "Se você é empresário e está no Simples Nacional, talvez já tenha se perguntado: ‘Será que estou mesmo pagando menos imposto do que deveria?’ Pois é… essa dúvida é mais comum do que parece. O Simples é, sem dúvida, o regime tributário mais popular entre micro e pequenas empresas. Mas atenção: nem sempre ele é a melhor escolha.",
+        image: simplesNacional,
+        content: [
+        {
+            type: "paragraph",
+            text: "Se você é empresário e está no Simples Nacional, talvez já tenha se perguntado: ‘Será que estou mesmo pagando menos imposto do que deveria?’"
+        },
+        {
+            type: "paragraph",
+            text: "Pois é… essa dúvida é mais comum do que parece. O Simples é, sem dúvida, o regime tributário mais popular entre micro e pequenas empresas. Mas atenção: nem sempre ele é a melhor escolha."
+        },
+        {
+            type: "paragraph",
+            text: "Dependendo da margem de lucro, dos créditos de impostos ou do faturamento da sua empresa, o Lucro Presumido ou até o Lucro Real podem gerar economia significativa."
+        },
+        {
+            type: "paragraph",
+            text: "E tem mais: a Receita Federal está cada vez mais atenta às empresas que tentam “forçar” a permanência no Simples – como quando alguém cria várias empresas só para não ultrapassar o limite de R$ 4,8 milhões. Além de configurar fraude, pode também trazer dores de cabeça enormes para o empresário em uma eventual fiscalização."
+        },
+        {
+            type: "paragraph",
+            text: "Neste artigo, vamos explicar de forma simples e direta como funciona cada regime e por que você deveria avaliar cenários, mesmo agora que você já está no Simples Nacional."
+        },
+        {
+            type: "subtitle",
+            text: "A importância da escolha do regime de tributação"
+        },
+        {
+            type: "paragraph",
+            text: "Escolher o regime tributário não é só uma questão burocrática: é decisivo para a saúde financeira da empresa."
+        },
+        {
+            type: "paragraph",
+            text: "Um regime mal escolhido pode levar a pagamentos excessivos de impostos, falta de competitividade e até problemas com o Fisco. Por outro lado, um regime bem ajustado ao modelo de negócio permite:"
+        },
+        {
+            type: "unordered_list",
+            items: [
+                "Menor carga tributária dentro da legalidade;",
+                "Previsibilidade no caixa;",
+                "Aproveitamento de créditos fiscais (quando aplicável);",
+                "Mais competitividade no mercado."
+            ]
+        },
+        {
+            type: "paragraph",
+            text: "Ou seja, a escolha entre o Simples Nacional, Lucro Presumido ou Lucro Real pode ser a diferença entre ter fôlego para crescer ou viver no sufoco."
+        },
+        {
+            type: "subtitle",
+            text: "O que é o Simples Nacional"
+        },
+        {
+            type: "paragraph",
+            text: "O Simples Nacional é um regime especial criado para microempresas e empresas de pequeno porte, previsto na Lei Complementar nº 123/2006."
+        },
+        {
+            type: "subtitle",
+            text: "Quem pode optar:"
+        },
+        {
+            type: "unordered_list",
+            items: [
+                "Faturamento anual de até R$ 4,8 milhões;",
+                "Atividade econômica permitida pela legislação. Isso porque nem todas as atividades são permitidas no Simples Nacional."
+            ]
+        },
+        {
+            type: "paragraph",
+            text: "Entre as vedações, estão:"
+        },
+        {
+            type: "ordered_list",
+            items: [
+                "Atividades do setor financeiro, como bancos, seguradoras, factoring e cooperativas de crédito;",
+                "Produção ou venda no atacado de produtos como cigarros, armas de fogo, bebidas alcoólicas;",
+                "Empresas que prestem serviços mediante cessão ou locação de mão de obra, bem como locação de imóveis próprios;",
+                "Empresas cujo titular ou sócio seja domiciliado no exterior."
+            ]
+        },
+        {
+            type: "subtitle",
+            text: "Principais vantagens:"
+        },
+        {
+            type: "unordered_list",
+            items: [
+                "Unificação de impostos em uma guia única (DAS);",
+                "Menos burocracia contábil e fiscal;",
+                "Alíquotas progressivas (começam menores e aumentam conforme o faturamento)."
+            ]
+        },
+        {
+            type: "paragraph",
+            text: "Não é à toa que a maioria dos pequenos empresários escolhe o Simples. É fácil, prático e, em muitos casos, realmente reduz a carga tributária."
+        },
+        {
+            type: "paragraph",
+            text: "Mas aqui vai o ponto de atenção: o Simples nem sempre é o mais barato. Dependendo da margem de lucro e das despesas da empresa, ele pode sair mais caro do que outros regimes."
+        },
+        {
+            type: "subtitle",
+            text: "Quando o Lucro Presumido pode valer a pena"
+        },
+        {
+            type: "paragraph",
+            text: "O Lucro Presumido é uma forma simplificada de calcular o IRPJ e a CSLL. A Receita presume uma margem de lucro sobre o faturamento, que varia conforme o setor (por exemplo, 8% para comércio, 32% para serviços)."
+        },
+        {
+            type: "subtitle",
+            text: "Quem pode optar:"
+        },
+        {
+            type: "paragraph",
+            text: "Empresas com faturamento anual até R$ 78 milhões."
+        },
+        {
+            type: "subtitle",
+            text: "Vantagens:"
+        },
+        {
+            type: "unordered_list",
+            items: [
+                "Possibilidade de pagar menos imposto se a margem real de lucro for maior que a presumida;",
+                "Aproveitamento de créditos de PIS e COFINS em algumas operações (o que o Simples não permite)."
+            ]
+        },
+        {
+            type: "subtitle",
+            text: "Exemplo prático"
+        },
+        {
+            type: "paragraph",
+            text: "Imagine uma empresa de serviços com alta margem de lucro. No Simples, a alíquota pode chegar a mais de 15% (chegando até perto de 19%). No Lucro Presumido, a carga efetiva pode ficar em torno de 13%. Ou seja, pode haver uma economia significativa."
+        },
+        {
+            type: "subtitle",
+            text: "Quando o Lucro Real pode ser a melhor escolha"
+        },
+        {
+            type: "paragraph",
+            text: "O Lucro Real é o regime mais complexo, mas também o mais justo. Aqui, os impostos são calculados sobre o lucro líquido contábil (com alguns ajustes previstos em lei)."
+        },
+        {
+            type: "subtitle",
+            text: "Quem pode optar:"
+        },
+        {
+            type: "paragraph",
+            text: "Qualquer empresa (mas é obrigatório para algumas, como bancos e seguradoras)."
+        },
+        {
+            type: "subtitle",
+            text: "Vantagens:"
+        },
+        {
+            type: "unordered_list",
+            items: [
+                "Se a empresa tiver lucro baixo ou prejuízo, paga menos imposto ou nada;",
+                "Permite aproveitar créditos de PIS e COFINS em escala muito maior;",
+                "Mais flexibilidade para planejamento tributário."
+            ]
+        },
+        {
+            type: "paragraph",
+            text: "Cenário típico: Empresas com margens apertadas, alto volume de despesas dedutíveis ou que precisam usar créditos fiscais tendem a se beneficiar do Lucro Real."
+        },
+        {
+            type: "subtitle",
+            text: "Por que o Simples pode não ser tão simples assim"
+        },
+        {
+            type: "paragraph",
+            text: "Muitos empresários pensam: “O Simples é sempre melhor porque é fácil e barato.” Só que não é bem assim. Veja alguns casos em que o Simples pode não compensar:"
+        },
+        {
+            type: "unordered_list",
+            items: [
+                "Empresa de serviço com alta margem de lucro, o Lucro Presumido pode sair mais barato.",
+                "Empresa que compra muitos insumos tributados com PIS/COFINS, no Lucro Real, poderia aproveitar créditos.",
+                "Empresa perto do limite de R$ 4,8 milhões, pode acabar desenquadrada no meio do ano e pagar retroativo, caso ultrapasse o limite em mais de 20% proporcional."
+            ]
+        },
+        {
+            type: "paragraph",
+            text: "Além disso, criar empresas “espelho” para a manutenção no Simples é arriscado. A Receita Federal já está fiscalizando cada vez mais esse tipo de prática, que pode ser caracterizada como fraude. Resultado? Multas e autuações."
+        },
+        {
+            type: "subtitle",
+            text: "O caminho: modelagem de cenários"
+        },
+        {
+            type: "paragraph",
+            text: "A pergunta que fica é: como saber qual regime é o melhor? A resposta é simples: com modelagem de cenários tributários."
+        },
+        {
+            type: "paragraph",
+            text: "Esse estudo simula quanto sua empresa pagaria em cada regime – Simples, Lucro Presumido e Lucro Real – levando em conta a receita anual; margem de lucro; despesas dedutíveis; possibilidade de créditos fiscais, além de outros fatores específicos da atividade, como o crescimento projetado do negócio."
+        },
+        {
+            type: "paragraph",
+            text: "Com esses dados, dá para comparar números reais e tomar uma decisão consciente."
+        },
+        {
+            type: "paragraph",
+            text: "Ou seja, o Simples Nacional por muitas vezes é uma ótima ferramenta para milhares de empresas. Ele reduz burocracia, facilita a gestão e muitas vezes diminui impostos."
+        },
+        {
+            type: "paragraph",
+            text: "Mas acreditar que ele sempre é a melhor escolha pode custar caro. Dependendo do perfil da empresa, o Lucro Presumido ou o Lucro Real podem ser mais vantajosos."
+        },
+        {
+            type: "paragraph",
+            text: "E lembre-se: a Receita Federal está de olho em quem tenta se manter no Simples artificialmente. Evitar problemas fiscais é tão importante quanto pagar menos imposto."
+        },
+        {
+            type: "paragraph",
+            text: "Somente um planejamento tributário bem feito, com acompanhamento de contador e advogado, garante que sua empresa escolha o regime mais vantajoso sem correr riscos com o Fisco."
+        }
+    ]
+    },
     {
         id: "previdencia-privada-itcmd",
         title: "Você pagou ITCMD em previdência privada? STF abre caminho para restituição",
