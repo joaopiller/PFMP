@@ -7,8 +7,120 @@ import previdenciaPrivadaITCMD from "../assets/images/previdencia-privada-pgbl.j
 import simplesNacional from "../assets/images/simples-nacional.jpg"
 import restituicaoITBI from "../assets/images/restituicao-do-itbi.jpg"
 import transacaoSimplesNacional from "../assets/images/transacao-simples-nacional.png"
+import transacaoMG from "../assets/images/transacao-mg.png"
+import herancasSemImpostos from "../assets/images/heranca-sem-impostos.png"
 
 const posts = [
+    {
+        id: "transacao-tributaria-em-mg",
+        title: "Transação Tributária em Minas Gerais: uma realidade para empresas com débitos estaduais",
+        date: "04/09/2025",
+        authors: "Pedro H. Fonseca Marchesi",
+        description: "Você já passou pela situação de ter uma dívida estadual que parecia pequena...",
+        image: transacaoMG,
+        content: [
+            { "type": "paragraph", "text": "Você já passou pela situação de ter uma dívida estadual que parecia pequena, mas acabou gerando grandes dores de cabeça? Empresas mineiras — especialmente as de menor porte — sabem bem o que isso significa: dificuldades para emitir certidões negativas, restrições de crédito em bancos, bloqueios judiciais e até impedimento para participar de licitações públicas." },
+            { "type": "paragraph", "text": "Pois é… muitas vezes não é o valor da dívida em si que trava o negócio, mas sim as consequências da inadimplência. Para enfrentar esse problema, Minas Gerais trouxe uma novidade importante: a transação tributária estadual." },
+
+            { "type": "subtitle", "text": "O que é a transação tributária em MG?" },
+            { "type": "paragraph", "text": "A transação tributária é um instrumento que permite ao contribuinte negociar débitos inscritos em dívida ativa em condições especiais, levando em conta sua capacidade de pagamento e o interesse público." },
+            { "type": "paragraph", "text": "Com a nova legislação — a Lei 25.144/2025 e o Decreto 49.081/2025 — a Advocacia-Geral do Estado (AGE-MG) e a Secretaria de Estado de Fazenda (SEF-MG) passaram a ter mais flexibilidade para oferecer negociações adaptadas à realidade de empresas e pessoas físicas." },
+
+            { "type": "subtitle", "text": "Quais dívidas podem ser incluídas" },
+            { "type": "paragraph", "text": "De acordo com a lei e o decreto, podem ser negociados:" },
+            { "type": "unordered_list", "items": [
+                "Débitos tributários e não tributários já inscritos em dívida ativa;",
+                "Multas administrativas vinculadas ao Estado."
+            ] },
+            { "type": "paragraph", "text": "O foco são créditos considerados de difícil recuperação, de pequeno valor ou com controvérsia jurídica relevante." },
+
+            { "type": "subtitle", "text": "Condições gerais de negociação" },
+            { "type": "paragraph", "text": "O Decreto 49.081/2025 detalhou as condições da transação:" },
+            { "type": "unordered_list", "items": [
+                "Descontos em juros, multas e acréscimos podem chegar a até 65% do total do crédito, sem redução do principal;",
+                "Parcelamento em até 120 meses. Para micro e pequenas empresas, pessoas físicas ou casos de falência/liquidação, há a possibilidade de até 70% de desconto e parcelamento em até 145 meses;",
+                "Compensação parcial com créditos acumulados de ICMS (até 25% do valor) ou com precatórios;",
+                "Restrições: o contribuinte pode precisar desistir de ações judiciais sobre os débitos incluídos. O descumprimento das condições pode levar à rescisão do acordo."
+            ] },
+
+            { "type": "subtitle", "text": "O que isso significa na prática para empresas" },
+            { "type": "paragraph", "text": "Na rotina empresarial, a transação tributária vai muito além de descontos ou prazos. Ela pode significar:" },
+            { "type": "unordered_list", "items": [
+                "Recuperar a regularidade fiscal;",
+                "Destravar a emissão de certidões;",
+                "Retomar o acesso a crédito;",
+                "Voltar a participar de licitações públicas."
+            ] },
+            { "type": "paragraph", "text": "Em outras palavras, é uma oportunidade concreta de reorganizar a vida financeira da empresa com respaldo legal, sem medidas unilaterais do fisco e dentro de regras transparentes." },
+
+            { "type": "subtitle", "text": "Próximos passos" },
+            { "type": "paragraph", "text": "A AGE-MG e a SEF-MG estão finalizando resoluções complementares que vão detalhar os procedimentos práticos: como aderir, quais documentos apresentar e quais serão os prazos de adesão." },
+            { "type": "paragraph", "text": "Ou seja, a transação já é uma realidade em Minas Gerais, mas os detalhes operacionais devem ser acompanhados de perto por quem tem débitos estaduais." }
+            ]
+
+    },
+    {
+        id: "herancas-sem-impostos",
+        title: "Herança sem impostos? Veja como o PGBL e o VGBL podem ajudar",
+        date: "05/09/2025",
+        authors: "João Marchesi",
+        description: "Você já pensou no impacto dos impostos quando deixar um patrimônio para sua família? O chamado ITCMD (Imposto de Transmissão Causa Mortis e Doação) pode chegar a 8% do valor dos bens, dependendo do Estado.",
+        image: herancasSemImpostos,
+        content: [
+            { "type": "paragraph", "text": "Você já pensou no impacto dos impostos quando deixar um patrimônio para sua família? O chamado ITCMD (Imposto de Transmissão Causa Mortis e Doação) pode chegar a 8% do valor dos bens, dependendo do Estado. Além disso, há ainda a burocracia do inventário e, em alguns casos, a incidência de Imposto de Renda." },
+            { "type": "paragraph", "text": "Mas existe uma forma legal e eficiente de reduzir esses custos e ainda garantir liquidez imediata para os herdeiros: os planos de previdência privada, PGBL e VGBL." },
+            { "type": "subtitle", "text": "O problema: herança cara e demorada" },
+            { "type": "paragraph", "text": "Sempre que alguém falece, os bens entram em inventário — um processo que pode levar meses ou até anos, com altos custos de cartório, advogados e tributos." },
+            { "type": "paragraph", "text": "No caminho, a família enfrenta:" },
+            { "type": "unordered_list", "items": [
+                "ITCMD, cobrado pelos Estados;",
+                "Possível IR, dependendo do tipo de ativo transmitido;",
+                "Custas judiciais e administrativas."
+            ] },
+            { "type": "paragraph", "text": "Ou seja: uma parte considerável do patrimônio pode se perder nesse processo." },
+
+            { "type": "subtitle", "text": "A decisão do STF" },
+            { "type": "paragraph", "text": "O Supremo Tribunal Federal (STF) decidiu que os valores de PGBL e VGBL recebidos por beneficiários:" },
+            { "type": "unordered_list", "items": [
+                "Não sofrem incidência de ITCMD;",
+                "Não estão sujeitos ao Imposto de Renda na transmissão por morte;",
+                "Não precisam passar pelo inventário para serem liberados."
+            ] },
+            { "type": "paragraph", "text": "Na prática: os beneficiários podem resgatar os valores de forma rápida, direta e sem tributação adicional. Mais dinheiro disponível, em menos tempo e sem custos extras." },
+
+            { "type": "subtitle", "text": "O que o PLP 108/2024 traz de novo" },
+            { "type": "paragraph", "text": "Apesar da decisão do STF, muitos contribuintes ainda tinham dúvidas sobre a aplicação prática, já que cada Estado vinha interpretando de forma diferente." },
+            { "type": "paragraph", "text": "É aí que entra o PLP 108/2024, projeto de lei complementar que busca:" },
+            { "type": "unordered_list", "items": [
+                "Uniformizar a interpretação da decisão do STF em todo o país;",
+                "Dar segurança jurídica para quem já tem ou pretende contratar planos PGBL/VGBL;",
+                "Evitar que Estados criem regras próprias para tributar esse tipo de patrimônio."
+            ] },
+            { "type": "paragraph", "text": "Com o PLP 108, o contribuinte passa a ter uma garantia legal ainda mais sólida de que esses valores não poderão ser alcançados pelo ITCMD nem pelo IR." },
+
+            { "type": "subtitle", "text": "PGBL e VGBL como instrumentos sucessórios" },
+            { "type": "paragraph", "text": "Veja as principais vantagens de usar previdência privada no planejamento sucessório:" },
+            { "type": "ordered_list", "items": [
+                "Liquidez imediata — os beneficiários recebem rapidamente, sem esperar pelo inventário.",
+                "Economia tributária — sem ITCMD e sem IR na transmissão.",
+                "Flexibilidade — você escolhe livremente os beneficiários.",
+                "Proteção patrimonial — em geral, valores não podem ser penhorados para pagar dívidas do falecido.",
+                "Segurança jurídica reforçada — com a decisão do STF e a futura consolidação pelo PLP 108."
+            ] },
+            {
+                "type": "subtitle",
+                "text": "Conclusão"
+            },
+            {
+                "type": "paragraph",
+                "text": "Os planos de previdência privada (PGBL e VGBL) deixaram de ser apenas alternativas de aposentadoria e se tornaram ferramentas estratégicas no planejamento sucessório."
+            },
+            {
+                "type": "paragraph",
+                "text": "Com a decisão do STF e a futura aprovação do PLP 108, esses planos se consolidam como instrumentos que garantem economia tributária, agilidade e segurança jurídica para a transmissão de patrimônio."
+            }
+        ]
+    },
     {
         id: "transacao-tributaria-de-pequeno-valor",
         title: "Transação Tributária de Pequeno Valor: oportunidade para empresas do Simples Nacional",
