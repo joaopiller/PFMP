@@ -105,7 +105,7 @@ const posts = [
         id: "transacao-tributaria-em-mg",
         title: "Transação Tributária em Minas Gerais: uma realidade para empresas com débitos estaduais",
         date: "04/09/2025",
-        authors: "Pedro Fonseca",
+        authors: "Pedro H. Fonseca",
         description: "Você já passou pela situação de ter uma dívida estadual que parecia pequena...",
         image: transacaoMG,
         content: [
