@@ -9,19 +9,108 @@ import restituicaoITBI from "../assets/images/restituicao-do-itbi.jpg"
 import transacaoSimplesNacional from "../assets/images/transacao-simples-nacional.png"
 import transacaoMG from "../assets/images/transacao-mg.png"
 import herancasSemImpostos from "../assets/images/heranca-sem-impostos.png"
+import acordoPaulista from "../assets/images/acordo_paulista.jpeg"
 
 const posts = [
+    {
+        id: "acordo-paulista",
+        title: "Acordo Paulista: como funciona o programa de negociação de dívidas em São Paulo",
+        date: "28/09/2025",
+        authors: "Pedro H. Fonseca",
+        description: "O Governo de São Paulo lançou o Acordo Paulista, um programa de transação tributária estadual que já movimentou valores expressivos e pode ser uma alternativa importante para contribuintes que precisam regularizar débitos com o Estado.",
+        image: acordoPaulista,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "O Governo de São Paulo lançou o Acordo Paulista, um programa de transação tributária estadual que já movimentou valores expressivos e pode ser uma alternativa importante para contribuintes que precisam regularizar débitos com o Estado."
+            },
+            {
+                "type": "subtitle",
+                "text": "O que é o Acordo Paulista"
+            },
+            {
+                "type": "paragraph",
+                "text": "Trata-se de uma modalidade de negociação voltada a débitos já inscritos em dívida ativa. O programa contempla tributos como:"
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "ICMS (Imposto sobre Circulação de Mercadorias e Serviços)",
+                    "IPVA (Imposto sobre a Propriedade de Veículos Automotores)",
+                    "ITCMD (Imposto sobre Herança e Doação)",
+                    "Multas aplicadas pelo Procon"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O objetivo é oferecer ao contribuinte condições diferenciadas para pagamento, equilibrando a necessidade de arrecadação do Estado com a capacidade financeira de empresas e pessoas físicas."
+            },
+            {
+                "type": "subtitle",
+                "text": "Quais as condições de negociação",
+            },
+            {
+                "type": "paragraph",
+                "text": "As condições variam conforme o tipo de débito:"
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Até 75% de desconto em juros, multas e honorários para créditos considerados irrecuperáveis",
+                    "Até 60% de desconto para créditos de difícil recuperação",
+                    "Créditos considerados recuperáveis não têm desconto, mas podem ser parcelados",
+                    "Parcelamento em até 120 meses, com condições específicas para diferentes perfis de contribuintes",
+                    "Possibilidade de usar precatórios ou créditos acumulados de ICMS para compensação parcial"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Esses parâmetros foram definidos pela Procuradoria-Geral do Estado (PGE/SP) e constam do Edital PGE/TR nº 1/2025."
+            },
+            {
+                "type": "subtitle",
+                "text": "Resultados e abrangência"
+            },
+            {
+                "type": "paragraph",
+                "text": "No primeiro dia de funcionamento, o programa já movimentou cerca de R$ 677 milhões em negociações. A expectativa do Estado é alcançar até R$ 15 bilhões em débitos regularizados."
+            },
+            {
+                "type": "paragraph",
+                "text": "Esses números mostram a relevância prática da medida, tanto para a arrecadação estadual quanto para os contribuintes que buscam reorganizar sua situação fiscal."
+            },
+            {
+                "type": "subtitle",
+                "text": "Como aderir"
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "O prazo de adesão vai até 27 de fevereiro de 2026",
+                    "A adesão é feita eletronicamente, pelo portal da Dívida Ativa da PGE/SP",
+                    "O manual e os editais publicados trazem os detalhes sobre elegibilidade e documentação necessária"
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Considerações finais"
+            },
+            {
+                "type": "paragraph",
+                "text": "O Acordo Paulista é uma oportunidade para contribuintes que precisam colocar em dia débitos estaduais e retomar a regularidade fiscal. É uma medida prevista em edital público, com regras claras e segurança jurídica."
+            }
+        ]
+    },
     {
         id: "transacao-tributaria-em-mg",
         title: "Transação Tributária em Minas Gerais: uma realidade para empresas com débitos estaduais",
         date: "04/09/2025",
-        authors: "Pedro H. Fonseca Marchesi",
+        authors: "Pedro H. Fonseca",
         description: "Você já passou pela situação de ter uma dívida estadual que parecia pequena...",
         image: transacaoMG,
         content: [
             { "type": "paragraph", "text": "Você já passou pela situação de ter uma dívida estadual que parecia pequena, mas acabou gerando grandes dores de cabeça? Empresas mineiras — especialmente as de menor porte — sabem bem o que isso significa: dificuldades para emitir certidões negativas, restrições de crédito em bancos, bloqueios judiciais e até impedimento para participar de licitações públicas." },
             { "type": "paragraph", "text": "Pois é… muitas vezes não é o valor da dívida em si que trava o negócio, mas sim as consequências da inadimplência. Para enfrentar esse problema, Minas Gerais trouxe uma novidade importante: a transação tributária estadual." },
-
             { "type": "subtitle", "text": "O que é a transação tributária em MG?" },
             { "type": "paragraph", "text": "A transação tributária é um instrumento que permite ao contribuinte negociar débitos inscritos em dívida ativa em condições especiais, levando em conta sua capacidade de pagamento e o interesse público." },
             { "type": "paragraph", "text": "Com a nova legislação — a Lei 25.144/2025 e o Decreto 49.081/2025 — a Advocacia-Geral do Estado (AGE-MG) e a Secretaria de Estado de Fazenda (SEF-MG) passaram a ter mais flexibilidade para oferecer negociações adaptadas à realidade de empresas e pessoas físicas." },
@@ -57,7 +146,6 @@ const posts = [
             { "type": "paragraph", "text": "A AGE-MG e a SEF-MG estão finalizando resoluções complementares que vão detalhar os procedimentos práticos: como aderir, quais documentos apresentar e quais serão os prazos de adesão." },
             { "type": "paragraph", "text": "Ou seja, a transação já é uma realidade em Minas Gerais, mas os detalhes operacionais devem ser acompanhados de perto por quem tem débitos estaduais." }
             ]
-
     },
     {
         id: "herancas-sem-impostos",
