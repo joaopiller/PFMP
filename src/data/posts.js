@@ -18,7 +18,7 @@ const posts = [
         title: "É brasileiro e mora no exterior? Veja o que a Receita Federal planeja para 2025",
         date: "29/09/2025",
         authors: "Flávia Perim",
-        description: "Você saiu do Brasil, mas nunca entregou a declaração de saída definitiva?"
+        description: "Você saiu do Brasil, mas nunca entregou a declaração de saída definitiva?",
         image: saidaDefinitiva
         content: [
             {
@@ -55,7 +55,7 @@ const posts = [
             }
             {
                 "type": "paragraph",
-                "text": "Um dos pontos de destaque é a medida de “Autorregularização de pessoas físicas que não declaram contas no exterior”. Isso significa que:"
+                "text": "Um dos pontos de destaque é a medida de “Autorregularização de pessoas físicas que não declaram contas no exterior”. Isso significa que:",
             },
             {
                 "type": "unordered_list",
@@ -75,7 +75,7 @@ const posts = [
             },
             {
                 "type": "paragraph",
-                "text": "Quem decide morar fora do Brasil de forma permanente precisa comunicar isso à Receita Federal. O processo acontece em duas etapas:"
+                "text": "Quem decide morar fora do Brasil de forma permanente precisa comunicar isso à Receita Federal. O processo acontece em duas etapas:",
             },
             {
                 "type": "paragraph",
@@ -107,7 +107,7 @@ const posts = [
             },
             {
                 "type": "paragraph",
-                "text": "Ou seja: se você ganha salário, aluga imóveis ou tem investimentos fora, não precisa mais informar nada à Receita brasileira – apenas ao fisco do país onde passou a residir.",
+                "text": "Ou seja: se você ganha salário, aluga imóveis ou tem investimentos fora, não precisa mais informar nada à Receita brasileira: apenas ao fisco do país onde passou a residir.",
             },
             {
                 "type": "subtitle",
@@ -131,7 +131,7 @@ const posts = [
             },
             {
                 "type": "paragraph",
-                "text": "Se você está morando no exterior e nunca fez a saída definitiva, ou se mantém bens fora do país sem declarar, 2025 pode ser o ano em que a Receita Federal vai bater à sua porta."
+                "text": "Se você está morando no exterior e nunca fez a saída definitiva, ou se mantém bens fora do país sem declarar, 2025 pode ser o ano em que a Receita Federal vai bater à sua porta.",
             },
             {
                 "type": "paragraph",
