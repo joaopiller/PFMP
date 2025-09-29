@@ -62,7 +62,7 @@ const posts = [
                 "text": [
                     "Quem tem contas bancárias não remuneradas fora do país e não informou na declaração pode ser chamado",
                     "Quem deixou de declarar bens e direitos no exterior também entra na mira",
-                    "Rendimentos ou ganhos de capital relativos a esses bens precisam aparecer na DIRPF – e a omissão pode gerar autuações",
+                    "Rendimentos ou ganhos de capital relativos a esses bens precisam aparecer na DIRPF - e a omissão pode gerar autuações",
                 ]
             },
             {
