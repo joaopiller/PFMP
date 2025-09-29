@@ -136,7 +136,7 @@ const posts = [
             {
                 "type": "paragraph",
                 "text": "A autorregularização é uma chance de ajustar a situação sem prejuízos maiores,  mas precisa ser feita de forma correta e no prazo.",
-            },
+            }
         ]
     },
     {
