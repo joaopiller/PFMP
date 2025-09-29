@@ -59,7 +59,7 @@ const posts = [
             },
             {
                 "type": "unordered_list",
-                "text": [
+                "items": [
                     "Quem tem contas bancárias não remuneradas fora do país e não informou na declaração pode ser chamado",
                     "Quem deixou de declarar bens e direitos no exterior também entra na mira",
                     "Rendimentos ou ganhos de capital relativos a esses bens precisam aparecer na DIRPF - e a omissão pode gerar autuações",
@@ -83,7 +83,7 @@ const posts = [
             },
             {
                 "type": "unordered_list",
-                "text": [
+                "items": [
                     "Deve ser feita até fevereiro do ano seguinte ao da saída",
                     "É uma comunicação eletrônica que informa à Receita que você deixou de ser residente fiscal.",
                 ]
@@ -95,7 +95,7 @@ const posts = [
             },
             {
                 "type": "unordered_list",
-                "text": [
+                "items": [
                     "Deve ser entregue até o prazo normal da declaração de IR (geralmente em abril/maio)",
                     "É como se fosse a “última declaração” como residente",
                     "Nela você informa todos os bens, rendimentos e ganhos de capital até a data da saída",
@@ -119,7 +119,7 @@ const posts = [
             },
             {
                 "type": "unordered_list",
-                "text": [
+                "items": [
                     "Saída Definitiva: Se você realmente deixou o Brasil para morar fora, é fundamental entregar a Comunicação de Saída Definitiva e, depois, a Declaração de Saída Definitiva. Assim, você deixa de ser residente fiscal e não precisa mais declarar rendimentos do exterior aqui.",
                     "Revisão das últimas DIRPFs: Muitas vezes é possível corrigir declarações anteriores, incluir bens, direitos e rendimentos que ficaram de fora e evitar dor de cabeça.",
                     "Apoio especializado: Cada caso tem detalhes. O ideal é contar com orientação de um advogado ou contador especializado em tributação internacional para avaliar riscos e escolher a melhor estratégia.",
@@ -358,7 +358,7 @@ const posts = [
                     "Restrição no Cadin (Cadastro Informativo de Créditos não Quitados do Setor Público Federal);",
                     "Impossibilidade de emitir certidões negativas de débito (CND);",
                     "Bloqueios judiciais;",
-                    "Restrição de crédito junto a bancos."
+                    "Restrição de crédito junto a bancos.",
                 ]
             },
             {
@@ -394,7 +394,7 @@ const posts = [
                 "items": [
                     "Dívidas de até 60 salários mínimos (cerca de R$ 91 mil em 2025);",
                     "Débitos inscritos em dívida ativa até 2 de junho de 2024;",
-                    "Inscrição válida em nome de pessoa física, MEI, ME ou EPP."
+                    "Inscrição válida em nome de pessoa física, MEI, ME ou EPP.",
                 ]
             },
             {
@@ -411,7 +411,7 @@ const posts = [
                     "Entrada reduzida: pagamento inicial correspondente a 5% do valor consolidado, dividido em até cinco parcelas mensais;",
                     "Descontos proporcionais no saldo devedor, que variam conforme o prazo escolhido;",
                     "Prazos flexíveis, que podem se estender por até 55 meses;",
-                    "Correção monetária com base na taxa Selic, acrescida de 1% no mês do pagamento."
+                    "Correção monetária com base na taxa Selic, acrescida de 1% no mês do pagamento.",
                 ]
             },
             {
@@ -431,7 +431,7 @@ const posts = [
                 "items": [
                     "A primeira parcela deve ser paga até o último dia útil do mês da adesão;",
                     "Contribuintes com ações judiciais em curso sobre os débitos precisam formalizar a desistência da demanda em até 60 dias;",
-                    "O acordo pode ser rescindido em caso de inadimplência."
+                    "O acordo pode ser rescindido em caso de inadimplência.",
                 ]
             },
             {
@@ -448,7 +448,7 @@ const posts = [
                     "Recuperar a regularidade fiscal;",
                     "Voltar a emitir CNDs;",
                     "Participar de licitações e programas públicos;",
-                    "Ter acesso a linhas de crédito e investimentos."
+                    "Ter acesso a linhas de crédito e investimentos.",
                 ]
             },
             {
