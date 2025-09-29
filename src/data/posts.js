@@ -10,8 +10,135 @@ import transacaoSimplesNacional from "../assets/images/transacao-simples-naciona
 import transacaoMG from "../assets/images/transacao-mg.png"
 import herancasSemImpostos from "../assets/images/heranca-sem-impostos.png"
 import acordoPaulista from "../assets/images/acordo_paulista.jpeg"
+import saidaDefinitiva from "../assets/images/saida_fiscal_brasil_residente_exterior.jpg"
 
 const posts = [
+    {
+        id: "saida-definitiva",
+        title: "É brasileiro e mora no exterior? Veja o que a Receita Federal planeja para 2025",
+        date: "29/09/2025",
+        authors: "Flávia Perim",
+        description: "Você saiu do Brasil, mas nunca entregou a declaração de saída definitiva?"
+        image: saidaDefinitiva
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Você saiu do Brasil, mas nunca entregou a declaração de saída definitiva?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou ainda mantém contas, investimentos ou imóveis no exterior que não aparecem na sua declaração de imposto de renda?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se a resposta for “sim”, atenção: a Receita Federal está de olho e esse é um dos focos do Relatório Anual da Fiscalização, publicado em 2025.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O problema: brasileiros no exterior sem regularização fiscal",
+            },
+            {
+                "type": "paragraph",
+                "text": "Muita gente se muda para fora do país, começa uma nova vida, mas esquece de algo essencial: informar à Receita Federal que deixou de ser residente fiscal no Brasil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O resultado é que essas pessoas continuam sendo tratadas como residentes, ou seja, precisam declarar todos os seus rendimentos e bens no exterior.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E quando isso não acontece, o CPF pode cair na malha fina, gerar multas pesadas e até restrições para movimentar bens e contas bancárias no Brasil.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Como a Receita vai agir em 2025",
+            }
+            {
+                "type": "paragraph",
+                "text": "Um dos pontos de destaque é a medida de “Autorregularização de pessoas físicas que não declaram contas no exterior”. Isso significa que:"
+            },
+            {
+                "type": "unordered_list",
+                "text": [
+                    "Quem tem contas bancárias não remuneradas fora do país e não informou na declaração pode ser chamado",
+                    "Quem deixou de declarar bens e direitos no exterior também entra na mira",
+                    "Rendimentos ou ganhos de capital relativos a esses bens precisam aparecer na DIRPF – e a omissão pode gerar autuações",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "E tem mais: com acordos de troca de informações entre países, a Receita já recebe dados automáticos de bancos estrangeiros. Ou seja, não adianta acreditar que “ninguém vai descobrir”.",
+            }
+            {
+                "type": "subtitle",
+                "text": "A saída definitiva: como funciona e por que é essencial",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quem decide morar fora do Brasil de forma permanente precisa comunicar isso à Receita Federal. O processo acontece em duas etapas:"
+            },
+            {
+                "type": "paragraph",
+                "text": "1. Comunicação de Saída Definitiva do País (CSDP)",
+            },
+            {
+                "type": "unordered_list",
+                "text": [
+                    "Deve ser feita até fevereiro do ano seguinte ao da saída",
+                    "É uma comunicação eletrônica que informa à Receita que você deixou de ser residente fiscal.",
+                ]
+            },
+            {
+                
+                "type": "paragraph",
+                "text": "2. Declaração de Saída Definitiva do País (DSDP)",
+            },
+            {
+                "type": "unordered_list",
+                "text": [
+                    "Deve ser entregue até o prazo normal da declaração de IR (geralmente em abril/maio)",
+                    "É como se fosse a “última declaração” como residente",
+                    "Nela você informa todos os bens, rendimentos e ganhos de capital até a data da saída",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Depois de cumprir essas etapas, você deixa de ser obrigado a declarar rendimentos do exterior no Brasil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja: se você ganha salário, aluga imóveis ou tem investimentos fora, não precisa mais informar nada à Receita brasileira – apenas ao fisco do país onde passou a residir.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Como se proteger e regularizar sua situação",
+            },
+            {
+                "type": "paragraph",
+                "text": "A boa notícia é que existe caminho para resolver isso antes de virar problema maior.",
+            },
+            {
+                "type": "unordered_list",
+                "text": [
+                    "Saída Definitiva: Se você realmente deixou o Brasil para morar fora, é fundamental entregar a Comunicação de Saída Definitiva e, depois, a Declaração de Saída Definitiva. Assim, você deixa de ser residente fiscal e não precisa mais declarar rendimentos do exterior aqui.",
+                    "Revisão das últimas DIRPFs: Muitas vezes é possível corrigir declarações anteriores, incluir bens, direitos e rendimentos que ficaram de fora e evitar dor de cabeça.",
+                    "Apoio especializado: Cada caso tem detalhes. O ideal é contar com orientação de um advogado ou contador especializado em tributação internacional para avaliar riscos e escolher a melhor estratégia.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você está morando no exterior e nunca fez a saída definitiva, ou se mantém bens fora do país sem declarar, 2025 pode ser o ano em que a Receita Federal vai bater à sua porta."
+            },
+            {
+                "type": "paragraph",
+                "text": "A autorregularização é uma chance de ajustar a situação sem prejuízos maiores,  mas precisa ser feita de forma correta e no prazo.",
+            }
+        ]
+    },
     {
         id: "acordo-paulista",
         title: "Acordo Paulista: como funciona o programa de negociação de dívidas em São Paulo",
