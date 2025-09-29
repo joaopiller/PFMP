@@ -52,7 +52,7 @@ const posts = [
             {
                 "type": "subtitle",
                 "text": "Como a Receita vai agir em 2025",
-            }
+            },
             {
                 "type": "paragraph",
                 "text": "Um dos pontos de destaque é a medida de “Autorregularização de pessoas físicas que não declaram contas no exterior”. Isso significa que:",
@@ -68,7 +68,7 @@ const posts = [
             {
                 "type": "paragraph",
                 "text": "E tem mais: com acordos de troca de informações entre países, a Receita já recebe dados automáticos de bancos estrangeiros. Ou seja, não adianta acreditar que “ninguém vai descobrir”.",
-            }
+            },
             {
                 "type": "subtitle",
                 "text": "A saída definitiva: como funciona e por que é essencial",
@@ -136,7 +136,7 @@ const posts = [
             {
                 "type": "paragraph",
                 "text": "A autorregularização é uma chance de ajustar a situação sem prejuízos maiores,  mas precisa ser feita de forma correta e no prazo.",
-            }
+            },
         ]
     },
     {
