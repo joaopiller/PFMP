@@ -19,7 +19,7 @@ const posts = [
         date: "29/09/2025",
         authors: "Flávia Perim",
         description: "Você saiu do Brasil, mas nunca entregou a declaração de saída definitiva?",
-        image: saidaDefinitiva
+        image: saidaDefinitiva,
         content: [
             {
                 "type": "paragraph",
