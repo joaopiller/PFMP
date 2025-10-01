@@ -16,9 +16,268 @@ import modelagemLucroReal from "../assets/images/modelagem_lucro_real_simples_na
 import equiparacaoHospitalar from "../assets/images/médico_equiparação_hospitalar_impostos_menores.jpg"
 import transacaoSimplificada from "../assets/images/transação_individual_simplificada.png"
 import exteriorITCMD from "../assets/images/saída_fiscal_itcmd_brasil_doação.jpg"
-
+import desenrolaRural from "../assets/images/desenrola_rural_pgfn_crédito_agricola_dívida.jpeg"
+import contratoNamoro from "../assets/images/contrato_de_namoro.jpg"
 
 const posts = [
+    {
+        id: "contrato-de-namoro",
+        title: "Está namorando? Saiba como o contrato de namoro pode blindar o seu patrimônio",
+        date: "01/10/2025",
+        authors: "João Marchesi",
+        description: "Uma preocupação cada vez maior ao namorar é sobre a proteção dos bens em caso de um término ou até mesmo de morte. Pois é… e quando isso acontece, pode haver divisão de bens e até direito à herança, mesmo que o casal nunca tenha tido a intenção real de constituir família.",
+        image: contratoNamoro,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Uma preocupação cada vez maior ao namorar é sobre a proteção dos bens em caso de um término ou até mesmo de morte.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Pois é… e quando isso acontece, pode haver divisão de bens e até direito à herança, mesmo que o casal nunca tenha tido a intenção real de constituir família.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Por isso, o contrato de namoro tem sido cada vez mais utilizado para blindar o patrimônio de casais que ainda não tomaram a decisão definitiva se irão constituir família ou não.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O problema: a união estável pode ser reconhecida sem você perceber",
+            },
+            {
+                "type": "paragraph",
+                "text": "A união estável é reconhecida pela lei brasileira quando existe convivência pública, contínua e duradoura, com intenção de constituir família.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O detalhe é que essa intenção nem sempre é clara. Além disso, em muitos casos, a Justiça presume que ela existe.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Resultado: ainda que você não queira, seu relacionamento pode ser considerado união estável, com todos os efeitos legais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E o que isso significa na prática?",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Divisão de bens adquiridos durante a convivência (salvo contrato de separação total de bens)",
+                    "Direito sucessório: mesmo que o casal opte pela separação total, o companheiro(a) ainda é considerado herdeiro necessário em caso de morte, independentemente de contrato de separação total de bens",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja: sem planejamento, parte do seu patrimônio pode ser transferido ao ex-companheiro(a), mesmo contra a sua vontade.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O contrato de namoro: como funciona?",
+            },
+            {
+                "type": "paragraph",
+                "text": "O contrato de namoro não tem previsão expressa em lei, mas parte da jurisprudência já reconhece seus efeitos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ele funciona como uma declaração conjunta do casal, registrando que:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Não existe intenção de constituir família naquele momento",
+                    "O relacionamento não deve ser caracterizado como união estável",
+                    "Consequentemente, não há efeitos sucessórios ou patrimoniais decorrentes da relação",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Embora não seja uma blindagem absoluta, o contrato serve como prova importante de que não havia a intenção necessária para caracterizar a união estável, o que se torna uma prova importante em caso de judicialização do(a) ex-companheiro(a) para exigir a repartição de bens ou direito à herança.",
+            },
+            {
+                "type": "subtitle",
+                "text": "União estável com separação de bens x contrato de namoro",
+            },
+            {
+                "type": "paragraph",
+                "text": "O contrato de namoro se destaca em relação ao contrato de separação de bens na União Estável, ainda, porque ele é elemento que busca afastar também o direito de herança, não apenas a divisão de bens.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "União estável com separação total de bens: impede a divisão patrimonial em caso de término, mas não afasta o direito à herança do companheiro(a)",
+                    "Contrato de namoro: pode ajudar em ambos os pontos, pois busca afastar o reconhecimento da união estável e, com isso, excluir tanto a partilha de bens quanto a sucessão hereditária",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Em outras palavras: o contrato de namoro pode oferecer uma blindagem mais ampla do que o regime de bens aplicado à união estável.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Quando vale a pena considerar um contrato de namoro?",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "União estável com separação total de bens: impede a divisão patrimonial em caso de término, mas não afasta o direito à herança do companheiro(a)",
+                    "Casais que preferem manter independência patrimonial",
+                    "Pessoas com patrimônio relevante e que desejam evitar riscos futuros de litígios",
+                    "Quem já enfrentou disputas sucessórias na família e não quer repetir a experiência",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão",
+            },
+             {
+                "type": "paragraph",
+                "text": "O contrato de namoro pode ser um instrumento estratégico para proteger o seu patrimônio. Embora não esteja previsto em lei, ele vem sendo reconhecido em algumas decisões judiciais como manifestação válida de vontade das partes.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Enquanto a união estável com separação de bens resolve apenas a questão da divisão patrimonial, o contrato de namoro pode blindar também contra direitos sucessórios, garantindo maior segurança jurídica.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quer saber mais como proteger seu patrimônio?",
+            }
+        ]
+    },
+    {
+        id: "desenrola-rural",
+        title: "Desenrola Rural: o programa que pode destravar o crédito para agricultores familiares",
+        date: "01/10/2025",
+        authors: "Pedro H. Fonseca",
+        description: "Se você é agricultor familiar, faz parte de uma cooperativa ou mesmo é assentado da reforma agrária, provavelmente já sentiu na pele o peso de uma dívida rural. Basta uma safra ruim, atraso em repasses ou até problemas climáticos para que financiamentos virem uma bola de neve.",
+        image: desenrolaRural,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Se você é agricultor familiar, faz parte de uma cooperativa ou mesmo é assentado da reforma agrária, provavelmente já sentiu na pele o peso de uma dívida rural.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Basta uma safra ruim, atraso em repasses ou até problemas climáticos para que financiamentos virem uma bola de neve.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E quando a dívida chega à Dívida Ativa da União, as consequências são ainda mais severas: restrição de crédito, bloqueio de certidões, dificuldade para acessar políticas públicas e travas que acabam limitando a própria continuidade da produção.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Foi justamente para mudar esse cenário que o Governo Federal lançou o Desenrola Rural, uma iniciativa inédita voltada a dar novo fôlego ao setor.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que é o Desenrola Rural",
+            },
+            {
+                "type": "paragraph",
+                "text": "O programa foi instituído pelo Decreto nº 12.381/2025 e regulamentado pelo Edital PGDAU nº 3/2025. Ele oferece a agricultores familiares, cooperativas, assentados, indígenas e quilombolas a possibilidade de renegociar dívidas em condições especiais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O ponto central é simples: criar uma porta de saída para quem não consegue pagar as dívidas no formato tradicional. Não se trata apenas de grandes passivos — mesmo dívidas de menor valor podem ser incluídas, desde que preencham os requisitos do edital.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Quais dívidas podem ser renegociadas",
+            },
+            {
+                "type": "paragraph",
+                "text": "O Desenrola Rural abrange diferentes tipos de dívidas, como:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Financiamentos rurais contratados no âmbito do Pronaf ou de outros programas",
+                    "Créditos de instalação do INCRA, em diversas modalidades",
+                    "Operações realizadas com recursos dos Fundos Constitucionais (FNE, FNO, FCO)",
+                    "Débitos já inscritos em Dívida Ativa da União, inclusive aqueles que já estavam em execução fiscal ou parcelamentos anteriores que foram rescindidos",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Condições oferecidas",
+            },
+            {
+                "type": "paragraph",
+                "text": "As condições variam conforme a natureza da dívida e a capacidade de pagamento do contribuinte. Entre os pontos principais estão:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Entrada facilitada, equivalente a cerca de 6% do valor da dívida, que pode ser parcelada",
+                    "Descontos relevantes em juros e multas, que podem chegar a 65% ou até 70% em casos específicos, como para microempresas, pessoas físicas ou cooperativas",
+                    "Parcelamentos longos, que podem ultrapassar 100 prestações em algumas hipóteses (respeitando os limites legais)",
+                    "Para dívidas previdenciárias, a limitação constitucional permanece: máximo de 60 parcelas",
+                ]
+            },
+             {
+                "type": "paragraph",
+                "text": "Essas condições permitem que o agricultor ou a cooperativa tenham previsibilidade no fluxo de caixa e consigam planejar o pagamento sem comprometer toda a receita da atividade rural.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O impacto na vida do agricultor",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mais do que aliviar o valor da dívida, o Desenrola Rural pode abrir portas que estavam fechadas. Estar inadimplente impede o acesso a novas linhas de crédito, compromete a participação em programas de apoio governamentais e, muitas vezes, inviabiliza investimentos na safra seguinte.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com a renegociação, o produtor recupera a possibilidade de:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Obter certidões negativas",
+                    "Acessar novos financiamentos rurais",
+                    "Investir em insumos e tecnologia",
+                    "Reorganizar sua propriedade com segurança",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Até meados de 2025, o programa já havia renegociado mais de R$ 6 bilhões em dívidas e superado a marca de 300 mil operações, o que mostra o alcance e a procura da medida.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Cuidados na adesão",
+            },
+            {
+                "type": "paragraph",
+                "text": "Apesar das vantagens, é fundamental avaliar alguns pontos antes de aderir:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Nem toda dívida terá o mesmo nível de desconto",
+                    "É preciso analisar se o prazo proposto realmente se encaixa no orçamento do produtor",
+                    "A falta de pagamento pode levar à rescisão do acordo e impedir nova adesão por dois anos",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Por isso, é recomendável que a decisão seja tomada com base em simulações e orientação adequada.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Pode ser para você!",
+            },
+            {
+                "type": "paragraph",
+                "text": "O Desenrola Rural é mais do que um programa de renegociação. Ele representa uma política pública que reconhece a importância da agricultura familiar para a economia brasileira e busca dar condições reais de regularização a quem produz no campo.",
+            }, 
+            {
+                "type": "paragraph",
+                "text": "Para agricultores, assentados e cooperativas, pode ser a oportunidade de virar a página das dívidas e recuperar o acesso ao crédito, que é fundamental para manter a produção ativa.",
+            },
+        ]
+    },
     {
         id: "ITCMD-doacoes-exterior",
         title: "ITCMD em doações e heranças do exterior: o que decidiu o STF",
