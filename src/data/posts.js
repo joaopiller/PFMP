@@ -11,8 +11,638 @@ import transacaoMG from "../assets/images/transacao-mg.png"
 import herancasSemImpostos from "../assets/images/heranca-sem-impostos.png"
 import acordoPaulista from "../assets/images/acordo_paulista.jpeg"
 import saidaDefinitiva from "../assets/images/saida_fiscal_brasil_residente_exterior.jpg"
+import rctSimplesNacional from "../assets/images/recuperação_crédito_simples_nacional_tributário.jpg"
+import modelagemLucroReal from "../assets/images/modelagem_lucro_real_simples_nacional_reforma_tributária.jpg"
+import equiparacaoHospitalar from "../assets/images/médico_equiparação_hospitalar_impostos_menores.jpg"
+import transacaoSimplificada from "../assets/images/transação_individual_simplificada.png"
+import exteriorITCMD from "../assets/images/saída_fiscal_itcmd_brasil_doação.jpg"
+
 
 const posts = [
+    {
+        id: "ITCMD-doacoes-exterior",
+        title: "ITCMD em doações e heranças do exterior: o que decidiu o STF",
+        date: "30/09/2025",
+        authors: "João Marchesi",
+        description: "Você sabia que existe uma situação em que não há cobrança de ITCMD em doações e heranças? Pois é… uma lacuna na lei tem levado o STF a reconhecer que os Estados não podem cobrar o imposto quando o bem ou direito é transmitido do exterior.",
+        image: exteriorITCMD,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Você sabia que existe uma situação em que não há cobrança de ITCMD em doações e heranças?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Pois é… uma lacuna na lei tem levado o STF a reconhecer que os Estados não podem cobrar o imposto quando o bem ou direito é transmitido do exterior.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com uma recente decisão do STF, esse cenário se tornou possível em casos específicos: quando o doador ou o falecido reside no exterior. Veja detalhes abaixo.",
+            },
+            {
+                "type": "subtitle",
+                "text": "ITCMD está ainda mais pesado",
+            },
+            {
+                "type": "paragraph",
+                "text": "O ITCMD (Imposto sobre Transmissão Causa Mortis e Doação) é um dos principais custos no planejamento patrimonial e sucessório.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A alíquota pode chegar a 8%, e a partir de 2026 será obrigatoriamente progressiva, o que significa que patrimônios maiores pagarão ainda mais imposto.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para famílias com bens de alto valor, a transmissão pode representar um custo tributário na casa dos milhões.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que decidiu o STF? Há uma saída (fiscal)",
+            },
+            {
+                "type": "paragraph",
+                "text": "Neste mês de setembro de 2025, o Supremo Tribunal Federal formou maioria para considerar inconstitucional a cobrança do ITCMD sobre doações e heranças vindas do exterior, no RE 1.553.620.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Segundo a decisão, os Estados não podem instituir ITCMD sobre bens recebidos do exterior enquanto não houver lei complementar federal regulamentando o tema. O que, até o momento, não há!",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em outras palavras: quem já fez ou vier a fazer a saída fiscal, ou seja, deixar de ser residente no Brasil e informar devidamente à Receita Federal, poderá se beneficiar dessa lacuna normativa e doar bens com ITCMD zero.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A saída fiscal",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você está saindo do Brasil de forma definitiva ou se deixou o país em caráter temporário e passou à condição de não residente, a saída fiscal funciona assim:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "O contribuinte deve comunicar oficialmente à Receita Federal por meio da Declaração de Saída Definitiva do País",
+                    "Já como não residente, pode realizar doações ou, no caso de falecimento, transmitir bens para herdeiros",
+                    "Com base na decisão do STF, não há incidência de ITCMD sobre essas transmissões até que exista lei complementar",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, contribuintes que já moram no exterior, mas ainda não formalizaram sua condição de não residentes junto à Receita Federal, podem se deparar com uma situação importante: enquanto não houver lei complementar regulamentando o ITCMD, transmissões de bens oriundos do exterior não sofrem a incidência do imposto.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para quem já não mora no Brasil, mas ainda não realizou o procedimento da saída fiscal corretamente, regularizar a situação ainda este ano pode trazer uma ampla oportunidade de planejamento patrimonial e sucessório.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Mas atenção, essa janela não deve durar muito!",
+            },
+            {
+                "type": "paragraph",
+                "text": "Apesar de ser uma oportunidade real, essa lacuna normativa não vai durar para sempre. Está em tramitação no Congresso o PLP 108/2024, que justamente busca regulamentar a cobrança do ITCMD em casos de doações e heranças vindas do exterior.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com a aprovação do PLP, os Estados voltarão a ter base legal para exigir o imposto, e a brecha deixada pela Constituição se fechará.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Portanto, a decisão do STF abriu uma janela rara para planejar doações e sucessões sem pagar ITCMD, desde que o contribuinte que efetivamente saia do Brasil em caráter definitivo realize corretamente a saída fiscal e se torne não residente no Brasil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas o tempo é curto: com a tramitação do PLP 108, a tendência é que essa oportunidade seja encerrada em breve.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quer saber mais como se planejar para manter seu patrimônio protegido?",
+            }
+        ]
+    },
+    {
+        id: "transacao-individual-simplificada",
+        title: "Transação Individual Simplificada: a transação não é só para dívida grande",
+        date: "30/09/2025",
+        authors: "Pedro H. Fonseca",
+        description: "Muita gente ainda pensa que transação tributária só serve para empresas gigantes, com dívidas bilionárias. Mas isso não é verdade. A Transação Individual Simplificada, criada pela Procuradoria-Geral da Fazenda Nacional (PGFN), veio justamente para atender quem tem débitos relevantes, mas não tão altos a ponto de justificar um processo negocial complexo.",
+        image: transacaoSimplificada,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Muita gente ainda pensa que transação tributária só serve para empresas gigantes, com dívidas bilionárias. Mas isso não é verdade.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Transação Individual Simplificada, criada pela Procuradoria-Geral da Fazenda Nacional (PGFN), veio justamente para atender quem tem débitos relevantes, mas não tão altos a ponto de justificar um processo negocial complexo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa modalidade abre espaço para que empresas de médio porte (e até pessoas físicas) tenham acesso a condições de pagamento diferenciadas e consigam regularizar sua situação fiscal sem sufocar o caixa.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que é a transação individual simplificada",
+            },
+            {
+                "type": "paragraph",
+                "text": "Diferente da transação por adesão (que segue editais gerais), a transação individual simplificada é feita de forma eletrônica, via portal Regularize, e permite uma proposta mais ajustada: número de parcelas, valor de entrada, descontos possíveis e garantias oferecidas.",
+            },
+            {
+                "type": "paragraph",
+                "text": "É menos burocrática que a transação individual “clássica”, mas com benefícios muito próximos.",   
+            },
+            {
+                "type": "subtitle",
+                "text": "Quem pode participar",
+            },
+            {
+                "type": "paragraph",
+                "text": "O programa é voltado a quem possui:",  
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Débitos federais inscritos em dívida ativa entre R$ 1 milhão e R$ 10 milhões",
+                    "Necessidade de maior flexibilidade de prazos e descontos",
+                    "Interesse em recuperar certidões negativas e reorganizar a vida financeira",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "O que pode ser negociado",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, a transação simplificada pode incluir:", 
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Descontos proporcionais em juros, multas e encargos legais, quando a dívida é de difícil recuperação ou irrecuperável",
+                    "Parcelamento estendido, mais longo do que os programas tradicionais",
+                    "Possibilidade de usar precatórios para abater parte do débito",
+                    "Flexibilidade para escalonar as prestações conforme a capacidade de pagamento",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Por que faz diferença para empresas médias",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa modalidade pode ser decisiva para empresas que, embora não tenham dívidas gigantes, sofrem com os efeitos da inadimplência: bloqueio de certidões, dificuldade para obter crédito, barreiras em licitações e restrições no dia a dia.",
+            },
+            {
+                
+                "type": "paragraph",
+                "text": "A transação simplificada mostra que não é preciso esperar a dívida crescer demais para buscar uma negociação justa e transparente.",
+            }
+        ]
+    },
+    {
+        id: "equiparacao-hospitalar",
+        title: "Equiparação hospitalar: como reduzir a carga tributária da sua clínica",
+        date: "30/09/2025",
+        authors: "Flávia Perim",
+        description: "O pagamento de IRPJ e CSLL, quando calculado pela regra geral, costuma consumir parte significativa da receita. Se você é empresário, provavelmente já se perguntou: “Com essa reforma tributária aprovada, será que o meu regime atual ainda é o mais vantajoso?” Essa dúvida está se tornando cada vez mais comum.",
+        image: equiparacaoHospitalar,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "A carga tributária é um dos principais obstáculos para clínicas médicas que buscam crescer e manter a rentabilidade.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O pagamento de IRPJ e CSLL, quando calculado pela regra geral, costuma consumir parte significativa da receita.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa realidade gera uma sensação de injustiça, sobretudo para clínicas que realizam procedimentos complexos, semelhantes aos de um hospital, mas ainda assim são tributadas como se prestassem serviços comuns.",
+            },
+            {
+                "type": "paragraph",
+                "text": "É justamente para corrigir essa distorção que existe a chamada equiparação hospitalar: um enquadramento previsto em lei que pode reduzir de forma expressiva a base de cálculo dos impostos federais, resultando em mais fôlego financeiro e competitividade para o negócio.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que é equiparação hospitalar?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A equiparação hospitalar é o reconhecimento de que determinados serviços médicos, embora realizados em clínicas ou consultórios, possuem natureza hospitalar.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso permite aplicar percentuais menores sobre a receita bruta para fins de cálculo do IRPJ e da CSLL no regime do Lucro Presumido.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, a diferença é enorme: enquanto serviços em geral têm uma base de cálculo de 32%, os serviços hospitalares podem recolher sobre apenas 8% (IRPJ) e 12% (CSLL). O resultado é uma redução de mais de 70% na carga tributária.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Embora seja um mecanismo totalmente legal e previsto em lei, a equiparação hospitalar ainda é pouco explorada pelas clínicas, porque muitos profissionais têm a percepção equivocada de que o benefício é restrito a hospitais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, ele também pode ser aplicado a qualquer sociedade empresária da área da saúde, desde que cumpra os requisitos definidos pela Lei nº 9.249/1995 e pelas normas complementares. Confira mais detalhes abaixo.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Como funciona a redução de impostos",
+            },
+            {
+                "type": "paragraph",
+                "text": "Imagine uma clínica que fatura R$ 200 mil por mês.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Pela regra geral, ela seria tributada como prestadora de serviços, aplicando a base de 32% para IRPJ e CSLL. Mas, com a equiparação hospitalar, a base cai para 8% e 12%. Essa simples mudança gera uma diferença de dezenas de milhares de reais por trimestre.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em outras palavras, é como se a clínica conseguisse economizar o equivalente a um décimo terceiro mês de faturamento ao longo do ano. Isso tudo só com a mudança do enquadramento tributário!",
+            },
+            {
+                "type": "subtitle",
+                "text": "Quem pode se beneficiar",
+            },
+            {
+                "type": "paragraph",
+                "text": "A equiparação hospitalar não é automática: existem requisitos claros que precisam ser cumpridos. Em linhas gerais, a clínica deve:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Ser constituída como sociedade empresária e atuar no regime de Lucro Presumido",
+                    "Cumprir as normas sanitárias da ANVISA",
+                    "Prestar serviços considerados hospitalares ou equiparados, como: (i) cirurgias em diversas especialidades, (ii) radiologia e exames de imagem, (iii) quimioterapia e radioterapia, (iv) hemodiálise, (v) procedimentos de alta complexidade em fisioterapia e home care estruturado",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O STJ, no julgamento do Recurso Especial 1.116.399/BA, definiu como serviços hospitalares 'aqueles que se vinculam às atividades desenvolvidas pelos hospitais, voltados diretamente à promoção da saúde'. Ou seja, são aqueles cuja natureza do serviço prestado é a assistência à saúde.",
+            },
+            {
+                "type": "paragraph",
+                "text": "É importante destacar que consultas médicas simples não se enquadram, já que são consideradas atendimentos ambulatoriais.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Como obter a equiparação hospitalar",
+            },
+            {
+                "type": "paragraph",
+                "text": "O processo exige um bom planejamento e pode ser feito pela via administrativa ou judicial.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O primeiro passo é reunir documentação que comprove tanto a natureza hospitalar dos serviços prestados quanto o cumprimento dos requisitos legais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Um parecer jurídico especializado fortalece o pedido e reduz riscos, já que a Receita Federal tende a adotar uma interpretação mais restritiva do que os tribunais.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Como obter a equiparação hospitalar",
+            },
+            {
+                "type": "paragraph",
+                "text": "O processo exige um bom planejamento e pode ser feito pela via administrativa ou judicial.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O primeiro passo é reunir documentação que comprove tanto a natureza hospitalar dos serviços prestados quanto o cumprimento dos requisitos legais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Um parecer jurídico especializado fortalece o pedido e reduz riscos, já que a Receita Federal tende a adotar uma interpretação mais restritiva do que os tribunais.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Vantagens para a clínica",
+            },
+            {
+                "type": "paragraph",
+                "text": "Além da redução imediata da carga tributária, a equiparação hospitalar traz reflexos positivos em outras áreas:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Mais fluxo de caixa para investir em equipamentos, tecnologia e equipe",
+                    "Maior previsibilidade financeira, já que os percentuais reduzidos se aplicam continuamente",
+                    "Competitividade no mercado, com possibilidade de reinvestir na estrutura e melhorar o atendimento",
+                    "Segurança jurídica, desde que os requisitos sejam cumpridos e a estratégia seja bem fundamentada.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Pode ser para você!",
+            },
+            {
+                "type": "paragraph",
+                "text": "A equiparação hospitalar é uma estratégia fiscal eficiente e amparada em lei, capaz de transformar a realidade financeira de clínicas médicas.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Embora demande cuidados com requisitos formais e documentação, trata-se de uma oportunidade concreta de pagar menos impostos sem riscos ou manobras questionáveis.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para clínicas que já realizam procedimentos complexos, vale a pena avaliar imediatamente a viabilidade desse enquadramento.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A economia gerada pode ser o diferencial entre apenas sobreviver no mercado e alcançar crescimento sustentável nos próximos anos.",
+            }
+        ]
+    },
+    {
+        id: "modelagem-cenários-lucro-real",
+        title: "Reforma Tributária: por que a modelagem de cenários é indispensável na escolha do regime tributário",
+        date: "30/09/2025",
+        authors: "Flávia Perim",
+        description: "Se você é empresário, provavelmente já se perguntou: “Com essa reforma tributária aprovada, será que o meu regime atual ainda é o mais vantajoso?” Essa dúvida está se tornando cada vez mais comum.",
+        image: modelagemLucroReal,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Se você é empresário, provavelmente já se perguntou: “Com essa reforma tributária aprovada, será que o meu regime atual ainda é o mais vantajoso?”",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa dúvida está se tornando cada vez mais comum.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A reforma promete simplificar, mas a verdade é que a escolha entre Simples Nacional, Lucro Presumido e Lucro Real continua sendo um dos pontos mais críticos da gestão tributária de qualquer negócio.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E tem mais: com as mudanças aprovadas, o impacto no fluxo de caixa e na carga efetiva de impostos pode ser bem diferente do que era até agora. Isso significa que ficar no “piloto automático”, sem revisar seu regime, pode custar muito caro para sua empresa.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Então, empresário, neste breve artigo, vamos mostrar de forma prática por que a modelagem de cenários tributários é fundamental nesse novo contexto.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A importância da escolha do regime na era pós-reforma",
+            },
+            {
+                "type": "paragraph",
+                "text": "A escolha do regime tributário nunca foi apenas uma burocracia. Ela define:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Quanto sua empresa vai pagar de imposto",
+                    "Se vai ter ou não direito a aproveitar créditos tributários",
+                    "O nível de previsibilidade do caixa",
+                    "Sua competitividade em relação ao mercado",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Agora, com a unificação de tributos no IVA (CBS + IBS) e as novas regras de transição, esse cálculo ficou ainda mais estratégico.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Um regime mal escolhido pode significar pagar mais imposto do que o concorrente, perder margem de lucro e até travar o crescimento do negócio. Já um regime adequado garante economia, segurança e fôlego financeiro para investir.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Como cada regime se comporta com a reforma",
+            },
+            {
+                "type": "subtitle",
+                "text": "1. Simples Nacional",
+            },
+            {
+                "type": "paragraph",
+                "text": "Continua existindo, mas sua atratividade pode mudar.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Vantagens: guia única, menos burocracia, alíquotas progressivas",
+                    "Atenção: nem sempre será o mais barato, principalmente para empresas perto do limite de faturamento ou com margens altas",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "2. Lucro Presumido",
+            },
+            {
+                "type": "paragraph",
+                "text": "A lógica de presunção de margens continua, mas o impacto do IVA pode afetar setores de forma diferente.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Pode ser vantajoso para empresas com margens reais maiores que a presumida",
+                    "Não oferece a mesma amplitude de créditos tributários do Lucro Real",
+                ]
+            },
+            {
+                
+                "type": "subtitle",
+                "text": "3. Lucro Real",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mais complexo, mas também mais flexível.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Empresas com margens apertadas ou com alto volume de insumos tendem a se beneficiar",
+                    "Com a reforma, a possibilidade de aproveitamento de créditos ganha ainda mais relevância",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "O caminho: modelagem de cenários",
+            },
+            {
+                "type": "paragraph",
+                "text": "A grande pergunta é: como saber qual regime será o melhor para sua empresa daqui em diante?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A resposta é simples: fazendo simulações reais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A modelagem de cenários compara o impacto da tributação em cada regime (Simples, Presumido e Real), levando em conta:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Receita bruta anual",
+                    "Margem de lucro",
+                    "Despesas dedutíveis",
+                    "Créditos tributários possíveis",
+                    "Crescimento projetado do negócio",
+                    "Regras de transição da reforma",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Veja, a partir disso você tem números concretos para decidir, e não precisa se apoiar apenas em achismos.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Por que isso é urgente agora",
+            },
+            {
+                "type": "paragraph",
+                "text": "A reforma já está aprovada e terá aplicação gradual. Ou seja, quem se preparar antes, sai na frente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Empresas que simularem os cenários poderão planejar investimentos e expansão com segurança.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Já quem esperar para ver como fica pode acabar pagando caro, seja em impostos desnecessários, seja em autuações por escolhas mal fundamentadas.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "O Simples Nacional foi (e continuará sendo) uma excelente opção para milhares de negócios. Mas acreditar que ele sempre é a melhor escolha pode custar caro.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A verdade é que não existe um regime “perfeito” universal, mas sim um regime mais adequado para cada realidade.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E só a modelagem de cenários tributários garante clareza para escolher o caminho mais vantajoso sem correr riscos com o Fisco.",
+            }
+        ]
+    },
+    {
+        id: "rct-simples-nacional",
+        title: "Está no Simples Nacional? A recuperação de crédito tributário pode ser um caminho",
+        date: "30/09/2025",
+        authors: "Flávia Perim",
+        description: "Você já parou para pensar se está pagando imposto a mais sem perceber? Pois é… isso acontece com muita frequência, principalmente com empresas do Simples Nacional que trabalham com produtos chamados “monofásicos”.",
+        image: rctSimplesNacional,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Você já parou para pensar se está pagando imposto a mais sem perceber?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Pois é… isso acontece com muita frequência, principalmente com empresas do Simples Nacional que trabalham com produtos chamados “monofásicos”.",
+            },
+            {
+                
+                "type": "paragraph",
+                "text": "Muitos empresários só descobrem depois de anos que poderiam ter recuperado valores pagos indevidamente em tributos. E a boa notícia é que dá para rever isso.",
+            },
+            {
+                 
+                "type": "paragraph",
+                "text": "Quer saber como de maneira direta? Acompanhe abaixo!",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que são produtos monofásicos?",
+            },
+            {
+                "type": "paragraph",
+                "text": "São produtos em que o PIS e a COFINS já foram pagos lá no início da cadeia na indústria ou na importação. Ou seja, quando você revende, não deveria recolher esses tributos de novo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas o que acontece? Muita empresa, por desconhecimento, acaba pagando de novo, sem precisar.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Exemplos de produtos monofásicos",
+            },
+            {
+                "type": "paragraph",
+                "text": "A lista é grande, mas alguns bem comuns são:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Higiene e cosméticos: shampoos, perfumes, cremes, sabonetes",
+                    "Autopeças: pneus, baterias, óleos lubrificantes",
+                    "Medicamentos: desde analgésicos até remédios de uso contínuo",
+                    "Bebidas frias: refrigerantes, energéticos, sucos",
+                    "Outros: cigarros, combustíveis, energia elétrica",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você trabalha com qualquer um desses, já vale a pena ligar o alerta.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Onde está o problema para empresas do Simples",
+            },
+            {
+                "type": "paragraph",
+                "text": "No dia a dia, é comum que o contador ou o próprio sistema de apuração não faça a segregação correta dessas receitas no PGDAS-D. Resultado: você paga PIS e COFINS que não deveria.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Agora pense: se isso acontece mês após mês, em cinco anos o valor acumulado pode ser bem alto...",
+            },
+            {
+                "type": "subtitle",
+                "text": "Como recuperar esses créditos",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Receita Federal permite que empresas solicitem a restituição ou compensação desses valores pagos indevidamente nos últimos cinco anos. O processo envolve:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "Analisar notas fiscais de entrada e saída para identificar os produtos monofásicos",
+                    "Segregar corretamente as receitas no PGDAS-D",
+                    "Preencher o PER/DCOMP (Pedido Eletrônico de Restituição, Ressarcimento ou Reembolso e Declaração de Compensação) no sistema da Receita",
+                    "Juntar documentos que comprovem o direito, como relatórios de faturamento, notas fiscais e registros de estoque",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Muitos empresários só descobrem, após um diagnóstico tributário, que deixaram de recuperar dezenas de milhares de reais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E o mais grave: esses créditos têm prazo de 5 anos para serem resgatados.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja, a cada mês que passa, parte desse valor se perde para sempre. Na prática, empresas que poderiam estar recuperando milhares de reais todos os meses acabam simplesmente abrindo mão desse direito.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se sua empresa está no Simples Nacional e trabalha com produtos monofásicos, você pode estar deixando dinheiro na mesa.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O ideal é fazer uma revisão com apoio especializado para identificar possíveis créditos e não continuar pagando imposto à toa.",
+            }
+        ]
+    },
     {
         id: "saida-definitiva",
         title: "É brasileiro e mora no exterior? Veja o que a Receita Federal planeja para 2025",
