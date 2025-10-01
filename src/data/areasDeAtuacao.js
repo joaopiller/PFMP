@@ -57,7 +57,7 @@ const areasDeAtuacao = [
         icon: FaGears
     },
     {
-        name: "Gestão e Contencioso Imobiliário",
+        name: "Assessoria na Obtenção de Benefícios Fiscais",
         icon: LiaKeySolid
     }
 ]
