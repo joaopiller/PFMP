@@ -566,22 +566,6 @@ const posts = [
             },
             {
                 "type": "subtitle",
-                "text": "Como obter a equiparação hospitalar",
-            },
-            {
-                "type": "paragraph",
-                "text": "O processo exige um bom planejamento e pode ser feito pela via administrativa ou judicial.",
-            },
-            {
-                "type": "paragraph",
-                "text": "O primeiro passo é reunir documentação que comprove tanto a natureza hospitalar dos serviços prestados quanto o cumprimento dos requisitos legais.",
-            },
-            {
-                "type": "paragraph",
-                "text": "Um parecer jurídico especializado fortalece o pedido e reduz riscos, já que a Receita Federal tende a adotar uma interpretação mais restritiva do que os tribunais.",
-            },
-            {
-                "type": "subtitle",
                 "text": "Vantagens para a clínica",
             },
             {
