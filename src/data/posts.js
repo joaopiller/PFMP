@@ -19,9 +19,173 @@ import exteriorITCMD from "../assets/images/saída_fiscal_itcmd_brasil_doação.
 import desenrolaRural from "../assets/images/desenrola_rural_pgfn_crédito_agricola_dívida.jpeg"
 import contratoNamoro from "../assets/images/contrato_de_namoro.jpg"
 import cobrancaTributaria from "../assets/images/cobrança_tributaria_e_agora.png"
+import clinicaImposto from "../assets/images/equiparação_hospitalar_clínica_médico_imposto.jpg"
 
 
 const posts = [
+    {
+        id: "equiparacao-hospitalar-imposto-a-mais",
+        title: "Está pagando imposto a mais na sua clínica e nem sabe?",
+        date: "15/10/2025",
+        authors: "Flávia Perim",
+        description: "Você tem uma clínica médica estruturada, realiza procedimentos complexos, investe em equipe e tecnologia… mas segue pagando imposto como se fosse um consultório comum?",
+        image: clinicaImposto,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Você tem uma clínica médica estruturada, realiza procedimentos complexos, investe em equipe e tecnologia… mas segue pagando imposto como se fosse um consultório comum?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se a sua resposta for “sim” ou até “não sei”, é bem provável que sua clínica esteja deixando muito dinheiro na mesa.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Veja se você se identifica com isso",
+            },
+            {
+                "type": "paragraph",
+                "text": "Imagine o seguinte cenário.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Sua clínica fatura R$ 250 mil por mês e está no Lucro Presumido. Como a Receita considera seu serviço “comum”, a base de cálculo para IRPJ e CSLL é de 32%.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No fim do trimestre, você paga dezenas de milhares de reais em impostos sem necessidade.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Enquanto isso, outra clínica, com estrutura parecida, consegue recolher os mesmos tributos sobre uma base de apenas 8% e 12%, graças à equiparação hospitalar.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Resultado? Ela economiza mais de R$ 100 mil por ano. Valor esse que poderia estar sendo reinvestido na sua equipe, equipamentos ou expansão.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso acontece o tempo todo com clínicas bem estruturadas que não conhecem (ou ignoram) essa possibilidade legal de reduzir impostos.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que é a equiparação hospitalar, e por que isso muda tudo?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A equiparação hospitalar é um enquadramento previsto na Lei nº 9.249/1995 que reconhece que algumas clínicas prestam serviços com natureza hospitalar, mesmo não sendo um hospital formalmente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, ela muda o percentual da base de cálculo do IRPJ e da CSLL no Lucro Presumido, o que gera uma economia tributária imediata e legal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Compare os números:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Serviços comuns: 32% de base de cálculo",
+                    "Serviços hospitalares: 8% (IRPJ) + 12% (CSLL)",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A diferença na carga tributária pode ultrapassar 70%. Sim, você leu certo.",
+            },
+            {
+                "type": "subtitle",
+                "text": "E por que tanta gente ainda paga imposto como serviço comum?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Porque muitos médicos e gestores acreditam que somente hospitais grandes podem se enquadrar. Isso não é verdade.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O próprio Superior Tribunal de Justiça (STJ), no julgamento do Recurso Especial 1.116.399/BA, reconheceu que clínicas podem sim ser equiparadas a hospitais, desde que cumpram requisitos técnicos e prestem serviços de assistência à saúde com estrutura compatível.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O risco de ignorar isso? Você já está sentindo no bolso.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse é um daqueles casos em que a omissão sai caro.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Pagar mais imposto do que deveria pode:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Esgotar o seu fluxo de caixa",
+                    "Impedir investimentos importantes",
+                    "Reduzir sua competitividade no mercado",
+                    "E até inviabilizar o crescimento da clínica a médio prazo",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Além disso, não buscar o enquadramento certo hoje não impede que você faça isso no futuro – mas cada trimestre que passa é dinheiro perdido.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que sua clínica precisa para se enquadrar?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A boa notícia é que o caminho é viável, desde que sua clínica:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Seja uma sociedade empresária no Lucro Presumido",
+                    "Atue com estrutura hospitalar ou serviços de certa complexidade, como cirurgias, exames por imagem, quimioterapia, fisioterapia intensiva, home care estruturado, entre outros",
+                    "Cumpra normas sanitárias da ANVISA e tenha registro atualizado",
+                    "Comprove a natureza hospitalar dos serviços prestados, por meio de documentos técnicos, alvarás e laudos",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse processo pode ser feito por via administrativa ou judicial, dependendo do caso.",
+            },
+            {
+                "type": "subtitle",
+                "text": "E como dar o primeiro passo?",
+            },
+            {
+                "type": "paragraph",
+                "text": "O ideal é buscar um parecer jurídico especializado que fundamente o pedido e antecipe possíveis questionamentos da Receita Federal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No nosso escritório, já vimos muitos casos em que o cliente recuperou tributos pagos indevidamente dos últimos 5 anos, além de conseguir a redução imediata para os próximos trimestres.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Em resumo: pagar imposto a mais não é normal",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se a sua clínica presta serviços de assistência à saúde com estrutura compatível à de um hospital, você tem direito à equiparação hospitalar.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Não se trata de uma manobra fiscal, e sim de usar corretamente a lei a seu favor.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ignorar isso é desperdiçar dinheiro mês após mês.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quer saber se sua clínica se encaixa nesse enquadramento?",
+            },
+        ]
+    },
     {
         id: "recebi-uma-cobranca",
         title: "Recebi uma cobrança tributária: e agora?",
@@ -310,7 +474,7 @@ const posts = [
                 "type": "subtitle",
                 "text": "Conclusão",
             },
-             {
+            {
                 "type": "paragraph",
                 "text": "O contrato de namoro pode ser um instrumento estratégico para proteger o seu patrimônio. Embora não esteja previsto em lei, ele vem sendo reconhecido em algumas decisões judiciais como manifestação válida de vontade das partes.",
             },
@@ -394,7 +558,7 @@ const posts = [
                     "Para dívidas previdenciárias, a limitação constitucional permanece: máximo de 60 parcelas",
                 ]
             },
-             {
+            {
                 "type": "paragraph",
                 "text": "Essas condições permitem que o agricultor ou a cooperativa tenham previsibilidade no fluxo de caixa e consigam planejar o pagamento sem comprometer toda a receita da atividade rural.",
             },
@@ -450,7 +614,7 @@ const posts = [
             {
                 "type": "paragraph",
                 "text": "O Desenrola Rural é mais do que um programa de renegociação. Ele representa uma política pública que reconhece a importância da agricultura familiar para a economia brasileira e busca dar condições reais de regularização a quem produz no campo.",
-            }, 
+            },
             {
                 "type": "paragraph",
                 "text": "Para agricultores, assentados e cooperativas, pode ser a oportunidade de virar a página das dívidas e recuperar o acesso ao crédito, que é fundamental para manter a produção ativa.",
@@ -589,7 +753,7 @@ const posts = [
             },
             {
                 "type": "paragraph",
-                "text": "É menos burocrática que a transação individual “clássica”, mas com benefícios muito próximos.",   
+                "text": "É menos burocrática que a transação individual “clássica”, mas com benefícios muito próximos.",
             },
             {
                 "type": "subtitle",
@@ -597,7 +761,7 @@ const posts = [
             },
             {
                 "type": "paragraph",
-                "text": "O programa é voltado a quem possui:",  
+                "text": "O programa é voltado a quem possui:",
             },
             {
                 "type": "unordered_list",
@@ -613,7 +777,7 @@ const posts = [
             },
             {
                 "type": "paragraph",
-                "text": "Na prática, a transação simplificada pode incluir:", 
+                "text": "Na prática, a transação simplificada pode incluir:",
             },
             {
                 "type": "unordered_list",
@@ -633,7 +797,7 @@ const posts = [
                 "text": "Essa modalidade pode ser decisiva para empresas que, embora não tenham dívidas gigantes, sofrem com os efeitos da inadimplência: bloqueio de certidões, dificuldade para obter crédito, barreiras em licitações e restrições no dia a dia.",
             },
             {
-                
+
                 "type": "paragraph",
                 "text": "A transação simplificada mostra que não é preciso esperar a dívida crescer demais para buscar uma negociação justa e transparente.",
             }
@@ -870,7 +1034,7 @@ const posts = [
                 ]
             },
             {
-                
+
                 "type": "subtitle",
                 "text": "3. Lucro Real",
             },
@@ -967,12 +1131,12 @@ const posts = [
                 "text": "Pois é… isso acontece com muita frequência, principalmente com empresas do Simples Nacional que trabalham com produtos chamados “monofásicos”.",
             },
             {
-                
+
                 "type": "paragraph",
                 "text": "Muitos empresários só descobrem depois de anos que poderiam ter recuperado valores pagos indevidamente em tributos. E a boa notícia é que dá para rever isso.",
             },
             {
-                 
+
                 "type": "paragraph",
                 "text": "Quer saber como de maneira direta? Acompanhe abaixo!",
             },
@@ -1141,7 +1305,7 @@ const posts = [
                 ]
             },
             {
-                
+
                 "type": "paragraph",
                 "text": "2. Declaração de Saída Definitiva do País (DSDP)",
             },
@@ -1296,35 +1460,41 @@ const posts = [
 
             { "type": "subtitle", "text": "Quais dívidas podem ser incluídas" },
             { "type": "paragraph", "text": "De acordo com a lei e o decreto, podem ser negociados:" },
-            { "type": "unordered_list", "items": [
-                "Débitos tributários e não tributários já inscritos em dívida ativa;",
-                "Multas administrativas vinculadas ao Estado."
-            ] },
+            {
+                "type": "unordered_list", "items": [
+                    "Débitos tributários e não tributários já inscritos em dívida ativa;",
+                    "Multas administrativas vinculadas ao Estado."
+                ]
+            },
             { "type": "paragraph", "text": "O foco são créditos considerados de difícil recuperação, de pequeno valor ou com controvérsia jurídica relevante." },
 
             { "type": "subtitle", "text": "Condições gerais de negociação" },
             { "type": "paragraph", "text": "O Decreto 49.081/2025 detalhou as condições da transação:" },
-            { "type": "unordered_list", "items": [
-                "Descontos em juros, multas e acréscimos podem chegar a até 65% do total do crédito, sem redução do principal;",
-                "Parcelamento em até 120 meses. Para micro e pequenas empresas, pessoas físicas ou casos de falência/liquidação, há a possibilidade de até 70% de desconto e parcelamento em até 145 meses;",
-                "Compensação parcial com créditos acumulados de ICMS (até 25% do valor) ou com precatórios;",
-                "Restrições: o contribuinte pode precisar desistir de ações judiciais sobre os débitos incluídos. O descumprimento das condições pode levar à rescisão do acordo."
-            ] },
+            {
+                "type": "unordered_list", "items": [
+                    "Descontos em juros, multas e acréscimos podem chegar a até 65% do total do crédito, sem redução do principal;",
+                    "Parcelamento em até 120 meses. Para micro e pequenas empresas, pessoas físicas ou casos de falência/liquidação, há a possibilidade de até 70% de desconto e parcelamento em até 145 meses;",
+                    "Compensação parcial com créditos acumulados de ICMS (até 25% do valor) ou com precatórios;",
+                    "Restrições: o contribuinte pode precisar desistir de ações judiciais sobre os débitos incluídos. O descumprimento das condições pode levar à rescisão do acordo."
+                ]
+            },
 
             { "type": "subtitle", "text": "O que isso significa na prática para empresas" },
             { "type": "paragraph", "text": "Na rotina empresarial, a transação tributária vai muito além de descontos ou prazos. Ela pode significar:" },
-            { "type": "unordered_list", "items": [
-                "Recuperar a regularidade fiscal;",
-                "Destravar a emissão de certidões;",
-                "Retomar o acesso a crédito;",
-                "Voltar a participar de licitações públicas."
-            ] },
+            {
+                "type": "unordered_list", "items": [
+                    "Recuperar a regularidade fiscal;",
+                    "Destravar a emissão de certidões;",
+                    "Retomar o acesso a crédito;",
+                    "Voltar a participar de licitações públicas."
+                ]
+            },
             { "type": "paragraph", "text": "Em outras palavras, é uma oportunidade concreta de reorganizar a vida financeira da empresa com respaldo legal, sem medidas unilaterais do fisco e dentro de regras transparentes." },
 
             { "type": "subtitle", "text": "Próximos passos" },
             { "type": "paragraph", "text": "A AGE-MG e a SEF-MG estão finalizando resoluções complementares que vão detalhar os procedimentos práticos: como aderir, quais documentos apresentar e quais serão os prazos de adesão." },
             { "type": "paragraph", "text": "Ou seja, a transação já é uma realidade em Minas Gerais, mas os detalhes operacionais devem ser acompanhados de perto por quem tem débitos estaduais." }
-            ]
+        ]
     },
     {
         id: "herancas-sem-impostos",
@@ -1339,41 +1509,49 @@ const posts = [
             { "type": "subtitle", "text": "O problema: herança cara e demorada" },
             { "type": "paragraph", "text": "Sempre que alguém falece, os bens entram em inventário — um processo que pode levar meses ou até anos, com altos custos de cartório, advogados e tributos." },
             { "type": "paragraph", "text": "No caminho, a família enfrenta:" },
-            { "type": "unordered_list", "items": [
-                "ITCMD, cobrado pelos Estados;",
-                "Possível IR, dependendo do tipo de ativo transmitido;",
-                "Custas judiciais e administrativas."
-            ] },
+            {
+                "type": "unordered_list", "items": [
+                    "ITCMD, cobrado pelos Estados;",
+                    "Possível IR, dependendo do tipo de ativo transmitido;",
+                    "Custas judiciais e administrativas."
+                ]
+            },
             { "type": "paragraph", "text": "Ou seja: uma parte considerável do patrimônio pode se perder nesse processo." },
 
             { "type": "subtitle", "text": "A decisão do STF" },
             { "type": "paragraph", "text": "O Supremo Tribunal Federal (STF) decidiu que os valores de PGBL e VGBL recebidos por beneficiários:" },
-            { "type": "unordered_list", "items": [
-                "Não sofrem incidência de ITCMD;",
-                "Não estão sujeitos ao Imposto de Renda na transmissão por morte;",
-                "Não precisam passar pelo inventário para serem liberados."
-            ] },
+            {
+                "type": "unordered_list", "items": [
+                    "Não sofrem incidência de ITCMD;",
+                    "Não estão sujeitos ao Imposto de Renda na transmissão por morte;",
+                    "Não precisam passar pelo inventário para serem liberados."
+                ]
+            },
             { "type": "paragraph", "text": "Na prática: os beneficiários podem resgatar os valores de forma rápida, direta e sem tributação adicional. Mais dinheiro disponível, em menos tempo e sem custos extras." },
 
             { "type": "subtitle", "text": "O que o PLP 108/2024 traz de novo" },
             { "type": "paragraph", "text": "Apesar da decisão do STF, muitos contribuintes ainda tinham dúvidas sobre a aplicação prática, já que cada Estado vinha interpretando de forma diferente." },
             { "type": "paragraph", "text": "É aí que entra o PLP 108/2024, projeto de lei complementar que busca:" },
-            { "type": "unordered_list", "items": [
-                "Uniformizar a interpretação da decisão do STF em todo o país;",
-                "Dar segurança jurídica para quem já tem ou pretende contratar planos PGBL/VGBL;",
-                "Evitar que Estados criem regras próprias para tributar esse tipo de patrimônio."
-            ] },
+            {
+                "type": "unordered_list", "items": [
+                    "Uniformizar a interpretação da decisão do STF em todo o país;",
+                    "Dar segurança jurídica para quem já tem ou pretende contratar planos PGBL/VGBL;",
+                    "Evitar que Estados criem regras próprias para tributar esse tipo de patrimônio."
+                ]
+            },
             { "type": "paragraph", "text": "Com o PLP 108, o contribuinte passa a ter uma garantia legal ainda mais sólida de que esses valores não poderão ser alcançados pelo ITCMD nem pelo IR." },
 
             { "type": "subtitle", "text": "PGBL e VGBL como instrumentos sucessórios" },
             { "type": "paragraph", "text": "Veja as principais vantagens de usar previdência privada no planejamento sucessório:" },
-            { "type": "ordered_list", "items": [
-                "Liquidez imediata — os beneficiários recebem rapidamente, sem esperar pelo inventário.",
-                "Economia tributária — sem ITCMD e sem IR na transmissão.",
-                "Flexibilidade — você escolhe livremente os beneficiários.",
-                "Proteção patrimonial — em geral, valores não podem ser penhorados para pagar dívidas do falecido.",
-                "Segurança jurídica reforçada — com a decisão do STF e a futura consolidação pelo PLP 108."
-            ] },
+            {
+                "type": "ordered_list", "items": [
+                    "Liquidez imediata — os beneficiários recebem rapidamente, sem esperar pelo inventário.",
+                    "Economia tributária — sem ITCMD e sem IR na transmissão.",
+                    "Flexibilidade — você escolhe livremente os beneficiários.",
+                    "Proteção patrimonial — em geral, valores não podem ser penhorados para pagar dívidas do falecido.",
+                    "Segurança jurídica reforçada — com a decisão do STF e a futura consolidação pelo PLP 108."
+                ]
+            },
             {
                 "type": "subtitle",
                 "text": "Conclusão"
@@ -1620,223 +1798,223 @@ const posts = [
         description: "Se você é empresário e está no Simples Nacional, talvez já tenha se perguntado: ‘Será que estou mesmo pagando menos imposto do que deveria?’ Pois é… essa dúvida é mais comum do que parece. O Simples é, sem dúvida, o regime tributário mais popular entre micro e pequenas empresas. Mas atenção: nem sempre ele é a melhor escolha.",
         image: simplesNacional,
         content: [
-        {
-            type: "paragraph",
-            text: "Se você é empresário e está no Simples Nacional, talvez já tenha se perguntado: ‘Será que estou mesmo pagando menos imposto do que deveria?’"
-        },
-        {
-            type: "paragraph",
-            text: "Pois é… essa dúvida é mais comum do que parece. O Simples é, sem dúvida, o regime tributário mais popular entre micro e pequenas empresas. Mas atenção: nem sempre ele é a melhor escolha."
-        },
-        {
-            type: "paragraph",
-            text: "Dependendo da margem de lucro, dos créditos de impostos ou do faturamento da sua empresa, o Lucro Presumido ou até o Lucro Real podem gerar economia significativa."
-        },
-        {
-            type: "paragraph",
-            text: "E tem mais: a Receita Federal está cada vez mais atenta às empresas que tentam “forçar” a permanência no Simples – como quando alguém cria várias empresas só para não ultrapassar o limite de R$ 4,8 milhões. Além de configurar fraude, pode também trazer dores de cabeça enormes para o empresário em uma eventual fiscalização."
-        },
-        {
-            type: "paragraph",
-            text: "Neste artigo, vamos explicar de forma simples e direta como funciona cada regime e por que você deveria avaliar cenários, mesmo agora que você já está no Simples Nacional."
-        },
-        {
-            type: "subtitle",
-            text: "A importância da escolha do regime de tributação"
-        },
-        {
-            type: "paragraph",
-            text: "Escolher o regime tributário não é só uma questão burocrática: é decisivo para a saúde financeira da empresa."
-        },
-        {
-            type: "paragraph",
-            text: "Um regime mal escolhido pode levar a pagamentos excessivos de impostos, falta de competitividade e até problemas com o Fisco. Por outro lado, um regime bem ajustado ao modelo de negócio permite:"
-        },
-        {
-            type: "unordered_list",
-            items: [
-                "Menor carga tributária dentro da legalidade;",
-                "Previsibilidade no caixa;",
-                "Aproveitamento de créditos fiscais (quando aplicável);",
-                "Mais competitividade no mercado."
-            ]
-        },
-        {
-            type: "paragraph",
-            text: "Ou seja, a escolha entre o Simples Nacional, Lucro Presumido ou Lucro Real pode ser a diferença entre ter fôlego para crescer ou viver no sufoco."
-        },
-        {
-            type: "subtitle",
-            text: "O que é o Simples Nacional"
-        },
-        {
-            type: "paragraph",
-            text: "O Simples Nacional é um regime especial criado para microempresas e empresas de pequeno porte, previsto na Lei Complementar nº 123/2006."
-        },
-        {
-            type: "subtitle",
-            text: "Quem pode optar:"
-        },
-        {
-            type: "unordered_list",
-            items: [
-                "Faturamento anual de até R$ 4,8 milhões;",
-                "Atividade econômica permitida pela legislação. Isso porque nem todas as atividades são permitidas no Simples Nacional."
-            ]
-        },
-        {
-            type: "paragraph",
-            text: "Entre as vedações, estão:"
-        },
-        {
-            type: "ordered_list",
-            items: [
-                "Atividades do setor financeiro, como bancos, seguradoras, factoring e cooperativas de crédito;",
-                "Produção ou venda no atacado de produtos como cigarros, armas de fogo, bebidas alcoólicas;",
-                "Empresas que prestem serviços mediante cessão ou locação de mão de obra, bem como locação de imóveis próprios;",
-                "Empresas cujo titular ou sócio seja domiciliado no exterior."
-            ]
-        },
-        {
-            type: "subtitle",
-            text: "Principais vantagens:"
-        },
-        {
-            type: "unordered_list",
-            items: [
-                "Unificação de impostos em uma guia única (DAS);",
-                "Menos burocracia contábil e fiscal;",
-                "Alíquotas progressivas (começam menores e aumentam conforme o faturamento)."
-            ]
-        },
-        {
-            type: "paragraph",
-            text: "Não é à toa que a maioria dos pequenos empresários escolhe o Simples. É fácil, prático e, em muitos casos, realmente reduz a carga tributária."
-        },
-        {
-            type: "paragraph",
-            text: "Mas aqui vai o ponto de atenção: o Simples nem sempre é o mais barato. Dependendo da margem de lucro e das despesas da empresa, ele pode sair mais caro do que outros regimes."
-        },
-        {
-            type: "subtitle",
-            text: "Quando o Lucro Presumido pode valer a pena"
-        },
-        {
-            type: "paragraph",
-            text: "O Lucro Presumido é uma forma simplificada de calcular o IRPJ e a CSLL. A Receita presume uma margem de lucro sobre o faturamento, que varia conforme o setor (por exemplo, 8% para comércio, 32% para serviços)."
-        },
-        {
-            type: "subtitle",
-            text: "Quem pode optar:"
-        },
-        {
-            type: "paragraph",
-            text: "Empresas com faturamento anual até R$ 78 milhões."
-        },
-        {
-            type: "subtitle",
-            text: "Vantagens:"
-        },
-        {
-            type: "unordered_list",
-            items: [
-                "Possibilidade de pagar menos imposto se a margem real de lucro for maior que a presumida;",
-                "Aproveitamento de créditos de PIS e COFINS em algumas operações (o que o Simples não permite)."
-            ]
-        },
-        {
-            type: "subtitle",
-            text: "Exemplo prático"
-        },
-        {
-            type: "paragraph",
-            text: "Imagine uma empresa de serviços com alta margem de lucro. No Simples, a alíquota pode chegar a mais de 15% (chegando até perto de 19%). No Lucro Presumido, a carga efetiva pode ficar em torno de 13%. Ou seja, pode haver uma economia significativa."
-        },
-        {
-            type: "subtitle",
-            text: "Quando o Lucro Real pode ser a melhor escolha"
-        },
-        {
-            type: "paragraph",
-            text: "O Lucro Real é o regime mais complexo, mas também o mais justo. Aqui, os impostos são calculados sobre o lucro líquido contábil (com alguns ajustes previstos em lei)."
-        },
-        {
-            type: "subtitle",
-            text: "Quem pode optar:"
-        },
-        {
-            type: "paragraph",
-            text: "Qualquer empresa (mas é obrigatório para algumas, como bancos e seguradoras)."
-        },
-        {
-            type: "subtitle",
-            text: "Vantagens:"
-        },
-        {
-            type: "unordered_list",
-            items: [
-                "Se a empresa tiver lucro baixo ou prejuízo, paga menos imposto ou nada;",
-                "Permite aproveitar créditos de PIS e COFINS em escala muito maior;",
-                "Mais flexibilidade para planejamento tributário."
-            ]
-        },
-        {
-            type: "paragraph",
-            text: "Cenário típico: Empresas com margens apertadas, alto volume de despesas dedutíveis ou que precisam usar créditos fiscais tendem a se beneficiar do Lucro Real."
-        },
-        {
-            type: "subtitle",
-            text: "Por que o Simples pode não ser tão simples assim"
-        },
-        {
-            type: "paragraph",
-            text: "Muitos empresários pensam: “O Simples é sempre melhor porque é fácil e barato.” Só que não é bem assim. Veja alguns casos em que o Simples pode não compensar:"
-        },
-        {
-            type: "unordered_list",
-            items: [
-                "Empresa de serviço com alta margem de lucro, o Lucro Presumido pode sair mais barato.",
-                "Empresa que compra muitos insumos tributados com PIS/COFINS, no Lucro Real, poderia aproveitar créditos.",
-                "Empresa perto do limite de R$ 4,8 milhões, pode acabar desenquadrada no meio do ano e pagar retroativo, caso ultrapasse o limite em mais de 20% proporcional."
-            ]
-        },
-        {
-            type: "paragraph",
-            text: "Além disso, criar empresas “espelho” para a manutenção no Simples é arriscado. A Receita Federal já está fiscalizando cada vez mais esse tipo de prática, que pode ser caracterizada como fraude. Resultado? Multas e autuações."
-        },
-        {
-            type: "subtitle",
-            text: "O caminho: modelagem de cenários"
-        },
-        {
-            type: "paragraph",
-            text: "A pergunta que fica é: como saber qual regime é o melhor? A resposta é simples: com modelagem de cenários tributários."
-        },
-        {
-            type: "paragraph",
-            text: "Esse estudo simula quanto sua empresa pagaria em cada regime – Simples, Lucro Presumido e Lucro Real – levando em conta a receita anual; margem de lucro; despesas dedutíveis; possibilidade de créditos fiscais, além de outros fatores específicos da atividade, como o crescimento projetado do negócio."
-        },
-        {
-            type: "paragraph",
-            text: "Com esses dados, dá para comparar números reais e tomar uma decisão consciente."
-        },
-        {
-            type: "paragraph",
-            text: "Ou seja, o Simples Nacional por muitas vezes é uma ótima ferramenta para milhares de empresas. Ele reduz burocracia, facilita a gestão e muitas vezes diminui impostos."
-        },
-        {
-            type: "paragraph",
-            text: "Mas acreditar que ele sempre é a melhor escolha pode custar caro. Dependendo do perfil da empresa, o Lucro Presumido ou o Lucro Real podem ser mais vantajosos."
-        },
-        {
-            type: "paragraph",
-            text: "E lembre-se: a Receita Federal está de olho em quem tenta se manter no Simples artificialmente. Evitar problemas fiscais é tão importante quanto pagar menos imposto."
-        },
-        {
-            type: "paragraph",
-            text: "Somente um planejamento tributário bem feito, com acompanhamento de contador e advogado, garante que sua empresa escolha o regime mais vantajoso sem correr riscos com o Fisco."
-        }
-    ]
+            {
+                type: "paragraph",
+                text: "Se você é empresário e está no Simples Nacional, talvez já tenha se perguntado: ‘Será que estou mesmo pagando menos imposto do que deveria?’"
+            },
+            {
+                type: "paragraph",
+                text: "Pois é… essa dúvida é mais comum do que parece. O Simples é, sem dúvida, o regime tributário mais popular entre micro e pequenas empresas. Mas atenção: nem sempre ele é a melhor escolha."
+            },
+            {
+                type: "paragraph",
+                text: "Dependendo da margem de lucro, dos créditos de impostos ou do faturamento da sua empresa, o Lucro Presumido ou até o Lucro Real podem gerar economia significativa."
+            },
+            {
+                type: "paragraph",
+                text: "E tem mais: a Receita Federal está cada vez mais atenta às empresas que tentam “forçar” a permanência no Simples – como quando alguém cria várias empresas só para não ultrapassar o limite de R$ 4,8 milhões. Além de configurar fraude, pode também trazer dores de cabeça enormes para o empresário em uma eventual fiscalização."
+            },
+            {
+                type: "paragraph",
+                text: "Neste artigo, vamos explicar de forma simples e direta como funciona cada regime e por que você deveria avaliar cenários, mesmo agora que você já está no Simples Nacional."
+            },
+            {
+                type: "subtitle",
+                text: "A importância da escolha do regime de tributação"
+            },
+            {
+                type: "paragraph",
+                text: "Escolher o regime tributário não é só uma questão burocrática: é decisivo para a saúde financeira da empresa."
+            },
+            {
+                type: "paragraph",
+                text: "Um regime mal escolhido pode levar a pagamentos excessivos de impostos, falta de competitividade e até problemas com o Fisco. Por outro lado, um regime bem ajustado ao modelo de negócio permite:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Menor carga tributária dentro da legalidade;",
+                    "Previsibilidade no caixa;",
+                    "Aproveitamento de créditos fiscais (quando aplicável);",
+                    "Mais competitividade no mercado."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: "Ou seja, a escolha entre o Simples Nacional, Lucro Presumido ou Lucro Real pode ser a diferença entre ter fôlego para crescer ou viver no sufoco."
+            },
+            {
+                type: "subtitle",
+                text: "O que é o Simples Nacional"
+            },
+            {
+                type: "paragraph",
+                text: "O Simples Nacional é um regime especial criado para microempresas e empresas de pequeno porte, previsto na Lei Complementar nº 123/2006."
+            },
+            {
+                type: "subtitle",
+                text: "Quem pode optar:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Faturamento anual de até R$ 4,8 milhões;",
+                    "Atividade econômica permitida pela legislação. Isso porque nem todas as atividades são permitidas no Simples Nacional."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: "Entre as vedações, estão:"
+            },
+            {
+                type: "ordered_list",
+                items: [
+                    "Atividades do setor financeiro, como bancos, seguradoras, factoring e cooperativas de crédito;",
+                    "Produção ou venda no atacado de produtos como cigarros, armas de fogo, bebidas alcoólicas;",
+                    "Empresas que prestem serviços mediante cessão ou locação de mão de obra, bem como locação de imóveis próprios;",
+                    "Empresas cujo titular ou sócio seja domiciliado no exterior."
+                ]
+            },
+            {
+                type: "subtitle",
+                text: "Principais vantagens:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Unificação de impostos em uma guia única (DAS);",
+                    "Menos burocracia contábil e fiscal;",
+                    "Alíquotas progressivas (começam menores e aumentam conforme o faturamento)."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: "Não é à toa que a maioria dos pequenos empresários escolhe o Simples. É fácil, prático e, em muitos casos, realmente reduz a carga tributária."
+            },
+            {
+                type: "paragraph",
+                text: "Mas aqui vai o ponto de atenção: o Simples nem sempre é o mais barato. Dependendo da margem de lucro e das despesas da empresa, ele pode sair mais caro do que outros regimes."
+            },
+            {
+                type: "subtitle",
+                text: "Quando o Lucro Presumido pode valer a pena"
+            },
+            {
+                type: "paragraph",
+                text: "O Lucro Presumido é uma forma simplificada de calcular o IRPJ e a CSLL. A Receita presume uma margem de lucro sobre o faturamento, que varia conforme o setor (por exemplo, 8% para comércio, 32% para serviços)."
+            },
+            {
+                type: "subtitle",
+                text: "Quem pode optar:"
+            },
+            {
+                type: "paragraph",
+                text: "Empresas com faturamento anual até R$ 78 milhões."
+            },
+            {
+                type: "subtitle",
+                text: "Vantagens:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Possibilidade de pagar menos imposto se a margem real de lucro for maior que a presumida;",
+                    "Aproveitamento de créditos de PIS e COFINS em algumas operações (o que o Simples não permite)."
+                ]
+            },
+            {
+                type: "subtitle",
+                text: "Exemplo prático"
+            },
+            {
+                type: "paragraph",
+                text: "Imagine uma empresa de serviços com alta margem de lucro. No Simples, a alíquota pode chegar a mais de 15% (chegando até perto de 19%). No Lucro Presumido, a carga efetiva pode ficar em torno de 13%. Ou seja, pode haver uma economia significativa."
+            },
+            {
+                type: "subtitle",
+                text: "Quando o Lucro Real pode ser a melhor escolha"
+            },
+            {
+                type: "paragraph",
+                text: "O Lucro Real é o regime mais complexo, mas também o mais justo. Aqui, os impostos são calculados sobre o lucro líquido contábil (com alguns ajustes previstos em lei)."
+            },
+            {
+                type: "subtitle",
+                text: "Quem pode optar:"
+            },
+            {
+                type: "paragraph",
+                text: "Qualquer empresa (mas é obrigatório para algumas, como bancos e seguradoras)."
+            },
+            {
+                type: "subtitle",
+                text: "Vantagens:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Se a empresa tiver lucro baixo ou prejuízo, paga menos imposto ou nada;",
+                    "Permite aproveitar créditos de PIS e COFINS em escala muito maior;",
+                    "Mais flexibilidade para planejamento tributário."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: "Cenário típico: Empresas com margens apertadas, alto volume de despesas dedutíveis ou que precisam usar créditos fiscais tendem a se beneficiar do Lucro Real."
+            },
+            {
+                type: "subtitle",
+                text: "Por que o Simples pode não ser tão simples assim"
+            },
+            {
+                type: "paragraph",
+                text: "Muitos empresários pensam: “O Simples é sempre melhor porque é fácil e barato.” Só que não é bem assim. Veja alguns casos em que o Simples pode não compensar:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Empresa de serviço com alta margem de lucro, o Lucro Presumido pode sair mais barato.",
+                    "Empresa que compra muitos insumos tributados com PIS/COFINS, no Lucro Real, poderia aproveitar créditos.",
+                    "Empresa perto do limite de R$ 4,8 milhões, pode acabar desenquadrada no meio do ano e pagar retroativo, caso ultrapasse o limite em mais de 20% proporcional."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: "Além disso, criar empresas “espelho” para a manutenção no Simples é arriscado. A Receita Federal já está fiscalizando cada vez mais esse tipo de prática, que pode ser caracterizada como fraude. Resultado? Multas e autuações."
+            },
+            {
+                type: "subtitle",
+                text: "O caminho: modelagem de cenários"
+            },
+            {
+                type: "paragraph",
+                text: "A pergunta que fica é: como saber qual regime é o melhor? A resposta é simples: com modelagem de cenários tributários."
+            },
+            {
+                type: "paragraph",
+                text: "Esse estudo simula quanto sua empresa pagaria em cada regime – Simples, Lucro Presumido e Lucro Real – levando em conta a receita anual; margem de lucro; despesas dedutíveis; possibilidade de créditos fiscais, além de outros fatores específicos da atividade, como o crescimento projetado do negócio."
+            },
+            {
+                type: "paragraph",
+                text: "Com esses dados, dá para comparar números reais e tomar uma decisão consciente."
+            },
+            {
+                type: "paragraph",
+                text: "Ou seja, o Simples Nacional por muitas vezes é uma ótima ferramenta para milhares de empresas. Ele reduz burocracia, facilita a gestão e muitas vezes diminui impostos."
+            },
+            {
+                type: "paragraph",
+                text: "Mas acreditar que ele sempre é a melhor escolha pode custar caro. Dependendo do perfil da empresa, o Lucro Presumido ou o Lucro Real podem ser mais vantajosos."
+            },
+            {
+                type: "paragraph",
+                text: "E lembre-se: a Receita Federal está de olho em quem tenta se manter no Simples artificialmente. Evitar problemas fiscais é tão importante quanto pagar menos imposto."
+            },
+            {
+                type: "paragraph",
+                text: "Somente um planejamento tributário bem feito, com acompanhamento de contador e advogado, garante que sua empresa escolha o regime mais vantajoso sem correr riscos com o Fisco."
+            }
+        ]
     },
     {
         id: "previdencia-privada-itcmd",
@@ -1846,118 +2024,118 @@ const posts = [
         description: "Você sabia que em muitos casos, os beneficiários de planos de previdência privada pagaram imposto a mais sem nem perceber? Isso porque os Estados cobravam ITCMD (Imposto de Transmissão Causa Mortis e Doação) sobre valores recebidos em PGBL e VGBL após o falecimento do titular.",
         image: previdenciaPrivadaITCMD,
         content: [
-    {
-        type: "paragraph",
-        text: "Você sabia que em muitos casos, os beneficiários de planos de previdência privada pagaram imposto a mais sem nem perceber?"
-    },
-    {
-        type: "paragraph",
-        text: "Isso porque os Estados cobravam ITCMD (Imposto de Transmissão Causa Mortis e Doação) sobre valores recebidos em PGBL e VGBL após o falecimento do titular."
-    },
-    {
-        type: "paragraph",
-        text: "Mas agora, o STF bateu o martelo e firmou um entendimento que representa uma oportunidade de restituição para milhares de brasileiros."
-    },
-    {
-        type: "paragraph",
-        text: "Se esse pode ser o seu caso, acompanhe abaixo!"
-    },
-    {
-        type: "subtitle",
-        text: "O problema: imposto indevido sobre previdência privada"
-    },
-    {
-        type: "paragraph",
-        text: "Imagine a seguinte situação: um ente querido falece, e os beneficiários vão até a seguradora resgatar os valores de previdência privada. No momento do saque, se deparam com a cobrança do ITCMD, que pode resultar em valores bem expressivos."
-    },
-    {
-        type: "paragraph",
-        text: "Isso vinha acontecendo em pelo menos 70% dos Estados do país, muitas vezes sem base legal para a cobrança."
-    },
-    {
-        type: "paragraph",
-        text: "Resultado? Famílias recebendo menos do que realmente teriam direito."
-    },
-    {
-        type: "subtitle",
-        text: "O julgamento do STF que mudou tudo"
-    },
-    {
-        type: "paragraph",
-        text: "No recente Tema 1214, o STF decidiu que não incide ITCMD sobre PGBL e VGBL quando o titular falece. Veja o que fixou o STF:"
-    },
-    {
-        type: "paragraph",
-        text: "“É inconstitucional a incidência do imposto sobre transmissão causa mortis e doação (ITCMD) sobre o repasse aos beneficiários de valores e direitos relativos ao plano vida gerador de benefício livre (VGBL) ou ao plano gerador de benefício livre (PGBL) na hipótese de morte do titular do plano.”"
-    },
-    {
-        type: "paragraph",
-        text: "Segundo a Corte, esses planos têm natureza securitária, como se fossem um seguro de vida, e não devem integrar o inventário ou sofrer a tributação estadual."
-    },
-    {
-        type: "subtitle",
-        text: "Impactos imediatos dessa decisão:"
-    },
-    {
-        type: "unordered_list",
-        items: [
-            "Fim da cobrança de ITCMD sobre previdência privada na sucessão.",
-            "Direito de restituição para quem pagou nos últimos 5 anos.",
-            "Possibilidade de impedir cobranças futuras de forma preventiva."
+            {
+                type: "paragraph",
+                text: "Você sabia que em muitos casos, os beneficiários de planos de previdência privada pagaram imposto a mais sem nem perceber?"
+            },
+            {
+                type: "paragraph",
+                text: "Isso porque os Estados cobravam ITCMD (Imposto de Transmissão Causa Mortis e Doação) sobre valores recebidos em PGBL e VGBL após o falecimento do titular."
+            },
+            {
+                type: "paragraph",
+                text: "Mas agora, o STF bateu o martelo e firmou um entendimento que representa uma oportunidade de restituição para milhares de brasileiros."
+            },
+            {
+                type: "paragraph",
+                text: "Se esse pode ser o seu caso, acompanhe abaixo!"
+            },
+            {
+                type: "subtitle",
+                text: "O problema: imposto indevido sobre previdência privada"
+            },
+            {
+                type: "paragraph",
+                text: "Imagine a seguinte situação: um ente querido falece, e os beneficiários vão até a seguradora resgatar os valores de previdência privada. No momento do saque, se deparam com a cobrança do ITCMD, que pode resultar em valores bem expressivos."
+            },
+            {
+                type: "paragraph",
+                text: "Isso vinha acontecendo em pelo menos 70% dos Estados do país, muitas vezes sem base legal para a cobrança."
+            },
+            {
+                type: "paragraph",
+                text: "Resultado? Famílias recebendo menos do que realmente teriam direito."
+            },
+            {
+                type: "subtitle",
+                text: "O julgamento do STF que mudou tudo"
+            },
+            {
+                type: "paragraph",
+                text: "No recente Tema 1214, o STF decidiu que não incide ITCMD sobre PGBL e VGBL quando o titular falece. Veja o que fixou o STF:"
+            },
+            {
+                type: "paragraph",
+                text: "“É inconstitucional a incidência do imposto sobre transmissão causa mortis e doação (ITCMD) sobre o repasse aos beneficiários de valores e direitos relativos ao plano vida gerador de benefício livre (VGBL) ou ao plano gerador de benefício livre (PGBL) na hipótese de morte do titular do plano.”"
+            },
+            {
+                type: "paragraph",
+                text: "Segundo a Corte, esses planos têm natureza securitária, como se fossem um seguro de vida, e não devem integrar o inventário ou sofrer a tributação estadual."
+            },
+            {
+                type: "subtitle",
+                text: "Impactos imediatos dessa decisão:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Fim da cobrança de ITCMD sobre previdência privada na sucessão.",
+                    "Direito de restituição para quem pagou nos últimos 5 anos.",
+                    "Possibilidade de impedir cobranças futuras de forma preventiva."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: "Além do impacto tributário, a decisão reforça uma característica muito atrativa da previdência privada: a liquidez imediata."
+            },
+            {
+                type: "paragraph",
+                text: "Isso porque os valores não entram no inventário, e os beneficiários podem recebê-los logo após o óbito do ente querido, apenas apresentando a documentação básica à seguradora."
+            },
+            {
+                type: "paragraph",
+                text: "Ou seja, além de planejamento de aposentadoria, o PGBL e VGBL funcionam como um instrumento estratégico de sucessão, garantindo segurança financeira à família."
+            },
+            {
+                type: "subtitle",
+                text: "Restituição do ITCMD pago indevidamente"
+            },
+            {
+                type: "paragraph",
+                text: "Se você ou alguém da sua família já pagou esse imposto nos últimos 5 (cinco) anos, existe a oportunidade de recuperar os valores."
+            },
+            {
+                type: "paragraph",
+                text: "Além disso, contar com um apoio especializado é essencial para garantir a segurança da restituição, ainda mais porque, apesar da decisão do STF, alguns Estados mantêm a cobrança do ITCMD sobre valores de previdência privada, seja por resistência à decisão ou pela demora na adequação da legislação estadual."
+            },
+            {
+                type: "paragraph",
+                text: "Para buscar a restituição, veja o passo a passo do requerimento:"
+            },
+            {
+                type: "ordered_list",
+                items: [
+                    "Verifique se houve o pagamento de ITCMD no resgate do plano.",
+                    "Reúna a documentação, como certidão de óbito, documentos do plano e comprovantes do imposto recolhido.",
+                    "Identifique a melhor via para restituição: se administrativa (devolução direta pela Secretaria da Fazenda do Estado) ou judicial (medida cabível para restituição dos valores pagos ou para impedir a cobrança indevida)."
+                ]
+            },
+            {
+                type: "subtitle",
+                text: "O que fazer agora?"
+            },
+            {
+                type: "paragraph",
+                text: "O julgamento do STF trouxe um cenário muito mais favorável aos contribuintes. Mas atenção: o direito à restituição só vale para pagamentos feitos nos últimos 5 anos."
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Se você pagou ITCMD em previdência privada, este pode ser o momento certo para agir.",
+                    "Se tem planos ativos, é fundamental entender como protegê-los contra tributações indevidas."
+                ]
+            }
         ]
-    },
-    {
-        type: "paragraph",
-        text: "Além do impacto tributário, a decisão reforça uma característica muito atrativa da previdência privada: a liquidez imediata."
-    },
-    {
-        type: "paragraph",
-        text: "Isso porque os valores não entram no inventário, e os beneficiários podem recebê-los logo após o óbito do ente querido, apenas apresentando a documentação básica à seguradora."
-    },
-    {
-        type: "paragraph",
-        text: "Ou seja, além de planejamento de aposentadoria, o PGBL e VGBL funcionam como um instrumento estratégico de sucessão, garantindo segurança financeira à família."
-    },
-    {
-        type: "subtitle",
-        text: "Restituição do ITCMD pago indevidamente"
-    },
-    {
-        type: "paragraph",
-        text: "Se você ou alguém da sua família já pagou esse imposto nos últimos 5 (cinco) anos, existe a oportunidade de recuperar os valores."
-    },
-    {
-        type: "paragraph",
-        text: "Além disso, contar com um apoio especializado é essencial para garantir a segurança da restituição, ainda mais porque, apesar da decisão do STF, alguns Estados mantêm a cobrança do ITCMD sobre valores de previdência privada, seja por resistência à decisão ou pela demora na adequação da legislação estadual."
-    },
-    {
-        type: "paragraph",
-        text: "Para buscar a restituição, veja o passo a passo do requerimento:"
-    },
-    {
-        type: "ordered_list",
-        items: [
-            "Verifique se houve o pagamento de ITCMD no resgate do plano.",
-            "Reúna a documentação, como certidão de óbito, documentos do plano e comprovantes do imposto recolhido.",
-            "Identifique a melhor via para restituição: se administrativa (devolução direta pela Secretaria da Fazenda do Estado) ou judicial (medida cabível para restituição dos valores pagos ou para impedir a cobrança indevida)."
-        ]
-    },
-    {
-        type: "subtitle",
-        text: "O que fazer agora?"
-    },
-    {
-        type: "paragraph",
-        text: "O julgamento do STF trouxe um cenário muito mais favorável aos contribuintes. Mas atenção: o direito à restituição só vale para pagamentos feitos nos últimos 5 anos."
-    },
-    {
-        type: "unordered_list",
-        items: [
-            "Se você pagou ITCMD em previdência privada, este pode ser o momento certo para agir.",
-            "Se tem planos ativos, é fundamental entender como protegê-los contra tributações indevidas."
-        ]
-    }
-]
     },
     {
         id: "inss-teto-medicos",
@@ -1967,114 +2145,114 @@ const posts = [
         description: "Você pode estar pagando INSS a mais sem perceber. Isso acontece quando alguém trabalha em mais de um lugar e cada fonte pagadora faz o desconto sem considerar o valor total dos rendimentos.",
         image: inssTetoMedicos,
         content: [
-    {
-        type: "paragraph",
-        text: "Você pode estar pagando INSS a mais sem perceber."
-    },
-    {
-        type: "paragraph",
-        text: "Isso acontece quando alguém trabalha em mais de um lugar e cada fonte pagadora faz o desconto sem considerar o valor total dos rendimentos."
-    },
-    {
-        type: "paragraph",
-        text: "O INSS tem um limite, chamado de teto. Em 2025, ele é de R$ 8.157,41."
-    },
-    {
-        type: "paragraph",
-        text: "Se a soma dos seus salários ultrapassa esse valor, não precisa contribuir sobre o que passa do teto."
-    },
-    {
-        type: "paragraph",
-        text: "Na prática, porém, muita gente paga duas ou até três vezes sem necessidade."
-    },
-    {
-        type: "subtitle",
-        text: "Por que isso é um problema?"
-    },
-    {
-        type: "paragraph",
-        text: "Esse valor extra não aumenta sua aposentadoria."
-    },
-    {
-        type: "paragraph",
-        text: "O INSS simplesmente ignora tudo o que ultrapassa o teto."
-    },
-    {
-        type: "paragraph",
-        text: "Ou seja: você perde dinheiro sem nenhum benefício futuro."
-    },
-    {
-        type: "subtitle",
-        text: "Como resolver"
-    },
-    {
-        type: "paragraph",
-        text: "A boa notícia é que existem duas soluções simples:"
-    },
-    {
-        type: "ordered_list",
-        items: [
-            "Parar os descontos indevidos: Notifique corretamente seus empregadores ou contratantes para não recolherem além do teto.",
-            "Recuperar o que já foi pago: É possível pedir a restituição administrativa na Receita Federal."
+            {
+                type: "paragraph",
+                text: "Você pode estar pagando INSS a mais sem perceber."
+            },
+            {
+                type: "paragraph",
+                text: "Isso acontece quando alguém trabalha em mais de um lugar e cada fonte pagadora faz o desconto sem considerar o valor total dos rendimentos."
+            },
+            {
+                type: "paragraph",
+                text: "O INSS tem um limite, chamado de teto. Em 2025, ele é de R$ 8.157,41."
+            },
+            {
+                type: "paragraph",
+                text: "Se a soma dos seus salários ultrapassa esse valor, não precisa contribuir sobre o que passa do teto."
+            },
+            {
+                type: "paragraph",
+                text: "Na prática, porém, muita gente paga duas ou até três vezes sem necessidade."
+            },
+            {
+                type: "subtitle",
+                text: "Por que isso é um problema?"
+            },
+            {
+                type: "paragraph",
+                text: "Esse valor extra não aumenta sua aposentadoria."
+            },
+            {
+                type: "paragraph",
+                text: "O INSS simplesmente ignora tudo o que ultrapassa o teto."
+            },
+            {
+                type: "paragraph",
+                text: "Ou seja: você perde dinheiro sem nenhum benefício futuro."
+            },
+            {
+                type: "subtitle",
+                text: "Como resolver"
+            },
+            {
+                type: "paragraph",
+                text: "A boa notícia é que existem duas soluções simples:"
+            },
+            {
+                type: "ordered_list",
+                items: [
+                    "Parar os descontos indevidos: Notifique corretamente seus empregadores ou contratantes para não recolherem além do teto.",
+                    "Recuperar o que já foi pago: É possível pedir a restituição administrativa na Receita Federal."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: "Você pode reaver até 5 anos de contribuições pagas a mais, sem precisar entrar na Justiça."
+            },
+            {
+                type: "paragraph",
+                text: "O pedido costuma levar de 90 a 120 dias e o valor é depositado direto na sua conta bancária."
+            },
+            {
+                type: "subtitle",
+                text: "Exemplo prático"
+            },
+            {
+                type: "paragraph",
+                text: "Imagine um médico que trabalha em dois hospitais, e ganha acima do teto em ambos."
+            },
+            {
+                type: "paragraph",
+                text: "Cada um desconta o INSS cheio, como se não houvesse o outro."
+            },
+            {
+                type: "paragraph",
+                text: "Resultado: ele paga muito além do teto. Na prática, pelo menos o dobro."
+            },
+            {
+                type: "paragraph",
+                text: "Com a medida correta, ele para de pagar em duplicidade e ainda consegue de volta o que pagou indevidamente."
+            },
+            {
+                type: "subtitle",
+                text: "Como verificar se você paga INSS a mais"
+            },
+            {
+                type: "paragraph",
+                text: "Se você trabalha em mais de um lugar ao mesmo tempo, veja se a soma dos seus rendimentos passa do teto do INSS."
+            },
+            {
+                type: "paragraph",
+                text: "Se passar, verifique se você já comunicou uma fonte sobre a outra."
+            },
+            {
+                type: "paragraph",
+                text: "Se não comunicou, é bem provável que esteja contribuindo acima do teto."
+            },
+            {
+                type: "subtitle",
+                text: "Conclusão"
+            },
+            {
+                type: "paragraph",
+                text: "Contribuir acima do teto é mais comum do que parece."
+            },
+            {
+                type: "paragraph",
+                text: "Se isso acontece com você, é possível parar os descontos agora e ainda recuperar até 5 anos de valores pagos a mais."
+            }
         ]
-    },
-    {
-        type: "paragraph",
-        text: "Você pode reaver até 5 anos de contribuições pagas a mais, sem precisar entrar na Justiça."
-    },
-    {
-        type: "paragraph",
-        text: "O pedido costuma levar de 90 a 120 dias e o valor é depositado direto na sua conta bancária."
-    },
-    {
-        type: "subtitle",
-        text: "Exemplo prático"
-    },
-    {
-        type: "paragraph",
-        text: "Imagine um médico que trabalha em dois hospitais, e ganha acima do teto em ambos."
-    },
-    {
-        type: "paragraph",
-        text: "Cada um desconta o INSS cheio, como se não houvesse o outro."
-    },
-    {
-        type: "paragraph",
-        text: "Resultado: ele paga muito além do teto. Na prática, pelo menos o dobro."
-    },
-    {
-        type: "paragraph",
-        text: "Com a medida correta, ele para de pagar em duplicidade e ainda consegue de volta o que pagou indevidamente."
-    },
-    {
-        type: "subtitle",
-        text: "Como verificar se você paga INSS a mais"
-    },
-    {
-        type: "paragraph",
-        text: "Se você trabalha em mais de um lugar ao mesmo tempo, veja se a soma dos seus rendimentos passa do teto do INSS."
-    },
-    {
-        type: "paragraph",
-        text: "Se passar, verifique se você já comunicou uma fonte sobre a outra."
-    },
-    {
-        type: "paragraph",
-        text: "Se não comunicou, é bem provável que esteja contribuindo acima do teto."
-    },
-    {
-        type: "subtitle",
-        text: "Conclusão"
-    },
-    {
-        type: "paragraph",
-        text: "Contribuir acima do teto é mais comum do que parece."
-    },
-    {
-        type: "paragraph",
-        text: "Se isso acontece com você, é possível parar os descontos agora e ainda recuperar até 5 anos de valores pagos a mais."
-    }
-]   
     },
     {
         id: "drex",
@@ -2084,96 +2262,96 @@ const posts = [
         description: "A partir dos próximos anos, essa nova moeda digital criada pelo Banco Central vai mudar a forma como o dinheiro circula no Brasil. E a pergunta que não quer calar: junto com ela, vem também uma grande transformação na fiscalização tributária.",
         image: drex,
         content: [
-        {
-            type: "subtitle",
-            text: "O que é o DREX?"
-        },
-        {
-            type: "paragraph",
-            text: "O DREX é a versão digital do Real, desenvolvida pelo Banco Central do Brasil."
-        },
-        {
-            type: "paragraph",
-            text: "Ele faz parte das chamadas CBDCs (Central Bank Digital Currencies), moedas digitais emitidas por bancos centrais em todo o mundo."
-        },
-        {
-            type: "paragraph",
-            text: "Diferente das criptomoedas privadas, como Bitcoin ou Ethereum, o DREX será lastreado no Real e terá o mesmo valor da moeda em papel."
-        },
-        {
-            type: "paragraph",
-            text: "Ou seja: 1 DREX = 1 Real."
-        },
-        {
-            type: "paragraph",
-            text: "A grande diferença está na tecnologia."
-        },
-        {
-            type: "paragraph",
-            text: "Ele funcionará em uma plataforma digital chamada DLT (Distributed Ledger Technology), que registra e rastreia cada transação de forma transparente e segura."
-        },
-        {
-            type: "paragraph",
-            text: "Isso pode abrir espaço para:"
-        },
-        {
-            type: "unordered_list",
-            items: [
-                "Contratos inteligentes (pagamentos condicionados a regras pré-definidas – ex: só recebe o dinheiro quando entrega o produto);",
-                "Integração com o sistema financeiro nacional;",
-                "Maior rastreabilidade das operações."
-            ]
-        },
-        {
-            type: "subtitle",
-            text: "Como o DREX vai afetar quem paga impostos?"
-        },
-        {
-            type: "paragraph",
-            text: "Aqui está o ponto que mais gera debate: a chegada do DREX significa mais transparência nas transações financeiras."
-        },
-        {
-            type: "paragraph",
-            text: "E isso, inevitavelmente, aumenta a capacidade de fiscalização da Receita Federal."
-        },
-        {
-            type: "paragraph",
-            text: "Principais impactos:"
-        },
-        {
-            type: "ordered_list",
-            items: [
-                "Maior rastreabilidade: Cada movimentação em DREX poderá ser registrada de forma imutável na rede. Isso facilita a identificação de doações, transferências e pagamentos que antes poderiam passar despercebidos.",
-                "Fiscalização mais eficiente: Com dados mais estruturados, a Receita pode cruzar informações em sistemas como o T-Rex (já usado hoje para grandes volumes de dados financeiros).",
-                "Redução da sonegação: Com o DREX, fica muito mais difícil esconder movimentações de dinheiro, porque ele tira aquela “zona cinzenta” que existe quando alguém usa dinheiro em espécie.",
-                "Sigilo bancário preservado (em tese): O Banco Central afirma que o sigilo continuará protegido e só poderá ser quebrado por ordem judicial. Mas, na prática, críticos alertam que a moeda digital pode facilitar o acesso a informações sensíveis."
-            ]
-        },
-        {
-            type: "subtitle",
-            text: "Como se preparar?"
-        },
-        {
-            type: "unordered_list",
-            items: [
-                "Empresas e contribuintes devem revisar desde já seus controles internos: doações, heranças, transferências e movimentações relevantes tendem a ficar mais visíveis.",
-                "Planejamento tributário será ainda mais importante para reduzir riscos de autuações.",
-                "Acompanhamento das regras: o DREX está em fase piloto e deve ser implementado gradualmente até 2026. É importante se manter atualizado por fontes de confiança."
-            ]
-        },
-        {
-            type: "subtitle",
-            text: "Resumo"
-        },
-        {
-            type: "paragraph",
-            text: "O DREX é o Real em versão digital, que promete mais praticidade, mas também trará mais poder de fiscalização para a Receita Federal."
-        },
-        {
-            type: "paragraph",
-            text: "Para o contribuinte, isso significa menos espaço para erros ou omissões fiscais e a necessidade de um planejamento financeiro ainda mais cuidadoso."
-        }
-    ]
+            {
+                type: "subtitle",
+                text: "O que é o DREX?"
+            },
+            {
+                type: "paragraph",
+                text: "O DREX é a versão digital do Real, desenvolvida pelo Banco Central do Brasil."
+            },
+            {
+                type: "paragraph",
+                text: "Ele faz parte das chamadas CBDCs (Central Bank Digital Currencies), moedas digitais emitidas por bancos centrais em todo o mundo."
+            },
+            {
+                type: "paragraph",
+                text: "Diferente das criptomoedas privadas, como Bitcoin ou Ethereum, o DREX será lastreado no Real e terá o mesmo valor da moeda em papel."
+            },
+            {
+                type: "paragraph",
+                text: "Ou seja: 1 DREX = 1 Real."
+            },
+            {
+                type: "paragraph",
+                text: "A grande diferença está na tecnologia."
+            },
+            {
+                type: "paragraph",
+                text: "Ele funcionará em uma plataforma digital chamada DLT (Distributed Ledger Technology), que registra e rastreia cada transação de forma transparente e segura."
+            },
+            {
+                type: "paragraph",
+                text: "Isso pode abrir espaço para:"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Contratos inteligentes (pagamentos condicionados a regras pré-definidas – ex: só recebe o dinheiro quando entrega o produto);",
+                    "Integração com o sistema financeiro nacional;",
+                    "Maior rastreabilidade das operações."
+                ]
+            },
+            {
+                type: "subtitle",
+                text: "Como o DREX vai afetar quem paga impostos?"
+            },
+            {
+                type: "paragraph",
+                text: "Aqui está o ponto que mais gera debate: a chegada do DREX significa mais transparência nas transações financeiras."
+            },
+            {
+                type: "paragraph",
+                text: "E isso, inevitavelmente, aumenta a capacidade de fiscalização da Receita Federal."
+            },
+            {
+                type: "paragraph",
+                text: "Principais impactos:"
+            },
+            {
+                type: "ordered_list",
+                items: [
+                    "Maior rastreabilidade: Cada movimentação em DREX poderá ser registrada de forma imutável na rede. Isso facilita a identificação de doações, transferências e pagamentos que antes poderiam passar despercebidos.",
+                    "Fiscalização mais eficiente: Com dados mais estruturados, a Receita pode cruzar informações em sistemas como o T-Rex (já usado hoje para grandes volumes de dados financeiros).",
+                    "Redução da sonegação: Com o DREX, fica muito mais difícil esconder movimentações de dinheiro, porque ele tira aquela “zona cinzenta” que existe quando alguém usa dinheiro em espécie.",
+                    "Sigilo bancário preservado (em tese): O Banco Central afirma que o sigilo continuará protegido e só poderá ser quebrado por ordem judicial. Mas, na prática, críticos alertam que a moeda digital pode facilitar o acesso a informações sensíveis."
+                ]
+            },
+            {
+                type: "subtitle",
+                text: "Como se preparar?"
+            },
+            {
+                type: "unordered_list",
+                items: [
+                    "Empresas e contribuintes devem revisar desde já seus controles internos: doações, heranças, transferências e movimentações relevantes tendem a ficar mais visíveis.",
+                    "Planejamento tributário será ainda mais importante para reduzir riscos de autuações.",
+                    "Acompanhamento das regras: o DREX está em fase piloto e deve ser implementado gradualmente até 2026. É importante se manter atualizado por fontes de confiança."
+                ]
+            },
+            {
+                type: "subtitle",
+                text: "Resumo"
+            },
+            {
+                type: "paragraph",
+                text: "O DREX é o Real em versão digital, que promete mais praticidade, mas também trará mais poder de fiscalização para a Receita Federal."
+            },
+            {
+                type: "paragraph",
+                text: "Para o contribuinte, isso significa menos espaço para erros ou omissões fiscais e a necessidade de um planejamento financeiro ainda mais cuidadoso."
+            }
+        ]
     },
     {
         id: "transacao-tributaria",
@@ -2432,7 +2610,7 @@ const posts = [
                 type: "paragraph",
                 text: "Sem esse procedimento, o fisco pode entender que você continua obrigado a pagar impostos sobre rendimentos recebidos no exterior."
             },
-             {
+            {
                 type: "subtitle",
                 text: "O que pode acontecer se você não regularizar?"
             },
