@@ -18,8 +18,187 @@ import transacaoSimplificada from "../assets/images/transação_individual_simpl
 import exteriorITCMD from "../assets/images/saída_fiscal_itcmd_brasil_doação.jpg"
 import desenrolaRural from "../assets/images/desenrola_rural_pgfn_crédito_agricola_dívida.jpeg"
 import contratoNamoro from "../assets/images/contrato_de_namoro.jpg"
+import cobrancaTributaria from "../assets/images/cobrança_tributaria_e_agora.png"
+
 
 const posts = [
+    {
+        id: "recebi-uma-cobranca",
+        title: "Recebi uma cobrança tributária: e agora?",
+        date: "15/10/2025",
+        authors: "Pedro H. Fonseca",
+        description: "Poucos momentos causam tanta apreensão em uma empresa quanto o recebimento de uma cobrança tributária. O e-mail chega, o envelope da Fazenda aparece, ou a notificação digital pisca no Domicílio Tributário Eletrônico, e vem a dúvida: o que fazer agora?",
+        image: cobrancaTributaria,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Poucos momentos causam tanta apreensão em uma empresa quanto o recebimento de uma cobrança tributária.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O e-mail chega, o envelope da Fazenda aparece, ou a notificação digital pisca no Domicílio Tributário Eletrônico, e vem a dúvida: o que fazer agora?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Antes de tudo, é importante entender uma coisa: nem toda cobrança é definitiva, e nem toda dívida precisa ser paga de imediato.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Muitas podem ser revisadas, defendidas ou até negociadas, seja no âmbito federal, estadual ou municipal.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O primeiro passo: entender de onde veio a cobrança",
+            },
+            {
+                "type": "paragraph",
+                "text": "Cada esfera de governo tem seu próprio modo de cobrar. Saber quem está cobrando define a estratégia.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Cobrança federal (Receita Federal e PGFN): normalmente ligada a tributos como Imposto de Renda, CSLL, PIS e COFINS. A cobrança pode vir via Auto de Infração, Notificação Fiscal ou Dívida Ativa da União.",
+                    "Cobrança estadual: costuma envolver ICMS, taxas de fiscalização ou IPVA (para pessoas físicas e jurídicas). Aqui entram Secretarias de Fazenda e Procuradorias Estaduais.",
+                    "Cobrança municipal: inclui ISS, IPTU, ITBI e taxas municipais. Muitas prefeituras já utilizam sistemas próprios de dívida ativa e até protesto de certidões.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Cada uma dessas instâncias tem prazos e caminhos específicos, e é justamente aí que o acompanhamento jurídico faz diferença.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Não pague sem entender o que está sendo cobrado",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa é a regra de ouro.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Antes de qualquer pagamento, é essencial:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "Confirmar a origem e o valor da dívida: Muitas cobranças são automáticas, baseadas em cruzamento de dados.",
+                    "Verificar se há defesa possível: Cobranças podem conter erros formais, interpretações equivocadas ou tributos prescritos, ou seja, que já não podem ser cobrados.",
+                    "Entender a fase do processo: Há diferença entre uma simples notificação e uma execução fiscal.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O equívoco mais comum é pagar sem análise, o que pode gerar prejuízos desnecessários ou renúncia a direitos de defesa.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Quando é possível negociar",
+            },
+            {
+                "type": "paragraph",
+                "text": "Hoje, praticamente todos os entes federativos possuem programas de negociação tributária.",
+            },
+            {
+                "type": "paragraph",
+                "text": "As condições variam conforme o tipo de débito e o órgão responsável, mas as principais modalidades são:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Transação tributária federal, junto à Receita Federal ou PGFN, que permite descontos e parcelamentos alongados",
+                    "Transações estaduais, como o Acordo Paulista em São Paulo ou o Programa de Transação de MG, voltado à AGE/MG e SEF/MG",
+                    "Programas municipais, que frequentemente oferecem reduções de multa e juros ou parcelamentos especiais",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Em todos os casos, a lógica é a mesma: incentivar a regularização de quem quer pagar, mas precisa de condições melhores.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Quando a cobrança é indevida",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nem toda cobrança é legítima.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Algumas situações que merecem atenção:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "multas indevidas ou desproporcionais",
+                    "cobranças já prescritas",
+                    "cobranças contrárias a decisões dos tribunais superiores",
+                    "cobranças duplicadas ou sobre tributos já pagos",
+                    "exigência de juros e encargos acima do permitido",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Nesses casos, o contribuinte pode apresentar uma defesa administrativa, um Pedido de Revisão de Dívida Inscrita (PRDI) ou até entrar com uma ação judicial, dependendo do estágio da cobrança.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que acontece se eu ignorar a cobrança",
+            },
+            {
+                "type": "paragraph",
+                "text": "Deixar o tempo passar é o pior cenário.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A inércia pode gerar:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "inscrição em dívida ativa estadual ou municipal",
+                    "protesto em cartório e restrição de crédito",
+                    "execução fiscal, com risco de bloqueio de contas e bens",
+                    "perda de regularidade fiscal, impedindo emissão de certidões e participação em licitações",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Mesmo pequenas dívidas podem crescer rapidamente com juros, multa e encargos.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Como agir estrategicamente",
+            },
+            {
+                "type": "paragraph",
+                "text": "O ideal é agir com planejamento e calma.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Cada caso tem uma solução diferente, e o primeiro passo é mapear as alternativas possíveis: apresentar uma defesa, parcelar, aderir a uma transação ou pagar com compensação.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para quem atua no setor produtivo, essa escolha deve considerar também impactos sobre o fluxo de caixa e sobre a regularidade fiscal da empresa. Em muitos casos, a negociação inteligente é mais vantajosa do que processos administrativos ou judiciais, especialmente quando há programas vigentes de transação.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "Receber uma cobrança tributária não significa o fim do caminho.",
+            },
+            {
+                "type": "paragraph",
+                "text": "É, na verdade, o momento de entender o que está sendo exigido, avaliar se há espaço para defesa ou negociação e agir com base em dados concretos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O importante é não reagir no impulso nem deixar o prazo correr.",
+            }
+        ]
+    },
     {
         id: "contrato-de-namoro",
         title: "Está namorando? Saiba como o contrato de namoro pode blindar o seu patrimônio",
