@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    { "source": "/publicacoes/:publicacaoId", "destination": "/publicacoes/:publicacaoId/index.html" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
