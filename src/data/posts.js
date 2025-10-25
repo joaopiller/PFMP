@@ -9,7 +9,7 @@ import restituicaoITBI from "../assets/images/restituicao-do-itbi.jpg"
 import transacaoSimplesNacional from "../assets/images/transacao-simples-nacional.png"
 import transacaoMG from "../assets/images/transacao-mg.png"
 import herancasSemImpostos from "../assets/images/heranca-sem-impostos.png"
-import acordoPaulista from "../assets/images/acordo_paulista.jpeg"
+import acordoPaulista from "../assets/images/acordo_paulista.jpg"
 import saidaDefinitiva from "../assets/images/saida_fiscal_brasil_residente_exterior.jpg"
 import rctSimplesNacional from "../assets/images/recuperação_crédito_simples_nacional_tributário.jpg"
 import modelagemLucroReal from "../assets/images/modelagem_lucro_real_simples_nacional_reforma_tributária.jpg"
@@ -18,17 +18,17 @@ import transacaoSimplificada from "../assets/images/transação_individual_simpl
 import exteriorITCMD from "../assets/images/saída_fiscal_itcmd_brasil_doação.jpg"
 import desenrolaRural from "../assets/images/desenrola_rural_pgfn_crédito_agricola_dívida.jpeg"
 import contratoNamoro from "../assets/images/contrato_de_namoro.jpg"
-import cobrancaTributaria from "../assets/images/cobrança_tributaria_e_agora.png"
+import cobrancaTributaria from "../assets/images/cobranca_tributaria_e_agora.png"
 import clinicaImposto from "../assets/images/equiparação_hospitalar_clínica_médico_imposto.jpg"
 
 
 const posts = [
     {
         id: "equiparacao-hospitalar-imposto-a-mais",
-        title: "Está pagando imposto a mais na sua clínica e nem sabe?",
+        title: "Está pagando imposto a mais na clínica e nem sabe?",
         date: "15/10/2025",
         authors: "Flávia Perim",
-        description: "Você tem uma clínica médica estruturada, realiza procedimentos complexos, investe em equipe e tecnologia… mas segue pagando imposto como se fosse um consultório comum?",
+        description: "Você tem uma clínica médica estruturada, realiza procedimentos complexos, investe em equipe e tecnologia, mas segue pagando imposto como se fosse um consultório comum?",
         image: clinicaImposto,
         content: [
             {
