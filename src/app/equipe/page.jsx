@@ -1,10 +1,10 @@
 import styles from "./styles.module.css";
 import CardMembro from "@/components/CardMembro";
-import victorImg from "@/assets/images/victor_h_piller.jpg";
-import pedroImg from "@/assets/images/pedro_fonseca.jpg";
-import flaviaImg from "@/assets/images/flavia_perim.jpg";
-import marchesiImg from "@/assets/images/joao_marchesi.jpg";
-import nossa_equipe from "@/assets/images/equipe_banner.jpg";
+import victorImg from "@/assets/images/victor_h_piller.jpeg";
+import pedroImg from "@/assets/images/pedro_fonseca.jpeg";
+import flaviaImg from "@/assets/images/flavia_perim.jpeg";
+import marchesiImg from "@/assets/images/joao_marchesi.jpeg";
+import nossa_equipe from "@/assets/images/equipe_banner.jpeg";
 import PageBanner from "@/components/PageBanner";
 
 export const metadata = {

@@ -1,7 +1,7 @@
-import victorImg from "../assets/images/victor_h_piller.jpg";
-import pedroImg from "../assets/images/pedro_fonseca.jpg";
-import flaviaImg from "../assets/images/flavia_perim.jpg";
-import marchesiImg from "../assets/images/joao_marchesi.jpg";
+import victorImg from "../assets/images/victor_h_piller.jpeg";
+import pedroImg from "../assets/images/pedro_fonseca.jpeg";
+import flaviaImg from "../assets/images/flavia_perim.jpeg";
+import marchesiImg from "../assets/images/joao_marchesi.jpeg";
 
 const equipeMembers = [
     {
