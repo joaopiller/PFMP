@@ -1,29 +1,31 @@
-import SectionTitle from "../SectionTitle";
-import styles from "./styles.module.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
+"use client";
+
 import { useState, useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import areasDeAtuacao from "../../data/areasDeAtuacao";
-import CardAreaDeAtuacao from "../CardAreaDeAtuacao";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
+import SectionTitle from "@/components/SectionTitle";
+import CardAreaDeAtuacao from "@/components/CardAreaDeAtuacao";
+import areasDeAtuacao from "@/data/areasDeAtuacao";
+import styles from "./styles.module.css";
 
 export default function HomeAreasDeAtuacao({ whiteBackground = false }) {
   const [swiperInstance, setSwiperInstance] = useState(null);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    const checkMobile = () => window.innerWidth <= 834;
+    setIsMobile(checkMobile());
+
     const handleResize = () => {
-      const mobile = window.innerWidth <= 834;
+      const mobile = checkMobile();
       setIsMobile(mobile);
 
       if (swiperInstance) {
-        if (mobile) {
-          swiperInstance.autoplay.start();
-        } else {
-          swiperInstance.autoplay.stop();
-        }
+        if (mobile) swiperInstance.autoplay.start();
+        else swiperInstance.autoplay.stop();
       }
     };
 
@@ -32,28 +34,19 @@ export default function HomeAreasDeAtuacao({ whiteBackground = false }) {
   }, [swiperInstance]);
 
   useEffect(() => {
-    if (swiperInstance) {
-      if (isMobile) {
-        swiperInstance.autoplay.delay = 5000;
-        swiperInstance.autoplay.disableOnInteraction = false;
-        swiperInstance.autoplay.start();
-      } else {
-        swiperInstance.autoplay.stop();
-      }
+    if (!swiperInstance) return;
+    if (isMobile) {
+      swiperInstance.params.autoplay.delay = 5000;
+      swiperInstance.params.autoplay.disableOnInteraction = false;
+      swiperInstance.autoplay.start();
+    } else {
+      swiperInstance.autoplay.stop();
     }
   }, [swiperInstance, isMobile]);
 
-  const goNext = () => {
-    if (swiperInstance) {
-      swiperInstance.slideNext();
-    }
-  };
+  const goNext = () => swiperInstance?.slideNext();
+  const goPrev = () => swiperInstance?.slidePrev();
 
-  const goPrev = () => {
-    if (swiperInstance) {
-      swiperInstance.slidePrev();
-    }
-  };
   return (
     <section
       className={styles.areasDeAtuacaoSection}
@@ -73,13 +66,13 @@ export default function HomeAreasDeAtuacao({ whiteBackground = false }) {
             <Swiper
               onSwiper={setSwiperInstance}
               modules={[Autoplay]}
-              loop={true}
+              loop
               autoplay={false}
               speed={850}
               spaceBetween={16}
               slidesPerView={1}
               slidesPerGroup={1}
-              centeredSlides={true}
+              centeredSlides
               breakpoints={{
                 834: {
                   slidesPerView: 1,
@@ -108,10 +101,9 @@ export default function HomeAreasDeAtuacao({ whiteBackground = false }) {
               }}
             >
               {areasDeAtuacao.map((area) => (
-                <SwiperSlide key={area.name}>
+                <SwiperSlide key={area.id}>
                   <CardAreaDeAtuacao
                     margin
-                    key={area.id}
                     title={area.name}
                     description={area.description}
                   >
@@ -121,8 +113,7 @@ export default function HomeAreasDeAtuacao({ whiteBackground = false }) {
               ))}
             </Swiper>
           </div>
-        </div>{" "}
-        {/* Fecha carouselWrapper */}
+        </div>
       </div>
     </section>
   );

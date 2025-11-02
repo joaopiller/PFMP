@@ -6,21 +6,21 @@
 /* Importação das fontes personalizadas */
 @font-face {
   font-family: "Manrope";
-  src: url("./assets/fonts/manrope.ttf") format("truetype");
+  src: url("/fonts/manrope.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Scandia Medium";
-  src: url("./assets/fonts/scandia_medium.ttf") format("truetype");
+  src: url("/fonts/scandia_medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Scandia Regular";
-  src: url("./assets/fonts/scandia_regular.ttf") format("truetype");
+  src: url("/fonts/scandia_regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

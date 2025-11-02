@@ -1,19 +1,16 @@
 import React from 'react';
 
-// Função para processar texto com markdown simples
 const processText = (text) => {
   if (!text) return text;
   
   const parts = [];
   let lastIndex = 0;
   
-  // Regex para encontrar padrões de formatação
   const patterns = [
-    { regex: /###\s+(.*?)(?=\n|$)/g, type: 'h3' },      // ### Título
-    { regex: /\[([^\]]+)\]\(([^)]+)\)/g, type: 'link' }  // [texto](url)
+    { regex: /###\s+(.*?)(?=\n|$)/g, type: 'h3' },    
+    { regex: /\[([^\]]+)\]\(([^)]+)\)/g, type: 'link' }  
   ];
   
-  // Array para armazenar todas as matches com suas posições
   const allMatches = [];
   
   patterns.forEach(pattern => {
@@ -28,19 +25,15 @@ const processText = (text) => {
     }
   });
   
-  // Ordenar matches por posição
   allMatches.sort((a, b) => a.start - b.start);
   
-  // Processar matches em ordem
   allMatches.forEach((matchInfo, index) => {
     const { type, match, start, end } = matchInfo;
     
-    // Adicionar texto antes do match
     if (start > lastIndex) {
       parts.push(text.substring(lastIndex, start));
     }
     
-    // Adicionar elemento formatado
     switch (type) {
       case 'h3':
         parts.push(
@@ -74,7 +67,6 @@ const processText = (text) => {
     lastIndex = end;
   });
   
-  // Adicionar texto restante
   if (lastIndex < text.length) {
     parts.push(text.substring(lastIndex));
   }
@@ -82,7 +74,6 @@ const processText = (text) => {
   return parts.length > 1 ? parts : text;
 };
 
-// Função principal para renderizar conteúdo
 export const renderContent = (contentArray, styles) => {
   if (!contentArray || !Array.isArray(contentArray)) {
     return null;
@@ -142,7 +133,6 @@ export const renderContent = (contentArray, styles) => {
   });
 };
 
-// Função auxiliar para renderizar texto simples com formatação
 export const renderSimpleText = (text) => {
   return processText(text);
 };

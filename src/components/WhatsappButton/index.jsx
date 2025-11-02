@@ -1,7 +1,9 @@
+"use client";
+
 import { FaWhatsapp } from "react-icons/fa";
 import { useState, useEffect } from "react";
 
-const WhatsAppButton = () => {
+export default function WhatsAppButton() {
   const [isVisible, setIsVisible] = useState(false);
   const phoneNumber = "31997127831";
   const message = "Olá, gostaria de entrar em contato!";
@@ -10,10 +12,7 @@ const WhatsAppButton = () => {
   )}`;
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsVisible(true);
-    }, 500);
-
+    const timer = setTimeout(() => setIsVisible(true), 500);
     return () => clearTimeout(timer);
   }, []);
 
@@ -44,19 +43,15 @@ const WhatsAppButton = () => {
         transition: "all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
       }}
       onMouseEnter={(e) => {
-        if (isVisible) {
-          e.target.style.transform = "translateX(0) scale(1.05)";
-        }
+        if (isVisible)
+          e.currentTarget.style.transform = "translateX(0) scale(1.05)";
       }}
       onMouseLeave={(e) => {
-        if (isVisible) {
-          e.target.style.transform = "translateX(0) scale(1)";
-        }
+        if (isVisible)
+          e.currentTarget.style.transform = "translateX(0) scale(1)";
       }}
     >
       <FaWhatsapp size={32} />
     </a>
   );
-};
-
-export default WhatsAppButton;
+}
