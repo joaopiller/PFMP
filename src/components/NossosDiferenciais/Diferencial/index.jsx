@@ -7,9 +7,7 @@ export default function Diferencial({ title, description, children }) {
         <h3>{title}</h3>
         {children}
       </div>
-      <p className={styles.differentialText}>
-        {description}
-      </p>
+      <p className={styles.differentialText}>{description}</p>
     </div>
   );
 }

@@ -1,13 +1,16 @@
-import { useNavigate } from "react-router-dom";
-import CardPublicacao from "../CardPublicacao";
-import SectionTitle from "../SectionTitle";
+"use client";
+
+import { useRouter } from "next/navigation";
+import CardPublicacao from "@/components/CardPublicacao";
+import SectionTitle from "@/components/SectionTitle";
+import posts from "@/data/posts.js";
 import styles from "./styles.module.css";
-import posts from "../../data/posts.js";
 
 export default function HomePublicacoes() {
-  const navigate = useNavigate();
+  const router = useRouter();
+
   const handleVerMaisClick = () => {
-    navigate("/publicacoes");
+    router.push("/publicacoes");
     window.scrollTo(0, 0);
   };
 

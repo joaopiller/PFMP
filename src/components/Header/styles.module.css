@@ -10,10 +10,15 @@
   height: 15vh;
 }
 
+.logoLink {
+  display: inline-block;
+  line-height: 0;
+}
+
 .logo {
-  width: 11rem;
-  padding: 0.7rem 0;
   cursor: pointer;
+  width: 11rem;
+  height: 2.8rem;
 }
 
 .navBox {
@@ -177,8 +182,9 @@
 @media (max-width: 1240px) {
   .logo {
     width: 10rem;
+    height: 2.5rem;
   }
-  
+
   .navBox {
     display: none;
   }
@@ -198,11 +204,12 @@
 
 @media (max-width: 800px) {
   .header {
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     height: 10vh;
   }
 
   .logo {
     width: 9rem;
+    height: 2.25rem;
   }
 }

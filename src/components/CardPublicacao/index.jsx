@@ -1,32 +1,31 @@
-import { useNavigate } from "react-router-dom";
-import ExpandButton from "../ExpandButton";
+"use client";
+
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import ExpandButton from "@/components/ExpandButton";
 import styles from "./styles.module.css";
 
-export default function CardPublicacao({image, title, description, id}) {
-  const navigate = useNavigate();
+export default function CardPublicacao({ image, title, description, id }) {
+  const router = useRouter();
 
   const handleCardClick = () => {
-    navigate(`/publicacoes/${id}`);
+    router.push(`/publicacoes/${id}`);
     window.scrollTo(0, 0);
   };
 
   return (
     <article className={styles.publicacaoCard}>
-      <img
+      <Image
         className={styles.publicacaoImage}
         src={image}
-        alt="Publicação"
+        alt={`Publicação: ${title}`}
       />
       <div className={styles.publicacaoContent}>
         <div className={styles.publicacaoText}>
-          <h3 className={styles.publicacaoTitle}>
-            {title}
-          </h3>
-          <p className={styles.publicacaoDescription}>
-           {description}
-          </p>
+          <h3 className={styles.publicacaoTitle}>{title}</h3>
+          <p className={styles.publicacaoDescription}>{description}</p>
         </div>
-        <ExpandButton text={"Leia mais"} onClick={handleCardClick} />
+        <ExpandButton text="Leia mais" onClick={handleCardClick} />
       </div>
     </article>
   );

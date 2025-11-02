@@ -16,7 +16,7 @@
   left: 0;
   width: 75%;
   height: 100vh;
-  background-image: url("../../assets/images/diferenciais.jpg");
+  background-image: url("@/assets/images/diferenciais.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;

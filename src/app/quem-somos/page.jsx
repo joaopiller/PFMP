@@ -1,24 +1,25 @@
-import PageBanner from "../../components/PageBanner";
-import city from "../../assets/images/city.jpg";
+import Image from "next/image";
+import PageBanner from "@/components/PageBanner";
+import VerEquipeButton from "./VerEquipeButton";
+import city from "@/assets/images/city.jpg";
+import equipeQuemSomos from "@/assets/images/equipe_quem_somos.jpg";
 import styles from "./styles.module.css";
-import ExpandButton from "../../components/ExpandButton";
-import equipeQuemSomos from "../../assets/images/equipe_quem_somos.JPG";
-import { useNavigate } from "react-router-dom";
 import { TbBulb } from "react-icons/tb";
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { LuHandshake } from "react-icons/lu";
 import { GoPeople } from "react-icons/go";
 
-export default function QuemSomos() {
-  const navigate = useNavigate();
-  const handleVerEquipeClick = () => {
-    navigate("/equipe");
-    window.scrollTo(0, 0);
-  };
+export const metadata = {
+  title: "Quem Somos | PFMP Advogados",
+  description:
+    "Conheça o PFMP Advogados: nossa missão, visão, valores e o time por trás das soluções tributárias de alto impacto.",
+};
 
+export default function QuemSomos() {
   return (
     <>
       <PageBanner title="Quem Somos" image={city} />
+
       <section className={styles.quemSomosContainer}>
         <div className={styles.quemSomosContent}>
           <p className={styles.quemSomosDescription}>
@@ -41,8 +42,8 @@ export default function QuemSomos() {
             um serviço jurídico de qualidade. Já ouviram promessas vagas, foram
             mal atendidos ou sequer entenderam o que estavam contratando. Nossa
             proposta é romper com esse modelo. Oferecemos uma advocacia
-            tributária eficiente, com linguagem simples, escuta ativa e
-            entrega real de valor.
+            tributária eficiente, com linguagem simples, escuta ativa e entrega
+            real de valor.
           </p>
           <p className={styles.quemSomosDescription}>
             Se você é empresário, profissional liberal ou pessoa física que
@@ -58,6 +59,7 @@ export default function QuemSomos() {
           </p>
         </div>
       </section>
+
       <section className={styles.quemSomosMVV}>
         <div className={styles.quemSomosMVContainer}>
           <div className={styles.quemSomosMVItem}>
@@ -80,6 +82,7 @@ export default function QuemSomos() {
           </div>
         </div>
       </section>
+
       <section className={styles.quemSomosValores}>
         <h3>Valores</h3>
         <div className={styles.quemSomosValoresContainer}>
@@ -116,6 +119,7 @@ export default function QuemSomos() {
           </div>
         </div>
       </section>
+
       <section className={styles.quemSomosEquipe}>
         <div className={styles.quemSomosEquipeInfos}>
           <h2 className={styles.quemSomosEquipeTitle}>
@@ -128,12 +132,16 @@ export default function QuemSomos() {
               de ensino mais renomadas do país.
             </span>
           </p>
-          <ExpandButton onClick={handleVerEquipeClick} text={"Ver equipe"} />
+          <VerEquipeButton />
         </div>
-        <img
+
+        <Image
           className={styles.quemSomosEquipeImage}
           src={equipeQuemSomos}
-          alt="Imagem"
+          alt="Equipe PFMP Advogados"
+          width={1200}
+          height={800}
+          priority
         />
       </section>
     </>

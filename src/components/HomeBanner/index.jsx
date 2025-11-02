@@ -1,6 +1,12 @@
 import styles from "./styles.module.css";
 import { FaWhatsapp } from "react-icons/fa";
 
+export const metadata = {
+  title: "PFMP Advogados | Advocacia Tributária com Atuação Nacional",
+  description:
+    "Consultoria e defesa tributária para empresas e pessoas físicas, com soluções fiscais estratégicas, digitais e seguras em todo o Brasil.",
+};
+
 export default function HomeBanner() {
   const phoneNumber = "31997127831";
   const message = "Olá, gostaria de entrar em contato!";

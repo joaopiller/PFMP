@@ -1,12 +1,16 @@
-import styles from "./styles.module.css";
-import homeQuemSomos from "../../assets/images/home_quem_somos.JPG";
+"use client";
+
+import Image from "next/image";
+import { useRouter } from "next/navigation";
 import ExpandButton from "../ExpandButton";
-import { useNavigate } from "react-router-dom";
+import homeQuemSomos from "@/assets/images/home_quem_somos.jpg";
+import styles from "./styles.module.css";
 
 export default function HomeQuemSomos() {
-  const navigate = useNavigate();
+  const router = useRouter();
+
   const handleExpandClick = () => {
-    navigate("/quem-somos");
+    router.push("/quem-somos");
     window.scrollTo(0, 0);
   };
 
@@ -22,9 +26,16 @@ export default function HomeQuemSomos() {
             Tributário de verdade para gente de verdade.
           </span>
         </p>
-        <ExpandButton onClick={handleExpandClick} text={"Saiba mais"} />
+        <ExpandButton onClick={handleExpandClick} text="Saiba mais" />
       </div>
-      <img className={styles.quemSomosImage} src={homeQuemSomos} alt="Imagem" />
+      <Image
+        className={styles.quemSomosImage}
+        src={homeQuemSomos}
+        alt="Equipe PFMP Advogados"
+        width={1200}
+        height={800}
+        priority
+      />
     </section>
   );
 }

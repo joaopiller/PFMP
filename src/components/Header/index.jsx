@@ -1,9 +1,12 @@
-import styles from "./styles.module.css";
-import logo from "../../assets/images/logo_header.png";
+"use client";
+
+import Image from "next/image";
+import { useState } from "react";
+import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 import { HiMenu, HiX } from "react-icons/hi";
-import { Link, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import styles from "./styles.module.css";
+import logo from "@/assets/images/logo_header.png";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,48 +16,40 @@ export default function Header() {
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message
   )}`;
-  const navigate = useNavigate();
 
-  const handleLogoClick = () => {
-    navigate("/");
-    window.scrollTo(0, 0);
-  };
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  const closeMenu = () => {
-    setIsMenuOpen(false);
-  };
+  const toggleMenu = () => setIsMenuOpen((prev) => !prev);
+  const closeMenu = () => setIsMenuOpen(false);
 
   return (
     <header className={styles.header}>
-      <img
-        onClick={handleLogoClick}
-        className={styles.logo}
-        src={logo}
-        alt="logo"
-      />
+      <Link href="/" className={styles.logoLink}>
+        <Image
+          className={styles.logo}
+          src={logo}
+          alt="Logo PFMP Advogados"
+          width={170}
+          priority
+        />
+      </Link>
 
       <button className={styles.hamburger} onClick={toggleMenu}>
         {isMenuOpen ? <HiX size={40} /> : <HiMenu size={40} />}
       </button>
 
       <nav className={styles.navBox}>
-        <Link className={styles.navItem} to="/">
+        <Link className={styles.navItem} href="/">
           Início
         </Link>
-        <Link className={styles.navItem} to="/quem-somos">
+        <Link className={styles.navItem} href="/quem-somos">
           Quem Somos
         </Link>
-        <Link className={styles.navItem} to="/equipe">
+        <Link className={styles.navItem} href="/equipe">
           Equipe
         </Link>
-        <Link className={styles.navItem} to="/areas-de-atuacao">
+        <Link className={styles.navItem} href="/areas-de-atuacao">
           Áreas de Atuação
         </Link>
-        <Link className={styles.navItem} to="/publicacoes">
+        <Link className={styles.navItem} href="/publicacoes">
           Publicações
         </Link>
       </nav>
@@ -67,33 +62,39 @@ export default function Header() {
         <button className={styles.closeButton} onClick={closeMenu}>
           <HiX size={24} />
         </button>
-        <Link className={styles.mobileNavItem} to="/" onClick={closeMenu}>
+
+        <Link className={styles.mobileNavItem} href="/" onClick={closeMenu}>
           Início
         </Link>
         <Link
           className={styles.mobileNavItem}
-          to="/quem-somos"
+          href="/quem-somos"
           onClick={closeMenu}
         >
           Quem Somos
         </Link>
-        <Link className={styles.mobileNavItem} to="/equipe" onClick={closeMenu}>
+        <Link
+          className={styles.mobileNavItem}
+          href="/equipe"
+          onClick={closeMenu}
+        >
           Equipe
         </Link>
         <Link
           className={styles.mobileNavItem}
-          to="/areas-de-atuacao"
+          href="/areas-de-atuacao"
           onClick={closeMenu}
         >
           Áreas de Atuação
         </Link>
         <Link
           className={styles.mobileNavItem}
-          to="/publicacoes"
+          href="/publicacoes"
           onClick={closeMenu}
         >
           Publicações
         </Link>
+
         <a
           href={whatsappLink}
           target="_blank"

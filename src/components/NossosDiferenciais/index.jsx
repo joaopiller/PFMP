@@ -1,7 +1,6 @@
-import { PiHandshakeLight } from "react-icons/pi";
-import styles from "./styles.module.css";
 import SectionTitle from "../SectionTitle";
-import Diferencial from "./Diferencial";
+import Diferencial from "../NossosDiferenciais/Diferencial";
+import styles from "./styles.module.css";
 import { GiBrazil } from "react-icons/gi";
 import { IoMdChatbubbles } from "react-icons/io";
 import { FaLaptop } from "react-icons/fa";
@@ -26,7 +25,7 @@ export default function NossosDiferenciais() {
               </Diferencial>
               <Diferencial
                 title="Atuação nacional"
-                description=" Atendemos em todo o Brasil, com foco especial em quem está fora dos grandes centros."
+                description="Atendemos em todo o Brasil, com foco especial em quem está fora dos grandes centros."
               >
                 <GiBrazil color="#DB9F5D" size={22} />
               </Diferencial>
@@ -44,13 +43,13 @@ export default function NossosDiferenciais() {
               </Diferencial>
               <Diferencial
                 title="Formação de ponta"
-                description=" Equipe formada pela UFMG com sólida base técnica e acadêmica."
+                description="Equipe formada pela UFMG com sólida base técnica e acadêmica."
               >
                 <RiBook2Fill color="#DB9F5D" size={22} />
               </Diferencial>
               <Diferencial
                 title="Experiência diversa"
-                description="Sócios com experiência nos maiores escritórios do país, no setor público e em projetos empreendedores. "
+                description="Sócios com experiência nos maiores escritórios do país, no setor público e em projetos empreendedores."
               >
                 <VscLaw color="#DB9F5D" size={22} />
               </Diferencial>
@@ -58,6 +57,7 @@ export default function NossosDiferenciais() {
           </div>
         </div>
       </section>
+
       <section className={styles.mobileBox}>
         <div className={styles.mobileTitle}>
           <SectionTitle lightTitle="Nossos" boldTitle="Diferenciais" white />
@@ -71,7 +71,7 @@ export default function NossosDiferenciais() {
           </Diferencial>
           <Diferencial
             title="Atuação nacional"
-            description=" Atendemos em todo o Brasil, com foco especial em quem está fora dos grandes centros."
+            description="Atendemos em todo o Brasil, com foco especial em quem está fora dos grandes centros."
           >
             <GiBrazil color="#DB9F5D" size={22} />
           </Diferencial>
@@ -89,13 +89,13 @@ export default function NossosDiferenciais() {
           </Diferencial>
           <Diferencial
             title="Formação de ponta"
-            description=" Equipe formada pela UFMG com sólida base técnica e acadêmica."
+            description="Equipe formada pela UFMG com sólida base técnica e acadêmica."
           >
             <RiBook2Fill color="#DB9F5D" size={22} />
           </Diferencial>
           <Diferencial
             title="Experiência diversa"
-            description="Sócios com experiência nos maiores escritórios do país, no setor público e em projetos empreendedores. "
+            description="Sócios com experiência nos maiores escritórios do país, no setor público e em projetos empreendedores."
           >
             <VscLaw color="#DB9F5D" size={22} />
           </Diferencial>
