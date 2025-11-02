@@ -2,7 +2,7 @@ import Image from "next/image";
 import PageBanner from "@/components/PageBanner";
 import VerEquipeButton from "./VerEquipeButton";
 import city from "@/assets/images/city.jpg";
-import equipeQuemSomos from "@/assets/images/equipe_quem_somos.jpg";
+import equipeQuemSomos from "@/assets/images/equipe_quem_somos.JPG";
 import styles from "./styles.module.css";
 import { TbBulb } from "react-icons/tb";
 import { IoChatbubblesOutline } from "react-icons/io5";
