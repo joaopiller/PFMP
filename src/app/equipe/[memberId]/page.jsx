@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import PageBanner from "@/components/PageBanner";
-import nossa_equipe from "@/assets/images/equipe_banner.jpg";
+import nossa_equipe from "@/assets/images/equipe_banner.jpeg";
 import styles from "./styles.module.css";
 import { FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 import { useState } from "react";

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import ExpandButton from "../ExpandButton";
-import homeQuemSomos from "@/assets/images/home_quem_somos.jpg";
+import homeQuemSomos from "@/assets/images/home_quem_somos.jpeg";
 import styles from "./styles.module.css";
 
 export default function HomeQuemSomos() {

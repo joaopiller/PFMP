@@ -1,10 +1,10 @@
 import SectionTitle from "@/components/SectionTitle";
 import CardMembro from "@/components/CardMembro";
 import styles from "./styles.module.css";
-import victorImg from "@/assets/images/victor_h_piller.JPG";
-import pedroImg from "@/assets/images/pedro_fonseca.JPG";
-import flaviaImg from "@/assets/images/flavia_perim.JPG";
-import marchesiImg from "@/assets/images/joao_marchesi.JPG";
+import victorImg from "@/assets/images/victor_h_piller.jpeg";
+import pedroImg from "@/assets/images/pedro_fonseca.jpeg";
+import flaviaImg from "@/assets/images/flavia_perim.jpeg";
+import marchesiImg from "@/assets/images/joao_marchesi.jpeg";
 
 export default function HomeEquipe() {
   return (
