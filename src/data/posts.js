@@ -20,9 +20,692 @@ import desenrolaRural from "../assets/images/desenrola_rural_pgfn_crédito_agric
 import contratoNamoro from "../assets/images/contrato_de_namoro.jpg"
 import cobrancaTributaria from "../assets/images/cobranca_tributaria_e_agora.png"
 import clinicaImposto from "../assets/images/equiparação_hospitalar_clínica_médico_imposto.jpg"
+import transacaoSP from "../assets/images/transacao_sp_desconto_prefeitura.jpg"
+import execucaoFiscal from "../assets/images/execucao_fiscal_divida_tributaria_processo.jpg" 
+import simplesAcabar from "../assets/images/simples_nacional_reforma_tributária_modelagem.jpeg"
+import holdingFamiliar from "../assets/images/holding_sucessão_tributação_itbi_itcmd_reforma_tributária.jpg"
+import simplesCGSN from "../assets/images/simples_nacional_cgsn_140_183_tributação_multa_atualização.jpg" 
 
 
 const posts = [
+    {
+        id: "simples-nacional-muda-resolucao-cgsn",
+        title: "Simples Nacional 2025: entenda o que muda com a nova Resolução CGSN nº 183",
+        date: "11/11/2025",
+        authors: "Flávia Perim",
+        description: "Se você é microempreendedor, ME ou EPP e está no Simples Nacional, atenção redobrada.",
+        image: simplesCGSN,
+        content:[
+            {
+                "type": "paragraph",
+                "text": "Se você é microempreendedor, ME ou EPP e está no Simples Nacional, atenção redobrada."
+            },
+            {
+                "type": "paragraph",
+                "text": "O Comitê Gestor do Simples Nacional (CGSN) publicou, em 13 de outubro de 2025, a [Resolução nº 183](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/147034), que atualiza as regras do regime e altera profundamente a Resolução nº 140/2018, que é a base de todo o sistema simplificado.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A ideia é modernizar e integrar a gestão tributária, mas na prática, a medida aumenta a responsabilidade de quem está no regime."
+            },
+            {
+                "type": "paragraph",
+                "text": "A norma já está em vigor, com parte das mudanças valendo a partir de 1º de janeiro de 2026."
+            },
+            {
+                "type": "subtitle",
+                "text": "Um novo Simples: mais integração e mais controle"
+            },
+            {
+                "type": "paragraph",
+                "text": "A Resolução nº 183 cria um novo conjunto de princípios que passam a orientar o regime: cooperação, transparência, justiça tributária e integração administrativa."
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, isso significa que União, Estados e Municípios agora compartilham dados e fiscalizam em conjunto."
+            },
+            {
+                "type": "paragraph",
+                "text": "A promessa é reduzir exigências duplicadas e tornar os processos mais ágeis."
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas o efeito colateral é claro: qualquer inconsistência passa a ser vista simultaneamente por todos os fiscos."
+            },
+            {
+                "type": "paragraph",
+                "text": "O Simples ficou mais digital, mais conectado… E muito menos tolerante a falhas."
+            },
+            {
+                "type": "subtitle",
+                "text": "Receita bruta ampliada: atenção ao faturamento consolidado"
+            },
+            {
+                "type": "paragraph",
+                "text": "A definição de receita bruta mudou."
+            },
+            {
+                "type": "paragraph",
+                "text": "Agora, o conceito de “receita bruta” engloba todas as receitas relacionadas à atividade principal, mesmo que em diferentes CNPJs ou quando o empresário atue como contribuinte individual."
+            },
+            {
+                "type": "paragraph",
+                "text": "Em outras palavras, o fisco passa a olhar o conjunto das atividades do mesmo sócio (por CPF)."
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso evita a fragmentação artificial do faturamento, mas também pode gerar efeito cascata: se uma empresa tiver débitos, as demais do mesmo titular podem ser impactadas."
+            },
+            {
+                "type": "paragraph",
+                "text": "É hora de revisar estruturas societárias e avaliar se faz sentido manter mais de uma empresa no nome da mesma pessoa."
+            },
+            {
+                "type": "subtitle",
+                "text": "Adesão facilitada via Portal Redesim: menos burocracia na abertura"
+            },
+            {
+                "type": "paragraph",
+                "text": "Boas notícias para quem está abrindo empresa."
+            },
+            {
+                "type": "paragraph",
+                "text": "A nova resolução permite optar pelo Simples já no ato da inscrição no CNPJ, diretamente no Portal Redesim."
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas atenção: o deferimento só ocorre se não houver pendências cadastrais, fiscais ou societárias."
+            },
+            {
+                "type": "subtitle",
+                "text": "Atenção às vedações ao Simples Nacional"
+            },
+            {
+                "type": "paragraph",
+                "text": "A Resolução CGSN nº 183 atualizou as hipóteses de impedimento para adesão e permanência no regime."
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas é importante destacar: essas restrições não são totalmente novas. Elas já estavam previstas na Lei Complementar nº 123/2006 e agora foram apenas reafirmadas e detalhadas para reforçar a fiscalização e evitar interpretações divergentes."
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, continuam proibidas de optar pelo Simples Nacional as empresas que:"
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Tenham sócio domiciliado no exterior;",
+                    "Mantenham filiais ou representações fora do país;",
+                    "Sejam sociedades em conta de participação (SCP);",
+                    "Exerçam atividades de locação de imóveis próprios.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Prazo maior para regularizar pendências: de 30 para 90 dias"
+            },
+            {
+                "type": "paragraph",
+                "text": "Se antes o prazo para resolver pendências e evitar a exclusão do Simples Nacional era apertado (apenas 30 dias), agora as empresas ganharam mais fôlego."
+            },
+            {
+                "type": "paragraph",
+                "text": "Com a nova redação do §1º do art. 84 da Resolução CGSN nº 183/2025, o período foi ampliado para 90 dias contados da ciência da comunicação de exclusão."
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, isso significa que a microempresa ou a empresa de pequeno porte tem três meses para:"
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Regularizar débitos com o INSS ou com as Fazendas Públicas;",
+                    "Corrigir irregularidades cadastrais federais, estaduais ou municipais.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa mudança é importante porque muitos empreendedores acabavam sendo excluídos por falta de tempo para resolver pendências simples, como atualizar um cadastro ou quitar um débito parcelado."
+            },
+            {
+                "type": "paragraph",
+                "text": "Agora, com mais prazo, o Simples Nacional reforça o caráter educativo e orientador do regime, ajudando empresas a manterem-se regulares e ativas, sem perder os benefícios tributários por questões pontuais."
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão"
+            },
+            {
+                "type": "paragraph",
+                "text": "A Resolução CGSN nº 183/2025 representa um marco de transição no Simples Nacional, promovendo maior integração entre empresas e estabelecendo vínculos de responsabilidade solidária entre aquelas com sócios em comum."
+            },
+            {
+                "type": "paragraph",
+                "text": "Diante desse novo contexto regulatório, é imprescindível que empresas e profissionais da contabilidade revisem cadastros, mantenham a regularidade fiscal e reavaliem a composição societária, assegurando a continuidade dos benefícios e a conformidade com o regime."
+            },
+        ]
+    },
+    {
+        id: "holding-familiar-vale-a-pena",
+        title: "Holding familiar para imóveis: quando vale a pena?",
+        date: "11/11/2025",
+        authors: "João Marchesi",
+        description: "Você provavelmente já ouviu alguém dizer que holding familiar é a solução perfeita para pagar menos imposto, ou, ao contrário, que ela não serve mais para nada.",
+        image: holdingFamiliar,
+        content:[
+            {
+                "type": "paragraph",
+                "text": "Você provavelmente já ouviu alguém dizer que holding familiar é a solução perfeita para pagar menos imposto, ou, ao contrário, que ela não serve mais para nada.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A verdade está no meio do caminho.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A holding não é para todo mundo, mas pode ser muito vantajosa para quem tem imóveis e quer reduzir a carga tributária e facilitar o planejamento sucessório.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O problema: imposto alto e sucessão cara",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quem tem imóveis sabe: o custo para manter e transmitir esse patrimônio é alto.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A locação de imóveis em nome da pessoa física é tributada pelo Imposto de Renda com alíquota que pode chegar a 27,5% - o teto da tabela vigente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E quando chega o momento da sucessão, ainda vem o ITCMD, custas cartorárias e honorários de inventário.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No fim das contas, boa parte da renda e do patrimônio acaba ficando pelo caminho.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A vantagem da holding para imóveis",
+            },
+            {
+                "type": "paragraph",
+                "text": "A holding familiar é uma empresa criada para centralizar a propriedade dos bens da família.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No caso de quem tem imóveis, ela permite tributar os rendimentos como pessoa jurídica, o que muda completamente o cenário.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Hoje, a alíquota média da holding imobiliária é de aproximadamente 14,53%, considerando IRPJ, CSLL, PIS e COFINS, quase metade do que se paga como pessoa física.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E com a reforma tributária (EC 132/2023), essa diferença deve ficar ainda mais relevante.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que muda com a reforma tributária",
+            },
+            {
+                "type": "paragraph",
+                "text": "A partir da implantação do IBS e CBS, pessoas físicas com mais de R$ 240 mil por ano em rendimentos de aluguel e que possuam mais de três imóveis serão equiparadas a empresas para fins de tributação.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, isso pode elevar a carga total para 35,9%, somando IR de 27,5% e IBS/CBS de 8,4%.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quem tiver até três imóveis, e renda anual inferior a esse limite, continuará pagando o IRPF atual (27,5%).",
+            },
+            {
+                "type": "paragraph",
+                "text": "Já nas holdings, com o novo modelo tributário, a alíquota média deve subir levemente para cerca de 19,28%, por conta da substituição do PIS/COFINS pelo IBS e CBS.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mesmo assim, a tributação continuará bem menor do que na pessoa física.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Custos e cuidados",
+            },
+            {
+                "type": "paragraph",
+                "text": "Antes de criar uma holding, é importante olhar para os custos de constituição e manutenção.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Constituição: envolve taxas e emolumentos cartorários, abertura do CNPJ e honorários advocatícios.",
+                    "Manutenção: na maioria dos casos, limita-se aos serviços contábeis mensais, com custo baixo.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Outro ponto que vem sendo discutido é a incidência de ITBI (imposto sobre transmissão de bens imóveis) quando os imóveis são transferidos para o capital social da holding.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O tema está no STF (Tema 1.348), e até o momento (outubro de 2025) o placar é 3 a 0 a favor dos contribuintes, firmando o entendimento de que não incide ITBI na integralização de imóveis em holdings imobiliárias.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja, o cenário atual é positivo para quem quer estruturar sua empresa patrimonial.",
+            },
+            {
+                "type": "subtitle",
+                "text": "E quanto à sucessão?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Aqui está outro grande benefício.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com a holding, é possível doar as quotas aos herdeiros de forma planejada, evitando o inventário e, em muitos casos, reduzindo o ITCMD.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Além disso, a sucessão ocorre de maneira organizada, rápida e menos litigiosa, porque todas as regras de administração e retirada já ficam definidas no contrato social.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Vale a pena?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na maioria dos casos, sim.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para quem possui imóveis de valor relevante ou obtém renda expressiva com locações, a holding familiar continua sendo uma das formas mais eficientes de organizar, proteger e transmitir o patrimônio.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas não é uma decisão automática: cada caso deve ser avaliado com base no perfil, no volume patrimonial e nos objetivos da família.",
+            },
+        ]
+    },
+    {
+        id: "simples-nacional-vai-acabar",
+        title: "O Simples Nacional vai acabar?",
+        date: "11/11/2025",
+        authors: "Flávia Perim",
+        description: "Você é empresário e ouviu falar que o Simples Nacional vai acabar com a Reforma Tributária?",
+        image: simplesAcabar,
+        content:[
+            {
+                "type": "paragraph",
+                "text": "Você é empresário e ouviu falar que o Simples Nacional vai acabar com a Reforma Tributária?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Pois é… essa dúvida tem tirado o sono de muitos empreendedores. A boa notícia é que o Simples continua existindo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas atenção: a Lei Complementar nº 214/2025, que regulamenta a reforma, mudou várias regras importantes, e entender essas mudanças é essencial para evitar problemas e planejar o futuro do seu negócio.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que está acontecendo?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Reforma Tributária criou dois novos tributos: o Imposto sobre Bens e Serviços (IBS) e a Contribuição sobre Bens e Serviços (CBS).",
+            },
+            {
+                "type": "paragraph",
+                "text": "Eles formam o chamado IVA Dual, que unifica tributos federais, estaduais e municipais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para micro e pequenas empresas, o Simples Nacional continua sendo o regime simplificado previsto na Lei Complementar nº 123/2006.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas a forma como você vai lidar com o IBS e a CBS dentro desse regime mudou e isso pode afetar diretamente o seu fluxo de caixa, carga tributária e planejamento contábil.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Relembrando: o que é o Simples Nacional?",
+            },
+            {
+                "type": "paragraph",
+                "text": "O Simples Nacional foi criado para facilitar a vida das micro e pequenas empresas, unificando vários impostos em uma única guia de pagamento (DAS).",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quem pode optar:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Faturamento anual de até R$ 4,8 milhões;",
+                    "Exercício de atividade econômica permitida (nem todas podem participar).",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Quem não pode:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Bancos, seguradoras, factoring e cooperativas de crédito;",
+                    "Comércio de bebidas alcoólicas, cigarros e armas;",
+                    "Empresas de cessão de mão de obra ou locação de imóveis;",
+                    "Sócios residentes no exterior.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Principais vantagens:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Menos burocracia contábil e fiscal;",
+                    "Alíquotas progressivas (crescem conforme o faturamento);",
+                    "Carga tributária, em geral, mais previsível.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas um alerta importante: nem sempre o Simples é o regime mais barato. Dependendo da sua margem de lucro e estrutura de custos, outros regimes podem ser mais vantajosos.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que muda com a Reforma Tributária?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A reforma não extingue o Simples Nacional, mas traz adaptações relevantes para integrá-lo ao novo sistema de IBS e CBS.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Veja o que muda na prática:",
+            },
+            {
+                "type": "paragraph",
+                "text": "1. Duas formas de recolher IBS e CBS",
+            },
+            {
+                "type": "paragraph",
+                "text": "As empresas do Simples poderão escolher como recolher os novos tributos: (i) dentro do DAS (mantendo tudo unificado, como é hoje); ou (ii) fora do DAS, recolhendo IBS e CBS separadamente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, empresas com muitos insumos ou compras tributadas deverão optar pelo recolhimento separado, aproveitando créditos para reduzir a carga efetiva.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa escolha será estratégica e deve ser revisada periodicamente, porque as margens e os custos mudam com o tempo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "2. Ampliação do conceito de Receita Bruta",
+            },
+            {
+                "type": "paragraph",
+                "text": "A partir de 2025, a receita bruta das empresas do Simples passa a incluir outras receitas ligadas à atividade principal, como ganhos financeiros em vendas parceladas.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso aumenta a base de cálculo e pode impactar diretamente no valor dos tributos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "3. Vedação de créditos para quem permanece 100% no Simples",
+            },
+            {
+                "type": "paragraph",
+                "text": "As empresas que ficarem apenas dentro do Simples não poderão gerar créditos de IBS e CBS.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja, quem vende para outras empresas (B2B) pode perder competitividade.",
+            },
+            {
+                "type": "paragraph",
+                "text": "4. Split Payment e novas obrigações acessórias",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com o split payment, o pagamento do imposto será dividido automaticamente na transação, destinando parte diretamente ao fisco.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso exigirá ajustes nos sistemas de emissão de notas fiscais e atenção às novas obrigações acessórias.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Como se preparar para o novo cenário",
+            },
+            {
+                "type": "paragraph",
+                "text": "Então olha só o que você, empresário ou contador, precisa fazer desde já:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "Converse com seu contador ou advogado de confiança sobre a melhor forma de recolher IBS/CBS (dentro ou fora do Simples);",
+                    "Revise o enquadramento tributário e simule cenários com e sem o regime híbrido;",
+                    "Atualize o sistema de emissão de notas fiscais para o split payment;",
+                    "Monitore margens e custos: isso vai influenciar diretamente a melhor escolha;",
+                    "Invista em planejamento tributário e mantenha-se atualizado sobre as instruções da Receita Federal.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão: o Simples continua, mas o “jeito de ser simples” mudou",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Lei Complementar nº 214/2025 marca o início de uma nova era no sistema tributário brasileiro.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O Simples Nacional continua firme, mas com novas regras, mais opções e também mais responsabilidades.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Agora, o desafio é usar as mudanças a seu favor.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com um bom planejamento e acompanhamento especializado, dá para continuar aproveitando os benefícios do Simples e ainda reduzir a carga tributária de forma inteligente.",
+            },
+        ]
+    },
+    {
+        id: "execucao-fiscal",
+        title: "Recebeu uma execução fiscal? Entenda o que está acontecendo e o que fazer",
+        date: "11/11/2025",
+        authors: "Pedro H. Fonseca",
+        description: "Receber uma execução fiscal assusta… e com razão. Geralmente, a pessoa só descobre o processo quando é citada por um oficial de justiça ou quando o banco bloqueia a conta de surpresa.",
+        image: execucaoFiscal,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Receber uma [execução fiscal](https://www.planalto.gov.br/ccivil_03/leis/l6830.htm) assusta… e com razão. Geralmente, a pessoa só descobre o processo quando é citada por um oficial de justiça ou quando o banco bloqueia a conta de surpresa.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas calma. Nem toda execução é legítima e, mesmo quando a dívida existe, há formas de resolver a situação sem desespero. A seguir, explicamos o que isso significa e quais caminhos você pode seguir.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que é uma execução fiscal",
+            },
+            {
+                "type": "paragraph",
+                "text": "A execução fiscal é uma [cobrança](https://www.pfmpadv.com.br/publicacoes/recebi-uma-cobranca) feita pela Justiça, quando o governo entende que você ou sua empresa têm um tributo em aberto. Ela não é uma simples notificação: é um processo judicial.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso significa que o nome do contribuinte foi inscrito na chamada “dívida ativa”, e a Fazenda Pública, seja a União, o Estado ou o Município, entrou com uma ação para receber o valor.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nessa fase, o juiz pode autorizar bloqueios de contas e penhoras de bens logo no início. É por isso que muita gente só descobre a dívida depois que o bloqueio já aconteceu.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que pode estar errado nessa cobrança",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nem sempre a execução fiscal é válida. Existem situações em que a cobrança tem falhas ou até perdeu o prazo legal para ser feita. Entre os problemas mais comuns estão:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Dívidas prescritas: o governo tem, em regra, cinco anos para entrar com o processo depois que o tributo é lançado. Passado esse prazo, a cobrança é ilegal, e é muito comum que isso aconteça em execuções municipais.",
+                    "Erros na certidão: o documento que embasa a execução (chamado de Certidão de Dívida Ativa) pode conter equívocos, como valores errados, identificação incorreta do devedor ou ausência de informações obrigatórias.",
+                    "Cobranças duplicadas ou já pagas: falhas de sistema e cruzamentos automáticos de dados podem gerar execuções de débitos que já foram quitados.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Esses pontos são mais frequentes do que parece e podem levar à anulação completa da execução.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Como agir ao receber uma execução fiscal",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "Não ignore a notificação. O processo continua mesmo sem sua participação.",
+                    "Evite pagar de imediato. Antes de qualquer pagamento, é essencial confirmar se a cobrança é válida.",
+                    "Procure um advogado especializado em Direito Tributário. Ele poderá analisar o processo, identificar se há prescrição, erro ou nulidade, e apresentar a defesa correta.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Agir rápido é o que faz diferença entre resolver o problema e ter o patrimônio bloqueado.",
+            },
+            {
+                "type": "subtitle",
+                "text": "É possível negociar dívidas já em execução?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Sim. Mesmo que o processo já esteja em andamento, é possível negociar a dívida com desconto. A legislação permite que débitos em execução sejam incluídos em programas de [transação tributária](https://www.gov.br/pgfn/pt-br/servicos/orientacoes-contribuintes/acordo-de-transacao), tanto na esfera federal quanto em estados e municípios.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essas negociações podem oferecer:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Descontos de até 65% em juros e multas;",
+                    "Parcelamentos longos, de até 120 meses;",
+                    "Suspensão imediata dos bloqueios após adesão ao acordo.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Em muitos casos, negociar é mais vantajoso do que discutir o processo por anos na Justiça.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Por que contar com um advogado faz diferença",
+            },
+            {
+                "type": "paragraph",
+                "text": "Um profissional especializado sabe identificar quando há prescrição, erro ou oportunidade de transação. Além disso, acompanha o processo de forma técnica e estratégica, evitando bloqueios indevidos e protegendo seu patrimônio.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Receber uma execução fiscal não significa que tudo está perdido, mas exige ação rápida e orientação certa.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A equipe do PFMP Advogados atua diariamente na análise e defesa de execuções fiscais em todo o país, ajudando contribuintes a revisar cobranças, negociar débitos e recuperar segurança jurídica e financeira.",
+            },
+        ]
+    },
+    {
+        id: "transacao-sp",
+        title: "Tem dívida com a Prefeitura de SP? Conheça a possibilidade de redução de até 95%",
+        date: "11/11/2025",
+        authors: "Pedro H. Fonseca",
+        description: "A Prefeitura de São Paulo lançou o programa Fique em Dia, uma medida crucial para a regularização de débitos municipais (IPTU, ISS, ITBI e outras taxas). O programa, instituído pelo Edital PGM nº 2/2025, estabelece a oportunidade de reduções em juros e multas, com adesão limitada até 12 de dezembro de 2025.",
+        image: transacaoSP,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "A [Prefeitura de São Paulo](https://g1.globo.com/sp/sao-paulo/noticia/2025/10/30/prefeitura-de-sp-libera-renegociacao-de-dividas-com-ate-95percent-de-desconto-a-partir-desta-sexta.ghtml) lançou o programa [Fique em Dia](https://prefeitura.sp.gov.br/w/prefeitura-lan%C3%A7a-programa-com-at%C3%A9-95-de-desconto-para-quita%C3%A7%C3%A3o-de-d%C3%A9bitos-da-d%C3%ADvida-ativa), uma medida crucial para a regularização de débitos municipais (IPTU, ISS, ITBI e outras taxas). O programa, instituído pelo [Edital PGM nº 2/2025](https://www.fecomercio.com.br/noticia/novo-programa-fiqueemdia-possibilita-quitar-dividas-inscritas-com-ate-95-de-descontos#:~:text=A%20Prefeitura%20de%20S%C3%A3o%20Paulo,de%20processos%20de%20execu%C3%A7%C3%A3o%20judicial.), estabelece a oportunidade de reduções em juros e multas, com adesão limitada até 12 de dezembro de 2025.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A [Oportunidade](https://noticias.uol.com.br/cotidiano/ultimas-noticias/2025/11/01/sp-da-ate-95-de-desconto-para-dividas-de-iptu-imposto-aumenta-em-2026.htm) Legal e o Prazo",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para contribuintes que buscam a regularidade fiscal, o programa é uma alternativa para evitar consequências legais severas.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Vantagem Máxima: A legislação do [Fique em Dia](https://portal.tjsp.jus.br/Noticias/Noticia?codigoNoticia=112722) prevê, em sua modalidade de pagamento à vista, a redução de até 95% dos encargos moratórios (juros e multas). O programa também permite o parcelamento em até 120 meses, com reduções proporcionais.",
+                    "Abrangência e Exclusões: São contemplados débitos com fatos geradores até 31 de dezembro de 2024. Débitos do Simples Nacional estão excluídos.",
+                    "Consequência da Inação: Após 12 de dezembro de 2025, os débitos voltam a gerar juros, o desconto desaparece e podem ser executados judicialmente.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Risco na Adesão Sem Análise",
+            },
+            {
+                "type": "paragraph",
+                "text": "A adesão direta ao programa pode, surpreendentemente, levar o contribuinte a pagar mais do que o devido.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Erros Comuns: É frequente encontrar no sistema da Prefeitura débitos com cálculos incorretos, débitos prescritos ou valores com duplicidade de cobrança.",
+                    "Risco de Bloqueio: Muitos contribuintes são surpreendidos com bloqueios judiciais por execuções fiscais antigas.",
+                    "A Revisão Técnica: A revisão jurídica antes da formalização do acordo é essencial para garantir que o contribuinte pague apenas o valor legalmente correto.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "A Consultoria Especializada para a Regularização",
+            },
+            {
+                "type": "paragraph",
+                "text": "O papel do advogado é analisar a validade da cobrança e orientar sobre a forma mais segura e econômica de adesão.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Diagnóstico: No PFMP Advogados, realizamos a revisão completa da dívida e avaliamos a possibilidade de falhas ou prescrição.",
+                    "Regularização e Proteção: Com o programa em vigor, conseguimos substituir a cobrança judicial por um acordo formal, o que pode suspender bloqueios e liberar certidões de forma rápida.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Prazo e Próximos Passos",
+            },
+            {
+                "type": "paragraph",
+                "text": "O prazo final de 12 de dezembro é inegociável.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A equipe do PFMP Advogados atua diariamente na análise e defesa de execuções fiscais em todo o país, ajudando contribuintes a revisar cobranças, negociar débitos e recuperar segurança jurídica e financeira.",
+            },
+        ]
+    },
     {
         id: "equiparacao-hospitalar-imposto-a-mais",
         title: "Está pagando imposto a mais na clínica e nem sabe?",
