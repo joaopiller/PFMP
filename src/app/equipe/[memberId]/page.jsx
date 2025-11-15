@@ -1,5 +1,6 @@
 "use client";
 
+import { notFound } from "next/navigation";
 import Image from "next/image";
 import PageBanner from "@/components/PageBanner";
 import nossa_equipe from "@/assets/images/equipe_banner.jpeg";
@@ -51,11 +52,7 @@ export default function MembroDetalhes({ params }) {
   const [showAdditionalInfo, setShowAdditionalInfo] = useState(false);
 
   if (!membro) {
-    return (
-      <main className={styles.membroNaoEncontrado}>
-        <h1>Membro não encontrado 😢</h1>
-      </main>
-    );
+    notFound();
   }
 
   const toggleAdditionalInfo = () => setShowAdditionalInfo((prev) => !prev);

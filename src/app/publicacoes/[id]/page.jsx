@@ -1,4 +1,5 @@
 // app/publicacoes/[id]/page.jsx
+import { notFound } from "next/navigation";
 import PageBanner from "@/components/PageBanner";
 import publicacoes from "@/assets/images/banner_publicacoes.jpg";
 import styles from "./styles.module.css";
@@ -51,11 +52,7 @@ export default function Publicacao({ params }) {
   const post = posts.find((p) => String(p.id).trim().toLowerCase() === key);
 
   if (!post) {
-    return (
-      <main className={styles.publicacaoNaoEncontrada}>
-        <h1>Publicação não encontrada</h1>
-      </main>
-    );
+    notFound();
   }
 
   return (
