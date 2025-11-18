@@ -25,9 +25,104 @@ import execucaoFiscal from "../assets/images/execucao_fiscal_divida_tributaria_p
 import simplesAcabar from "../assets/images/simples_nacional_reforma_tributária_modelagem.jpeg"
 import holdingFamiliar from "../assets/images/holding_sucessão_tributação_itbi_itcmd_reforma_tributária.jpg"
 import simplesCGSN from "../assets/images/simples_nacional_cgsn_140_183_tributação_multa_atualização.jpg" 
+import dieselPIS from "../assets/images/diesel_pis_cofins_combustivel_credito_192_stj_novembro.jpg"
 
 
 const posts = [
+    {
+        id: "diesel-pis-cofins-combustivel-stj",
+        title: "Setor de combustíveis: atenção para o julgamento do STJ",
+        date: "18/11/2025",
+        authors: "Flávia Perim",
+        description: "Empresas do Lucro Real que atuam na revenda, transporte ou consumo de combustíveis ainda têm oportunidade de ingressar na Justiça para garantir o direito à compensação dos créditos de PIS e COFINS.",
+        image: dieselPIS,
+        content:[
+            {
+                "type": "subtitle",
+                "text": "Entenda o que está em jogo"
+            },
+            {
+                "type": "paragraph",
+                "text": "Empresas do Lucro Real que atuam na revenda, transporte ou consumo de combustíveis ainda têm oportunidade de ingressar na Justiça para garantir o direito à compensação dos créditos de PIS e COFINS.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O Superior Tribunal de Justiça (STJ) iniciou em 12/11 o julgamento do Tema 1339, que definirá se o crédito de PIS e COFINS sobre a compra de combustíveis é devido durante a vigência da Lei Complementar nº 192/2022.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se o STJ decidir de forma favorável, há forte tendência de o Tribunal modular os efeitos da decisão, ou seja, restringir o benefício apenas para quem já tiver ação judicial ajuizada antes do julgamento.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Importante: caso o STJ adote como marco temporal a data da publicação da ata de julgamento, ainda haverá janela para novas ações até esse momento. Ou seja, apesar do cenário ter ficado mais apertado com o início do julgamento, não está tudo perdido, especialmente para contribuintes com alto volume de créditos envolvidos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em outras palavras: quem não se antecipar pode perder definitivamente o direito à compensação ou ao ressarcimento.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Entenda o objeto"
+            },
+            {
+                "type": "paragraph",
+                "text": "A chamada “tese do diesel” discute o direito das empresas do Lucro Real de se creditarem do PIS e da COFINS sobre o custo de aquisição do diesel, GLP, gás natural ou querosene de avião utilizados nas suas atividades.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em março de 2022, a LC 192/2022 reduziu a zero as alíquotas de PIS e COFINS incidentes sobre combustíveis, mantendo o direito ao crédito para toda a cadeia, inclusive o adquirente final.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Pouco tempo depois, a MP 1.118/2022 tentou restringir esse direito, garantindo o crédito apenas para produtores e revendedores.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Porém, o STF (ADI 7.181) decidiu que a medida só teria efeitos após 90 dias, preservando o direito aos créditos nesse período.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, ficou reconhecido o direito ao crédito de 11/03/2022 até pelo menos 15/08/2022, conforme confirmam diversas decisões judiciais favoráveis.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Por que agir agora"
+            },
+            {
+                "type": "paragraph",
+                "text": "Apesar das decisões positivas, a Receita Federal nunca reconheceu automaticamente o direito à compensação, o que faz com que a via judicial seja a única forma segura de assegurar o benefício.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com o julgamento do Tema 1339 marcado, o risco de modulação, ou seja, a limitação do direito apenas para quem já ingressou com a ação, é muito alto.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nos últimos anos, o STJ tem aplicado essa modulação em diversos temas tributários, excluindo contribuintes que não haviam se antecipado.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Por isso, quem aguardar o resultado pode ficar de fora, mesmo que a tese seja vitoriosa.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que fazer"
+            },
+            {
+                "type": "paragraph",
+                "text": "As empresas interessadas devem avaliar com urgência a viabilidade de ajuizar a ação antes da conclusão do julgamento e, especialmente, antes da publicação da ata, caso a modulação ocorra.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O processo é técnico, mas célere, e pode representar recuperação relevante de valores para empresas que utilizam diesel em larga escala, como postos, transportadoras, usinas e distribuidoras.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Atenção! Empresas que estavam no regime do Simples Nacional ou do Lucro Presumido em 2022 não possuem direito à compensação ou ressarcimento.",
+            },
+        ]
+    },
     {
         id: "simples-nacional-muda-resolucao-cgsn",
         title: "Simples Nacional 2025: entenda o que muda com a nova Resolução CGSN nº 183",
