@@ -21,14 +21,201 @@ import contratoNamoro from "../assets/images/contrato_de_namoro.jpg"
 import cobrancaTributaria from "../assets/images/cobranca_tributaria_e_agora.png"
 import clinicaImposto from "../assets/images/equiparação_hospitalar_clínica_médico_imposto.jpg"
 import transacaoSP from "../assets/images/transacao_sp_desconto_prefeitura.jpg"
-import execucaoFiscal from "../assets/images/execucao_fiscal_divida_tributaria_processo.jpg" 
+import execucaoFiscal from "../assets/images/execucao_fiscal_divida_tributaria_processo.jpg"
 import simplesAcabar from "../assets/images/simples_nacional_reforma_tributária_modelagem.jpeg"
 import holdingFamiliar from "../assets/images/holding_sucessão_tributação_itbi_itcmd_reforma_tributária.jpg"
-import simplesCGSN from "../assets/images/simples_nacional_cgsn_140_183_tributação_multa_atualização.jpg" 
+import simplesCGSN from "../assets/images/simples_nacional_cgsn_140_183_tributação_multa_atualização.jpg"
 import dieselPIS from "../assets/images/diesel_pis_cofins_combustivel_credito_192_stj_novembro.jpg"
-
+import transacaoES from "../assets/images/regularize_capixaba_es.jpg"
 
 const posts = [
+    {
+        id: "regularize-capixaba-transacao-espirito-santo",
+        title: "Regularize capixaba: a oportunidade de reduzir juros e multas da sua dívida com o ES",
+        date: "08/12/2025",
+        authors: "Pedro Fonseca",
+        description: "Se você tem empresa ou imóvel no Espírito Santo e está com dívida na Dívida Ativa, sabe como isso atrapalha tudo. A dívida cresce rápido.",
+        image: transacaoES,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Se você tem empresa ou imóvel no Espírito Santo e está com dívida na Dívida Ativa, sabe como isso atrapalha tudo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A dívida cresce rápido.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Os juros viram uma bola de neve.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E qualquer movimento, seja vender um imóvel, pegar crédito, participar de licitação… fica bloqueado.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A boa notícia? Existe um caminho para virar esse jogo.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A Dor de Quem Está com Dívida Ativa"
+            },
+            {
+                "type": "paragraph",
+                "text": "Veja se isso soa familiar:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "A dívida começou pequena, mas explodiu por causa de juros e multas.",
+                    "Resolver parece confuso, caro e distante.",
+                    "E a regularização fica sempre “para depois",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse é o ponto em que muita gente trava.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas hoje existe uma alternativa diferente: negociar com descontos reais.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O Que é o Regularize Capixaba e Por Que Importa Agora"
+            },
+            {
+                "type": "paragraph",
+                "text": "O [Regularize Capixaba](https://pge.es.gov.br/o-que-e-2) é um programa do Governo do ES que permite reduzir uma parte significativa do peso da dívida.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ele traz condições que normalmente não aparecem em parcelamentos comuns.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com ele, é possível:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Zerar os juros (desconto de até 100%)",
+                    "Reduzir multas e encargos (até cerca de 50%)",
+                    "Parcelar em até 120 vezes",
+                    "Para microempresas, pessoas físicas e empresas em recuperação: até 145 vezes",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Quais Dívidas Podem Ser Negociadas"
+            },
+            {
+                "type": "paragraph",
+                "text": "Se estão inscritas em Dívida Ativa do Estado do ES, entram no [programa](https://pge.es.gov.br/normas-legais-e-manual):",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "ICMS",
+                    "ITCMD",
+                    "Multas de órgãos estaduais (Procon-ES, IEMA, IDAF, SEAMA, SEFAZ etc.)",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja: boa parte das dívidas estaduais pode ser incluída.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Por Que Essa Negociação Vale a Pena"
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa [negociação](https://pge.es.gov.br/perguntas-e-respostas)vale muito a pena. Para você entender o impacto:",
+            },
+            {
+                "type": "paragraph",
+                "text": "Imagine uma dívida de R$ 100 mil entre imposto, juros e multa.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com o Regularize Capixaba, os juros podem ser zerados e a multa reduzida, fazendo o valor cair para algo em torno de R$ 45 mil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso significa pagar menos da metade do valor total. Isso tudo sem mágica, apenas aproveitando a oportunidade correta.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Por Que Buscar Ajuda Especializada"
+            },
+            {
+                "type": "paragraph",
+                "text": "As regras mudam conforme:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "edital publicado",
+                    "tipo de dívida",
+                    "perfil do contribuinte",
+                    "possibilidade de enquadramento em descontos específicos",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "É aqui que muitos contribuintes perdem benefícios por falta de orientação.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No PFMP, analisamos sua situação, identificamos a melhor forma de enquadramento e conduzimos toda a negociação: do diagnóstico ao acordo final, com segurança jurídica e foco em maximizar os descontos disponíveis.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Atenção Antes de Tomar Qualquer Decisão"
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Editais têm prazos curtos",
+                    "É importante avaliar se o parcelamento cabe no fluxo de caixa",
+                    "Interromper o pagamento faz você perder os descontos",
+                    "A adesão exige abrir mão de recursos relacionados ao débito",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Esses pontos são determinantes para que o acordo realmente funcione no longo prazo.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão: Uma Chance Real de Sair da Irregularidade"
+            },
+            {
+                "type": "paragraph",
+                "text": "Regularizar sua situação fiscal no Espírito Santo pode significar:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "voltar a participar de licitações",
+                    "conseguir crédito",
+                    "vender imóveis sem impedimentos",
+                    "encerrar execuções fiscais",
+                    "respirar novamente",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O Regularize Capixaba é uma oportunidade concreta — e o momento ideal é sempre antes da próxima mudança de edital.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A equipe do PFMP Advogados atua diariamente na análise e defesa de execuções fiscais em todo o país, ajudando contribuintes a revisar cobranças, negociar débitos e recuperar segurança jurídica e financeira.",
+            },
+        ]
+    },
     {
         id: "diesel-pis-cofins-combustivel-stj",
         title: "Setor de combustíveis: atenção para o julgamento do STJ",
@@ -36,7 +223,7 @@ const posts = [
         authors: "Flávia Perim",
         description: "Empresas do Lucro Real que atuam na revenda, transporte ou consumo de combustíveis ainda têm oportunidade de ingressar na Justiça para garantir o direito à compensação dos créditos de PIS e COFINS.",
         image: dieselPIS,
-        content:[
+        content: [
             {
                 "type": "subtitle",
                 "text": "Entenda o que está em jogo"
@@ -130,7 +317,7 @@ const posts = [
         authors: "Flávia Perim",
         description: "Se você é microempreendedor, ME ou EPP e está no Simples Nacional, atenção redobrada.",
         image: simplesCGSN,
-        content:[
+        content: [
             {
                 "type": "paragraph",
                 "text": "Se você é microempreendedor, ME ou EPP e está no Simples Nacional, atenção redobrada."
@@ -288,7 +475,7 @@ const posts = [
         authors: "João Marchesi",
         description: "Você provavelmente já ouviu alguém dizer que holding familiar é a solução perfeita para pagar menos imposto, ou, ao contrário, que ela não serve mais para nada.",
         image: holdingFamiliar,
-        content:[
+        content: [
             {
                 "type": "paragraph",
                 "text": "Você provavelmente já ouviu alguém dizer que holding familiar é a solução perfeita para pagar menos imposto, ou, ao contrário, que ela não serve mais para nada.",
@@ -433,7 +620,7 @@ const posts = [
         authors: "Flávia Perim",
         description: "Você é empresário e ouviu falar que o Simples Nacional vai acabar com a Reforma Tributária?",
         image: simplesAcabar,
-        content:[
+        content: [
             {
                 "type": "paragraph",
                 "text": "Você é empresário e ouviu falar que o Simples Nacional vai acabar com a Reforma Tributária?",
