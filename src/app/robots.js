@@ -1,5 +1,5 @@
 export default function robots() {
-  const baseUrl = "https://pfmpadv.com.br"; 
+  const baseUrl = "https://www.pfmpadv.com.br"; 
   return {
     rules: [
       {
