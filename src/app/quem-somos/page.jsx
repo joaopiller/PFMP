@@ -13,6 +13,18 @@ export const metadata = {
   title: "Quem Somos | PFMP Advogados",
   description:
     "Conheça o PFMP Advogados: nossa missão, visão, valores e o time por trás das soluções tributárias de alto impacto.",
+  alternates: {
+    canonical: "https://www.pfmpadv.com.br/quem-somos",
+  },
+  openGraph: {
+    title: "Quem Somos | PFMP Advogados",
+    description:
+      "Conheça o PFMP Advogados: nossa missão, visão, valores e o time por trás das soluções tributárias de alto impacto.",
+    url: "https://www.pfmpadv.com.br/quem-somos",
+    siteName: "PFMP Advogados",
+    locale: "pt_BR",
+    type: "website",
+  },
 };
 
 export default function QuemSomos() {

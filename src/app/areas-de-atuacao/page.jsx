@@ -8,6 +8,18 @@ export const metadata = {
   title: "Áreas de Atuação | PFMP Advogados",
   description:
     "Conheça as principais áreas de atuação do escritório PFMP Advogados.",
+  alternates: {
+    canonical: "https://www.pfmpadv.com.br/areas-de-atuacao",
+  },
+  openGraph: {
+    title: "Áreas de Atuação | PFMP Advogados",
+    description:
+      "Conheça as principais áreas de atuação do escritório PFMP Advogados.",
+    url: "https://www.pfmpadv.com.br/areas-de-atuacao",
+    siteName: "PFMP Advogados",
+    locale: "pt_BR",
+    type: "website",
+  },
 };
 
 export default function AreasDeAtuacao() {

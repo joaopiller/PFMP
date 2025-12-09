@@ -11,6 +11,18 @@ export const metadata = {
   title: "Equipe | PFMP Advogados",
   description:
     "Conheça os advogados especialistas em Direito Tributário do escritório PFMP Advogados.",
+  alternates: {
+    canonical: "https://www.pfmpadv.com.br/equipe",
+  },
+  openGraph: {
+    title: "Equipe | PFMP Advogados",
+    description:
+      "Conheça os advogados especialistas em Direito Tributário do escritório PFMP Advogados.",
+    url: "https://www.pfmpadv.com.br/equipe",
+    siteName: "PFMP Advogados",
+    locale: "pt_BR",
+    type: "website",
+  },
 };
 
 export default function Equipe() {
