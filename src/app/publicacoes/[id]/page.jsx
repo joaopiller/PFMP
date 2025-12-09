@@ -25,24 +25,20 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const canonicalUrl = `https://pfmpadv.com.br/publicacoes/${post.id}`;
+  const canonicalUrl = `https://www.pfmpadv.com.br/publicacoes/${post.id}`;
 
   return {
     title: `${post.title} | PFMP Advogados`,
     description: post.description ?? "Publicação do PFMP Advogados.",
     alternates: { canonical: canonicalUrl },
     openGraph: {
-      title: post.title,
+      title: `${post.title} | PFMP Advogados`,
       description: post.description ?? "",
       url: canonicalUrl,
       type: "article",
       images: post.image ? [post.image] : [],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: post.title,
-      description: post.description ?? "",
-      images: post.image ? [post.image] : [],
+      siteName: "PFMP Advogados",
+      locale: "pt_BR",
     },
   };
 }
