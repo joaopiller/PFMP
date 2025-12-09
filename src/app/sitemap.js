@@ -1,7 +1,7 @@
 import posts from "@/data/posts";
 
 export default function sitemap() {
-  const baseUrl = "https://pfmpadv.com.br";
+  const baseUrl = "https://www.pfmpadv.com.br";
   const now = new Date().toISOString();
 
   const staticPages = [
