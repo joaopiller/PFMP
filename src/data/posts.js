@@ -32,8 +32,400 @@ import transacaoGoias from "../assets/images/quita_goias_transacao_negocia.png"
 import rearpGDC from "../assets/images/rearp_atualizacao_imóvel_tributacao_ganho_de_capital.jpg"
 import itcmdES from "../assets/images/planejamento_itcmd_espirito_santo.jpeg"
 import lucrosDL from "../assets/images/lucros_dividendos_simples_nacional.jpg" 
+import ataDL from "../assets/images/ata_distribuicao_lucros_dividendos_tributacao.jpg"
 
 const posts = [
+    {
+        id: "ata-distribuicao-dividendos",
+        title: "Registro da Ata de Distribuição de Dividendos: afinal, é obrigatório?",
+        date: "11/12/2025",
+        authors: "Flávia Perim",
+        description: "Se você tem uma sociedade limitada, provavelmente já ouviu alguma dessas frases nas últimas semanas: “Corre para registrar a ata de distribuição de lucros antes de 31/12!”",
+        image: ataDL,
+        content: [
+            {
+                "type": "subtitle",
+                "text": "1. O problema que todo empresário está enfrentando agora",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você tem uma sociedade limitada, provavelmente já ouviu alguma dessas frases nas últimas semanas:",
+            },
+            {
+                "type": "paragraph",
+                "text": "“Corre para registrar a ata de distribuição de lucros antes de 31/12!”",
+            },
+            {
+                "type": "paragraph",
+                "text": "“Sem registro na junta comercial, você vai pagar 10% de imposto sobre dividendos!”",
+            },
+            {
+                "type": "paragraph",
+                "text": "E aí bate a dúvida:",
+            },
+            {
+                "type": "paragraph",
+                "text": "Será que eu realmente preciso registrar essa ata? Ou isso é só alarme desnecessário?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Desde a publicação da  [Lei nº 15.270/2025](https://www.in.gov.br/web/dou/-/lei-n-15.270-de-26-de-novembro-de-2025-671614220), essa é uma das perguntas que mais recebemos no escritório.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nossa posição técnica é:",
+            },
+            {
+                "type": "paragraph",
+                "text": "Pela leitura fria da lei, não há exigência expressa de registro da ata na Junta Comercial para usufruir da isenção.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas, diante:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "do risco interpretativo que ainda existe, e",
+                    "da orientação da JUCEMG no sentido de que o registro é a forma mais segura de comprovar a deliberação,",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "entendemos que, na prática, é mais prudente não correr o risco e proceder ao registro.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Vamos explicar o porquê.",
+            },
+            {
+                "type": "subtitle",
+                "text": "2. O que mudou com a Lei 15.270/2025 (tributação das altas rendas)",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Lei 15.270 trouxe uma grande novidade: passam a ser tributados em 10% os lucros e dividendos pagos a pessoas físicas que recebam mais de R$ 50 mil por mês.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa retenção é feita na fonte, sem deduções.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas o ponto que gerou correria é este:",
+            },
+            {
+                "type": "paragraph",
+                "text": "Existe uma “janela de isenção” para dividendos deliberados até 31/12/2025.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja, ficam isentos do novo imposto os dividendos:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "Referentes a lucros apurados até 31/12/2025",
+                    "Que tenham sua distribuição aprovada até 31/12/2025,",
+                    "Pagos entre 2026 e 2028.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A pergunta que todo mundo passou a fazer foi:",
+            },
+            {
+                "type": "paragraph",
+                "text": "“Para provar que eu aprovei a distribuição até 31/12, preciso registrar a ata na junta comercial?”",
+            },
+            {
+                "type": "subtitle",
+                "text": "3. Por que isso gerou tanta confusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "Veja se você se identifica com isso…",
+            },
+            {
+                "type": "paragraph",
+                "text": "Empresas começaram a procurar as juntas comerciais para registrar atas às pressas, para “garantir” a isenção.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Só que existe um detalhe importante:",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Lei 15.270 não alterou nenhuma regra societária.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ela não passou a exigir registro de ata para deliberar dividendos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ao mesmo tempo, muitos empresários confundiram: Comprovar a deliberação x Tornar pública a deliberação (registrar na Junta Comercial)",
+            },
+            {
+                "type": "paragraph",
+                "text": "Do ponto de vista de direito societário, a validade da deliberação não depende, em regra, do registro da ata de distribuição de lucros.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Só que agora entrou em cena um ator relevante: a própria [Junta Comercial de Minas Gerais](https://jucemg.mg.gov.br/noticia/1173/empresas-devem-aprovar-e-registrar-atas-ainda-em-2025-para-evitar-tributacao-sobre-lucros-a-partir-de-2026), órgão que analisa e arquiva esses documentos, dizendo publicamente que as empresas “devem aprovar e registrar atas ainda em 2025” para evitar a tributação sobre lucros a partir de 2026.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso não transforma, por si só, o registro em obrigação legal absoluta, mas eleva muito o risco de não seguir essa orientação, especialmente para empresas mineiras.",
+            },
+            {
+                "type": "subtitle",
+                "text": "4. O que a lei exige para você ter direito à isenção",
+            },
+            {
+                "type": "paragraph",
+                "text": "A legislação deixou claro que, para usufruir da janela de isenção, a empresa deve:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Ter lucro efetivamente apurado até 31/12/2025 (contabilidade regular);",
+                    "Ter deliberação societária formal aprovando a distribuição até 31/12/25;",
+                    "Realizar o pagamento dentro do prazo (2026 a 2028).",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Repare: o texto legal fala em deliberação formal, não em registro.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "tecnicamente, a lei exige que a sociedade limitada delibere, em ata ou decisão de sócios, a distribuição dos lucros até 31/12/2025;",
+                    "a lei não diz expressamente: “sem registro na Junta Comercial, não há isenção”.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Do ponto de vista jurídico estrito, isso sustenta a tese de que o registro não seria, em tese, condição obrigatória.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas a pergunta prática é outra:",
+            },
+            {
+                "type": "paragraph",
+                "text": "Como a Receita Federal e demais órgãos fiscalizadores vão querer enxergar essa prova, especialmente em situações de dúvida ou conflito?",
+            },
+            {
+                "type": "paragraph",
+                "text": "É aqui que entra a recomendação de prudência.",
+            },
+            {
+                "type": "subtitle",
+                "text": "5. Afinal: é obrigatório registrar a ata na Junta Comercial? Nossa visão técnica (jurídica)",
+            },
+            {
+                "type": "paragraph",
+                "text": "Do ponto de vista estritamente legal, entendemos que:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Não há, hoje, dispositivo legal claro e direto que imponha às sociedades limitadas a obrigação de registrar a ata de distribuição de lucros na Junta Comercial como condição para usufruir da isenção da Lei 15.270/2025.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O que é indispensável é:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "uma deliberação formal (ata ou decisão de sócios),",
+                    "assinada corretamente (idealmente com certificado digital),",
+                    "datada até 31/12/2025,",
+                    "contendo os elementos essenciais (valores, critérios de distribuição, período a que se referem os lucros, sócios, quóruns etc.).",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso, por si só, atende à legislação societária e, em tese, é prova da deliberação.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas então por que dizemos que é melhor registrar?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Porque, na prática, o cenário mudou com a publicação da notícia oficial da JUCEMG, que traz três mensagens fortes:",
+            },
+            {
+                "type": "paragraph",
+                "text": "1. Reforço da regra de transição:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "lucros apurados até 31/12/2025 podem ser isentos, mesmo se pagos entre 2026 e 2028,",
+                    "desde que a aprovação da distribuição tenha sido formalizada até o final de 2025.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "2. Orientação expressa de comportamento:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "a JUCEMG afirma que as empresas devem aprovar e registrar atas ainda em 2025 para evitar a tributação sobre lucros a partir de 2026.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "3. Prazo operacional de protocolo:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "para garantir análise ainda dentro do período legal, a JUCEMG recomenda que as atas sejam protocolizadas até 28/12/2025, considerando um prazo médio de dois dias úteis para análise.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "6. Por que, em tese, o registro não seria obrigatório (mas o risco cresceu)",
+            },
+            {
+                "type": "paragraph",
+                "text": "Vale resumir o raciocínio técnico, para não parecer que tudo é só “medo de fiscalização”:",
+            },
+            {
+                "type": "paragraph",
+                "text": "(a) Privacidade das Ltdas",
+            },
+            {
+                "type": "paragraph",
+                "text": "A sociedade limitada, em regra, não é obrigada a publicizar suas informações financeiras na Junta Comercial, tais como:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "lucros acumulados,",
+                    "reservas,",
+                    "montantes distribuídos.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Por isso, muitas empresas sempre evitaram registrar atas contendo valores, justamente para preservar informações estratégicas.",
+            },
+            {
+                "type": "paragraph",
+                "text": "(b) Lei societária não exige registro da deliberação de lucros",
+            },
+            {
+                "type": "paragraph",
+                "text": "O Código Civil obriga as Ltdas a:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "realizarem assembleia ou reunião anual, e",
+                    "manterem as atas assinadas e arquivadas.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Não há, na legislação societária, comando expresso para que toda ata de distribuição de lucros seja registrada como condição de validade da deliberação entre os sócios.",
+            },
+            {
+                "type": "paragraph",
+                "text": "(c) A Lei 15.270 não criou novas exigências societárias",
+            },
+            {
+                "type": "paragraph",
+                "text": "A legislação tributária não alterou o regime societário das Ltdas: ela mudou a forma de tributar dividendos, mas não incluiu, textualmente, um novo requisito de registro na Junta Comercial.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Então por que o registro passou a ser tão relevante?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Porque agora estamos lidando com:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "uma regra de transição que depende de prova de data;",
+                    "valores, muitas vezes, significativos;",
+                    "e uma Junta Comercial orientando expressamente aprovação e registro até 2025.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso não altera a letra seca da lei, mas altera o risco de discutir isso com a Receita no futuro.",
+            },
+            {
+                "type": "subtitle",
+                "text": "7. O que você deve fazer agora (passo a passo simples)",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se sua empresa pretende distribuir lucros apurados até 2025, faça o seguinte:",
+            },
+            {
+                "type": "paragraph",
+                "text": "1. Fechar a contabilidade do exercício com rigor técnico.",
+            },
+            {
+                "type": "paragraph",
+                "text": "2. Elaborar a ata ou decisão de sócios aprovando a distribuição de lucros.",
+            },
+            {
+                "type": "paragraph",
+                "text": "3. Garantir que a ata contenha, no mínimo:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "valores submetidos à distribuição;",
+                    "critérios de distribuição (proporcional, desproporcional, percentuais etc.);",
+                    "identificação completa dos sócios;",
+                    "data e referência clara aos lucros/períodos a que se referem;",
+                    "quórum de instalação e de deliberação.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "4. Assinar digitalmente (quando possível) e arquivar em local seguro.",
+            },
+            {
+                "type": "paragraph",
+                "text": "5. Avaliar o registro na Junta Comercial, especialmente se a empresa for de Minas Gerais:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "observar a recomendação da JUCEMG de protocolizar até 28/12/2025;",
+                    "ao protocolar, utilizar o evento 1890 - Distribuição de Lucros;",
+                    "verificar se há requisitos específicos no contrato social.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Nossa recomendação hoje é direta:",
+            },
+            {
+                "type": "paragraph",
+                "text": "Entendemos que a lei não torna o registro formalmente obrigatório, mas, diante da orientação expressa da JUCEMG e do risco fiscal envolvido, é mais seguro registrar a ata do que discutir depois.",
+            },
+        ]
+    },
     {
         id: "tributacao-lucros-dividendos-simples-nacional",
         title: "Simples Nacional e a nova tributação de dividendos: o que empresários precisam saber antes de tomar qualquer decisão",
