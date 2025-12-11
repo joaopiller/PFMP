@@ -27,8 +27,780 @@ import holdingFamiliar from "../assets/images/holding_sucessão_tributação_itb
 import simplesCGSN from "../assets/images/simples_nacional_cgsn_140_183_tributação_multa_atualização.jpg"
 import dieselPIS from "../assets/images/diesel_pis_cofins_combustivel_credito_192_stj_novembro.jpg"
 import transacaoES from "../assets/images/regularize_capixaba_es.jpg"
+import altasRendas from "../assets/images/lucros_dividendos_fugir_tributação_lei_15.270.jpg"
+import transacaoGoias from "../assets/images/quita_goias_transacao_negocia.png"
+import rearpGDC from "../assets/images/rearp_atualizacao_imóvel_tributacao_ganho_de_capital.jpg"
+import itcmdES from "../assets/images/planejamento_itcmd_espirito_santo.jpeg"
+import lucrosDL from "../assets/images/lucros_dividendos_simples_nacional.jpg" 
 
 const posts = [
+    {
+        id: "tributacao-lucros-dividendos-simples-nacional",
+        title: "Simples Nacional e a nova tributação de dividendos: o que empresários precisam saber antes de tomar qualquer decisão",
+        date: "11/12/2025",
+        authors: "Pedro Fonseca",
+        description: "Se você tem empresa no Simples Nacional, já deve ter ouvido falar sobre a nova regra que muda a tributação de lucros e dividendos.",
+        image: lucrosDL,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Se você tem empresa no Simples Nacional, já deve ter ouvido falar sobre a nova regra que muda a tributação de lucros e dividendos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A [Lei 15.270/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm) trouxe uma alteração relevante: valores distribuídos acima de R$ 50 mil por mês passam a ter retenção obrigatória de 10% e poderão sofrer novo ajuste no imposto de renda.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para muitos empresários, isso acendeu uma luz amarela:",
+            },
+            {
+                "type": "paragraph",
+                "text": "“Isso também vale para o Simples?”",
+            },
+            {
+                "type": "paragraph",
+                "text": "A resposta é: tudo indica que sim.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E é exatamente por isso que vale entender o tema com calma.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Por que isso preocupa tantos empresários",
+            },
+            {
+                "type": "paragraph",
+                "text": "Até agora, a lógica era simples:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "lucro apurado",
+                    "contabilidade organizada",
+                    "distribuição isenta",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Só que, com a nova regra, o cenário muda.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E quem distribui lucros com frequência pode começar a sentir impacto direto no caixa pessoal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A dúvida deixou de ser técnica: virou financeira.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que muda na prática",
+            },
+            {
+                "type": "paragraph",
+                "text": "A nova lei cria um padrão único de retenção.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mesmo empresas do Simples entram na regra geral, e isso pode significar:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "retenção automática na distribuição",
+                    "possível tributação complementar na declaração anual",
+                    "redução imediata do valor líquido recebido pelo sócio",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Não é uma mudança teórica: ela altera o modelo de remuneração de milhares de empresários.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Existe alternativa",
+            },
+            {
+                "type": "paragraph",
+                "text": "Sim.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Empresários têm buscado caminhos para manter a previsibilidade na distribuição de lucros e evitar retenções automáticas.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Uma das soluções que vem ganhando espaço é o caminho judicial preventivo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Por quê?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Porque, por via administrativa, não há previsão de exceção.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E as empresas que desejam preservar a rotina de distribuição sem impacto estão avaliando a possibilidade de levar a discussão ao Judiciário antes da retenção acontecer.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Não se trata de “ganhar causa”, “driblar imposto” ou “garantir vantagem”.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Trata-se de algo simples: evitar que o sistema retenha automaticamente valores que hoje compõem o planejamento financeiro do empresário.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Isso é para todos?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Judicializar sem análise costuma gerar retrabalho.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para algumas empresas, o impacto será mínimo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para outras, a mudança altera remuneração, planejamento societário e até decisões patrimoniais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Os fatores que mais influenciam a decisão são:",
+            },
+            {
+                "type": "paragraph",
+                "text": "Não necessariamente.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "volume distribuído",
+                    "frequência das retiradas",
+                    "estrutura societária",
+                    "organização contábil",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Por isso, o movimento natural tem sido:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "entender o impacto financeiro da nova regra;",
+                    "avaliar se há interesse em manter o modelo atual;",
+                    "decidir se vale, ou não, ingressar judicialmente.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "O melhor momento para avaliar",
+            },
+            {
+                "type": "paragraph",
+                "text": "Como a retenção acontece no ato da distribuição, muitas empresas têm analisado o tema antes de iniciar os ciclos de pagamentos de 2026.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quanto antes a estratégia estiver definida, maior a previsibilidade financeira.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Resumo direto",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "A nova lei altera a forma como dividendos são tributados;",
+                    "Na prática, o Simples Nacional também é atingido;",
+                    "Quem distribui acima de R$ 50 mil mensais sentirá impacto;",
+                    "Existe caminho jurídico possível para discutir a aplicação da regra;",
+                    "A decisão depende da realidade de cada empresa.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Antes de decidir, vale entender os números",
+            },
+            {
+                "type": "paragraph",
+                "text": "No PFMP Advogados, temos apoiado empresários na análise desse cenário.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O objetivo é simples: ajudar na tomada de decisão com clareza, sem precipitação.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se fizer sentido, é possível solicitar uma avaliação inicial para entender:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "o impacto financeiro estimado;",
+                    "os cenários possíveis;",
+                    "e qual estratégia se adequa melhor ao perfil da empresa.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A partir disso, cada empresa segue o caminho que fizer mais sentido - com segurança e informação.",
+            },
+        ]
+    },
+    {
+        id: "planejamento-sucessorio-espirito-santo-2026",
+        title: "Janela para planejamento sucessório no Espírito Santo vai até 2026",
+        date: "11/12/2025",
+        authors: "João Marchesi",
+        description: "O secretário de Estado da Fazenda do Espírito Santo, Benício Costa, informou que o envio do projeto de lei estadual com as novas alíquotas do ITCMD ficará para 2026, já que a regulamentação ainda não concluiu sua tramitação no Congresso Nacional e não haverá tempo hábil para encaminhá-lo em 2025.",
+        image: itcmdES,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "O [secretário de Estado da Fazenda do Espírito Santo](https://www.agazeta.com.br/colunas/abdo-filho/imposto-sobre-heranca-so-vai-mudar-em-2027-no-espirito-santo-1025), Benício Costa, informou que o envio do projeto de lei estadual com as novas alíquotas do ITCMD ficará para 2026, já que a regulamentação ainda não concluiu sua tramitação no Congresso Nacional e não haverá tempo hábil para encaminhá-lo em 2025.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com isso, as novas regras só deverão entrar em vigor em 2027.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, os capixabas que pretendem realizar doações ou organizar seu planejamento sucessório com a alíquota fixa de 4% terão mais um ano de fôlego.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Trata-se de uma janela de oportunidade para quem ainda não se planejou: as novas regras - com alíquotas progressivas que podem alcançar até 8 % - entrarão em vigor apenas a partir de 2027, desde que o projeto seja encaminhado em 2026.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso significa que 2025 e 2026 são os últimos anos para operar com a alíquota fixa atual, evitando o aumento que pode duplicar o imposto. Quem deixar para depois poderá arcar com custos maiores, enquanto quem agir agora poderá reduzir significativamente a carga tributária e estruturar doações ou transmissões de maneira mais vantajosa.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em resumo: há uma janela espetacular para quem deseja organizar seu patrimônio e pagar menos tributos em face das novidades que serão trazidas pela Reforma Tributária já a partir de 2026. Para o capixaba, essa é a hora de agir!",
+            },
+            {
+                "type": "paragraph",
+                "text": "A equipe do PFMP Advogados atua diariamente no planejamento patrimonial e sucessório nacional e internacional, trazendo soluções criativas e inovadoras.",
+            },
+        ]
+    },
+    {
+        id: "rearp-ganho-capital-imposto-renda",
+        title: "REARP 2025: a nova chance de pagar menos imposto sobre seu patrimônio",
+        date: "11/12/2025",
+        authors: "João Marchesi",
+        description: "O REARP, criado pela Lei nº 15.265/2025, é um regime especial que permite ao contribuinte atualizar o valor de imóveis e bens sujeitos a registro para o valor de mercado, pagando uma alíquota reduzida e definitiva.",
+        image: rearpGDC,
+        content: [
+            {
+                "type": "subtitle",
+                "text": "O que é o REARP?",
+            },
+            {
+                "type": "paragraph",
+                "text": "O REARP, criado pela Lei nº 15.265/2025, é um regime especial que permite ao contribuinte atualizar o valor de imóveis e bens sujeitos a registro para o valor de mercado, pagando uma alíquota reduzida e definitiva.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O projeto (substitutivo), relatado pelo deputado Juscelino Filho (União Brasil), surge como uma iniciativa do governo para ampliar a arrecadação no curto prazo e, simultaneamente, oferecer a pessoas físicas e jurídicas a oportunidade de regularizar bens lícitos ou atualizar valores que se tornaram defasados ao longo do tempo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em outras palavras: o contribuinte declara o valor real de mercado, paga um imposto menor do que pagaria em uma alienação normal, e esse novo valor passa a valer oficialmente para fins fiscais.",
+            },
+            {
+                "type": "subtitle",
+                "text": "REARP para pessoas físicas",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para pessoas físicas, o REARP permite atualizar imóveis e bens sujeitos a registro para o valor de mercado, pagando uma alíquota definitiva de 4% sobre a diferença entre o custo original e o novo valor informado.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa possibilidade é especialmente interessante para imóveis adquiridos há muitos anos e que tiveram valorização significativa, pois o ganho futuro, numa venda tradicional, seria tributado pelo Imposto de Renda com alíquotas que vão de 15% a 22,5%.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ao optar pelo REARP, o contribuinte antecipa essa tributação com um custo menor e diminui a chance de uma discussão com o Fisco sobre o valor do bem.",
+            },
+            {
+                "type": "subtitle",
+                "text": "REARP para pessoas jurídicas",
+            },
+            {
+                "type": "paragraph",
+                "text": "As pessoas jurídicas também podem atualizar o valor dos bens do ativo imobilizado para o valor de mercado.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nessa modalidade, a atualização é tributada de forma definitiva com IRPJ de 4,8% e CSLL de 3,2% sobre a diferença.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, essa opção pode fazer sentido para empresas que desejam reorganizar demonstrações contábeis, ajustar indicadores ou alinhar o valor patrimonial de ativos antigos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O ponto essencial é que, após a atualização, não há direito à dedução por depreciação da parcela atualizada, o que precisa ser levado em conta no planejamento.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Atenção a estes pontos",
+            },
+            {
+                "type": "paragraph",
+                "text": "Embora o regime seja simples na teoria, ele exige atenção em alguns detalhes:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Carência obrigatória: imóveis atualizados não podem ser alienados antes de 5 anos. Para bens móveis sujeitos a registro, o prazo é de 2 anos. Se o bem for alienado antes disso, o benefício é desfeito e o imposto é recalculado como se o REARP nunca tivesse existido.",
+                    "Tributação definitiva: uma vez feita a opção, não há devolução.",
+                    "Multa de 100% para regularização: Para a regularização de bens omitidos, além das alíquotas já informadas de imposto, o aderente ao regime deverá pagar multa de 100%. Esta multa deve ser considerada no planejamento.",
+                    "Origem lícita: o programa é destinado exclusivamente a bens lícitos. Se você informar à Receita Federal bens de origem ilícita, o menor dos seus problemas será o desenquadramento do REARP.",
+                    "Documentação: é recomendado guardar avaliações, laudos e comprovantes que fundamentem o valor de mercado declarado.",
+                    "Janela curta: o prazo para optar pelo regime é de 90 dias da publicação da Lei (19/02/2026).",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Como aderir ao REARP",
+            },
+            {
+                "type": "paragraph",
+                "text": "A adesão é feita mediante declaração à Receita Federal, e ainda será regulamentada, indicando os bens atualizados e os respectivos valores.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O contribuinte escolhe o valor de mercado, paga o imposto correspondente, à vista ou em até 36 parcelas, e passa a constar oficialmente com esse novo valor no patrimônio declarado.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Nossa opinião",
+            },
+            {
+                "type": "paragraph",
+                "text": "De maneira direta: o REARP é uma excelente oportunidade, principalmente para pessoas físicas com imóveis valorizados.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A alíquota de 4% costuma ser muito mais vantajosa do que a tributação de ganho de capital futuro, especialmente quando a valorização é grande e a venda é uma possibilidade real nos próximos anos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "É fundamental olhar o cenário completo antes de optar, porque a adesão nem sempre será a melhor escolha. Um exemplo clássico é quando a futura venda do imóvel pode se enquadrar em alguma isenção já prevista na lei, como ocorre na venda de um imóvel residencial seguida da compra de outro, de igual ou maior valor, em até 180 dias. Neste e em outros casos específicos, o contribuinte estaria pagando um imposto que poderia não existir.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para as empresas, a atualização pode fazer sentido quando o imóvel está no ativo imobilizado, ajudando a ajustar demonstrações financeiras e organizar a estrutura patrimonial.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Já para empresas cujo imóvel faz parte do estoque, como incorporadoras, o raciocínio é diferente, e o REARP nem sempre se mostra vantajoso.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No geral, é um instrumento muito bom, desde que aplicado com cuidado.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas note: ele não é um benefício universal, porém pode ser uma ferramenta poderosa para quem está bem assessorado e sabe utilizá-lo de forma correta.",
+            },
+        ]
+    },
+    {
+        id: "quita-goias-transacao-negocia",
+        title: "Quita Goiás: a oportunidade para reduzir dívidas e recuperar tranquilidade fiscal",
+        date: "11/12/2025",
+        authors: "Pedro Fonseca",
+        description: "Se você tem empresa ou patrimônio em Goiás e está com dívida inscrita em Dívida Ativa, sabe como isso atrapalha tudo. A dívida cresce. Os juros não param.",
+        image: transacaoGoias,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Se você tem empresa ou patrimônio em Goiás e está com dívida inscrita em Dívida Ativa, sabe como isso atrapalha tudo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A dívida cresce.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Os juros não param.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E qualquer movimento importante - crédito, licitação, investimentos - simplesmente trava.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A boa notícia é que o Estado abriu uma janela real para [renegociar](https://goias.gov.br/procuradoria/quita-goias-pge-go-publica-primeiro-edital-do-programa-que-permite-a-negociacao-de-dividas-tributarias/) esses débitos com desconto.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E é sobre isso que vamos falar agora.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A dor de quem está com dívida ativa",
+            },
+            {
+                "type": "paragraph",
+                "text": "Veja se algo disso soa familiar:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "A dívida começou pequena, mas virou uma bola de neve.",
+                    "Resolver parece confuso, distante e sempre “para depois”.",
+                    "As restrições fiscais estão bloqueando decisões importantes do negócio.",
+                    "A cada mês que passa, o valor fica maior e a solução parece mais difícil.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse é exatamente o cenário que chega todos os dias no escritório.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E ele tem um padrão muito claro: quanto mais tempo passa, mais pesado fica.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que é o Quita Goiás e por que isso importa agora",
+            },
+            {
+                "type": "paragraph",
+                "text": "O [Quita Goiás](https://goias.gov.br/procuradoria/quita-goias-transacao-tributaria/) é o novo programa de transação tributária do Estado, criado para permitir que contribuintes negociem suas dívidas com condições especiais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ele traz algumas vantagens que não aparecem em parcelamentos comuns. Entre elas:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Descontos que podem chegar a até 70% sobre juros e multas, dependendo do perfil da empresa.",
+                    "Possibilidade de parcelamento que pode chegar a 145 vezes, conforme o tipo de contribuinte.",
+                    "Abrangência ampla: ICMS, ITCMD, IPVA e diversas outras dívidas estaduais inscritas em Dívida Ativa.",
+                    "Suspensão de cobranças, protestos e execuções enquanto durar o acordo.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Para muitos empresários, isso significa transformar um problema que parecia sem solução em algo administrável e previsível.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Por que essa negociação vale a pena",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para visualizar melhor o impacto, pense no seguinte:",
+            },
+            {
+                "type": "paragraph",
+                "text": "Uma dívida de R$ 200 mil pode ter mais da metade composta por juros e multa. Com o Quita Goiás, é possível reduzir esse valor de forma significativa e reorganizar o pagamento em parcelas que cabem no fluxo de caixa.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso não é teórico.",
+            },
+            {
+                "type": "paragraph",
+                "text": "É exatamente o tipo de situação que os editais de transação buscam resolver: permitir que o contribuinte volte a operar sem carregar um passivo que inviabiliza o negócio.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Renegociar pode significar:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "recuperar certidões e voltar a participar de licitações;",
+                    "destravar crédito bancário;",
+                    "ter segurança para vender ou financiar bens;",
+                    "encerrar execuções fiscais que estão em andamento;",
+                    "reorganizar o negócio com tranquilidade.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Para muitos empresários, é literalmente a chance de virar a página.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que você precisa avaliar antes de aderir",
+            },
+            {
+                "type": "paragraph",
+                "text": "Antes de entrar no programa, vale analisar alguns pontos:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "O valor real da dívida, incluindo encargos.",
+                    "Se o débito está inscrito em Dívida Ativa e é elegível no edital.",
+                    "O impacto do pagamento à vista versus o parcelado.",
+                    "Se o parcelamento cabe no seu fluxo de caixa.",
+                    "A eventual necessidade de renunciar a recursos relacionados ao débito.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa análise simples evita surpresas e garante que o acordo faça sentido no longo prazo.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que você precisa avaliar antes de aderir",
+            },
+            {
+                "type": "paragraph",
+                "text": "Regularizar sua situação com o Estado pode ser a diferença entre um negócio travado e um negócio preparado para crescer novamente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O Quita Goiás abre uma janela real para reorganizar dívidas, reduzir encargos e recuperar a tranquilidade fiscal - algo essencial para qualquer empresário.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No PFMP Advogados, temos apoiado empresários na análise desse cenário.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O objetivo é simples: ajudar na tomada de decisão com clareza, sem precipitação.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se fizer sentido avaliar como o programa se aplica ao seu caso, podemos iniciar pela análise do débito e dos cenários disponíveis.",
+            },
+        ]
+    },
+    {
+        id: "tributacao-altas-rendas-lucros-dividendos",
+        title: "Tributação de Altas Rendas: o que muda na distribuição de lucros e dividendos",
+        date: "11/12/2025",
+        authors: "Flávia Perim",
+        description: "Se você é empresário, provavelmente já percebeu que 2026 será um divisor de águas na forma como os lucros e dividendos são pagos aos sócios.",
+        image: altasRendas,
+        content: [
+            {
+                "type": "subtitle",
+                "text": "1. Atenção! Os dividendos distribuídos pela sua empresa podem ser tributados já em 2026",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você é empresário, provavelmente já percebeu que 2026 será um divisor de águas na forma como os lucros e dividendos são pagos aos sócios.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A pergunta que mais ouvimos recentemente é a seguinte:",
+            },
+            {
+                "type": "paragraph",
+                "text": "“Meus dividendos vão passar a ter imposto? Dá para evitar a tributação se eu agir ainda em 2025?”",
+            },
+            {
+                "type": "paragraph",
+                "text": "A resposta curta é que sim, existe uma janela real de planejamento.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A resposta completa eu te explico a seguir.",
+            },
+            {
+                "type": "subtitle",
+                "text": "2. O que a nova lei realmente mudou",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em 27 de novembro de 2025, foi publicada a Lei nº 15.270, originada do PL 1.087/2025. Essa lei altera profundamente a tributação das pessoas físicas e, principalmente, a forma como lucros e dividendos serão taxados no Brasil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A partir de janeiro de 2026, passa a existir:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "uma tributação mensal de 10% de IRRF sobre dividendos,",
+                    "aplicada sempre que a mesma pessoa física receber mais de R$ 50.000 em um mês,",
+                    "pagos pela mesma empresa.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse imposto será retido diretamente pela empresa que paga o dividendo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se houver mais de um pagamento dentro do mesmo mês, a empresa deverá recalcular a retenção considerando a soma de todos os valores pagos naquele período.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Importante destacar que esse IRRF não é definitivo. Ele funciona como uma antecipação do imposto de renda anual, podendo ser compensado na declaração da pessoa física.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Porém, para o empresário que sempre recebeu dividendos totalmente isentos, isso representa uma mudança muito significativa.",
+            },
+            {
+                "type": "subtitle",
+                "text": "3. A boa notícia: a lei criou uma janela de isenção até 31/12/2025",
+            },
+            {
+                "type": "paragraph",
+                "text": "Apesar da nova tributação, a própria Lei 15.270 estabelece uma exceção muito relevante. Não haverá incidência de IR sobre:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "lucros e dividendos referentes a resultados apurados até o ano-calendário de 2025,",
+                    "cuja distribuição tenha sido aprovada até 31 de dezembro de 2025,",
+                    "desde que o pagamento seja realizado nos termos definidos no ato de aprovação.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Em outras palavras: se a empresa deliberar corretamente a distribuição até o fim de 2025, esses dividendos poderão ser pagos entre 2026 e 2028 sem a tributação de 10%.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa é a janela que muitos empresários ainda não perceberam o tamanho.",
+            },
+            {
+                "type": "subtitle",
+                "text": "4. O que significa “deliberar sobre a distribuição até 31 de dezembro de 2025”",
+            },
+            {
+                "type": "paragraph",
+                "text": "A regra da isenção gira em torno da palavra “aprovação”.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para que a empresa garanta o direito à não incidência do IRRF, é preciso:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "Encerrar e apurar os resultados do exercício de 2025.",
+                    "Elaborar a ata, reunião de sócios ou decisão formal aprovando a distribuição.",
+                    "Assinar o documento e registrá-lo internamente, respeitando a legislação civil e empresarial.",
+                    "Definir o prazo e a forma como essa distribuição será paga entre 2026 e 2028.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O mais importante nessa etapa é que a empresa consiga demonstrar, de forma clara e documental, que:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "o lucro existe,",
+                    "foi apurado dentro do exercício de 2025,",
+                    "a distribuição foi aprovada dentro do prazo legal.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A lei não exige registro desse documento na Junta Comercial no caso de limitadas",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ela exige prova da deliberação, e essa prova precisa estar formalizada conforme as normas contábeis e societárias.",
+            },
+            {
+                "type": "subtitle",
+                "text": "5. Por que agir agora e não em 2026",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quando janeiro de 2026 chegar, qualquer dividendo que não esteja vinculado à aprovação até 31/12/2025 poderá sofrer incidência de IRRF.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E isso traz três riscos principais:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "a empresa pode ser obrigada a reter o imposto retroativamente;",
+                    "a Receita Federal pode entender que houve tentativa de simulação no pagamento;",
+                    "o sócio pode pagar mais imposto do que deveria por falta de planejamento.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Planejar antes do prazo permite:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "preservar a isenção,",
+                    "organizar a contabilidade,",
+                    "reduzir riscos de autuação,",
+                    "proteger o fluxo de caixa da empresa e do sócio.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "6. Conclusão: a regra mudou, mas ainda há espaço para planejamento seguro",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Lei 15.270 trouxe um novo ciclo tributário. A partir de 2026, lucros e dividendos deixarão de ser isentos, e passarão a exigir cuidado, organização e documentação muito mais robusta.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mesmo assim, existe uma oportunidade clara no texto legal. A empresa que aprovar a distribuição ainda em 2025 poderá pagar dividendos isentos por até três anos, desde que siga todas as formalidades.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse é o momento de avaliar com calma. Cada empresa tem uma realidade contábil, financeira e societária diferente.",
+            },
+            {
+                "type": "subtitle",
+                "text": "7. Por que a orientação jurídica é indispensável nesse momento",
+            },
+            {
+                "type": "paragraph",
+                "text": "A deliberação da distribuição até 31/12/2025 não é apenas um ato burocrático. Ela envolve:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "análise das demonstrações financeiras,",
+                    "verificação de lucros efetivamente apurados,",
+                    "elaboração de documentos societários válidos,",
+                    "definição de prazos de pagamento,",
+                    "avaliação de riscos fiscais,",
+                    "e, em alguns casos, estudo de alternativas para empresas sem caixa imediato.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Inclusive, algumas empresas têm estudado a possibilidade de contrair financiamentos para permitir a distribuição ainda em 2025, estratégia que deve ser examinada com cautela porque envolve aspectos tributários complexos e precedentes jurisprudenciais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nada disso deve ser feito sem apoio técnico.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Contar com um advogado especializado garante que a deliberação seja estruturada corretamente e que a empresa consiga aproveitar a janela de isenção de forma segura, sem exposição a riscos futuros.",
+            },
+        ]
+    },
     {
         id: "regularize-capixaba-transacao-espirito-santo",
         title: "Regularize capixaba: a oportunidade de reduzir juros e multas da sua dívida com o ES",
