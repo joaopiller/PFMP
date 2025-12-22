@@ -33,9 +33,216 @@ import rearpGDC from "../assets/images/rearp_atualizacao_imóvel_tributacao_ganh
 import itcmdES from "../assets/images/planejamento_itcmd_espirito_santo.jpeg"
 import lucrosDL from "../assets/images/lucros_dividendos_simples_nacional.jpg" 
 import ataDL from "../assets/images/ata_distribuicao_lucros_dividendos_tributacao.jpg"
+import impostoSINTER from "../assets/images/rearp_fiscalização_cib_sinter_receita_federal_tributação.jpg"
 
 const posts = [
     {
+        id: "sinter-imposto-cib-aluguel",
+        title: "CIB e SINTER: novos mecanismos de fiscalização da Receita prometem dificultar a sonegação de impostos sobre aluguéis e venda de imóveis",
+        date: "22/12/2025",
+        authors: "João Marchesi",
+        description: "A fiscalização tributária sobre operações imobiliárias no Brasil está entrando em uma nova fase. A Receita Federal, por meio da Instrução Normativa RFB nº 2.275/2025, implementou dois instrumentos que prometem transformar a forma como o Fisco monitora aluguéis, vendas e demais transações com imóveis: o Cadastro Imobiliário Brasileiro (CIB) e o Sistema Nacional de Gestão de Informações Territoriais (SINTER).",
+        image: impostoSINTER,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "A fiscalização tributária sobre operações imobiliárias no Brasil está entrando em uma nova fase.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Receita Federal, por meio da [Instrução Normativa RFB nº 2.275/2025](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/145711/vs/MTQ1NzEx), implementou dois instrumentos que prometem transformar a forma como o Fisco monitora aluguéis, vendas e demais transações com imóveis: o Cadastro Imobiliário Brasileiro (CIB) e o Sistema Nacional de Gestão de Informações Territoriais (SINTER).",
+            },
+            {
+                "type": "paragraph",
+                "text": "Estes sistemas, integrados, vão dar à autoridade fiscal um retrato muito mais completo e confiável do patrimônio imobiliário dos contribuintes.",
+            },
+            {
+                "type": "subtitle",
+                "text": "1. O que é o CIB e o SINTER?",
+            },
+            {
+                "type": "paragraph",
+                "text": "O CIB é um cadastro nacional que unifica todas as informações sobre imóveis urbanos e rurais em um único identificador - um código único para cada imóvel, válido em todo o território nacional.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ele é fruto da Lei Complementar nº 214/2025, que faz parte da Reforma Tributária e da integração dos novos tributos (como o IBS e a CBS) e da política de transparência fiscal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O SINTER é a plataforma tecnológica que vai receber e integrar todas essas informações.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ele foi instituído pelo Decreto nº 11.208/2008 como uma base para organizar dados territoriais no Brasil, e agora, com a IN RFB nº 2.275/2025, passou a funcionar como meio principal de compartilhamento e controle de informações imobiliárias entre cartórios, órgãos fiscais e administrações públicas.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Instrução Normativa 2.275/2025, por sua vez, tornou obrigatória a integração dos cartórios de notas e de registro ao SINTER e a utilização do CIB como identificador único nas operações imobiliárias.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Assim, cada vez que um imóvel for negociado, locado ou tiver alguma alteração cadastral registrada, essas informações serão enviadas eletronicamente para a Receita Federal.",
+            },
+            {
+                "type": "subtitle",
+                "text": "2. O que isso significa na prática?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Antes, o valor e a existência de um imóvel dependiam de informações dispersas - cadastros municipais, declarações dos contribuintes e registros cartorários separados.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com o CIB + SINTER, a Receita Federal terá acesso a um banco de dados único, padronizado e atualizado em tempo real sobre cada imóvel existente no país.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso significa:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Cruzamento automático de dados entre contratos, declarações de aluguel e informações fiscais, facilitando a detecção de inconsistências ou omissões.",
+                    "Possibilidade de adoção do valor de referência oficial dos imóveis, que servirá como parâmetro fiscal (por exemplo, para verificar se os aluguéis declarados estão compatíveis com o mercado ou até mesmo para atualização do IPTU).",
+                    "Melhor fiscalização de renda de aluguéis, venda de imóveis e operações imobiliárias em geral, reduzindo a possibilidade de sonegação e subavaliação dos valores envolvidos.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Por exemplo: se um contribuinte declara um aluguel muito abaixo do valor de referência oficial, a Receita poderá cruzar essa informação automaticamente com o CIB e identificar a discrepância - dificultando a prática de omissão de renda ao Fisco.",
+            },
+            {
+                "type": "subtitle",
+                "text": "3. Quando começa a valer?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A IN RFB nº 2.275/2025 entrou em vigor imediatamente após sua publicação no Diário Oficial da União em agosto de 2025.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ainda que os sistemas e interfaces digitais estejam sendo gradualmente implementados junto aos cartórios, a regra básica - de compartilhamento eletrônico de dados por meio do SINTER e a adoção do CIB como identificador único - já vale desde a publicação da norma.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O cronograma previsto indica etapas de homologação e produção ao longo dos próximos meses, com previsão de consolidação do sistema ainda em 2025.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Cartórios e serviços notariais serão responsáveis por integrar seus sistemas ao SINTER e garantir que o Código de Identificação do CIB conste em todos os documentos e registros imobiliários, sob pena de penalidades institucionais.",
+            },
+            {
+                "type": "subtitle",
+                "text": "4. O que pode acontecer com quem estiver irregular?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Embora a IN estabeleça principalmente obrigações para os cartórios e serviços notariais, a criação do CIB e do SINTER tem efeitos diretos no controle tributário dos contribuintes.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com base nas informações consolidadas, a Receita Federal poderá identificar, com muito mais precisão e rapidez:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Omissão de renda de aluguéis: valores de aluguel não declarados ou subfaturados serão detectados com cruzamento de dados.",
+                    "Subavaliação na venda de imóveis: valores registrados em escrituras abaixo do valor de referência oficial poderão disparar alertas e procedimentos de fiscalização.",
+                    "Omissão de bens no Imposto de Renda e outros tributos: imóveis não declarados ou informados incorretamente serão mais facilmente identificados e confrontados com as informações do SINTER.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Além disso, embora a IN não imponha diretamente multas aos contribuintes (ela não cria tributo nem norma de cobrança), o que está por trás do CIB/SINTER é o fortalecimento da fiscalização tributária.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso significa que, com as bases integradas, a Receita terá ferramentas muito mais eficazes para aplicar:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Multas por omissão de informação tributária;",
+                    "Cobrança retroativa de impostos, inclusive dos últimos cinco anos, com acréscimos de juros e penalidades;",
+                    "Procedimentos de fiscalização mais frequentes e sofisticados, com menos possibilidade de defesa baseada em falta de informação documental.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja, em outras palavras, a integração acelera e potencializa a atuação do Fisco, e isso torna mais arriscado manter negócios imobiliários na informalidade e sem declaração à Receita.",
+            },
+            {
+                "type": "subtitle",
+                "text": "5. O que fazer para regularizar e evitar penalidades?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com o avanço do CIB e do SINTER, o ambiente de fiscalização tributária mudou, e não existe mais espaço para improviso. A melhor forma de se adaptar é agir preventivamente, com organização e estratégia.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O primeiro passo é buscar ajuda especializada.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Advogados tributaristas e consultores patrimoniais conseguem avaliar o seu caso com profundidade e orientar qual é o melhor caminho para regularizar imóveis, contratos de aluguel ou operações recentes.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso evita riscos de autuações, cobranças retroativas e multas que podem ser bastante elevadas quando falamos de patrimônio imobiliário.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Uma das ferramentas mais importantes nesse processo e que vem em boa hora é o [REARP](https://www.pfmpadv.com.br/publicacoes/rearp-ganho-capital-imposto-renda), tratado em outro artigo do nosso site. Ele permite regularizar e atualizar imóveis com uma tributação muito mais vantajosa do que aquela que seria aplicada em uma fiscalização tradicional sobre ganho de capital.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para quem tem imóveis antigos, defasados ou declarados com valores muito abaixo do mercado, o REARP pode ser uma mão na roda para evitar problemas com o Fisco na nova fase de cruzamento automatizado de dados.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas a adaptação não é só para trás - é também para frente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso significa adotar um planejamento tributário patrimonial contínuo, que inclua:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Holdings patrimoniais, para organizar os imóveis, melhorar a governança, facilitar sucessão e, em muitos casos, reduzir tributação sobre aluguéis;",
+                    "Remodelagem das operações imobiliárias, ajustando a forma como rendas, locações e vendas são estruturadas, buscando modelos com menor carga fiscal e maior segurança jurídica;",
+                    "Revisão periódica dos contratos e declarações, garantindo consistência entre o que é declarado e o que consta nos sistemas que agora alimentam o SINTER.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, adaptar-se à nova realidade é construir um patrimônio organizado, regularizado e estrategicamente estruturado, evitando que as novas ferramentas da Receita - cada vez mais integradas e precisas - surpreendam o contribuinte.",
+            },
+            {
+                "type": "subtitle",
+                "text": "6. Conclusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "O CIB e o SINTER representam uma evolução profunda na forma como o Brasil fiscaliza imóveis, aluguéis e transações imobiliárias.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com base na IN RFB nº 2.275/2025 e no arcabouço da Reforma Tributária (Lei Complementar nº 214/2025), o fisco terá acesso a um banco de dados unificado, integrado e em tempo real - algo que nunca existiu no Brasil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O resultado disso é claro: menor margem para subavaliação e omissão, maior transparência fiscal e mais eficácia na arrecadação. E para quem está no mercado imobiliário (proprietários, investidores, locadores e compradores) a mensagem é direta: a conformidade não é apenas recomendável, mas essencial.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A equipe do PFMP Advogados atua diariamente no planejamento patrimonial de contribuintes de todo o país, criando soluções personalizadas para governança, economia tributária e gestão de bens de pessoas físicas e jurídicas.",
+            },
+        ]
+    },
+        {
         id: "ata-distribuicao-dividendos",
         title: "Registro da Ata de Distribuição de Dividendos: afinal, é obrigatório?",
         date: "11/12/2025",
