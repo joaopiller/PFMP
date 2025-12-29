@@ -34,8 +34,359 @@ import itcmdES from "../assets/images/planejamento_itcmd_espirito_santo.jpeg"
 import lucrosDL from "../assets/images/lucros_dividendos_simples_nacional.jpg" 
 import ataDL from "../assets/images/ata_distribuicao_lucros_dividendos_tributacao.jpg"
 import impostoSINTER from "../assets/images/rearp_fiscalização_cib_sinter_receita_federal_tributação.jpg"
+import transacaoTCU from "../assets/images/tcu_transacao_pgfn.png"
+import perguntasRespostas from "../assets/images/tributação_altas_rendas_dividendos_lucros_perguntas_e_respostas_RFB_receita_federal.png"
 
 const posts = [
+    {
+         id: "perguntas-respostas-simples-nacional-lucros-dividendos",
+        title: "Lucros e dividendos do Simples Nacional: Receita confirma retenção, mas a discussão jurídica está longe de ser simples",
+        date: "29/12/2025",
+        authors: "Flávia Perim",
+        description: "Se você tem empresa no Simples Nacional e costuma distribuir lucros com frequência, é importante parar alguns minutos para entender o que mudou - e, principalmente, o que pode mudar no seu bolso a partir de 2026.",
+        image: perguntasRespostas,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Se você tem empresa no Simples Nacional e costuma distribuir lucros com frequência, é importante parar alguns minutos para entender o que mudou - e, principalmente, o que pode mudar no seu bolso a partir de 2026.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No dia 16 de dezembro, a Receita Federal publicou o documento oficial de [Perguntas e Respostas sobre a Tributação de Altas Rendas](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/perguntas-e-respostas/dirf/perguntas-e-respostas-sobre-tributacao-de-altas-rendas_consideracoes-sobre-lucros-e-dividendos2025.pdf), com o objetivo de esclarecer como será aplicada, na prática, a retenção do Imposto de Renda na fonte sobre lucros e dividendos, prevista na Lei nº 15.270/2025.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E entre os esclarecimentos, um ponto específico chamou atenção imediata: a Receita afirmou expressamente que as empresas do Simples Nacional também estarão sujeitas à retenção de 10% de IRRF, quando a distribuição de lucros a uma mesma pessoa física ultrapassar R$ 50.000,00 por mês.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A resposta foi objetiva.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas a questão jurídica, definitivamente, não é.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Onde nasce a preocupação do empresário",
+            },
+            {
+                "type": "paragraph",
+                "text": "Até aqui, a realidade do Simples Nacional sempre foi marcada por uma lógica relativamente estável. Desde que houvesse lucro efetivo, contabilidade minimamente organizada e respeito às regras societárias, a distribuição de lucros era isenta de imposto de renda para o sócio pessoa física.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse modelo não era apenas uma regra tributária. Ele se transformou, ao longo dos anos, em um verdadeiro pilar de planejamento financeiro para milhares de empresários. Muitos estruturaram toda a sua remuneração pessoal com base na retirada de lucros, reduzindo pró-labore e organizando despesas pessoais contando com essa previsibilidade.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com a Lei nº 15.270/2025, no entanto, esse cenário começa a se alterar de forma concreta.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A partir de janeiro de 2026, toda distribuição de lucros e dividendos que supere R$ 50.000,00 por mês, para a mesma pessoa física residente no Brasil, estará sujeita à retenção de 10% de IR na fonte. E, segundo a interpretação oficial da Receita Federal, isso vale também para empresas enquadradas no Simples Nacional.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que a Receita Federal está dizendo, na prática",
+            },
+            {
+                "type": "paragraph",
+                "text": "No documento de Perguntas e Respostas, a Receita deixa claro que entende que a nova lei instituiu um regime geral de tributação de altas rendas, baseado no valor recebido pela pessoa física, e não no regime tributário da empresa que paga os lucros.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Segundo esse entendimento, a isenção prevista no artigo 14 da Lei Complementar nº 123/2006, que sempre amparou as distribuições do Simples Nacional, deixa de produzir efeitos quando os valores distribuídos ultrapassam o limite mensal de R$ 50 mil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em termos simples, a lógica passa a ser a seguinte: não importa se a empresa é do Simples, do Lucro Presumido ou do Lucro Real. O que importa é quanto o sócio recebe por mês.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ultrapassado esse valor, a empresa passa a ser obrigada a reter 10% de imposto no momento do pagamento, reduzindo imediatamente o valor líquido que chega ao empresário.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Existe alguma alternativa diante desse cenário?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Diante do posicionamento claro da Receita Federal, a via administrativa praticamente não oferece espaço para exceções. O sistema de retenção será aplicado conforme o entendimento oficial, independentemente da situação específica de cada empresa.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Por esse motivo, algumas empresas têm começado a analisar a possibilidade de uma atuação judicial preventiva, antes que a retenção passe a ocorrer de forma automática em 2026.",
+            },
+            {
+                "type": "paragraph",
+                "text": "É importante fazer um esclarecimento fundamental: não se trata de “driblar imposto”.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A discussão judicial surge como meio de afastar a aplicação automática da retenção na fonte quando esta incide sobre empresas optantes pelo Simples Nacional. A Lei Complementar nº 123/2006 prevê isenção expressa de retenções do IRPJ, uma vez que o imposto já está incorporado à alíquota única do regime, sendo recolhido de forma definitiva por meio do DAS.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Outros argumentos possíveis são de que:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "a exigência de nova retenção implica bitributação, pois promove dupla incidência do IRPJ sobre a mesma base de cálculo, em afronta aos princípios da legalidade e da vedação ao bis in idem;",
+                    "além disso, sob o prisma da hierarquia normativa, a lei complementar prevalece sobre a lei ordinária, conforme determinação constitucional.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Assim, normas ordinárias ou atos infralegais que imponham retenção em desacordo com a LC nº 123/06 são ilegais, legitimando sua impugnação judicial.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Como o empresário deve se posicionar agora",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você chegou até aqui, já percebeu que não é uma discussão simples - e nem automática.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Receita Federal já deixou claro qual será a sua postura a partir de 2026: reter 10% de IR na fonte sempre que a distribuição de lucros ultrapassar R$ 50 mil por mês, inclusive no Simples Nacional.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas isso não significa que a discussão jurídica esteja encerrada.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Muito pelo contrário.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O que estamos vendo, na prática, é o surgimento de um conflito direto entre uma lei ordinária recente e uma lei complementar que estrutura todo o regime do Simples Nacional. E, historicamente, esse tipo de conflito acaba sendo resolvido no Judiciário.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Por isso, o pior caminho, hoje, é a inércia.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Empresas que distribuem lucros de forma recorrente precisam, desde já:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Revisar a forma de distribuição e a frequência dos pagamentos",
+                    "Analisar o impacto financeiro real da retenção a partir de 2026",
+                    "Avaliar preventivamente se faz sentido discutir judicialmente a aplicação automática da retenção no seu caso específico",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Cada empresa tem uma realidade diferente. Volume de lucros, número de sócios, histórico contábil e estrutura societária fazem toda a diferença nessa análise.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O que funciona para um empresário pode não funcionar para outro.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você tem empresa no Simples Nacional, distribui lucros acima desse patamar - ou pretende distribuir -, o melhor momento para se organizar é agora, antes que a retenção comece a reduzir seu caixa de forma automática.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa é exatamente o tipo de situação que, quando tratada com antecedência, evita prejuízo e dá previsibilidade.",
+            },
+        ]
+    },
+    {
+        id: "tcu-transacao-pgfn",
+        title: "TCU travou os acordos de dívida tributária. Sua empresa pode estar em risco",
+        date: "29/12/2025",
+        authors: "Pedro Fonseca",
+        description: "Você tem dívidas tributárias e contava com a possibilidade de negociar com o governo? Então vale prestar atenção no que está acontecendo agora. Uma decisão recente do Tribunal de Contas da União mudou o cenário da transação tributária e pode impactar diretamente empresas que estavam planejando regularizar seus débitos ou que já firmaram acordos nos últimos anos.",
+        image: transacaoTCU,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Você tem dívidas tributárias e contava com a possibilidade de negociar com o governo?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Então vale prestar atenção no que está acontecendo agora.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Uma [decisão](https://www.gov.br/pgfn/pt-br/assuntos/noticias/2025/nota-sobre-as-repercussoes-do-acordao-do-tcu-na-politica-publica-da-transacao-tributaria) recente do Tribunal de Contas da União mudou o cenário da transação tributária e pode impactar diretamente empresas que estavam planejando regularizar seus débitos ou que já firmaram acordos nos últimos anos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se esse tema passa perto da sua realidade, entender o momento é essencial.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O problema: o caminho da negociação ficou mais estreito",
+            },
+            {
+                "type": "paragraph",
+                "text": "Desde 2020, empresas com dívidas federais passaram a ter uma alternativa concreta para sair da inadimplência por meio da transação tributária com a [PGFN](https://www.jota.info/coberturas-especiais/jurisprudente/depois-de-decisao-do-tcu-pgfn-limita-uso-de-prejuizo-fiscal-em-transacoes).",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, era um acordo que permitia reduzir juros e multas, parcelar o débito e, em alguns casos, usar prejuízos fiscais acumulados para ajudar na quitação.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso deu fôlego para milhares de empresas que não tinham caixa imediato, mas possuíam prejuízos acumulados ao longo dos anos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Era um caminho viável para regularizar a situação fiscal e seguir operando.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que mudou e por que isso preocupa",
+            },
+            {
+                "type": "paragraph",
+                "text": "No Acórdão nº 2.670/2025, o [Tribunal de Contas da União](https://www1.folha.uol.com.br/blogs/que-imposto-e-esse/2025/12/tcu-limita-uso-de-creditos-em-transacoes-e-pgfn-recorre.shtml) adotou uma interpretação que, na prática, restringe fortemente o uso de prejuízos fiscais nas transações tributárias.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O efeito foi imediato.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A própria PGFN precisou anunciar [medidas cautelares](https://www.contabeis.com.br/noticias/74247/pgfn-ajusta-procedimentos-apos-acordao-do-tcu-sobre-transacao-tributaria/) e ajustar procedimentos internos. Além disso, a Procuradoria recorreu da decisão por entender que ela compromete a política pública de transação tributária.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso revela o tamanho da incerteza instalada.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para o empresário, o impacto é direto.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Acordos que antes cabiam no caixa podem deixar de fazer sentido.",
+                    "Empresas que planejavam se regularizar podem perder essa alternativa.",
+                    "Transações já firmadas entram em uma zona de dúvida.",
+                    "Decisões financeiras ficam suspensas.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Tudo isso em um país que acumula cerca de R$ 2,9 trilhões em dívida ativa.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O ponto mais sensível: e quem já fez acordo?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse é o aspecto que mais gera apreensão.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Milhares de empresas celebraram transações usando prejuízo fiscal exatamente como a Lei nº 13.988/2020 permitia.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Tudo foi feito dentro da regra vigente, com boa-fé e respaldo legal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A decisão do TCU, no entanto, não esclareceu de forma objetiva como esses acordos serão tratados daqui para frente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nem mesmo a PGFN concorda com essa leitura, o que mostra que o cenário ainda está em disputa.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para quem já tem acordo firmado, ignorar o tema não é uma boa estratégia.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que faz sentido agora",
+            },
+            {
+                "type": "paragraph",
+                "text": "Este não é um momento para agir no impulso.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas também não é um momento para ignorar o problema.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Alguns pontos merecem atenção.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Entender se sua empresa é impactada pela nova interpretação.",
+                    "Avaliar se um acordo já firmado pode sofrer questionamentos.",
+                    "Analisar se ainda faz sentido buscar transação neste momento.",
+                    "Considerar alternativas além da transação, quando for o caso.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Cada empresa está em uma situação diferente. Tratar tudo como se fosse igual é um erro comum.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O momento pede atenção",
+            },
+            {
+                "type": "paragraph",
+                "text": "A [PGFN](https://www.conjur.com.br/2025-nov-17/tcu-aponta-falhas-da-pgfn-e-da-receita-na-politica-de-transacao-tributaria/) recorreu da decisão.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O cenário pode mudar novamente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "As regras podem ser ajustadas ou ficar ainda mais restritivas.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Hoje, a única certeza é a incerteza.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nesse contexto, empresários com dívidas tributárias precisam saber exatamente onde estão pisando antes de tomar qualquer decisão relevante.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "A transação tributária continua existindo, mas o ambiente ficou mais complexo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ignorar a decisão do TCU pode gerar riscos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Agir sem análise pode gerar prejuízos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No PFMP Advogados, temos apoiado empresários na análise desse cenário.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O objetivo é simples: ajudar na tomada de decisão com clareza, sem precipitação.",
+            },
+        ]
+    },
     {
         id: "sinter-imposto-cib-aluguel",
         title: "CIB e SINTER: novos mecanismos de fiscalização da Receita prometem dificultar a sonegação de impostos sobre aluguéis e venda de imóveis",
