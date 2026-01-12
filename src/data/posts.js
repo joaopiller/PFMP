@@ -36,10 +36,237 @@ import ataDL from "../assets/images/ata_distribuicao_lucros_dividendos_tributaca
 import impostoSINTER from "../assets/images/rearp_fiscalização_cib_sinter_receita_federal_tributação.jpg"
 import transacaoTCU from "../assets/images/tcu_transacao_pgfn.png"
 import perguntasRespostas from "../assets/images/tributação_altas_rendas_dividendos_lucros_perguntas_e_respostas_RFB_receita_federal.png"
+import criptoReceita from "../assets/images/decripto_crypto_tributação_receita_federal_rfb_mais_imposto_renda.jpg"
 
 const posts = [
     {
-         id: "perguntas-respostas-simples-nacional-lucros-dividendos",
+        id: "cripto-tributacao-receita-federal-decripto",
+        title: "DeCripto 2026: a Receita vai rastrear suas operações com Bitcoin - e a autuação começa no cruzamento de dados",
+        date: "12/01/2026",
+        authors: "Flávia Perim",
+        description: "Você compra, vende, faz staking, recebe airdrop ou movimenta cripto fora de exchange brasileira? Então, atenção com o que vou te contar agora: a Receita Federal criou a Declaração de Criptoativos (DeCripto), uma obrigação acessória que transforma cripto em dado fiscal estruturado, pronto para cruzamento e autuação.",
+        image: criptoReceita,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Você compra, vende, faz staking, recebe airdrop ou movimenta cripto fora de exchange brasileira?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Então, atenção com o que vou te contar agora: a Receita Federal criou a Declaração de Criptoativos (DeCripto), uma obrigação acessória que transforma cripto em dado fiscal estruturado, pronto para cruzamento e autuação.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E não é “futuro distante”. A regra começa a operar em 2026, com etapas que entram em vigor ao longo do ano.",
+            },
+            {
+                "type": "subtitle",
+                "text": "1. Acabou a “zona cinzenta” do cripto",
+            },
+            {
+                "type": "paragraph",
+                "text": "Até aqui, muita gente vivia com a ideia de que cripto é difícil de rastrear.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Só que a Receita está montando um modelo que funciona assim:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "as plataformas reportam suas operações (com identificação do usuário, valores, taxas etc.);",
+                    "o próprio usuário também passa a ter obrigação de declarar quando opera fora do “sistema regulado” (ex.: exchange estrangeira, DEX, P2P, autocustódia), se ultrapassar um limite mensal;",
+                    "e, quando um dado não bater com o outro… é aí que nasce a autuação.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você acha que isso é exagero, pense no que já acontece com banco, cartão, e-Financeira etc. A lógica agora chega ao cripto.",
+            },
+            {
+                "type": "subtitle",
+                "text": "2. Onde isso estoura (no bolso e no risco)",
+            },
+            {
+                "type": "paragraph",
+                "text": "Veja se você se identifica:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "“Eu opero em exchange estrangeira e não declaro nada mensalmente.”",
+                    "“Eu faço swaps em DEX, stake, recebo airdrop… nem sei como vira imposto.”",
+                    "“Eu mando cripto para carteira própria e depois vendo fora.”",
+                    "“Eu compro em uma plataforma e vendo em outra.”",
+                    "“Meu IR anual está ok… acho.” (esse “acho” é o problema)",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O ponto é: a DeCripto não é só sobre ganho de capital. Ela cria um trilho de informação para a Receita enxergar fluxo, origem, destino, valores e saldos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E o erro mais comum que chega no escritório é este: a pessoa até declara algo no IR anual, mas não consegue provar a história inteira (custo de aquisição, origem do ativo, movimentações entre carteiras, rendimentos, permutas…).",
+            },
+            {
+                "type": "subtitle",
+                "text": "3. O que é a DeCripto (em português claro)",
+            },
+            {
+                "type": "paragraph",
+                "text": "A IN RFB nº 2.291/2025 determina que as informações sobre operações com criptoativos sejam prestadas por meio da Declaração de Criptoativos (DeCripto).",
+            },
+            {
+                "type": "paragraph",
+                "text": "Onde e como entrega?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A DeCripto é apresentada em sistema da Receita no e-CAC (“Coleta Nacional”), no site da [Secretaria Especial da Receita Federal do Brasil](https://gov.br/receitafederal) na internet, cujo layout e manual foram aprovados por [ADE Copes nº 2/2026](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/148706), com efeitos a partir de 1º/07/2026.",
+            },
+            {
+                "type": "subtitle",
+                "text": "3.1 Quem é obrigado a declarar",
+            },
+            {
+                "type": "paragraph",
+                "text": "1) Prestadoras de serviço (exchanges e afins)",
+            },
+            {
+                "type": "paragraph",
+                "text": "A obrigação alcança prestadora que tenha vínculo com o Brasil (ex.: residente, organizada no Brasil, gerida no Brasil, com local regular de negócios) ou que preste serviço no Brasil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E a IN detalha quando a Receita considera que a empresa está “atuando no Brasil”, mesmo sendo de fora: sinais como domínio “.br”, acordo comercial para receber fundos localmente, uso de meios de pagamento como PIX, publicidade direcionada a brasileiros, entre outros.",
+            },
+            {
+                "type": "paragraph",
+                "text": "2) Usuários (pessoa física ou jurídica)",
+            },
+            {
+                "type": "paragraph",
+                "text": "O usuário no Brasil também fica obrigado quando opera fora de prestadora brasileira, por exemplo:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "exchange estrangeira;",
+                    "plataforma descentralizada (DEX);",
+                    "operações sem intermediário.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas aqui entra um filtro importante: a obrigação do usuário surge quando o valor mensal das operações (isoladas ou somadas) ultrapassar R$ 35.000,00.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em outras palavras: “operar fora” e passar do limite mensal é o combo que acende a obrigação.",
+            },
+            {
+                "type": "subtitle",
+                "text": "3.2 Que operações entram na DeCripto",
+            },
+            {
+                "type": "paragraph",
+                "text": "A IN lista um escopo bem amplo, e é aqui que muita gente não se atenta, porque o contribuinte só lembra de “compra e venda”.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A DeCripto abrange, por exemplo: compra e venda, permuta, e várias hipóteses de transferências ligadas a eventos como airdrop, renda de staking, renda de mineração, empréstimos com cripto, alienação de bens/serviços, devolução de garantias, além de outras classificações.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Também existem hipóteses específicas como aquisição de bens/serviços acima de determinado valor em dólar, transferências para carteira não vinculada a prestadora, perda involuntária, distribuição/resgate de certos criptoativos referenciados em ativos etc.",
+            },
+            {
+                "type": "subtitle",
+                "text": "3.3 Quais dados a Receita vai receber (o combustível do cruzamento)",
+            },
+            {
+                "type": "paragraph",
+                "text": "O que as exchanges declaram:",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para cada operação, de forma individualizada, a prestadora informa itens como:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "data e tipo da operação;",
+                    "identificação dos usuários (com procedimentos de diligência AML/KYC);",
+                    "criptoativo e quantidade;",
+                    "valor em reais do criptoativo (sem taxas);",
+                    "taxas cobradas.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "E tem mais: para cada cliente, a exchange também entrega saldos em 31/12 (em reais e em cripto) e, se informado pelo usuário, o custo de obtenção.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O que o usuário declara:",
+            },
+            {
+                "type": "paragraph",
+                "text": "O usuário declara dados operacionais similares (data, tipo, valor, taxa) e ainda identifica a plataforma estrangeira/DEX quando cabível.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Um detalhe bem relevante: quando as operações forem executadas por “pacotes” indivisíveis em contrato inteligente, a IN admite, alternativamente, a informação por hash da transação em certas situações.",
+            },
+            {
+                "type": "subtitle",
+                "text": "3.4 Prazos: é mensal (e isso muda tudo)",
+            },
+            {
+                "type": "paragraph",
+                "text": "A DeCripto é, em regra, mensal: entrega até o último dia útil do mês seguinte ao das operações (para as informações de operações).",
+            },
+            {
+                "type": "paragraph",
+                "text": "E existe também entrega anual para informações de saldos, dentro do prazo previsto na IN.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse ponto é decisivo: a obrigação mensal cria histórico.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você “arruma” só no IR anual, mas deixou buracos mensais, o risco aumenta.",
+            },
+            {
+                "type": "subtitle",
+                "text": "4. Penalidades: é multa que dói (e pode escalar)",
+            },
+            {
+                "type": "paragraph",
+                "text": "A IN prevê multas por:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "entrega em atraso (com valores distintos para pessoa física e entidade);",
+                    "informações omitidas, inexatas, incompletas;",
+                    "descumprimento de intimação.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "E um ponto que salva muita gente: se corrigir antes de procedimento de ofício, a IN prevê hipótese de não incidência de multa por erros/omissões na retificação, dentro das condições do texto.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Tradução prática: não espere ser intimado para “arrumar”.",
+            },
+        ]
+    },
+    {
+        id: "perguntas-respostas-simples-nacional-lucros-dividendos",
         title: "Lucros e dividendos do Simples Nacional: Receita confirma retenção, mas a discussão jurídica está longe de ser simples",
         date: "29/12/2025",
         authors: "Flávia Perim",
