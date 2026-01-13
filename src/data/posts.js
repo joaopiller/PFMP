@@ -37,8 +37,553 @@ import impostoSINTER from "../assets/images/rearp_fiscalização_cib_sinter_rece
 import transacaoTCU from "../assets/images/tcu_transacao_pgfn.png"
 import perguntasRespostas from "../assets/images/tributação_altas_rendas_dividendos_lucros_perguntas_e_respostas_RFB_receita_federal.png"
 import criptoReceita from "../assets/images/decripto_crypto_tributação_receita_federal_rfb_mais_imposto_renda.jpg"
+import lucroPresumido from "../assets/images/lucro_presumido_mais_impostos_lc_224_2026.png"
+import creditoPresumido from "../assets/images/lei_complementar 2025_224_crédito_presumido_aumento_tributação.jpg"
 
 const posts = [
+    {
+         id: "extincao-beneficios-fiscais-credito-presumido",
+        title: "Extinção de benefícios fiscais? Entenda o que muda com a Lei Complementar 224/2025 e como se proteger",
+        date: "13/01/2026",
+        authors: "Flávia Perim",
+        description: "Você usa algum benefício fiscal federal, crédito presumido, alíquota reduzida, “alíquota zero”, Lucro Presumido ou algum regime especial?Então, atenção com o que vou te contar agora: a Lei Complementar 224/2025, publicada em 26 de dezembro de 2025, mudou o jogo ao reduzir a força de vários incentivos e benefícios tributários, e isso pode aumentar a carga mesmo sem criar “um imposto novo”.",
+        image: creditoPresumido,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Você usa algum benefício fiscal federal, crédito presumido, alíquota reduzida, “alíquota zero”, Lucro Presumido ou algum regime especial?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Então, atenção com o que vou te contar agora: a Lei Complementar 224/2025, publicada em 26 de dezembro de 2025, mudou o jogo ao reduzir a força de vários incentivos e benefícios tributários, e isso pode aumentar a carga mesmo sem criar “um imposto novo”.",
+            },
+            {
+                "type": "subtitle",
+                "text": "1. E quando o cenário muda de repente?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, muita empresa toma decisões com base em benefícios e incentivos fiscais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Só que a Lei Complementar 224/2025 trouxe uma lógica nova: em vez de acabar com todos os benefícios na “canetada”, ela aplica um redutor, diminuindo o valor econômico deles.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E aí mora o perigo: muitas empresas vão sentir no caixa, mas só percebem quando já estão pagando mais, ou quando a fiscalização questiona o aproveitamento.",
+            },
+            {
+                "type": "subtitle",
+                "text": "2. Onde isso pode estourar (no caixa e no risco)",
+            },
+            {
+                "type": "paragraph",
+                "text": "Veja se você se identifica com isso:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "“Eu tinha produto com alíquota zero. Agora, será que continua zero mesmo?”",
+                    "“Eu tomo crédito presumido/crédito financeiro. Isso muda meu custo?”",
+                    "“Estou no Lucro Presumido e passo de R$ 5 milhões/ano. Vou pagar mais?”",
+                    "“Meu setor vive de incentivo. Isso afeta minha precificação?”",
+                    "“Meu planejamento de 2026 foi feito com base no cenário antigo…”",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Normalmente, é esse o cenário dos casos que chegam no escritório: a empresa está operando “certo” dentro da regra antiga, mas a regra muda e ninguém recalcula o impacto (margem, preço, contratos, repasse, e até compliance fiscal).",
+            },
+            {
+                "type": "subtitle",
+                "text": "3. O que a Lei Complementar 224/2025 muda (em português claro)",
+            },
+            {
+                "type": "paragraph",
+                "text": "A seguir, os pontos mais importantes da Lei Complementar 224/2025, do jeito que o gestor precisa enxergar.",
+            },
+            {
+                "type": "subtitle",
+                "text": "3.1. A ideia central: redução “linear” dos benefícios federais",
+            },
+            {
+                "type": "paragraph",
+                "text": "A lei estabelece critérios e aplica um fator de redução em diversos incentivos/benefícios tributários federais. Em termos práticos:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "não é só “tirar benefício”;",
+                    "é reduzir o quanto ele vale na apuração.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Ela alcança benefícios ligados, entre outros, a PIS e Cofins (inclusive importação), IPI, IRPJ, CSLL, II e também contribuição previdenciária.",
+            },
+            {
+                "type": "subtitle",
+                "text": "3.2. Como fica a redução, na prática",
+            },
+            {
+                "type": "paragraph",
+                "text": "A lógica é, em geral, 90% do benefício antigo + 10% do sistema “cheio” (o padrão). Exemplos de como a lei trata:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Isenção/alíquota zero: na prática, deixam de funcionar como “zero absoluto” e passam a ter tributação equivalente a 10% da alíquota padrão do tributo.",
+                    "Alíquota reduzida: vira uma conta mista - 90% da alíquota reduzida + 10% da alíquota padrão.",
+                    "Base de cálculo reduzida: a redução fica “menor” - aplica-se 90% da redução que existia.",
+                    "Créditos (inclusive presumidos/fictos): o aproveitamento passa a ser limitado a 90% do valor, com regras de cancelamento do que não foi aproveitado conforme o marco temporal informado.",
+                    "Redução do tributo devido: também passa a respeitar o redutor (ex.: 90% do valor reduzido).",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Qual é o ponto aqui então?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você depende de incentivo para manter margem, competir em preço ou sustentar operação, a conta muda. E muda de um jeito que exige recálculo detalhado (produto a produto, operação a operação).",
+            },
+            {
+                "type": "subtitle",
+                "text": "3.3. Lucro Presumido: atenção ao “degrau” acima de R$ 5 milhões",
+            },
+            {
+                "type": "paragraph",
+                "text": "Um dos impactos mais sensíveis é no Lucro Presumido.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A lei prevê aumento de 10% no percentual de presunção, mas com uma regra-chave:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "o acréscimo incide somente sobre a parcela da receita bruta anual que exceder R$ 5.000.000,00.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "E tem um detalhe operacional importante: quando a empresa ultrapassa o limite no ano, o efeito pode mudar ao longo dos trimestres (com aplicação sobre excedente no trimestre da ultrapassagem e ajustes nos seguintes, conforme a dinâmica descrita).",
+            },
+            {
+                "type": "paragraph",
+                "text": "Traduzindo: empresas “no meio do caminho” (crescendo e faturando mais) podem sofrer aumento de base e ter que reavaliar se o Lucro Presumido ainda vale a pena ou se é hora de comparar com Lucro Real com estratégia.",
+            },
+            {
+                "type": "subtitle",
+                "text": "3.4. JCP: aumento do IRRF",
+            },
+            {
+                "type": "paragraph",
+                "text": "A lei também eleva a alíquota do IRRF sobre JCP (juros sobre capital próprio) de 15% para 17,5%.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para empresas que usam JCP como ferramenta de planejamento (distribuição, remuneração, estrutura de capital), isso pede revisão de política de remuneração aos sócios/acionistas; projeção de fluxo de caixa; e comparativos com outras alternativas.",
+            },
+            {
+                "type": "subtitle",
+                "text": "3.5. “Trava” para novos benefícios: teto e condições mais duras",
+            },
+            {
+                "type": "paragraph",
+                "text": "Outro ponto relevante é que a lei cria um tipo de “freio” macro:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "se as renúncias ultrapassarem 2% do PIB, a regra passa a dificultar criação, ampliação ou prorrogação de benefícios sem compensação integral.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Além disso, propostas futuras de benefícios precisam vir com:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "prazo definido (em regra, até 5 anos, com exceções para investimentos de longo prazo);",
+                    "metas objetivas (econômicas, sociais e ambientais);",
+                    "avaliação recorrente (e sem meta/sem avaliação, a prorrogação fica comprometida).",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Para a empresa, isso significa um ambiente mais “duro” para benefícios duradouros: planejamento tributário não pode mais depender de incentivo eterno.",
+            },
+            {
+                "type": "subtitle",
+                "text": "3.6. Exceções: nem todo mundo entra na mesma regra",
+            },
+            {
+                "type": "paragraph",
+                "text": "Há hipóteses que ficam fora, como:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "imunidades constitucionais;",
+                    "Zona Franca de Manaus e áreas de livre comércio;",
+                    "alguns casos de direito ligado à condição onerosa já cumprida (especialmente investimentos com projeto aprovado até 31/12/2025, no recorte trazido);",
+                    "CPRB;",
+                    "além de outras situações específicas listadas.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Aqui mora outra armadilha: às vezes a empresa acha que está “protegida”, mas só uma parte da operação está (produto A sim, produto B não; filial sim, matriz não; operação interna sim, importação não).",
+            },
+            {
+                "type": "subtitle",
+                "text": "3.7. Quando isso começa a valer?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A produção de efeitos varia conforme o tributo:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "IRPJ: efeitos a partir de 1º de janeiro de 2026.",
+                    "Tributos sujeitos à anterioridade nonagesimal (como PIS/Cofins e IPI): efeitos após o prazo, com início no primeiro dia do quarto mês subsequente à publicação (na prática, em abril de 2026, considerando a publicação em dezembro/2025).",
+                    "Outros dispositivos: 1º de janeiro de 2026.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "4. O que sua empresa deve fazer agora (checklist objetivo)",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você quer agir de forma prática, aqui vai um caminho seguro:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "Mapear benefícios e regimes usados hoje (por tributo, produto e operação).",
+                    "Simular o impacto do redutor no custo e na margem.",
+                    "Revisar precificação e contratos (especialmente contratos longos).",
+                    "Reavaliar Lucro Presumido x Lucro Real (principalmente se você passa de R$ 5 milhões/ano).",
+                    "Checar se há exceções aplicáveis ao seu caso (e se são parciais).",
+                    "Ajustar compliance e documentação (para evitar autuação por aproveitamento indevido).",
+                    "Se usa JCP, refazer a conta com o novo IRRF.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Veja que ter um advogado tributarista aqui não é “custo”: é gestão de risco e caixa.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Lei Complementar 224/2025 é o tipo de mudança que gera dois problemas ao mesmo tempo: (i) impacto financeiro (pagar mais ou perder benefício/crédito); e (ii) risco fiscal (interpretar errado a regra, aplicar em produto errado, tomar crédito onde não pode, errar marco temporal).",
+            },
+        ]
+    },
+    {
+        id: "lucro-presumido-mais-caro-2026",
+        title: "Lucro Presumido mais caro em 2026: o aumento de 10% já está valendo e pode estourar seu caixa",
+        date: "13/01/2026",
+        authors: "Flávia Perim",
+        description: "Você está no Lucro Presumido e fatura mais de R$ 5 milhões por ano? Então, atenção com o que vou te explicar agora. A Lei Complementar 224/2025 mexeu diretamente no Lucro Presumido e a IN RFB nº 2.305/2025 (31/12/2025) deixou a regra operacional.",
+        image: lucroPresumido,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Você está no Lucro Presumido e fatura mais de R$ 5 milhões por ano?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Então, atenção com o que vou te explicar agora.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Lei Complementar 224/2025 mexeu diretamente no Lucro Presumido e a IN RFB nº 2.305/2025 (31/12/2025) deixou a regra operacional.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja: não é “discussão”, é cálculo na guia já no início de 2026.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se a sua empresa ultrapassa R$ 5.000.000,00 de receita bruta no ano, existe grande chance de você estar diante de um aumento silencioso no IRPJ e na CSLL.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E o pior: muita gente só vai perceber quando o imposto vier maior ou quando já errou a apuração do trimestre.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Por que isso é perigoso para quem está no Lucro Presumido?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Porque o Lucro Presumido sempre foi vendido como “simples de calcular”.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Só que agora ele ficou híbrido:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "até R$ 5 milhões/ano, nada muda;",
+                    "passou de R$ 5 milhões, entra um degrau: os percentuais de presunção do IRPJ/CSLL sobem 10%.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "E tem um detalhe que derruba muita empresa: o limite é acompanhado por receita acumulada no ano.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "você pode começar o ano “normal”…",
+                    "ultrapassar o teto no 2º trimestre…",
+                    "e terminar o ano pagando IRPJ/CSLL com presunção maior nos trimestres seguintes inteiros.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso dá dois tipos de prejuízo:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "Caixa: imposto maior sem planejamento de preço/contrato.",
+                    "Risco fiscal: erro de cálculo (especialmente no trimestre em que ultrapassa o teto) e autuação.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "É o tipo de assunto que costuma chegar no escritório assim: “Dra., minha guia subiu e ninguém sabe explicar” ou “meu contador aplicou de um jeito, mas ouvi que é de outro”.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que mudou no Lucro Presumido (o que você precisa saber para não errar)",
+            },
+            {
+                "type": "paragraph",
+                "text": "1) O que aumentou exatamente?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A regra determina acréscimo de 10% nos percentuais de presunção usados para calcular a base do IRPJ e da CSLL.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Exemplo rápido (só para fixar a lógica):",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "serviço que presumia 32% passa a presumir 35,2% (32% + 10% de 32%)",
+                    "comércio que presumia 8% passa a 8,8%",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "2) Quem sente isso?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quem passa de R$ 5 milhões de receita bruta no ano-calendário.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Não importa se “passa pouco”. Passou, acendeu a regra.",
+            },
+            {
+                "type": "paragraph",
+                "text": "3) Como aplica no ano (a parte que deve dar erro)",
+            },
+            {
+                "type": "paragraph",
+                "text": "Funciona assim, de forma prática:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "você acompanha a receita acumulada trimestre a trimestre;",
+                    "no trimestre em que ultrapassar R$ 5 milhões, o percentual maior já entra, mas somente sobre a parcela excedente naquele momento;",
+                    "a partir do trimestre seguinte, o percentual maior tende a pegar toda a receita de cada apuração até o fim do ano (porque o limite já foi estourado).",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Se a empresa tem atividades com percentuais diferentes (ex.: serviço e comércio), a aplicação pode exigir cálculo proporcional por atividade, e é aqui que muita gente se perde.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Exemplo prático (bem explicado): empresa de serviços com R$ 10 milhões em 2026",
+            },
+            {
+                "type": "paragraph",
+                "text": "Vamos supor uma empresa de prestação de serviços (percentual de presunção “clássico” de 32%), com este faturamento:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "1º trimestre: R$ 2.400.000",
+                    "2º trimestre: R$ 2.800.000 → acumulado no ano: R$ 5.200.000 (passou o teto)",
+                    "3º trimestre: R$ 2.500.000",
+                    "4º trimestre: R$ 2.300.000",
+                    "Total no ano: R$ 10.000.000",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Passo 1: Identificar o excedente no trimestre da ultrapassagem.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No 2º trimestre, o acumulado passou de R$ 5 milhões em:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "R$ 5.200.000 - R$ 5.000.000 = R$ 200.000 (excedente)",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Então, no 2º trimestre:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "R$ 2.600.000 ainda usa presunção 32%",
+                    "R$ 200.000 já usa presunção 35,2%",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Passo 2: O que acontece nos trimestres seguintes.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Como o teto já foi ultrapassado no 2º trimestre, no 3º e 4º trimestres a empresa já opera “do lado de lá” do limite.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Resultado: a presunção maior (35,2%) entra com força.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Passo 3: Comparar base antiga x base nova (onde o imposto cresce).",
+            },
+            {
+                "type": "paragraph",
+                "text": "Regra antiga (sem aumento):",
+            },
+            {
+                "type": "paragraph",
+                "text": "Base anual presumida = R$ 10.000.000 x 32% = R$ 3.200.000",
+            },
+            {
+                "type": "paragraph",
+                "text": "Regra nova (com a “escadinha”):",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "1º tri: 2.400.000 x 32% = 768.000",
+                    "2º tri:2.600.000 x 32% = 832.000 | 200.000 x 35,2% = 70.400",
+                    "3º tri: 2.500.000 x 35,2% = 880.000",
+                    "4º tri: 2.300.000 x 35,2% = 809.600",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Base anual nova = 768.000 + 902.400 + 880.000 + 809.600 = R$ 3.360.000",
+            },
+            {
+                "type": "paragraph",
+                "text": "✅ Aumento da base: R$ 3.360.000 - R$ 3.200.000 = R$ 160.000",
+            },
+            {
+                "type": "paragraph",
+                "text": "“Tá, e isso vira quanto de imposto a mais?”",
+            },
+            {
+                "type": "paragraph",
+                "text": "Sem entrar em exceções e particularidades, em uma conta padrão do Lucro Presumido:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "CSLL (9%) sobre a base: 160.000 x 9% = R$ 14.400",
+                    "IRPJ (15% + adicional, conforme a sistemática trimestral): na prática, esse aumento de base costuma empurrar imposto para cima. Neste exemplo, a diferença estimada de IRPJ fica em torno de R$ 40.000.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Total aproximado a mais no ano: ~R$ 54.400",
+            },
+            {
+                "type": "paragraph",
+                "text": "E note: aqui estamos falando de um caso “comum”. Em empresas com margens apertadas, contrato fechado e pouca possibilidade de repasse, isso dói.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que o contribuinte no Lucro Presumido precisa fazer agora",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se a sua empresa encosta ou ultrapassa R$ 5 milhões/ano, o mínimo é:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "simular 2026 por trimestre, antes de estourar o caixa;",
+                    "revisar preço, contrato e repasse (principalmente contratos longos);",
+                    "checar se vale migrar (ou não) para outro regime;",
+                    "alinhar contabilidade, financeiro e fiscal para não errar no trimestre da ultrapassagem.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Onde entra o advogado tributarista (e por que isso evita prejuízo)",
+            },
+            {
+                "type": "paragraph",
+                "text": "Aqui é onde muita empresa se engana: acha que é “só uma continha”.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Só que não é.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O risco real está em:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "aplicar errado no trimestre da ultrapassagem;",
+                    "errar proporcionalidade quando há mais de uma atividade;",
+                    "pagar a mais por falta de simulação;",
+                    "ou pagar a menos sem perceber e virar alvo de fiscalização.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Advocacia tributária não é custo aqui: é proteção de caixa e gestão de risco.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O trabalho é traduzir a regra para o seu cenário e montar um planejamento que fique de pé, inclusive se a Receita questionar.",
+            },
+        ]
+    },
     {
         id: "cripto-tributacao-receita-federal-decripto",
         title: "DeCripto 2026: a Receita vai rastrear suas operações com Bitcoin - e a autuação começa no cruzamento de dados",
