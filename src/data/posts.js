@@ -31,7 +31,7 @@ import altasRendas from "../assets/images/lucros_dividendos_fugir_tributação_l
 import transacaoGoias from "../assets/images/quita_goias_transacao_negocia.png"
 import rearpGDC from "../assets/images/rearp_atualizacao_imóvel_tributacao_ganho_de_capital.jpg"
 import itcmdES from "../assets/images/planejamento_itcmd_espirito_santo.jpeg"
-import lucrosDL from "../assets/images/lucros_dividendos_simples_nacional.jpg" 
+import lucrosDL from "../assets/images/lucros_dividendos_simples_nacional.jpg"
 import ataDL from "../assets/images/ata_distribuicao_lucros_dividendos_tributacao.jpg"
 import impostoSINTER from "../assets/images/rearp_fiscalização_cib_sinter_receita_federal_tributação.jpg"
 import transacaoTCU from "../assets/images/tcu_transacao_pgfn.png"
@@ -39,10 +39,323 @@ import perguntasRespostas from "../assets/images/tributação_altas_rendas_divid
 import criptoReceita from "../assets/images/decripto_crypto_tributação_receita_federal_rfb_mais_imposto_renda.jpg"
 import lucroPresumido from "../assets/images/lucro_presumido_mais_impostos_lc_224_2026.png"
 import creditoPresumido from "../assets/images/lei_complementar 2025_224_crédito_presumido_aumento_tributação.jpg"
+import rearpGanho from "../assets/images/rearp_ganho_capital_imposto.jpg"
+import leiComplementarnova from "../assets/images/2026_itcmd_planejamento_sucessório_patrimonial_holding.jpg"
 
 const posts = [
     {
-         id: "extincao-beneficios-fiscais-credito-presumido",
+        id: "planejamento-sucessorio-itcmd-leicomplementar227",
+        title: "2026 será o último ano para pagar menos impostos com planejamento sucessório",
+        date: "14/01/2026",
+        authors: "João Marchesi",
+        description: "A sucessão patrimonial por meio de holdings familiares sempre ocupou posição central no planejamento jurídico-tributário das famílias empresárias brasileiras. Essa realidade, contudo, passa a sofrer alteração estrutural relevante a partir da publicação da Lei Complementar nº 227/2026, ocorrida em 14 de janeiro de 2026, diploma que encerra a última etapa da Reforma Tributária.",
+        image: leiComplementarnova,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "A sucessão patrimonial por meio de holdings familiares sempre ocupou posição central no planejamento jurídico-tributário das famílias empresárias brasileiras.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa realidade, contudo, passa a sofrer alteração estrutural relevante a partir da publicação da Lei Complementar nº 227/2026, ocorrida em 14 de janeiro de 2026, diploma que encerra a última etapa da Reforma Tributária.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Entre as diversas inovações introduzidas pela nova lei complementar, destaca-se a profunda modificação nos critérios de apuração da base de cálculo do ITCMD incidente sobre a doação de quotas ou ações de sociedades não negociadas em bolsa de valores, especialmente quando utilizadas como forma de adiantamento de legítima.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A nova base de cálculo do ITCMD na doação de quotas",
+            },
+            {
+                "type": "paragraph",
+                "text": "O art. 154, inciso II, da Lei Complementar nº 227/2026 estabelece que a base de cálculo do ITCMD, nessas hipóteses, deverá ser apurada com base em metodologia tecnicamente idônea e adequada à natureza das quotas ou ações transmitidas.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A norma afasta, de forma expressa, a adoção automática e exclusiva do valor contábil constante do balanço patrimonial.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nos termos da nova disciplina legal, a avaliação deverá contemplar, inclusive, método técnico que considere eventual perspectiva de geração de caixa do empreendimento, quando aplicável.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Além disso, o valor atribuído às quotas ou ações não poderá ser inferior ao patrimônio líquido ajustado, obtido mediante a avaliação de ativos e passivos a valor de mercado, acrescido do valor de mercado do fundo de comércio, tudo conforme vier a ser detalhado na legislação do ente tributante competente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Trata-se, portanto, de um deslocamento claro do critério meramente contábil para um critério econômico-financeiro, aproximando a base de cálculo do ITCMD de metodologias clássicas de valuation empresarial, como aquelas utilizadas em operações societárias, reorganizações e avaliações para fins de mercado.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que isso muda na prática",
+            },
+            {
+                "type": "paragraph",
+                "text": "Até a entrada em vigor efetiva dessa nova sistemática, era comum que a doação de quotas de holdings patrimoniais fosse tributada com base no patrimônio líquido contábil, frequentemente composto por imóveis registrados a custo histórico e ativos que não refletiam sua efetiva valorização econômica. ",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse modelo permitia, dentro da legalidade então vigente, uma sucessão patrimonial com custo fiscal significativamente reduzido.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com a Lei Complementar nº 227/2026, esse cenário tende a se alterar de forma sensível.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A consideração do valor de mercado dos ativos, somada à incorporação do fundo de comércio e, quando pertinente, da capacidade futura de geração de resultados, conduz a uma base de cálculo substancialmente mais elevada, o que impacta diretamente o montante do ITCMD devido.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Não se trata, portanto, de mero ajuste formal, mas de uma redefinição estrutural da lógica de tributação da transmissão patrimonial via quotas empresariais.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A anterioridade anual e a última janela de planejamento",
+            },
+            {
+                "type": "paragraph",
+                "text": "Embora a Lei Complementar nº 227/2026 entre em vigor na data de sua publicação, a exigibilidade da nova base de cálculo do ITCMD encontra limite constitucional no princípio da anterioridade anual, previsto no art. 150, inciso III, alínea “b”, da Constituição Federal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Por se tratar de hipótese que implica majoração indireta da carga tributária, a aplicação efetiva dos novos critérios somente poderá ocorrer a partir de 1º de janeiro de 2027. Assim, durante todo o exercício de 2026, permanece juridicamente possível realizar doações de quotas com base nos critérios anteriores, desde que respeitada a legislação estadual vigente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse intervalo transforma o ano de 2026 na última janela temporal legítima para a estruturação de planejamentos sucessórios que ainda se beneficiem da apuração do ITCMD com base em valores contábeis mais reduzidos.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Planejamento sucessório e rigor técnico",
+            },
+            {
+                "type": "paragraph",
+                "text": "A proximidade do fim dessa janela não autoriza soluções improvisadas ou estruturas artificiais. Ao contrário, a ampliação dos critérios legais de valuation tende a ser acompanhada por maior escrutínio fiscal sobre operações realizadas no período de transição.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Planejamento sucessório eficaz, especialmente em contextos envolvendo holdings patrimoniais, exige consistência jurídica, coerência econômica e aderência às novas diretrizes normativas.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A antecipação da sucessão deve ser analisada caso a caso, considerando não apenas o impacto tributário imediato, mas também os efeitos societários, sucessórios e patrimoniais de longo prazo.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "A sanção da Lei Complementar nº 227/2026 representa um marco definitivo na tributação da transmissão patrimonial por meio de quotas empresariais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A partir de 2027, a base de cálculo do ITCMD deixará de se apoiar em parâmetros meramente contábeis e passará a refletir, de forma muito mais fiel, o valor econômico real das participações societárias.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nesse contexto, 2026 assume caráter excepcional. Trata-se do último exercício em que ainda é possível, dentro da legalidade constitucional, estruturar planejamentos sucessórios com menor carga tributária, antes da plena aplicação dos novos critérios de avaliação.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Considerações finais",
+            },
+            {
+                "type": "paragraph",
+                "text": "No PFMP Advogados, o planejamento sucessório é tratado como instrumento jurídico de alta complexidade, que exige análise técnica rigorosa e visão estratégica de longo prazo. Diante das mudanças introduzidas pela LC nº 227/2026, a revisão tempestiva das estruturas patrimoniais tornou-se ainda mais relevante.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A antecipação adequada hoje pode representar segurança jurídica e eficiência tributária amanhã.",
+            },
+        ]
+    },
+    {
+        id: "rearp-como-aderir",
+        title: "O REARP já está valendo: saiba como aderir ao regime",
+        date: "14/01/2026",
+        authors: "João Marchesi",
+        description: "A atualização do valor de bens imóveis sempre foi um ponto sensível no planejamento patrimonial e tributário, especialmente em razão da elevada tributação incidente sobre o ganho de capital no momento da alienação, cujas alíquotas variam de 15% a 22,5%.",
+        image: rearpGanho,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "A atualização do valor de bens imóveis sempre foi um ponto sensível no planejamento patrimonial e tributário, especialmente em razão da elevada tributação incidente sobre o ganho de capital no momento da alienação, cujas alíquotas variam de 15% a 22,5%.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com a edição da [Instrução Normativa RFB nº 2.302, de 23 de dezembro de 2025](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/148511), a Receita Federal do Brasil regulamentou formalmente o REARP - Regime Especial de Atualização do Valor de Bens Imóveis, estabelecendo regras claras quanto à adesão, procedimento, prazos e forma de recolhimento do imposto.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Este artigo tem por objetivo analisar os principais pontos da regulamentação e seus impactos práticos. [Nós já tratamos dos aspectos técnicos do Regime do REARP em outro artigo.](https://www.pfmpadv.com.br/publicacoes/rearp-ganho-capital-imposto-renda",
+            },
+            {
+                "type": "subtitle",
+                "text": "1. O que é o REARP e qual sua finalidade",
+            },
+            {
+                "type": "paragraph",
+                "text": "O REARP consiste em um regime especial que permite ao contribuinte atualizar o valor de bens imóveis declarados, mediante o pagamento de imposto calculado à alíquota reduzida de 4%, incidente sobre a diferença positiva entre o valor atualizado e o custo originalmente declarado.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A principal finalidade do regime é permitir a regularização do valor fiscal dos imóveis, reduzindo significativamente a carga tributária futura em eventual alienação, sucessão ou reorganização patrimonial.",
+            },
+            {
+                "type": "subtitle",
+                "text": "2. Regulamentação pela Instrução Normativa RFB nº 2.302/2025",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Instrução Normativa RFB nº 2.302/2025 disciplinou de forma detalhada:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "os requisitos para adesão ao REARP;",
+                    "o procedimento eletrônico para formalização da opção;",
+                    "“Estou no Lucro Presumido e passo de R$ 5 milhões/ano. Vou pagar mais?”",
+                    "a forma de apuração e pagamento do imposto; e",
+                    "os efeitos tributários decorrentes da atualização do valor do imóvel.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Com isso, o REARP deixou de ser apenas uma previsão legal abstrata, passando a contar com um rito administrativo operacional.",
+            },
+            {
+                "type": "subtitle",
+                "text": "3. Procedimento para adesão ao REARP",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nos termos da Instrução Normativa, a opção pelo REARP deve ser realizada exclusivamente por meio eletrônico, no [portal do e-CAC](https://cav.receita.fazenda.gov.br/autenticacao).",
+            },
+            {
+                "type": "paragraph",
+                "text": "De forma resumida, o procedimento envolve:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "acesso ao sistema eletrônico disponibilizado pela Receita Federal;",
+                    "identificação do imóvel objeto da atualização;",
+                    "indicação do valor original e do novo valor atribuído ao bem;",
+                    "formalização da opção pelo regime especial; e",
+                    "geração do documento de arrecadação correspondente ao imposto devido.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A adesão possui natureza irretratável e irrevogável, nos termos expressos da regulamentação. Portanto, se estiver com dúvidas, prefira entrar em contato com um profissional especializado.",
+            },
+            {
+                "type": "subtitle",
+                "text": "4. Prazo para apresentação do pedido",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Instrução Normativa fixou prazo específico para a adesão ao REARP, que se encerra em 19 de fevereiro de 2026.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Trata-se de prazo fatal, cuja inobservância impede o contribuinte de usufruir do regime especial, sujeitando eventual atualização futura à sistemática ordinária de tributação do ganho de capital, com alíquotas de 15% a 22,5%.",
+            },
+            {
+                "type": "subtitle",
+                "text": "5. Forma de pagamento do imposto",
+            },
+            {
+                "type": "paragraph",
+                "text": "O imposto apurado à alíquota de 4% poderá ser:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "pago à vista; ou",
+                    "parcelado, conforme as regras estabelecidas na própria Instrução Normativa.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "No caso de parcelamento, a norma estabelece expressamente que:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "o valor das parcelas não pode ser inferior a R$ 1.000,00;",
+                    "incidirão juros equivalentes à taxa Selic.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Não se trata, portanto, de parcelamento sem encargos, mas ainda assim, em regra, mais vantajoso do que a tributação ordinária futura.",
+            },
+            {
+                "type": "subtitle",
+                "text": "6. Efeitos tributários da atualização",
+            },
+            {
+                "type": "paragraph",
+                "text": "Uma vez homologada a opção pelo REARP e efetuado o pagamento (integral ou parcelado), o novo valor atribuído ao imóvel passa a ser considerado como custo de aquisição oficial do bem para fins de apuração de ganho de capital e como base para futuras operações de alienação, doação, sucessão ou reorganização patrimonial.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, isso significa redução expressiva da carga tributária futura, especialmente em imóveis adquiridos há muitos anos e com grande valorização imobiliária.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Lembre-se apenas que você deverá cumprir um período de carência de pelo menos 05 anos. Caso descumpra o período de carência, será tributada a diferença na alienação do imóvel.",
+            },
+            {
+                "type": "subtitle",
+                "text": "7. Importância do planejamento e da análise técnica",
+            },
+            {
+                "type": "paragraph",
+                "text": "Apesar da alíquota reduzida e do procedimento simplificado, a adesão ao REARP não deve ser feita de forma automática.",
+            },
+            {
+                "type": "paragraph",
+                "text": "É essencial avaliar, entre outros pontos:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "a estratégia patrimonial de longo prazo do contribuinte;",
+                    "a possibilidade de reorganizações societárias ou sucessórias;",
+                    "a existência de isenções para operações envolvendo o imóvel que você deseja atualizar o valor; e",
+                    "a compatibilidade do novo valor com o contexto patrimonial e declaratório.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A Instrução Normativa trouxe segurança jurídica ao instituto, mas a decisão pela adesão deve ser técnica, planejada e personalizada.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Instrução Normativa RFB nº 2.302/2025 marcou um avanço relevante ao regulamentar o REARP e viabilizar, de forma concreta, a atualização do valor de imóveis com tributação significativamente reduzida.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para contribuintes com patrimônio imobiliário relevante e valores historicamente defasados, o regime representa uma oportunidade estratégica, desde que utilizada com planejamento e adequada orientação técnica.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O PFMP Advogados atua com planejamento tributário e patrimonial, possuindo uma equipa capacitada que pode te ajudar a percorrer os caminhos que apresentam a menor carga de impostos. Se quiser saber mais, entre em contato conosco.",
+            },
+        ]
+    },
+    {
+        id: "extincao-beneficios-fiscais-credito-presumido",
         title: "Extinção de benefícios fiscais? Entenda o que muda com a Lei Complementar 224/2025 e como se proteger",
         date: "13/01/2026",
         authors: "Flávia Perim",
@@ -1365,7 +1678,7 @@ const posts = [
             },
         ]
     },
-        {
+    {
         id: "ata-distribuicao-dividendos",
         title: "Registro da Ata de Distribuição de Dividendos: afinal, é obrigatório?",
         date: "11/12/2025",
