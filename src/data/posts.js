@@ -41,8 +41,317 @@ import lucroPresumido from "../assets/images/lucro_presumido_mais_impostos_lc_22
 import creditoPresumido from "../assets/images/lei_complementar 2025_224_crédito_presumido_aumento_tributação.jpg"
 import rearpGanho from "../assets/images/rearp_ganho_capital_imposto.jpg"
 import leiComplementarnova from "../assets/images/2026_itcmd_planejamento_sucessório_patrimonial_holding.jpg"
+import receitaCincomil from "../assets/images/receita_federal_pix_taxação_tributação_5_mil_reais.jpg"
+import holdingIrregular from "../assets/images/holding_imobiliaria_irregular.jpg"
 
 const posts = [
+    {
+        id: "holding-imobiliaria-irregular",
+        title: "A sua holding estar irregular pode te custar caro a partir de 2026",
+        date: "15/01/2026",
+        authors: "João Marchesi",
+        description: "A holding patrimonial e imobiliária é, sem dúvida, uma das ferramentas mais eficientes para organização patrimonial, planejamento sucessório e racionalização da carga tributária.",
+        image: holdingIrregular,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "A holding patrimonial e imobiliária é, sem dúvida, uma das ferramentas mais eficientes para organização patrimonial, planejamento sucessório e racionalização da carga tributária.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No entanto, o que se observa na prática é um aumento preocupante de estruturas mal concebidas, muitas vezes baseadas em estratégias irregulares, vendidas como formas rápidas de “economizar imposto”.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com o avanço dos mecanismos de fiscalização integrada, especialmente a partir de 2026, essas estruturas passam a representar um risco fiscal concreto, com potencial de gerar autuações relevantes e passivos elevados perante a Receita Federal.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O crescimento de estratégias irregulares no mercado",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nos últimos anos, tornou-se comum a oferta de “atalhos” para a implementação de holdings imobiliárias, geralmente com o argumento de evitar custos iniciais, como ITBI e despesas cartorárias.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O problema é que muitos desses modelos não resistem a uma análise jurídica minimamente rigorosa e expõem o contribuinte a riscos que superam, em muito, qualquer economia aparente.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A prática mais recorrente: comodato de imóveis para a holding",
+            },
+            {
+                "type": "paragraph",
+                "text": "Uma das estratégias mais difundidas funciona da seguinte forma:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "O sócio pessoa física mantém os imóveis em seu nome;",
+                    "Celebra um contrato de comodato, emprestando os bens à pessoa jurídica;",
+                    "A holding passa a alugar os imóveis a terceiros;",
+                    "O sócio retira lucros e dividendos da empresa.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O objetivo é claro: evitar a integralização dos imóveis, economizando ITBI e custos cartorários.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Contudo, do ponto de vista jurídico e tributário, trata-se de uma estrutura artificial, incompatível com a realidade econômica da operação.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Por que essa estrutura é considerada irregular?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A legislação tributária brasileira adota o princípio de que a renda deve ser tributada de acordo com sua efetiva origem econômica.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No caso da locação de imóveis:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "A renda pertence a quem detém a propriedade;",
+                    "O contrato de comodato não transfere domínio, tampouco legitima a exploração econômica habitual por uma pessoa jurídica.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Quando a holding aufere receitas de locação sem ser proprietária dos imóveis, a fiscalização tende a:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Desconsiderar a pessoa jurídica para fins tributários;",
+                    "Requalificar os valores como aluguéis recebidos pela pessoa física;",
+                    "Exigir: (i) Imposto de Renda retroativo dos últimos cinco anos; (ii) Multas elevadas; (iii) Juros moratórios.;",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Nesse cenário, a economia inicial se converte em um passivo tributário relevante, muitas vezes inesperado.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Por que o risco aumenta significativamente a partir de 2026?",
+            },
+            {
+                "type": "paragraph",
+                "text": "O ambiente de fiscalização mudou.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com a consolidação do Cadastro Imobiliário Brasileiro (CIB) e do Sistema Nacional de Gestão de Informações Territoriais (SINTER), a Receita Federal passou a contar com instrumentos eficazes de cruzamento automático de dados envolvendo:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Registros imobiliários;",
+                    "Informações municipais e estaduais;",
+                    "Declarações fiscais de pessoas físicas e jurídicas.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, estruturas incoerentes tornam-se facilmente identificáveis, como:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Pessoa jurídica sem imóveis registrados, mas com receita de locação;",
+                    "Pessoa física com patrimônio imobiliário relevante, sem renda de aluguéis declarada;",
+                    "Distribuição recorrente de lucros e dividendos isentos.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse tipo de inconsistência tende a resultar em procedimentos de fiscalização e autuação.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O papel do advogado no planejamento patrimonial",
+            },
+            {
+                "type": "paragraph",
+                "text": "Planejamento tributário não se confunde com evasão fiscal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A atuação técnica responsável exige:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Análise jurídica da operação;",
+                    "Transparência quanto aos custos envolvidos;",
+                    "Avaliação dos riscos fiscais, sucessórios e patrimoniais;",
+                    "Estruturação de modelos juridicamente defensáveis.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Com o fortalecimento da fiscalização integrada, estratégias que antes pareciam “toleráveis” passam a representar um risco elevado e imediato.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O impacto sucessório de uma holding mal estruturada",
+            },
+            {
+                "type": "paragraph",
+                "text": "Além do risco tributário, há um erro estratégico frequente no campo sucessório.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quando os imóveis não são efetivamente transferidos para a holding, o planejamento sucessório fica incompleto:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Os bens permanecem na pessoa física;",
+                    "No falecimento, serão submetidos a inventário;",
+                    "A família arcará com custos elevados, ITCMD e um processo demorado.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja, a estrutura irregular não protege o patrimônio em vida nem na sucessão.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Regularização preventiva: a melhor decisão",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se a sua holding:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Explora economicamente imóveis não integralizados;",
+                    "Utiliza contratos de comodato como substituto da transferência de propriedade;",
+                    "Distribui lucros sem lastro patrimonial real.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A regularização preventiva tende a ser substancialmente menos onerosa do que enfrentar uma autuação fiscal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Buscar orientação especializada permite:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Reorganizar a estrutura patrimonial;",
+                    "Mitigar riscos tributários;",
+                    "Concluir corretamente o planejamento sucessório;",
+                    "Proteger o patrimônio familiar no longo prazo.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "A holding imobiliária continua sendo uma ferramenta extremamente eficaz, desde que estruturada corretamente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Estratégias que prometem economia fácil, sem base jurídica sólida, representam riscos que se tornam cada vez mais evidentes no atual cenário fiscal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A partir de 2026, a fiscalização tende a ser mais integrada, mais rápida e mais precisa.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nesse contexto, prevenção e regularidade não são custo: são investimento em segurança patrimonial.",
+            },
+        ]
+    },
+    {
+        id: "receita-federal-movimentacao-bancaria",
+        title: "Movimenta mais de R$ 5.000 e não declara?",
+        date: "15/01/2026",
+        authors: "Flávia Perim",
+        description: "Você pode até achar que “não é renda”, que “já passou pela conta rápido” ou, até mesmo, que a Receita “não pega peixe pequeno”. Mas, para a Receita Federal, dinheiro que entra em conta bancária e não é explicado pode virar imposto devido.",
+        image: receitaCincomil,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Você pode até achar que “não é renda”, que “já passou pela conta rápido” ou, até mesmo, que a Receita “não pega peixe pequeno”.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas, para a Receita Federal, dinheiro que entra em conta bancária e não é explicado pode virar imposto devido.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Hoje, o Fisco cruza automaticamente informações bancárias com a sua declaração de Imposto de Renda.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quando os números não fecham, o caminho costuma ser um só: autuação por omissão de rendimentos (artigo 42 da Lei nº 9.430/1996).",
+            },
+            {
+                "type": "paragraph",
+                "text": "E aqui vai um ponto importante: não basta dizer que o dinheiro veio de empresa, empréstimo, familiar ou negócio informal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Sem documentos contemporâneos e organização correta, a Receita presume que é renda tributável.",
+            },
+            {
+                "type": "paragraph",
+                "text": "É muito comum vermos situações em que a pessoa:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "movimenta valores relevantes na conta pessoal;",
+                    "declara rendimentos baixos no IR;",
+                    "tenta explicar tudo só depois que a fiscalização começa.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Nesse cenário, livros contábeis feitos “às pressas”, ausência de notas fiscais e mistura entre pessoa física e jurídica pesam - e muito - contra o contribuinte.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Outro detalhe que pouca gente sabe: a Receita pode acessar dados bancários sem autorização judicial, e o STF já confirmou essa possibilidade. Ou seja, não é preciso investigação criminal para o problema começar.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você movimenta valores acima do padrão da sua declaração, o melhor caminho é a prevenção:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "organize a origem dos recursos;",
+                    "mantenha contas separadas;",
+                    "revise sua declaração antes de entregar ou retificar;",
+                    "e, principalmente, procure um advogado tributarista.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Cada caso tem estratégia própria.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esperar a notificação chegar costuma sair bem mais caro do que ajustar tudo agora.",
+            },
+        ]
+    },
     {
         id: "planejamento-sucessorio-itcmd-leicomplementar227",
         title: "2026 será o último ano para pagar menos impostos com planejamento sucessório",
