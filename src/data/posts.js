@@ -267,10 +267,6 @@ const posts = [
                     "O risco de constrição patrimonial aumenta.",
                 ]
             },
-            {
-                "type": "paragraph",
-                "text": "Depois do dia 30/01, às 19h, as condições atuais deixam de existir. Enquanto você adia:",
-            },
         ]
     },
     {
