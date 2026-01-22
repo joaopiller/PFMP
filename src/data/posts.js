@@ -105,7 +105,7 @@ const posts = [
             },
             {
                 "type": "paragraph",
-                "text": "[Edital PGDAU 11/2025 — Transação por Capacidade de Pagamento](https://www.gov.br/pgfn/pt-br/servicos/orientacoes-contribuintes/acordo-de-transacao/edital-pgdau-11-2025/transacao-conforme-a-capacidade-de-pagamento-edital-pgdau-11-2025)",
+                "text": "[Edital PGDAU 11/2025](https://www.gov.br/pgfn/pt-br/servicos/orientacoes-contribuintes/acordo-de-transacao/edital-pgdau-11-2025/transacao-conforme-a-capacidade-de-pagamento-edital-pgdau-11-2025) — Transação por Capacidade de Pagamento",
             },
             {
                 "type": "paragraph",
