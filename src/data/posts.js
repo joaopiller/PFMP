@@ -43,8 +43,236 @@ import rearpGanho from "../assets/images/rearp_ganho_capital_imposto.jpg"
 import leiComplementarnova from "../assets/images/2026_itcmd_planejamento_sucessório_patrimonial_holding.jpg"
 import receitaCincomil from "../assets/images/receita_federal_pix_taxação_tributação_5_mil_reais.jpg"
 import holdingIrregular from "../assets/images/holding_imobiliaria_irregular.jpg"
+import transacaoPGFN from "../assets/images/transacao_pgfn_30_janeiro.png"
 
 const posts = [
+    {
+        id: "transacao-PGFN-30-de-janeiro",
+        title: "Transação Tributária PGFN: Última Chance Para Negociar com Até 65% de Desconto, até 30 de janeiro de 2026",
+        date: "22/01/2026",
+        authors: "Pedro Fonseca",
+        description: "Sua empresa tem dívida inscrita na PGFN e você sente que esse passivo está travando qualquer possibilidade de crescimento? Você tem até 30 de janeiro de 2026, às 19h, para aderir aos editais de transação tributária que podem reduzir em até 65% o valor total da sua dívida ativa federal.",
+        image: transacaoPGFN,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Sua empresa tem dívida inscrita na PGFN e você sente que esse passivo está travando qualquer possibilidade de crescimento?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Você tem até 30 de janeiro de 2026, às 19h, para aderir aos editais de transação tributária que podem reduzir em até 65% o valor total da sua dívida ativa federal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você deixar esse prazo passar, volta para o parcelamento convencional — sem desconto, com juros altos e parcelas que sufocam o caixa.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que é transação tributária?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A [transação tributária](https://www.gov.br/pgfn/pt-br/servicos/orientacoes-contribuintes/acordo-de-transacao) é um instrumento legal regulamentado pela Lei nº 13.988/2020 que permite negociar dívidas federais inscritas em dívida ativa da União com condições muito mais vantajosas que o parcelamento tradicional.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Estamos falando de descontos reais, prazos estendidos e entrada facilitada — tudo baseado na capacidade de pagamento da sua empresa.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O problema de adiar a regularização",
+            },
+            {
+                "type": "paragraph",
+                "text": "Cada dia que passa com a dívida em aberto é dinheiro jogado fora:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Os juros continuam correndo (SELIC + 1% ao mês);",
+                    "O risco de penhora aumenta com as execuções fiscais em andamento;",
+                    "Sua empresa não consegue certidão negativa, travando contratos e licitações;",
+                    "Oportunidades são perdidas por conta da irregularidade fiscal.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Editais PGFN com prazo até 30/01/2026",
+            },
+            {
+                "type": "paragraph",
+                "text": "Atualmente estão em vigor editais da PGFN com prazo prorrogado até 30 de janeiro de 2026, às 19h:",
+            },
+            {
+                "type": "paragraph",
+                "text": "[Edital PGDAU 11/2025 — Transação por Capacidade de Pagamento](https://www.gov.br/pgfn/pt-br/servicos/orientacoes-contribuintes/acordo-de-transacao/edital-pgdau-11-2025/transacao-conforme-a-capacidade-de-pagamento-edital-pgdau-11-2025",
+            },
+            {
+                "type": "paragraph",
+                "text": "Voltado para débitos inscritos até 2 de julho de 2025.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Condições:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Descontos de até 100% sobre juros, multas e encargos (limitado a 65% do valor total);",
+                    "Parcelamento em até 114 meses;",
+                    "Entrada de 6% do valor consolidado, parcelável em até 6 vezes;",
+                    "Possibilidade de uso de prejuízo fiscal e base negativa de CSLL.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Edital PGDAU 11/2025 — Débitos de Difícil Recuperação",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para débitos considerados irrecuperáveis pela PGFN.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Condições:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Descontos de até 70% para microempresas e empresas de pequeno porte;",
+                    "Parcelamento estendido em até 120 meses;",
+                    "Condições especiais para empresas em recuperação judicial.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Vantagens da transação tributária",
+            },
+            {
+                "type": "paragraph",
+                "text": "Diferente do parcelamento comum, a [transação](https://www.gov.br/pgfn/pt-br/servicos/orientacoes-contribuintes/acordo-de-transacao) oferece:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Descontos reais sobre o valor total da dívida;",
+                    "Prazos alongados que cabem no fluxo de caixa;",
+                    "Entrada baixa e parcelável, permitindo adesão imediata;",
+                    "Condições personalizadas conforme capacidade de pagamento.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Quando a transação faz sentido?",
+            },
+            {
+                "type": "paragraph",
+                "text": "A transação pode ser o caminho ideal se sua empresa tem:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Passivo tributário federal elevado inscrito em dívida ativa;",
+                    "Execuções fiscais em andamento acumulando custas e honorários;",
+                    "Impossibilidade de obter certidões negativas que travam negócios;",
+                    "Parcelamentos convencionais com parcelas que não cabem no orçamento.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Empresário, este pode ser o seu caso",
+            },
+            {
+                "type": "paragraph",
+                "text": "Uma empresa de médio porte com R$ 800 mil em dívida ativa estava impossibilitada de participar de licitações públicas. No parcelamento convencional, as parcelas ficariam em R$ 15 mil/mês sem desconto algum.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Por meio da transação tributária no [edital PGDAU 11/2025](https://www.in.gov.br/en/web/dou/-/edital-pgdau-n-11-de-30-de-maio-de-2025-633209137), conseguiu:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "50% de desconto sobre o valor total",
+                    "114 parcelas",
+                    "Entrada de 6% parcelada",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Resultado: parcelas de R$ 3,5 mil/mês, empresa regularizada e voltou a competir em licitações.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas isso só foi possível porque a empresa agiu dentro do prazo do edital.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Os riscos de aderir sem análise técnica",
+            },
+            {
+                "type": "paragraph",
+                "text": "Muitas empresas tentam aderir sozinhas e enfrentam:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Indeferimento da proposta por não cumprimento de requisitos ou existência de impedimentos;",
+                    "Escolha errada da modalidade, deixando de aproveitar condições mais vantajosas;",
+                    "Perda do prazo por dificuldades no preenchimento ou na documentação;",
+                    "Problemas na comprovação de capacidade de pagamento.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A legislação é complexa e cada edital possui regras específicas que precisam ser rigorosamente observadas. Um erro pode custar a perda da oportunidade ou a rescisão da transação.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Estratégia certa para cada situação",
+            },
+            {
+                "type": "paragraph",
+                "text": "No PFMP Advogados, estruturamos a análise de viabilidade em etapas:",
+            },
+            {
+                "type": "ordered_list",
+                "items": [
+                    "Levantamento completo do passivo tributário federal;",
+                    "Verificação de elegibilidade para cada modalidade disponível;",
+                    "Simulação de cenários comparando as opções;",
+                    "Análise de capacidade de pagamento real da empresa;",
+                    "Identificação e solução de impedimentos;",
+                    "Estruturação e formalização com acompanhamento até a conclusão.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "O prazo é 30 de janeiro",
+            },
+            {
+                "type": "paragraph",
+                "text": "A [PGFN](https://www.gov.br/pgfn/pt-br) já prorrogou esse prazo uma vez. Não conte com nova prorrogação.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Depois do dia 30/01, às 19h, as condições atuais deixam de existir. Enquanto você adia:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Os juros continuam aumentando a dívida;",
+                    "As execuções fiscais continuam correndo;",
+                    "As oportunidades de negócio continuam sendo perdidas;",
+                    "O risco de constrição patrimonial aumenta.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Depois do dia 30/01, às 19h, as condições atuais deixam de existir. Enquanto você adia:",
+            },
+        ]
+    },
     {
         id: "holding-imobiliaria-irregular",
         title: "A sua holding estar irregular pode te custar caro a partir de 2026",
