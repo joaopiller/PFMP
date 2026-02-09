@@ -50,7 +50,7 @@ const posts = [
         id: "transacao-PGFN-30-de-janeiro",
         title: "Transação Tributária PGFN: Última Chance Para Negociar com Até 65% de Desconto, até 30 de janeiro de 2026",
         date: "22/01/2026",
-        authors: "Pedro Fonseca",
+        authors: "Pedro Henrique Fonseca",
         description: "Sua empresa tem dívida inscrita na PGFN e você sente que esse passivo está travando qualquer possibilidade de crescimento? Você tem até 30 de janeiro de 2026, às 19h, para aderir aos editais de transação tributária que podem reduzir em até 65% o valor total da sua dívida ativa federal.",
         image: transacaoPGFN,
         content: [
