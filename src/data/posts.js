@@ -61,7 +61,7 @@ const posts = [
         id: "divida-icms-parana-desconto",
         title: "Negociar dívida de ICMS no Paraná: até 65% de desconto no RenegociaPR 2026",
         date: "11/02/2026",
-        authors: "Pedro Fonseca",
+        authors: "Pedro Henrique Fonseca",
         description: "Sua empresa tem dívida de ICMS inscrita em dívida ativa do Paraná?",
         image: transacaoPR,
         content:[
