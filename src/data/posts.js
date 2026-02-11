@@ -44,8 +44,2000 @@ import leiComplementarnova from "../assets/images/2026_itcmd_planejamento_sucess
 import receitaCincomil from "../assets/images/receita_federal_pix_taxação_tributação_5_mil_reais.jpg"
 import holdingIrregular from "../assets/images/holding_imobiliaria_irregular.jpg"
 import transacaoPGFN from "../assets/images/transacao_pgfn_30_janeiro.png"
+import lucroPresumidoreceita from "../assets/images/lucro_presumido_receita_federal_aumento_10_antecipacao.png"
+import saidaParaguai from "../assets/images/paraguai_saida_fiscal_autuacao_fraude.jpg"
+import liminarPresumido from "../assets/images/liminar_lucro_presumido_o_que_fazer_aumento.png"
+import clinicaPlantao from "../assets/images/clínica_médica_tributação_aumento_INSS_lucros_autuacao.jpg"
+import simplesAbusivo from "../assets/images/simples_nacional_tributacao_abusivo_faturamento.jpg"
+import premioINSS from "../assets/images/premio_bonus_INSS_imposto_de_renda_aumento_desempenho.png"
+import saidaUruguai from "../assets/images/uruguai_saida_fiscal_tributacao_autuacao_residencia.jpeg"
+import holdingPPS from "../assets/images/holding_tributacao_aumento_2026.jpg"
+import holdingCusto from "../assets/images/quanto_custa_holding_familiar.jpg"
+import holdingITBI from "../assets/images/ITBI_indevido_pagamento_diminuir_tributacao_holding.jpg"
+import transacaoPR from "../assets/images/transacao_parana_icms_renegocia_divida.png"
 
 const posts = [
+     {
+        id: "divida-icms-parana-desconto",
+        title: "Negociar dívida de ICMS no Paraná: até 65% de desconto no RenegociaPR 2026",
+        date: "11/02/2026",
+        authors: "Pedro Fonseca",
+        description: "Sua empresa tem dívida de ICMS inscrita em dívida ativa do Paraná?",
+        image: transacaoPR,
+        content:[
+            {
+                "type": "paragraph",
+                "text": "Sua empresa tem dívida de ICMS inscrita em dívida ativa do Paraná?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Daí você já sabe o tamanho do problema:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Não consegue emitir certidão negativa;",
+                    "Banco nega crédito;",
+                    "Fica de fora de licitação;",
+                    "E a dívida só cresce, com juros e multa correndo sem parar.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Veja se isso já aconteceu com você:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Tentou fechar um contrato grande mas não conseguiu porque a certidão está positiva;",
+                    "Recebeu intimação de execução fiscal e agora tem honorários de 10% em cima da dívida;",
+                    "Descobriu que tem penhora de CNPJ e não sabia.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse é o cenário que chega todo dia aqui no escritório.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E muita gente acha que não tem jeito. Que vai ter que pagar integralmente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas tem solução. E ela está valendo até abril de 2026.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que é o RenegociaPR",
+            },
+            {
+                "type": "paragraph",
+                "text": "O Governo do Paraná lançou o [RenegociaPR](https://www.pge.pr.gov.br/Pagina/Renegocia-Parana), que é um programa de transação tributária estadual.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática: você pode negociar seu débito com a [PGE-PR](https://www.pge.pr.gov.br) em condições muito mais vantajosas que o parcelamento comum.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Atenção: transação não é parcelamento. Na transação você tem desconto real sobre juros e multas.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Quem pode participar",
+            },
+            {
+                "type": "paragraph",
+                "text": "Pode participar quem tem:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Dívida de ICMS inscrita em dívida ativa do Paraná;",
+                    "Débito classificado como C (baixa recuperação) ou D (improvável recuperação);",
+                    "Empresa em recuperação judicial, extrajudicial ou falência.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Segundo a PGE-PR, 90% das certidões de dívida ativa de ICMS se enquadram nessas classificações.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja: há grande chance de sua dívida estar dentro do programa.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Prazo de adesão: até abril de 2026",
+            },
+            {
+                "type": "paragraph",
+                "text": "O [Edital 01/2025](https://www.pge.pr.gov.br/Pagina/Edital-no-012025-Dividas-C-e-D) contempla débitos classificados como C e D.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Prazo: de 28 de outubro de 2025 até 10 de abril de 2026.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Você tem até abril de 2026 para regularizar com desconto.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Desconto de até 65%: quanto você economiza",
+            },
+            {
+                "type": "paragraph",
+                "text": "O programa oferece duas modalidades:",
+            },
+            {
+                "type": "subtitle",
+                "text": "Modalidade 1 — Até 60 parcelas",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Prazo: até 5 anos;",
+                    "Desconto de 65% sobre juros, multas e acréscimos.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Modalidade 2 — Até 120 parcelas",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Prazo: até 10 anos;",
+                    "Desconto de 60% sobre juros, multas e acréscimos.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Importante: o desconto incide sobre juros, multa e acréscimos. O valor principal não tem redução.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Dependendo do tempo da sua dívida, isso pode representar economia de dezenas ou centenas de milhares de reais.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Precisa de ajuda especializada?",
+            },
+            {
+                "type": "paragraph",
+                "text": "O programa RenegociaPR é vantajoso, mas tem detalhes técnicos importantes.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Verificar se a dívida está realmente classificada como C ou D;",
+                    "Simular as modalidades e calcular qual cabe melhor no fluxo de caixa;",
+                    "Preparar documentação correta para processos já em execução fiscal.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Uma análise técnica adequada faz diferença no resultado final da negociação.",
+            },
+        ]
+     },
+     {
+        id: "itbi-indevido-holding",
+        title: "Você pode ter pago ITBI indevidamente na estruturação da sua holding",
+        date: "11/02/2026",
+        authors: "João Marchesi",
+        description: "A integralização de imóveis ao capital social de uma holding familiar é uma prática comum no planejamento patrimonial e sucessório.",
+        image: holdingITBI,
+        content:[
+            {
+                "type": "paragraph",
+                "text": "A integralização de imóveis ao capital social de uma holding familiar é uma prática comum no planejamento patrimonial e sucessório.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em regra, os imóveis são integralizados pelo valor contábil, aquele constante na declaração de Imposto de Renda da pessoa física, justamente para evitar a incidência de ganho de capital (GCAP) na atualização do patrimônio.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O problema surge quando, nesse processo, o Município exige o pagamento de ITBI com base em um valor superior ao declarado, muitas vezes de forma automática, sem observância das garantias legais do contribuinte.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em diversos casos, isso resulta no pagamento indevido do imposto, abrindo espaço para questionamento judicial e restituição dos valores pagos.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O Tema 1.348 do STF e a imunidade constitucional do ITBI",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Constituição Federal é clara ao prever, no art. 156, § 2º, I, que não incide ITBI sobre a transmissão de bens imóveis incorporados ao patrimônio de pessoa jurídica em realização de capital social.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Apesar disso, muitos Municípios condicionam o reconhecimento dessa imunidade à análise da atividade preponderante da empresa, especialmente em holdings patrimoniais imobiliárias.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse entendimento, contudo, não encontra respaldo no texto constitucional.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa controvérsia é justamente o objeto do Tema 1.348 do STF, que discute se a imunidade do ITBI na integralização de capital social seria ou não condicionada à atividade econômica exercida pela pessoa jurídica.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O julgamento ainda não foi finalizado, mas o cenário atual é extremamente relevante: o placar está em 3x0 favorável aos contribuintes.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A leitura que vem prevalecendo no Supremo é a de que:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "a integralização de capital social é hipótese autônoma de imunidade;",
+                    "a restrição ligada à atividade preponderante aplica-se apenas às operações de fusão, incorporação, cisão ou extinção;",
+                    "não cabe ao Município criar condicionantes não previstas pelo constituinte.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse entendimento reforça que, em muitos casos, o ITBI exigido na integralização é integralmente indevido.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Tema 796 do STF e o erro recorrente na cobrança do ITBI",
+            },
+            {
+                "type": "paragraph",
+                "text": "No Tema 796 do STF, ficou definido que a imunidade do ITBI não alcança o valor do imóvel que exceder o capital social efetivamente integralizado.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A partir dessa decisão, muitos Municípios passaram a adotar a seguinte lógica:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "o contribuinte integraliza o imóvel pelo valor contábil;",
+                    "o Município atribui unilateralmente um valor venal superior;",
+                    "cobra ITBI sobre a diferença, sob o argumento de que esse excedente seria “reserva de capital”.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O problema não está apenas na tese em abstrato, mas na forma como essa cobrança vem sendo feita na prática.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Tema 1.113 do STJ: contraditório é obrigatório",
+            },
+            {
+                "type": "paragraph",
+                "text": "É aqui que entra o ponto central que costuma ser ignorado pelos Municípios - e que gera o pagamento indevido do ITBI.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No Tema Repetitivo 1.113 do STJ, ficou definido que:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "o valor da transmissão declarado pelo contribuinte goza de presunção de veracidade;",
+                    "o Município não pode arbitrar a base de cálculo do ITBI de forma unilateral;",
+                    "para afastar o valor declarado, é obrigatório instaurar procedimento administrativo próprio, com intimação do contribuinte, contraditório e ampla defesa (art. 148 do CTN).",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso significa que, se o Município não instaurar esse procedimento prévio, presume-se que o valor declarado pelo contribuinte corresponde ao valor venal do imóvel em condições normais de mercado.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, quando o imóvel é integralizado pelo valor contábil e o Município simplesmente impõe um “valor de referência” maior, sem permitir a participação do contribuinte, ocorre uma violação direta ao entendimento vinculante do STJ.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Por que isso pode tornar o ITBI totalmente indevido",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quando se combinam os entendimentos do STF e do STJ, o cenário jurídico fica bastante claro.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "a integralização do capital social é constitucionalmente imune;",
+                    "o valor declarado pelo contribuinte presume-se como valor de transmissão;",
+                    "o Município não instaura procedimento administrativo prévio para afastar esse valor;",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "então não há base válida para cobrança do ITBI, nem sobre o valor integralizado, nem sobre qualquer suposto “excedente”.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Nesses casos, o imposto pago decorre de um lançamento formalmente inválido, o que autoriza não apenas o afastamento da exigência, mas também a restituição integral dos valores pagos, com correção monetária e juros.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão: vale a pena revisar a estruturação da sua holding",
+            },
+            {
+                "type": "paragraph",
+                "text": "A cobrança de ITBI na integralização de imóveis em holdings familiares é um dos temas que mais geram autuações indevidas no planejamento patrimonial.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em muitos casos, o contribuinte paga o imposto para evitar entraves cartorários ou societários, sem perceber que a exigência viola precedentes vinculantes dos tribunais superiores.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você estruturou uma holding e pagou ITBI na integralização de imóveis, é possível que exista crédito tributário a ser recuperado.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A análise do caso concreto é o primeiro passo para transformar uma cobrança indevida em uma oportunidade de correção e eficiência patrimonial.",
+            },
+        ]
+     },
+    {
+        id: "quanto-custa-holding-familiar",
+        title: "Quanto custa para fazer uma holding familiar?",
+        date: "11/02/2026",
+        authors: "João Marchesi",
+        description: "A holding familiar é uma estrutura jurídica amplamente utilizada para organizar o patrimônio da família, especialmente quando há concentração de bens imobiliários.",
+        image: holdingCusto,
+        content:[
+            {
+                "type": "paragraph",
+                "text": "A holding familiar é uma estrutura jurídica amplamente utilizada para organizar o patrimônio da família, especialmente quando há concentração de bens imobiliários.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Seu uso é comum em planejamentos patrimoniais e sucessórios porque permite centralizar ativos, facilitar a sucessão e, em muitos casos, trazer maior racionalidade tributária.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Antes de optar por essa estrutura, porém, é essencial compreender um ponto-chave: a holding tem custo. E esse custo deve ser analisado de forma técnica e realista, considerando tanto a implementação quanto a manutenção da estrutura ao longo do tempo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "É apenas confrontando os custos com as economias estimadas que podemos entender se a holding faz sentido para você.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Custos de implementação da holding familiar",
+            },
+            {
+                "type": "paragraph",
+                "text": "Os custos de implementação são aqueles necessários para colocar a estrutura em funcionamento.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Os mais comuns são: honorários advocatícios, taxa de abertura do CNPJ, emolumentos cartorários e o pagamento do Imposto sobre a Transmissão de Bens Imóveis (ITBI).",
+            },
+            {
+                "type": "subtitle",
+                "text": "a. Honorários advocatícios",
+            },
+            {
+                "type": "paragraph",
+                "text": "Os honorários dizem respeito à estruturação jurídica da holding, que vai muito além da simples abertura de um CNPJ, envolvendo o estudo do caso, análise de impacto de viabilidade, estruturação de estratégias de economia tributária, elaboração de documentos societários, representação em ações judiciais e coordenação dos caminhos a serem seguidos.",
+            },
+            {
+                "type": "subtitle",
+                "text": "b. Taxa de abertura do CNPJ na Junta Comercial",
+            },
+            {
+                "type": "paragraph",
+                "text": "A abertura da holding exige o registro do contrato social na Junta Comercial do estado, com pagamento de taxas que variam conforme a localidade, mas que costumam variar entre R$200,00 e R$500,00.",
+            },
+            {
+                "type": "subtitle",
+                "text": "c. Emolumentos do Cartório de Registro Geral de Imóveis (RGI)",
+            },
+            {
+                "type": "paragraph",
+                "text": "Após a integralização dos imóveis no capital social da holding, é necessário realizar a averbação da matrícula no Cartório de Registro de Imóveis competente. Só assim o imóvel passa a de fato pertencer à Pessoa Jurídica.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Os emolumentos variam de acordo com o valor do imóvel e são definidos por lei estadual. Por isso, a análise pressupõe um olhar sobre o valor do patrimônio e a localidade em que o imóvel se encontra.",
+            },
+            {
+                "type": "subtitle",
+                "text": "d. ITBI na integralização dos imóveis",
+            },
+            {
+                "type": "paragraph",
+                "text": "O ITBI costuma ser o ponto de maior atenção na constituição de uma holding patrimonial, tanto por ter pontos que ainda não foram totalmente pacificados, como também por representar quase sempre o maior custo de implementação da holding.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Do ponto de vista jurídico, dois temas do STF são centrais:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Tema 796 - STF, que firmou o entendimento de que a imunidade do ITBI não se aplica sobre a diferença positiva entre o valor contábil do imóvel (aquele do seu Imposto de Renda) e o valor venal do imóvel (aquele que a Prefeitura define por avaliação própria);",
+                    "Tema 1.348 - STF, que atualmente conta com placar de 3x0 favorável ao contribuinte, definindo que a imunidade do ITBI sobre a parcela do imóvel integralizada na holding também se aplica para holdings com atividades preponderantemente imobiliárias.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, quando há incidência de ITBI, o valor estimado tende a corresponder à diferença positiva entre o valor contábil do imóvel (declarado no Imposto de Renda da pessoa física) e o valor venal atribuído pelo Município.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No entanto, como não se encerrou o julgamento do Tema 1.348 do STF, é necessário judicializar a operação.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse ponto é absolutamente estratégico: dependendo do histórico do imóvel e de sua valorização, o ITBI pode tornar a holding mais ou menos viável economicamente.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Custos de manutenção da holding familiar",
+            },
+            {
+                "type": "paragraph",
+                "text": "Além dos custos iniciais, a holding gera despesas recorrentes, que devem ser consideradas no planejamento de longo prazo. Essas despesas correspondem, em regra, àquelas despesas comuns de manutenção de qualquer CNPJ.",
+            },
+            {
+                "type": "subtitle",
+                "text": "a. Alvarás e taxas municipais",
+            },
+            {
+                "type": "paragraph",
+                "text": "Dependendo do município e da atividade declarada no CNPJ, a holding pode estar sujeita a:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "alvarás de funcionamento;",
+                    "taxas municipais periódicas;",
+                    "renovações cadastrais.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Esses custos variam conforme a localidade e devem ser analisados de acordo com o domicílio fiscal da holding.",
+            },
+            {
+                "type": "subtitle",
+                "text": "b. Contabilidade",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mesmo sendo uma holding patrimonial, a empresa precisa manter escrituração contábil regular e cumprir obrigações acessórias.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Os custos de contabilidade podem variar de acordo com a escolha do profissional e do local. Porém, para empresas do Lucro Presumido sem funcionários, como é comumente a holding, o custo gira em torno de meio a um salário mínimo por mês.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Análise de viabilidade: custo versus benefício",
+            },
+            {
+                "type": "paragraph",
+                "text": "O ponto mais importante é que os custos da holding devem ser confrontados com os benefícios que ela pode gerar. Uma análise técnica costuma levar em conta:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "a economia tributária ao longo da vida;",
+                    "a redução de custos e burocracia na sucessão;",
+                    "a previsibilidade patrimonial;",
+                    "a mitigação de conflitos familiares;",
+                    "o impacto financeiro do ITBI e dos custos recorrentes.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A holding não deve ser implementada por modismo. Em muitos casos, ela é extremamente vantajosa. Em outros, existem alternativas mais eficientes.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "A holding familiar pode ser uma excelente ferramenta de organização patrimonial e sucessória, especialmente quando há concentração de imóveis. No entanto, ela exige planejamento, análise de custos e visão de longo prazo.",
+            },
+        ]
+    },
+    {
+        id: "alternativa-holding-planejamento-patrimonial-sucessorio",
+        title: "A holding não é a única alternativa para você planejar seu patrimônio",
+        date: "11/02/2026",
+        authors: "João Marchesi",
+        description: "A holding patrimonial é uma das ferramentas mais conhecidas do planejamento patrimonial e sucessório no Brasil.",
+        image: holdingPPS,
+        content:[
+            {
+                "type": "paragraph",
+                "text": "A holding patrimonial é uma das ferramentas mais conhecidas do planejamento patrimonial e sucessório no Brasil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Apesar disso, ela não deve ser tratada como solução única ou automática. Um Planejamento Patrimonial e Sucessório (PPS) eficiente exige leitura individualizada do patrimônio, da estrutura de renda, da composição familiar e do cenário normativo vigente.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, é comum que um bom planejamento combine mais de uma ferramenta jurídica e tributária, escolhidas de forma estratégica e complementar.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A holding como uma ferramenta dentro do Planejamento Patrimonial e Sucessório",
+            },
+            {
+                "type": "paragraph",
+                "text": "A holding patrimonial cumpre funções relevantes e, quando bem estruturada, pode gerar ganhos importantes. Entre as principais finalidades, destacam-se:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "organização e centralização do patrimônio;",
+                    "facilitação da sucessão, com redução de burocracia em relação ao inventário tradicional;",
+                    "possibilidade de antecipação da transferência patrimonial aos sucessores;",
+                    "reorganização de atividades hoje concentradas na pessoa física, sujeitas a alíquotas elevadas de IRPF.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Um exemplo recorrente é o do contribuinte que concentra imóveis de locação na pessoa física e sofre tributação progressiva sobre os rendimentos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Dependendo do estado, do volume patrimonial e da forma de estruturação, a holding pode trazer maior eficiência tributária e previsibilidade.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ainda assim, sua adoção deve considerar custos de manutenção, riscos fiscais e impactos sucessórios.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Reforma tributária e o fator tempo",
+            },
+            {
+                "type": "paragraph",
+                "text": "A regulamentação da reforma tributária trouxe novos elementos ao planejamento patrimonial. Com a edição da LC 214 e da LC 227, o tempo passou a ser um fator decisivo na escolha das estratégias.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Algumas estruturas historicamente eficientes podem:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "perder parte de sua atratividade se implementadas apenas após 2027;",
+                    "sofrer impactos relevantes nas regras de transição;",
+                    "gerar resultados distintos conforme o momento da implementação.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso não significa que a holding deixou de ser vantajosa, mas reforça a necessidade de planejamento antecipado e análise prospectiva.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Previdência privada como instrumento de planejamento",
+            },
+            {
+                "type": "paragraph",
+                "text": "Os planos de previdência privada, especialmente VGBL e PGBL, seguem sendo ferramentas relevantes dentro do PPS, tanto sob o aspecto tributário quanto sucessório. Entre suas vantagens:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "diferimento da tributação ao longo do tempo;",
+                    "possibilidade de optar pela tributação regressiva, com redução de alíquotas conforme o prazo;",
+                    "no caso do PGBL, abatimento da base de cálculo do IRPF, dentro dos limites legais;",
+                    "transmissão direta aos beneficiários, em muitos casos fora do inventário.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "São instrumentos simples, mas extremamente eficazes quando bem integrados ao planejamento global.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Seguro de vida e liquidez imediata",
+            },
+            {
+                "type": "paragraph",
+                "text": "O seguro de vida é uma ferramenta estratégica para garantir liquidez aos dependentes e estabilidade financeira no momento da sucessão.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ele é especialmente útil para:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "evitar que os dependentes fiquem sem acesso a recursos enquanto o inventário tramita;",
+                    "contornar conflitos familiares que possam travar a administração dos bens;",
+                    "garantir renda imediata, sem submissão ao inventário.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Em muitos planejamentos, o seguro funciona como uma camada de proteção essencial.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Instrumentos jurídicos clássicos que seguem atuais",
+            },
+            {
+                "type": "paragraph",
+                "text": "Algumas ferramentas tradicionais continuam tendo papel central no PPS, mesmo diante de estruturas mais sofisticadas. Entre elas:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "testamento, para organização da sucessão e redução de conflitos;",
+                    "contratos de namoro e pactos patrimoniais, para proteção do patrimônio individual;",
+                    "cláusulas específicas de incomunicabilidade e impenhorabilidade, conforme o caso.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Esses instrumentos costumam funcionar como a base jurídica do planejamento.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Estratégias internacionais: quando fazem sentido",
+            },
+            {
+                "type": "paragraph",
+                "text": "Para patrimônios mais relevantes, estratégias internacionais podem ser consideradas, como offshores, trusts e estruturas de joint tenancy. Em linhas gerais, elas podem:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "facilitar a sucessão patrimonial;",
+                    "permitir acesso a carteiras internacionais de investimento;",
+                    "viabilizar investimentos no mercado imobiliário estrangeiro;",
+                    "gerar eficiência tributária em determinados cenários.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "É fundamental destacar que essas estruturas exigem patrimônio compatível, custos de implementação e manutenção contínua, além de acompanhamento técnico especializado.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Saída fiscal: eficiência com cautela",
+            },
+            {
+                "type": "paragraph",
+                "text": "A saída fiscal pode ser uma estratégia altamente eficiente em determinados contextos, mas exige abordagem conservadora e planejamento rigoroso. Trata-se de uma alternativa que:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "demanda análise aprofundada da residência fiscal;",
+                    "exige coerência entre estrutura patrimonial, renda e centro de interesses econômicos;",
+                    "pode gerar riscos relevantes se implementada de forma meramente formal.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Estruturas mal desenhadas tendem a atrair questionamentos da Receita Federal. Por isso, a saída fiscal deve ser tratada com cautela e sempre inserida dentro de um planejamento amplo.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "A holding patrimonial é uma excelente ferramenta, mas não é a única via para planejar o patrimônio.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Um PPS eficiente passa pela combinação inteligente de instrumentos, pelo respeito ao momento legislativo e, principalmente, por uma análise personalizada de cada caso concreto.",
+            },
+        ]
+    },
+     {
+        id: "saida-fiscal-uruguai",
+        title: "Saída fiscal para o Uruguai virou “atalho fiscal”? A Receita já está olhando com lupa",
+        date: "11/02/2026",
+        authors: "Flávia Perim",
+        description: "Nos últimos meses, o Uruguai virou o novo “queridinho” de quem busca saída fiscal do Brasil.",
+        image: saidaUruguai,
+        content:[
+            {
+                "type": "paragraph",
+                "text": "Nos últimos meses, o Uruguai virou o novo “queridinho” de quem busca saída fiscal do Brasil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Montevidéu, Punta del Este, residência fiscal facilitada, regime territorial…",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na conversa de bastidor, tudo parece simples.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas atenção: quando um movimento vira padrão, a Receita Federal muda o nível da fiscalização.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E o erro mais comum é achar que Uruguai é blindagem automática.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Não é.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O problema: declarar saída fiscal não basta - nem no Uruguai",
+            },
+            {
+                "type": "paragraph",
+                "text": "A lógica costuma ser essa:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Tirar residência no Uruguai;",
+                    "Declarar saída definitiva do Brasil;",
+                    "Manter investimentos e negócios;",
+                    "Pagar menos imposto.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O problema é que muita gente está fazendo isso sem romper, de fato, os vínculos com o Brasil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E, para a Receita, não importa o país escolhido.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O critério é sempre o mesmo: onde está a sua vida real.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O CPF “sai”, mas a rotina continua brasileira",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em fiscalizações recentes, o padrão se repete:",
+            },
+            {
+                "type": "paragraph",
+                "text": "O contribuinte afirma que:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Agora sou residente fiscal uruguaio;",
+                    "Minha renda vem do exterior;",
+                    "Já fiz a saída definitiva.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas, quando a Receita cruza os dados, encontra:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Contas bancárias ativas no Brasil;",
+                    "Cartões de crédito brasileiros em uso;",
+                    "Patrimônio imobiliário relevante;",
+                    "Empresa ou investimentos geridos daqui;",
+                    "Família, consumo e gastos concentrados no Brasil.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Resultado: a saída fiscal é desconsiderada.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E a cobrança vem como se a pessoa nunca tivesse saído.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Particularidade importante: Uruguai não é só endereço - é substância",
+            },
+            {
+                "type": "paragraph",
+                "text": "Aqui está um ponto que quase ninguém explica direito.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O Uruguai oferece, sim, vantagens fiscais reais, como:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Regime de tributação territorial;",
+                    "Possibilidade de “holiday fiscal” em certos casos;",
+                    "Facilidade de residência legal.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas nada disso funciona se a residência fiscal não for legítima.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Receita brasileira aplica o critério do centro de interesses vitais, perguntando:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Onde você trabalha ou gera renda?",
+                    "Onde você administra seus negócios?",
+                    "Onde está seu patrimônio relevante?",
+                    "Onde você vive de verdade?",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Se essas respostas ainda apontarem para o Brasil, o risco é alto, mesmo com documentos uruguaios.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que realmente é necessário para saída fiscal para o Uruguai",
+            },
+            {
+                "type": "paragraph",
+                "text": "Aqui entra a parte que separa planejamento de improviso.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Uma saída fiscal consistente para o Uruguai exige, entre outros pontos:",
+            },
+            {
+                "type": "subtitle",
+                "text": "No Brasil",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Entrega da Declaração de Saída Definitiva do País e Comunicação de Saída Definitiva;",
+                    "Comunicação formal às fontes pagadoras;",
+                    "Encerramento ou reorganização de vínculos econômicos;",
+                    "Revisão de contas bancárias, cartões e investimentos;",
+                    "Ajuste patrimonial e sucessório.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "No Uruguai",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Residência legal válida;",
+                    "Residência fiscal comprovada (não só migratória);",
+                    "Presença física relevante no país;",
+                    "Centro de interesses econômicos deslocado;",
+                    "Comprovação documental da nova realidade.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Não é checklist burocrático.",
+            },
+            {
+                "type": "paragraph",
+                "text": "É construção de prova.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A solução: saída fiscal exige estratégia, não moda",
+            },
+            {
+                "type": "paragraph",
+                "text": "Saída fiscal bem feita:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Avalia se realmente faz sentido sair fiscal e patrimonialmente;",
+                    "Reorganiza patrimônio antes da mudança;",
+                    "Ajusta negócios, investimentos e fluxo financeiro;",
+                    "Produz prova sólida da nova residência fiscal;",
+                    "Considera riscos no Brasil e no exterior.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso não se resolve com modelo pronto, nem com promessa de “solução rápida”.",
+            },
+            {
+                "type": "paragraph",
+                "text": "É planejamento tributário de verdade.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Onde entra um escritório de confiança",
+            },
+            {
+                "type": "paragraph",
+                "text": "A maioria dos problemas nasce da mesma frase:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Disseram que era tranquilo;",
+                    "Todo mundo está fazendo;",
+                    "Depois eu vejo isso.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Nosso trabalho é fazer o oposto:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Dizer quando não vale a pena;",
+                    "Ajustar a estrutura antes da fiscalização;",
+                    "Proteger o cliente de autuações milionárias;",
+                    "Construir segurança jurídica - não aposta.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O melhor momento para fazer certo é agora, com assessoria tributária especializada, enquanto ainda dá tempo de estruturar — ou de decidir não sair.",
+            },
+        ]
+     },
+    {
+        id: "premio-inss",
+        title: "Você pode premiar sua equipe - e reduzir encargos: como fazer",
+        date: "11/02/2026",
+        authors: "Flávia Perim",
+        description: "Empresas que crescem rápido enfrentam um dilema recorrente: como premiar colaboradores de alto desempenho sem transformar esse reconhecimento",
+        image: premioINSS,
+        content:[
+            {
+                "type": "paragraph",
+                "text": "Empresas que crescem rápido enfrentam um dilema recorrente: como premiar colaboradores de alto desempenho sem transformar esse reconhecimento em um aumento permanente de encargos trabalhistas e previdenciários.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A boa notícia é que o ordenamento jurídico brasileiro permite estruturar prêmios por performance fora da base do INSS, desde que alguns cuidados sejam observados.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A má notícia é que, quando esse desenho é feito de forma improvisada, o que era incentivo vira passivo fiscal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Recentemente, a Receita Federal voltou a se manifestar sobre o tema, e deixou claro onde está a linha entre planejamento tributário lícito e erro de enquadramento.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que a Receita entende como “prêmio” para fins previdenciários",
+            },
+            {
+                "type": "paragraph",
+                "text": "Desde a reforma trabalhista, a legislação passou a diferenciar remuneração de prêmios concedidos por desempenho superior ao ordinariamente esperado.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A lógica é simples: nem todo valor pago ao empregado possui natureza salarial.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ao analisar um caso concreto, a Receita Federal, na [Solução de Consulta COSIT nº 10/2026](https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/149121), confirmou que prêmios por performance podem ser excluídos da base de cálculo das contribuições previdenciárias, desde que respeitem certos requisitos formais e materiais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse posicionamento reforça que não se trata de benefício automático, mas de uma estrutura que precisa ser corretamente desenhada.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Quais são os requisitos para o prêmio não sofrer incidência de INSS",
+            },
+            {
+                "type": "paragraph",
+                "text": "De acordo com o entendimento da Receita, o prêmio precisa atender cumulativamente a alguns critérios:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "ser pago a empregados (não a prestadores de serviço);",
+                    "decorrer de liberalidade do empregador;",
+                    "estar vinculado a resultado superior ao normalmente esperado, e não ao simples cumprimento das funções;",
+                    "possuir critérios objetivos de aferição, com possibilidade de comprovação;",
+                    "não integrar contrato de trabalho, acordo coletivo ou política negociada.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Um ponto relevante (e muitas vezes ignorado) é que a habitualidade, por si só, não descaracteriza o prêmio.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O que pesa contra a empresa não é a frequência do pagamento, mas a transformação do prêmio em obrigação jurídica.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Onde as empresas erram na prática",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na tentativa de “organizar” o incentivo, muitas empresas acabam fazendo exatamente o que não deveriam:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "inserem o prêmio em contrato de trabalho;",
+                    "negociam a política com sindicatos;",
+                    "criam metas genéricas, sem documentação;",
+                    "pagam valores idênticos a todos os empregados, independentemente de performance.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Essas condutas fazem com que o pagamento perca o caráter de liberalidade e seja reclassificado como verba salarial, com cobrança de INSS, multas e juros.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Planejamento tributário legítimo na folha de pagamento",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quando corretamente estruturado, o prêmio por performance pode gerar economia relevante.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A exclusão do INSS patronal, somada às contribuições destinadas a terceiros (Sistema S e afins), pode representar redução de até 28,8% sobre o valor pago.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso não significa “driblar” a Receita.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Significa utilizar um mecanismo previsto em lei, validado pela própria administração tributária, com documentação e coerência entre forma e prática.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Vale lembrar:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "o valor do prêmio continua sujeito ao Imposto de Renda;",
+                    "permanecem possíveis riscos trabalhistas, se a política não for bem comunicada e aplicada de forma isonômica.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Por isso, o desenho deve ser feito de forma integrada entre as áreas tributária, trabalhista e de RH.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão: incentivo, economia e segurança jurídica podem coexistir",
+            },
+            {
+                "type": "paragraph",
+                "text": "Premiar desempenho é saudável para a empresa e para o colaborador.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas, sem planejamento, o incentivo pode se transformar em custo oculto.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A mensagem da Receita é clara: o prêmio é possível, a economia é legítima, mas o improviso é penalizado.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Empresas que desejam adotar esse modelo devem olhar para o prêmio não apenas como ferramenta de gestão de pessoas, mas como decisão jurídica e tributária estratégica.",
+            },
+        ]
+    },
+    {
+        id: "simples-nacional-multiplos-cnpj",
+        title: "Tem mais de uma empresa no Simples Nacional? Você pode estar no radar da Receita (e nem sabe)",
+        date: "11/02/2026",
+        authors: "Flávia Perim",
+        description: "Você tem duas ou mais empresas no Simples Nacional? Alguma delas está no nome de familiar?",
+        image: simplesAbusivo,
+        content:[
+            {
+                "type": "paragraph",
+                "text": "Você tem duas ou mais empresas no Simples Nacional?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Alguma delas está no nome de familiar?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Funcionam no mesmo endereço, com o mesmo time ou o mesmo site?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Então, atenção máxima ao que vou te explicar agora.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Um caso recente confirmou uma autuação superior a R$ 2 milhões, com exclusão retroativa do Simples, justamente por esse tipo de estrutura.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E não foi “fraude grosseira”.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Foi algo que muita gente acha normal.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O problema: o Simples nem sempre é tão simples assim",
+            },
+            {
+                "type": "paragraph",
+                "text": "O Simples Nacional foi criado para facilitar a vida de micro e pequenas empresas.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Menos burocracia;",
+                    "Alíquotas menores;",
+                    "Um único boleto de imposto.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Até aqui, tudo certo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O problema começa quando o empresário tenta “organizar” o crescimento criando várias empresas parecidas, geralmente:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "No mesmo ramo;",
+                    "No mesmo endereço;",
+                    "Com sócios da mesma família;",
+                    "Para não estourar o limite de faturamento.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O que muitos não sabem é que isso pode ser considerado planejamento tributário abusivo.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E a Receita Federal está cada vez mais eficiente para identificar isso.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Entenda uma coisa importante: o Simples NÃO é sempre o melhor regime",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa é uma verdade que quase ninguém fala.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "O Simples não é automático;",
+                    "Não é “direito adquirido”;",
+                    "E pode virar um pesadelo se usado fora das regras.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Muitos empresários permanecem no Simples mesmo quando a operação já não se encaixa mais nele, achando que:",
+            },
+            {
+                "type": "paragraph",
+                "text": "“Está tudo separado no papel, então não tem problema.”",
+            },
+            {
+                "type": "paragraph",
+                "text": "Tem problema, sim.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E grande.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Quando a Receita olha, ela olha tudo",
+            },
+            {
+                "type": "paragraph",
+                "text": "No caso analisado pelo Conselho Administrativo de Recursos Fiscais (CARF) - órgão do Ministério da Fazenda que julga casos tributários -, a Receita Federal não se limitou ao contrato social.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ela cruzou:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Sócios e parentesco;",
+                    "Procurações;",
+                    "Contratos com clientes;",
+                    "Endereço das empresas;",
+                    "Equipe compartilhada;",
+                    "Telefone;",
+                    "Site e presença digital;",
+                    "Quem realmente mandava na operação.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Resultado?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Conclusão de que existia um grupo econômico familiar informal, criado apenas para dividir faturamento e continuar no Simples.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E aí veio a bomba:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Exclusão retroativa do Simples Nacional;",
+                    "Cobrança de todos os tributos do regime normal;",
+                    "Multas pesadas + juros;",
+                    "Autuações previdenciárias (INSS patronal).",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Tudo validado pelo CARF.",
+            },
+            {
+                "type": "subtitle",
+                "text": "“Mas como a Receita descobre isso?”",
+            },
+            {
+                "type": "paragraph",
+                "text": "Essa é a parte que mais assusta.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Receita identificou, por exemplo:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Familiares como sócios “de fachada”, mas quem mandava tinha procuração;",
+                    "Troca constante de CNPJ, mantendo a mesma operação;",
+                    "Contratos idênticos, apenas mudando o nome da empresa;",
+                    "Mesmo site, mesma marca, mesmo atendimento.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja: não adianta trocar o nome da empresa se a essência da operação é a mesma.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O risco real: não é só sair do Simples",
+            },
+            {
+                "type": "paragraph",
+                "text": "Muita gente acha que a punição é “só” sair do Simples.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Não é.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quando a exclusão é retroativa, a Receita refaz toda a tributação dos últimos anos.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso pode gerar:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Imposto que nunca foi pago;",
+                    "Multa de até 75% (ou mais);",
+                    "Juros acumulados;",
+                    "INSS patronal sobre a folha;",
+                    "Discussões longas e caras.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Em alguns casos, o valor simplesmente inviabiliza o negócio.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A solução: o que quem tem mais de uma empresa precisa fazer agora",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você se identificou com qualquer ponto acima, não ignore.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Alguns passos essenciais:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Avaliar se existe caracterização de grupo econômico;",
+                    "Verificar se o Simples ainda é o regime correto;",
+                    "Revisar contratos, sócios, procurações e estrutura operacional;",
+                    "Planejar crescimento antes da Receita bater à porta.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O pior momento para descobrir que está errado é durante uma fiscalização.",
+            },
+        ]
+    },
+    {
+        id: "lucro-clinica-medico-pj",
+        title: "Clínicas médicas: cuidado ao pagar plantões como “lucro” para médicos PJ",
+        date: "11/02/2026",
+        authors: "Flávia Perim",
+        description: "Você paga médicos por plantão via Pessoa Jurídica e lança tudo como distribuição de lucros, sem pró-labore?",
+        image: clinicaPlantao,
+        content:[
+            {
+                "type": "paragraph",
+                "text": "Você paga médicos por plantão via Pessoa Jurídica e lança tudo como distribuição de lucros, sem pró-labore?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se a resposta for “sim”, atenção máxima com o que o CARF (Conselho Administrativo de Recursos Fiscais) decidiu.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Uma clínica foi autuada porque remunerava plantões médicos mensais como se fossem “lucros”, sem recolher INSS. E perdeu.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Veja se esse cenário soa familiar:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Valor pago por hora de plantão, mês a mês;",
+                    "Pagamentos regulares, previsíveis;",
+                    "Sem pró-labore registrado;",
+                    "Sem balanços mensais;",
+                    "Sem atas de distribuição de lucros;",
+                    "Em alguns casos, médicos recebendo “lucros” antes mesmo de entrarem no contrato social.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Resultado?",
+            },
+            {
+                "type": "paragraph",
+                "text": "O CARF foi claro: isso não é lucro. É remuneração por trabalho.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E remuneração por trabalho paga a sócio = pró-labore, com INSS devido.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A cobrança pode chegar a alíquotas altas sobre os valores pagos, somando contribuição patronal, do segurado, multa e juros.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Solução?",
+            },
+            {
+                "type": "paragraph",
+                "text": "O recado para clínicas e grupos médicos é simples - e urgente:",
+            },
+            {
+                "type": "paragraph",
+                "text": "O nome da rubrica não muda a natureza do pagamento, e o risco de requalificação é alto.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Por isso, o planejamento tributário deixou de ser “economia” e passou a ser gestão de risco.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Antes de estruturar ou manter esse tipo de modelo, é essencial avaliar:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "existência de pró-labore compatível;",
+                    "contratos e cláusulas claras de distribuição;",
+                    "balanços e demonstrações contábeis regulares;",
+                    "coerência entre o que está no papel e o que acontece na prática.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Quem não revisa agora, revisa depois… com auto de infração na mesa.",
+            },
+        ]
+    },
+    {
+        id: "lucro-presumido-2026-liminar",
+        title: "Lucro presumido vai ficar mais caro em 2026? Justiça concede liminar e suspende aumento do IRPJ e da CSLL",
+        date: "11/02/2026",
+        authors: "Flávia Perim",
+        description: "Você também foi surpreendido com o aumento do lucro presumido?",
+        image: liminarPresumido,
+        content:[
+            {
+                "type": "paragraph",
+                "text": "Você também foi surpreendido com o aumento do lucro presumido?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se a sua empresa é optante pelo lucro presumido e faturou, ou pode faturar, mais de R$ 5 milhões ao ano, é bem provável que você tenha tomado um susto no fim de 2025.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso porque, na virada do ano, surgiu uma nova regra aumentando a base de cálculo do IRPJ e da CSLL, elevando diretamente a carga tributária de milhares de empresas.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E o pior: sem aviso prévio e com impacto imediato no caixa.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você ficou com a sensação de que o jogo mudou no meio da partida, você não está sozinho.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Aumento disfarçado de “corte de benefício fiscal”",
+            },
+            {
+                "type": "paragraph",
+                "text": "A Lei Complementar nº 224/2025, publicada em 26 de dezembro de 2025, foi apresentada como parte do esforço do governo federal para reduzir linearmente incentivos e benefícios fiscais e, por consequência, reforçar a arrecadação.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Entre várias medidas, já mencionadas em [artigo passado do PFMP Advogados](https://www.pfmpadv.com.br/publicacoes/extincao-beneficios-fiscais-credito-presumido), a lei determinou um acréscimo de 10% nos percentuais de presunção do lucro presumido, aplicável às empresas com receita bruta anual superior a R$ 5 milhões.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, isso significa uma coisa bem simples: a base de cálculo do IRPJ e da CSLL ficou maior.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja, mesmo sem aumento de faturamento ou de margem de lucro, muitas empresas passaram a pagar mais imposto.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O problema do “fatiamento” por trimestre",
+            },
+            {
+                "type": "paragraph",
+                "text": "As Instruções Normativas da Receita Federal nº 2.305/2025 e nº 2.306/2026 estabeleceram que o limite de R$ 5 milhões deve ser analisado trimestre a trimestre.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, o teto anual foi dividido em R$ 1,25 milhão por trimestre.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Resultado:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Se a empresa ultrapassar esse valor em um único trimestre, o adicional de 10% já é aplicado naquele período, mesmo que, no final do ano, o faturamento total fique abaixo de R$ 5 milhões.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A própria Receita admite que isso pode gerar pagamento indevido, com posterior compensação ou restituição.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas vamos ser sinceros: quem sente o impacto imediato é o caixa da empresa.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O ponto central: lucro presumido não é benefício fiscal",
+            },
+            {
+                "type": "paragraph",
+                "text": "E aqui está o coração da discussão.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O lucro presumido não é um benefício fiscal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ele é uma técnica legal de apuração da base de cálculo, prevista no art. 44 do Código Tributário Nacional, ao lado do:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "lucro real;",
+                    "lucro arbitrado.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Ao optar pelo lucro presumido, a empresa abre mão de:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "apurar o lucro efetivo;",
+                    "deduzir custos e despesas reais.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Em troca, adota um critério objetivo e simplificado, que nem sempre é mais vantajoso.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Inclusive, a própria Receita Federal reconheceu recentemente, na Solução de Consulta COSIT nº 06/2026, que métodos alternativos de apuração não configuram benefícios fiscais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja: chamar o lucro presumido de “incentivo” para justificar aumento de imposto é, no mínimo, questionável.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A primeira resposta do Judiciário: liminar suspende a majoração",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse debate não ficou só na teoria.",
+            },
+            {
+                "type": "paragraph",
+                "text": "No dia 27 de janeiro de 2026, a Justiça Federal do Rio de Janeiro concedeu liminar suspendendo a majoração de 10% dos percentuais de presunção do IRPJ e da CSLL.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O que o juiz considerou relevante?",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em análise preliminar, o juízo destacou que:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "o lucro presumido é forma legítima de apuração da base de cálculo, e não benefício fiscal;",
+                    "a majoração linear pode levar à tributação de renda inexistente ou fictícia;",
+                    "vincular o aumento apenas ao faturamento não demonstra aumento real de lucratividade.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Também foram apontadas possíveis violações a princípios como capacidade contributiva, isonomia tributária, segurança jurídica e proteção da confiança legítima.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Resultado prático da liminar",
+            },
+            {
+                "type": "paragraph",
+                "text": "A decisão:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "suspendeu a exigibilidade do adicional de 10%;",
+                    "garantiu o recolhimento com base nos percentuais antigos;",
+                    "proibiu atos de cobrança enquanto durar a discussão judicial.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "O que sua empresa pode (e deve) fazer agora",
+            },
+            {
+                "type": "paragraph",
+                "text": "A controvérsia está só começando.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas uma coisa já ficou clara: há fundamentos jurídicos sólidos para questionar o aumento do lucro presumido.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Cada empresa precisa analisar seu faturamento, o impacto financeiro da majoração, os riscos de recolher ou não o adicional e a viabilidade de uma medida judicial preventiva.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em muitos casos, o mandado de segurança tem se mostrado o caminho adequado para:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "proteger o caixa da empresa;",
+                    "evitar autuações e restrições fiscais;",
+                    "garantir segurança jurídica enquanto o tema é discutido.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Conclusão",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se a sua empresa foi impactada pela majoração do lucro presumido, ignorar o problema pode sair caro.",
+            },
+            {
+                "type": "paragraph",
+                "text": "A decisão judicial recente mostra que o tema é controverso e que o Judiciário está aberto a discutir os limites dessa mudança.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Planejamento tributário, aqui, não é luxo: é necessidade.",
+            },
+        ]
+    },
+    {
+        id: "saida-fiscal-paraguai",
+        title: "Saída fiscal para o Paraguai “em série”: a Receita já percebeu - e o risco é real",
+        date: "11/02/2026",
+        authors: "Flávia Perim",
+        description: "Se você conhece várias pessoas fazendo saída fiscal para o Paraguai, se o tema virou conversa comum em grupos de empresários, ou se te disseram que é “simples, rápido e sem risco”…",
+        image: saidaParaguai,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Se você conhece várias pessoas fazendo saída fiscal para o Paraguai, se o tema virou conversa comum em grupos de empresários, ou se te disseram que é “simples, rápido e sem risco”…",
+            },
+            {
+                "type": "paragraph",
+                "text": "Pare tudo e leia isso até o fim.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Porque um caso recente no Conselho Administrativo de Recursos Fiscais (CARF) - órgão do Ministério da Fazenda que julga conflitos tributários - terminou com autuação superior a R$ 3 milhões justamente por esse tipo de estratégia feita no automático (Processo nº 10945.721380/2016-89).",
+            },
+            {
+                "type": "subtitle",
+                "text": "O problema: a saída fiscal virou “moda” - e isso acendeu o alerta da Receita",
+            },
+            {
+                "type": "paragraph",
+                "text": "A ideia parece tentadora:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Declarar saída do Brasil;",
+                    "Informar residência no Paraguai;",
+                    "Pagar menos imposto;",
+                    "Seguir a vida normalmente.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "O problema é que muita gente está fazendo isso sem cortar, de fato, os vínculos com o Brasil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E a Receita Federal já percebeu o padrão.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quando algo vira prática repetida, ela passa a olhar com lupa.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O papel diz “Paraguai”, mas a vida continua no Brasil",
+            },
+            {
+                "type": "paragraph",
+                "text": "No caso julgado pelo CARF, o contribuinte afirmou:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Minha renda vem do Paraguai;",
+                    "Meu domicílio é no exterior;",
+                    "Já entreguei a saída definitiva.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Mas a Receita foi checar a realidade.",
+            },
+            {
+                "type": "paragraph",
+                "text": "E encontrou:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Contas bancárias ativas no Brasil;",
+                    "Compra de imóveis no país;",
+                    "Domicílio eleitoral brasileiro;",
+                    "Gastos muito superiores à renda declarada;",
+                    "Ausência de provas da atividade rural no exterior.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Conclusão: a vida seguia no Brasil, apesar do endereço declarado no Paraguai.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Resultado?",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Saída fiscal desconsiderada;",
+                    "Cobrança integral de IRPF;",
+                    "Multas pesadas;",
+                    "Autuação milionária.",
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Um aviso direto: Paraguai não é “blindagem fiscal”",
+            },
+            {
+                "type": "paragraph",
+                "text": "Esse é o ponto que poucos falam.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Declarar saída não cria imunidade;",
+                    "Mudar o endereço não apaga vínculos;",
+                    "Eleger procurador não resolve tudo.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A Receita aplica o critério do centro de interesses vitais.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ela pergunta:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Onde você ganha dinheiro?",
+                    "Onde você gasta?",
+                    "Onde está seu patrimônio?",
+                    "Onde sua vida acontece de verdade?",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Se a resposta ainda for “Brasil”, o risco é alto.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Por que quem faz saída fiscal “em massa” corre ainda mais perigo",
+            },
+            {
+                "type": "paragraph",
+                "text": "Quando a Receita identifica padrão repetido, o risco aumenta.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ela cruza dados de:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Extratos bancários;",
+                    "Cartões de crédito;",
+                    "Registros imobiliários;",
+                    "CPF, título eleitoral e declarações;",
+                    "Movimentação incompatível com renda.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "E não importa se “todo mundo está fazendo”.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se der errado, o problema é individual.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A solução: saída fiscal exige estratégia, não improviso",
+            },
+            {
+                "type": "paragraph",
+                "text": "Saída fiscal bem feita:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Analisa vínculos pessoais e econômicos;",
+                    "Planeja patrimônio e fluxo financeiro;",
+                    "Produz prova real da atividade no exterior;",
+                    "Antecipadamente ajusta o que pode gerar autuação.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso não se faz com modelo pronto, se faz com planejamento tributário sério.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Onde entra um escritório de confiança",
+            },
+            {
+                "type": "paragraph",
+                "text": "A maioria das autuações nasce do mesmo erro:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Achei que era padrão;",
+                    "Disseram que era tranquilo;",
+                    "Ninguém me alertou.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Nosso trabalho é justamente frear antes do erro, não correr atrás depois.",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "Avaliar se a saída é viável;",
+                    "Dizer quando não é;",
+                    "Ajustar a estrutura antes da Receita olhar.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Porque depois da fiscalização, não existe mais planejamento - só defesa."
+            },
+        ]
+    },
+    {
+        id: "lucro-presumido-receita-federal-10",
+        title: "Lucro presumido: Receita antecipa cobrança do aumento de 10% e impacta o caixa das empresas",
+        date: "11/02/2026",
+        authors: "Flávia Perim",
+        description: "Atenção: sua empresa pode estar pagando mais imposto antes da hora. Se você apura IRPJ e CSLL pelo lucro presumido, a Receita Federal mudou a forma de aplicar o acréscimo de 10% nos percentuais de presunção, previsto na Lei Complementar nº 224/2025",
+        image: lucroPresumidoreceita,
+        content: [
+            {
+                "type": "paragraph",
+                "text": "Atenção: sua empresa pode estar pagando mais imposto antes da hora.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Se você apura IRPJ e CSLL pelo lucro presumido, a Receita Federal mudou a forma de aplicar o acréscimo de 10% nos percentuais de presunção, previsto na Lei Complementar nº 224/2025.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O que deveria ser um ajuste verificado ao final do ano passou a ser cobrado trimestre a trimestre, com efeito imediato no caixa da empresa.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Limite anual virou cobrança antecipada",
+            },
+            {
+                "type": "paragraph",
+                "text": "A LC nº 224/2025 determinou que empresas com receita bruta anual acima de R$ 5 milhões pagariam IRPJ e CSLL com base de cálculo maior.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Ou seja: quem ultrapassasse o limite, pagaria mais imposto.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Até aí, simples.",
+            },
+            {
+                "type": "subtitle",
+                "text": "A mudança prática: “pague agora, ajuste depois”",
+            },
+            {
+                "type": "paragraph",
+                "text": "Em janeiro de 2026, a Receita Federal alterou a operacionalização da regra.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Agora:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "o limite anual de R$ 5 milhões foi fracionado por trimestre;",
+                    "cada período tem um teto de R$ 1,25 milhão;",
+                    "se a receita trimestral ultrapassar esse valor, o acréscimo de 10% é aplicado imediatamente.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Mesmo que, no fechamento do ano, a empresa não ultrapasse o limite legal.",
+            },
+            {
+                "type": "paragraph",
+                "text": "O ajuste só pode ser feito no último trimestre, por meio de compensação ou pedido de restituição.",
+            },
+            {
+                "type": "subtitle",
+                "text": "Impacto real para as empresas",
+            },
+            {
+                "type": "paragraph",
+                "text": "Na prática, a sistemática funciona assim:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "o imposto é pago antes;",
+                    "o caixa da empresa sente o impacto agora;",
+                    "a correção vem depois — com cálculo técnico e burocracia.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Empresas com receita sazonal ou variações trimestrais são as mais afetadas, ainda que permaneçam dentro do limite anual.",
+            },
+            {
+                "type": "subtitle",
+                "text": "O que fazer agora",
+            },
+            {
+                "type": "paragraph",
+                "text": "Com a nova regra, o lucro presumido passou a exigir atenção constante ao longo do ano, especialmente quanto à evolução da receita trimestral.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Além do acompanhamento e das projeções financeiras, muitas empresas já estão avaliando uma alternativa adicional: a adoção de medidas judiciais preventivas, como o mandado de segurança, para suspender a exigência do acréscimo de 10% enquanto o tema é discutido.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Isso pode permitir:",
+            },
+            {
+                "type": "unordered_list",
+                "items": [
+                    "evitar o desembolso imediato de valores controvertidos;",
+                    "preservar o fluxo de caixa;",
+                    "reduzir riscos de autuações e inconsistências fiscais.",
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Mesmo empresas que não ultrapassam o limite anual de R$ 5 milhões podem ser impactadas pela cobrança antecipada, razão pela qual a análise jurídica individual passou a ser tão relevante quanto o controle contábil.",
+            },
+            {
+                "type": "paragraph",
+                "text": "Avaliar o cenário com antecedência faz diferença.",
+            },
+        ]
+    },
     {
         id: "transacao-PGFN-30-de-janeiro",
         title: "Transação Tributária PGFN: Última Chance Para Negociar com Até 65% de Desconto, até 30 de janeiro de 2026",
