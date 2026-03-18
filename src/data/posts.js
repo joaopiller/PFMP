@@ -55,9 +55,576 @@ import holdingPPS from "../assets/images/holding_tributacao_aumento_2026.jpg"
 import holdingCusto from "../assets/images/quanto_custa_holding_familiar.jpg"
 import holdingITBI from "../assets/images/ITBI_indevido_pagamento_diminuir_tributacao_holding.jpg"
 import transacaoPR from "../assets/images/transacao_parana_icms_renegocia_divida.png"
+import impostoPf from "../assets/images/imposto_taxa_pessoafísica_economia.png"
+import itcmd2027 from "../assets/images/itcmd_2027_holding_minas_es.png"
+import lucroGrupo from "../assets/images/distribuicao_lucros_IOF_intercompany_holding_fraude_tributacao.png"
+
 
 const posts = [
-     {
+    {
+    id: "distribuicao-lucros-iof-intercompany",
+    title: "Distribuição de lucros entre empresas do grupo: quando o planejamento intern vira autuação fiscal",
+    date: "18/03/2026",
+    authors: "Flávia Perim",
+    description: "Você já transferiu dinheiro de uma empresa para outra do mesmo grupo achando que estava apenas organizando o caixa?",
+    image: lucroGrupo,
+    content: [
+        {
+            "type": "paragraph",
+            "text": "Você já transferiu dinheiro de uma empresa para outra do mesmo grupo achando que estava apenas organizando o caixa?",
+        },
+        {
+            "type": "paragraph",
+            "text": "Essa prática é mais comum do que parece.",
+        },
+        {
+            "type": "paragraph",
+            "text": "E também é um dos erros que mais geram autuações por IOF em operações intercompany.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Se você tem holding, controladora ou empresas coligadas, atenção com o que vou te mostrar agora.",
+        },
+        {
+            "type": "subtitle",
+            "text": "O problema: lucro que sai antes de existir formalmente",
+        },
+        {
+            "type": "paragraph",
+            "text": "Muitos grupos empresariais funcionam assim:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "A empresa operacional gera lucro.",
+                "A controladora tem direito a quase 100% desse resultado.",
+                "O dinheiro começa a ser transferido ao longo do ano.",
+                "Depois se faz uma ata formalizando a distribuição.",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "Na cabeça do empresário, isso é só organização interna.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Para o Fisco, pode ser operação de crédito.",
+        },
+        {
+            "type": "paragraph",
+            "text": "E operação de crédito entre pessoas jurídicas gera IOF.",
+        },
+        {
+            "type": "subtitle",
+            "text": "Mas era só antecipação de lucro…",
+        },
+        {
+            "type": "paragraph",
+            "text": "Essa é a justificativa mais comum.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Só que existe um detalhe importante:",
+        },
+        {
+            "type": "paragraph",
+            "text": "Lucro só vira direito do sócio depois da apuração e da deliberação formal. Antes disso, é apenas expectativa.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Se o dinheiro sai da empresa antes dessa formalização, juridicamente ele não é lucro distribuído.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Ele pode ser interpretado como:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "Mútuo (empréstimo);",
+                "Conta corrente entre coligadas;",
+                "Disponibilização de recursos.",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "E, a depender, pode gerar IOF.",
+        },
+        {
+            "type": "subtitle",
+            "text": "O erro silencioso no planejamento de grupos",
+        },
+        {
+            "type": "paragraph",
+            "text": "Veja se você se identifica com esse cenário:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "Empresas do grupo fazem transferências frequentes;",
+                "Não há contrato formal de mútuo;",
+                "Não existe prazo de devolução;",
+                "A contabilidade registra como crédito a receber;",
+                "A ata de distribuição vem depois.",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "Esse é exatamente o tipo de situação que costuma virar auto de infração.",
+        },
+        {
+            "type": "paragraph",
+            "text": "E o empresário só descobre o problema anos depois, quando a fiscalização bate à porta.",
+        },
+        {
+            "type": "subtitle",
+            "text": "Mas não existe contrato de empréstimo...",
+        },
+        {
+            "type": "paragraph",
+            "text": "Outro equívoco comum.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Para fins de IOF, o que importa não é o nome que você dá à operação.",
+        },
+        {
+            "type": "paragraph",
+            "text": "O que importa é se houve entrega ou colocação de recursos à disposição de outra pessoa jurídica, registro contábil que indique crédito, compensação futura, ou expectativa de acerto entre as partes.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Mesmo sem contrato formal, a Receita pode entender que houve operação de crédito.",
+        },
+        {
+            "type": "subtitle",
+            "text": "O risco do caixa único no grupo empresarial",
+        },
+        {
+            "type": "paragraph",
+            "text": "Muitos grupos operam como se houvesse um único caixa. Mas juridicamente não é assim.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Cada CNPJ é uma pessoa distinta.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Cada transferência precisa ter natureza jurídica clara.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Quando isso não é bem estruturado, surgem riscos como:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "Cobrança de IOF;",
+                "Multa de 75%;",
+                "Juros pela SELIC;",
+                "Discussões longas no contencioso administrativo.",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "E o que parecia apenas um ajuste interno vira um passivo tributário relevante.",
+        },
+        {
+            "type": "subtitle",
+            "text": "Como evitar esse problema?",
+        },
+        {
+            "type": "paragraph",
+            "text": "Então olha só o que você pode fazer agora:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "Formalize antes de transferir: se a ideia é distribuir lucros, a ata deve preceder a saída do recurso.",
+                "Estruture contratos quando for empréstimo: se for mútuo, trate como mútuo. Com contrato, prazo, encargos e recolhimento correto de IOF.",
+                "Crie política de operações intercompany: grupos empresariais precisam de regras internas claras para movimentação de recursos.",
+                "Revise sua contabilidade: a forma como a operação é registrada pode definir o enquadramento tributário.",
+            ]
+        },
+        {
+            "type": "subtitle",
+            "text": "Conclusão: informalidade custa caro",
+        },
+        {
+            "type": "paragraph",
+            "text": "Planejamento societário e tributário mal estruturado é uma das maiores fontes de autuação em grupos empresariais.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Distribuição informal de lucros, antecipações não formalizadas e transferências recorrentes podem ser reclassificadas como operações de crédito.",
+        },
+        {
+            "type": "paragraph",
+            "text": "E isso significa IOF, multa e juros.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Se sua empresa:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "Faz transferências frequentes para coligadas;",
+                "Opera com conta corrente entre empresas do grupo;",
+                "Distribui lucros de forma flexível ao longo do ano;",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "Talvez seja o momento de revisar essa estrutura.",
+        },
+    ]
+},
+{
+    id: "itcmd-reforma-tributaria-2027",
+    title: "Estados como Minas Gerais e Espírito Santo vão cobrar ITCMD mais caro a partir de 2027",
+    date: "18/03/2026",
+    authors: "João Marchesi",
+    description: "Com a conclusão da regulamentação da reforma tributária, estados brasileiros se preparam para mudanças profundas no Imposto sobre Transmissão Causa Mortis e Doação (ITCMD).",
+    image: itcmd2027,
+    content: [
+        {
+            "type": "paragraph",
+            "text": "Com a conclusão da regulamentação da reforma tributária, estados brasileiros se preparam para mudanças profundas no Imposto sobre Transmissão Causa Mortis e Doação (ITCMD) - o tributo sobre heranças e doações.",
+        },
+        {
+            "type": "paragraph",
+            "text": "A partir de 2027, a cobrança poderá ficar mais elevada e progressiva, com impacto direto em famílias que planejavam transferir patrimônio sem custo tributário elevado.",
+        },
+        {
+            "type": "subtitle",
+            "text": "Regras mais rigorosas e progressividade obrigatória",
+        },
+        {
+            "type": "paragraph",
+            "text": "A reforma tributária avançou com a [Lei Complementar nº 227/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm), reforçando a cobrança progressiva do ITCMD em todo o país, ou seja, quanto maior o valor herdado ou doado, maior será a alíquota aplicada.",
+        },
+        {
+            "type": "paragraph",
+            "text": "O teto nacional para o tributo continua fixado em até 8%, mas os estados têm liberdade para definir faixas dentro dessa margem.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Hoje, por exemplo, Minas Gerais cobra 5% de ITCMD e o Espírito Santo, 4% sobre heranças e doações. Com as novas regras, esses estados tendem a elevar as alíquotas em faixas superiores para grandes patrimônios, reduzindo assim diferenças entre unidades da Federação.",
+        },
+        {
+            "type": "subtitle",
+            "text": "Espírito Santo: mudanças só valem em 2027, diz secretário",
+        },
+        {
+            "type": "paragraph",
+            "text": "[Em entrevista recente](https://www.agazeta.com.br/colunas/abdo-filho/imposto-sobre-heranca-so-vai-mudar-em-2027-no-espirito-santo-1025), o secretário de Estado da Fazenda do Espírito Santo, Benício Costa, afirmou que o governo não enviará o projeto de lei estadual com as novas alíquotas do ITCMD ainda em 2025, justamente porque a regulamentação federal ainda estava sendo concluída no Congresso.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Segundo ele, o envio ficará para 2026 e a eficácia prática das novas regras só ocorrerá em 2027, prazo mínimo para que as novas leis estaduais possam valer no ano seguinte.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Hoje no ES, o imposto é cobrado de forma única a 4% para transmissões acima de R$ 20 mil. Com a mudança, essa alíquota fixa deve dar lugar a um sistema progressivo, em que grandes patrimônios pagarão mais.",
+        },
+        {
+            "type": "paragraph",
+            "text": "O secretário também advertiu que a discussão sobre as faixas e percentuais ainda está em aberto e pode provocar até uma guerra fiscal entre estados, por exemplo, famílias que buscam pagar menos poderiam mudar domicílio fiscal para outra unidade da Federação com alíquotas menores.",
+        },
+        {
+            "type": "subtitle",
+            "text": "O planejamento antecipado vai ajudar as famílias a economizarem",
+        },
+        {
+            "type": "paragraph",
+            "text": "A janela para planejar heranças e doações sob as regras atuais está se fechando rapidamente.",
+        },
+        {
+            "type": "paragraph",
+            "text": "A adoção de alíquotas progressivas, junto com novas bases de cálculo que consideram critérios econômicos na avaliação de quotas empresariais, tendem a elevar significativamente o imposto devido em transmissões de altos patrimônios.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Por isso, segundo esses especialistas, é importante que famílias que pretendem fazer inventário ou doações nos próximos anos revisem sua estratégia tributária ainda este ano, antes da mudança das leis estaduais e da entrada em vigor das novas faixas a partir de 2027.",
+        },
+    ]
+},
+    {
+    id: "basico-pagar-menos-impostos-pessoa-fisica",
+    title: "O básico que todos precisam saber para pagar menos impostos na Pessoa Física",
+    date: "18/03/2026",
+    authors: "João Marchesi",
+    description: "Com certeza você já pensou em mil e uma maneiras de ganhar mais dinheiro. Mas o que a maioria das pessoas não pensa é em como perder menos dinheiro.",
+    image: impostoPf,
+    content: [
+        {
+            "type": "paragraph",
+            "text": "Com certeza você já pensou em mil e uma maneiras de ganhar mais dinheiro. Mas o que a maioria das pessoas não pensa é em como perder menos dinheiro.",
+        },
+        {
+            "type": "paragraph",
+            "text": "E, no Brasil, a conta mais cara que muita gente paga, sem perceber, são os impostos.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Não por acaso, a Receita Federal do Brasil anunciou [recorde histórico de arrecadação](https://g1.globo.com/economia/noticia/2026/02/24/arrecadacao-federal-bate-recorde-historico-e-soma-r-3258-bilhoes-em-janeiro-maior-valor-em-32-anos.ghtml) em janeiro de 2026. Se o governo arrecadou mais do que nunca, é porque alguém está pagando essa conta.",
+        },
+        {
+            "type": "paragraph",
+            "text": "O problema é que o sistema tributário brasileiro é extremamente complexo. São diferentes regras, exceções, regimes, benefícios, hipóteses de isenção e formas de tributação. Por isso, planejamento tributário sério exige acompanhamento profissional.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Mas, antes disso, existe o básico que toda pessoa física precisa saber o mínimo para não pagar imposto além do necessário.",
+        },
+        {
+            "type": "paragraph",
+            "text": "E é sobre isso que vamos falar.",
+        },
+        {
+            "type": "subtitle",
+            "text": "1. O primeiro passo: entender o que você está pagando",
+        },
+        {
+            "type": "paragraph",
+            "text": "A maioria das pessoas físicas paga tributo de forma pulverizada, quase invisível.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Entre os principais impostos que incidem sobre a pessoa física, estão:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "Imposto de Renda (IRPF) sobre salários, pró-labore, aluguéis e ganhos de capital;",
+                "ITCMD, nos casos de herança e doação;",
+                "Impostos indiretos embutidos no consumo (ICMS, IPI, PIS/COFINS), que reduzem o poder de compra;",
+                "Tributação sobre aplicações financeiras.",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "O primeiro erro é não saber exatamente de onde está vindo a mordida do leão.",
+        },
+        {
+            "type": "subtitle",
+            "text": "2. Imposto de Renda da Pessoa Física: o básico que você precisa saber",
+        },
+        {
+            "type": "paragraph",
+            "text": "A Receita Federal do Brasil tributa a renda da pessoa física pela tabela progressiva, que pode chegar a 27,5%.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Mas muita gente paga mais do que deveria por não utilizar corretamente as deduções legais.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Entre as principais formas de reduzir o IRPF estão:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "Despesas médicas (sem limite, desde que comprovadas);",
+                "Educação (dentro do limite legal);",
+                "Dependentes;",
+                "Contribuição para previdência privada (PGBL, respeitado o limite de 12% da renda tributável);",
+                "Pensão alimentícia judicial;",
+                "Livro-caixa para profissionais autônomos.",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "Outro ponto essencial é comparar o modelo simplificado com o completo na declaração anual. Muitas pessoas escolhem automaticamente um modelo sem simular o outro.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Para quem é empresário, é necessário também entender as regras do IRPF Mínimo para realizar a distribuição de lucros e dividendos de forma estratégica.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Esse simples cuidado já pode representar economia relevante.",
+        },
+        {
+            "type": "subtitle",
+            "text": "3. Atividades econômicas na pessoa física: será que vale a pena?",
+        },
+        {
+            "type": "paragraph",
+            "text": "Recebe aluguéis? Vende imóveis com frequência? Presta serviços como autônomo?",
+        },
+        {
+            "type": "paragraph",
+            "text": "Muitas dessas atividades, quando exercidas na pessoa física, sofrem tributação mais pesada do que se estruturadas em uma pessoa jurídica.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Por exemplo:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "Aluguéis recebidos na pessoa física podem chegar à alíquota máxima da tabela progressiva.",
+                "Na pessoa jurídica, dependendo da estrutura, podem ser tributados pelo lucro presumido, com carga efetiva inferior.",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "É aqui que entra a análise sobre a constituição de uma holding patrimonial para concentrar imóveis ou atividades recorrentes.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Essa comparação entre PF e PJ é uma das análises mais importantes para quem quer pagar menos imposto de forma lícita.",
+        },
+        {
+            "type": "subtitle",
+            "text": "4. Conheça a tributação dos seus investimentos",
+        },
+        {
+            "type": "paragraph",
+            "text": "Outro erro comum é investir sem conhecer a tributação.",
+        },
+        {
+            "type": "paragraph",
+            "text": "No Brasil, aplicações financeiras podem ter:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "Tributação regressiva (como em renda fixa);",
+                "Alíquota fixa (como fundos de investimento);",
+                "Isenção (como alguns títulos incentivados, a exemplo de LCI e LCA);",
+                "Regras específicas para bolsa de valores.",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "A falta de conhecimento pode levar a decisões ineficientes.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Além disso, para patrimônios mais estruturados, pode ser necessário estudar a tributação de investimentos via estruturas internacionais, inclusive em países com regime de tributação favorecida, observando as regras brasileiras sobre offshores e controladas no exterior.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Mas isso já exige análise técnica aprofundada.",
+        },
+        {
+            "type": "subtitle",
+            "text": "5. Ganho de capital: cuidado nas operações",
+        },
+        {
+            "type": "paragraph",
+            "text": "Sempre que você vende um imóvel, participação societária ou outro bem, pode haver incidência de imposto sobre ganho de capital.",
+        },
+        {
+            "type": "paragraph",
+            "text": "A apuração do ganho deve ser realizada de forma adequada, geralmente por meio do programa GCAP da Receita Federal ou com o apoio de um profissional especializado, a depender da complexidade da operação. Posteriormente, as informações devem ser importadas para a declaração anual do Imposto de Renda.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Além disso, existem hipóteses de isenção relevantes, como:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "Venda de imóvel residencial com aquisição de outro imóvel residencial em até 180 dias;",
+                "Venda de único imóvel até determinado valor;",
+                "Bens adquiridos antes de datas específicas com regras diferenciadas.",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "Perder uma isenção por falta de planejamento é um erro caro.",
+        },
+        {
+            "type": "subtitle",
+            "text": "6. Isenções pouco conhecidas",
+        },
+        {
+            "type": "paragraph",
+            "text": "Algumas situações geram isenção de Imposto de Renda, como:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "Portadores de determinadas doenças graves, nos termos da lei;",
+                "Indenizações específicas;",
+                "Alguns rendimentos previdenciários.",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "Muitas pessoas pagam imposto indevidamente por desconhecer essas hipóteses.",
+        },
+        {
+            "type": "subtitle",
+            "text": "7. Economia tributária na sucessão",
+        },
+        {
+            "type": "paragraph",
+            "text": "Na pessoa física, também se paga, e muito, na sucessão.",
+        },
+        {
+            "type": "paragraph",
+            "text": "O Imposto sobre Transmissão Causa Mortis e Doação (ITCMD) incide sobre heranças e doações.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Sem planejamento, a família pode enfrentar:",
+        },
+        {
+            "type": "unordered_list",
+            "items": [
+                "Tributação elevada;",
+                "Inventário demorado;",
+                "Bloqueio de bens.",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "Com planejamento sucessório adequado, muitas vezes utilizando holdings familiares, é possível organizar a sucessão, reduzir conflitos e estruturar a carga tributária de forma lícita e eficiente.",
+        },
+        {
+            "type": "subtitle",
+            "text": "Conclusão",
+        },
+        {
+            "type": "paragraph",
+            "text": "Esse é o básico que toda pessoa física precisa saber para pagar menos impostos:",
+        },
+        {
+            "type": "ordered_list",
+            "items": [
+                "Entender o que está pagando;",
+                "Dominar as regras do IRPF;",
+                "Comparar PF e PJ nas atividades econômicas;",
+                "Conhecer a tributação dos investimentos;",
+                "Planejar ganho de capital;",
+                "Verificar hipóteses de isenção;",
+                "Estruturar a sucessão.",
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "A partir daqui, começam as estratégias mais sofisticadas.",
+        },
+        {
+            "type": "paragraph",
+            "text": "E aí é indispensável o acompanhamento de um advogado tributarista para estruturar tudo com segurança jurídica.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Ganhar mais dinheiro é importante.",
+        },
+        {
+            "type": "paragraph",
+            "text": "Mas aprender a perder menos para o Fisco pode ser ainda mais estratégico.",
+        },
+    ]
+},
+    {
         id: "divida-icms-parana-desconto",
         title: "Negociar dívida de ICMS no Paraná: até 65% de desconto no RenegociaPR 2026",
         date: "11/02/2026",
