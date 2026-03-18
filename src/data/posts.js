@@ -55,7 +55,7 @@ import holdingPPS from "../assets/images/holding_tributacao_aumento_2026.jpg"
 import holdingCusto from "../assets/images/quanto_custa_holding_familiar.jpg"
 import holdingITBI from "../assets/images/ITBI_indevido_pagamento_diminuir_tributacao_holding.jpg"
 import transacaoPR from "../assets/images/transacao_parana_icms_renegocia_divida.png"
-import impostoPf from "../assets/images/imposto_taxa_pessoafísica_economia.png"
+import impostoPf from "../assets/images/imposto_taxa_pessoafisica_economia.png"
 import itcmd2027 from "../assets/images/itcmd_2027_holding_minas_es.png"
 import lucroGrupo from "../assets/images/distribuicao_lucros_IOF_intercompany_holding_fraude_tributacao.png"
 
