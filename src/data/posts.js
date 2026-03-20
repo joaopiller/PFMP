@@ -63,7 +63,7 @@ import lucroGrupo from "../assets/images/distribuicao_lucros_IOF_intercompany_ho
 const posts = [
     {
     id: "distribuicao-lucros-iof-intercompany",
-    title: "Distribuição de lucros entre empresas do grupo: quando o planejamento intern vira autuação fiscal",
+    title: "Distribuição de lucros entre empresas do grupo: quando o planejamento interno vira autuação fiscal",
     date: "18/03/2026",
     authors: "Flávia Perim",
     description: "Você já transferiu dinheiro de uma empresa para outra do mesmo grupo achando que estava apenas organizando o caixa?",
