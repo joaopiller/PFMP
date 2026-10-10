@@ -1,5 +1,6 @@
+import { SITE_URL } from "@/config/site";
+
 export default function robots() {
-  const baseUrl = "https://www.pfmpadv.com.br"; 
   return {
     rules: [
       {
@@ -7,6 +8,6 @@ export default function robots() {
         allow: "/",
       },
     ],
-    sitemap: `${baseUrl}/sitemap.xml`,
+    sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }

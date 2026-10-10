@@ -1,19 +1,8 @@
 import styles from "./styles.module.css";
 import { FaWhatsapp } from "react-icons/fa";
-
-export const metadata = {
-  title: "PFMP Advogados | Advocacia Tributária com Atuação Nacional",
-  description:
-    "Consultoria e defesa tributária para empresas e pessoas físicas, com soluções fiscais estratégicas, digitais e seguras em todo o Brasil.",
-};
+import { WHATSAPP_URL } from "@/config/site";
 
 export default function HomeBanner() {
-  const phoneNumber = "31997127831";
-  const message = "Olá, gostaria de entrar em contato!";
-  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    message
-  )}`;
-
   return (
     <section className={styles.homeBanner}>
       <div className={styles.bannerBlur}></div>
@@ -28,7 +17,7 @@ export default function HomeBanner() {
             soluções fiscais estratégicas, digitais e seguras em todo o Brasil.
           </p>
           <a
-            href={whatsappLink}
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.button}

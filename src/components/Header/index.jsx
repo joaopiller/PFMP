@@ -7,15 +7,10 @@ import { FaWhatsapp } from "react-icons/fa";
 import { HiMenu, HiX } from "react-icons/hi";
 import styles from "./styles.module.css";
 import logo from "@/assets/images/logo_header.png";
+import { NAV_LINKS, WHATSAPP_URL } from "@/config/site";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const phoneNumber = "31997127831";
-  const message = "Olá, gostaria de entrar em contato!";
-  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    message
-  )}`;
 
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
   const closeMenu = () => setIsMenuOpen(false);
@@ -37,21 +32,11 @@ export default function Header() {
       </button>
 
       <nav className={styles.navBox}>
-        <Link className={styles.navItem} href="/">
-          Início
-        </Link>
-        <Link className={styles.navItem} href="/quem-somos">
-          Quem Somos
-        </Link>
-        <Link className={styles.navItem} href="/equipe">
-          Equipe
-        </Link>
-        <Link className={styles.navItem} href="/areas-de-atuacao">
-          Áreas de Atuação
-        </Link>
-        <Link className={styles.navItem} href="/publicacoes">
-          Publicações
-        </Link>
+        {NAV_LINKS.map(({ href, label }) => (
+          <Link key={href} className={styles.navItem} href={href}>
+            {label}
+          </Link>
+        ))}
       </nav>
 
       <nav
@@ -63,40 +48,19 @@ export default function Header() {
           <HiX size={24} />
         </button>
 
-        <Link className={styles.mobileNavItem} href="/" onClick={closeMenu}>
-          Início
-        </Link>
-        <Link
-          className={styles.mobileNavItem}
-          href="/quem-somos"
-          onClick={closeMenu}
-        >
-          Quem Somos
-        </Link>
-        <Link
-          className={styles.mobileNavItem}
-          href="/equipe"
-          onClick={closeMenu}
-        >
-          Equipe
-        </Link>
-        <Link
-          className={styles.mobileNavItem}
-          href="/areas-de-atuacao"
-          onClick={closeMenu}
-        >
-          Áreas de Atuação
-        </Link>
-        <Link
-          className={styles.mobileNavItem}
-          href="/publicacoes"
-          onClick={closeMenu}
-        >
-          Publicações
-        </Link>
+        {NAV_LINKS.map(({ href, label }) => (
+          <Link
+            key={href}
+            className={styles.mobileNavItem}
+            href={href}
+            onClick={closeMenu}
+          >
+            {label}
+          </Link>
+        ))}
 
         <a
-          href={whatsappLink}
+          href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
           className={styles.mobileContactButton}
@@ -108,7 +72,7 @@ export default function Header() {
       </nav>
 
       <a
-        href={whatsappLink}
+        href={WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
         className={styles.contactButton}

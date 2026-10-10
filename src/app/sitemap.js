@@ -1,7 +1,7 @@
 import posts from "@/data/posts";
+import { SITE_URL } from "@/config/site";
 
 export default function sitemap() {
-  const baseUrl = "https://www.pfmpadv.com.br";
   const now = new Date().toISOString();
 
   const staticPages = [
@@ -13,7 +13,7 @@ export default function sitemap() {
   ];
 
   const staticUrls = staticPages.map((path) => {
-    const url = path === "" ? baseUrl : `${baseUrl}/${path}`;
+    const url = path === "" ? SITE_URL : `${SITE_URL}/${path}`;
     
     return {
       url: url,
@@ -24,7 +24,7 @@ export default function sitemap() {
   });
 
   const postUrls = posts.map((post) => ({
-    url: `${baseUrl}/publicacoes/${post.id}`,
+    url: `${SITE_URL}/publicacoes/${post.id}`,
     lastModified: now,
     changeFrequency: "monthly",
     priority: 0.8,

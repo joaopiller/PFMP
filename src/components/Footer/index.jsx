@@ -2,14 +2,9 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 import footerImage from "@/assets/images/logo_bege.png";
 import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { CONTACT, SOCIAL_LINKS, WHATSAPP_URL } from "@/config/site";
 
 export default function Footer() {
-  const phoneNumber = "31997127831";
-  const message = "Olá, gostaria de entrar em contato!";
-  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    message
-  )}`;
-
   return (
     <footer className={styles.footer}>
       <div className={styles.footerContainer}>
@@ -22,30 +17,33 @@ export default function Footer() {
         />
         <div className={styles.footerInfo}>
           <h2>Endereço</h2>
-          <p>Rua Paraíba nº 550, sala 900</p>
-          <p>Savassi, Belo Horizonte - MG</p>
-          <p>CEP: 30130-141</p>
+          <p>{CONTACT.address.street}</p>
+          <p>
+            {CONTACT.address.district}, {CONTACT.address.city} -{" "}
+            {CONTACT.address.state}
+          </p>
+          <p>CEP: {CONTACT.address.zipCode}</p>
         </div>
 
         <div className={styles.footerInfo}>
           <h2>Contato</h2>
-          <p>Telefone: (31) 99712-7831</p>
+          <p>Telefone: {CONTACT.phoneDisplay}</p>
           <div className={styles.socialMedia}>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.instagram.com/pfmp.adv?igsh=NWN6MTVuMXFpeHVm"
+              href={SOCIAL_LINKS.instagram}
             >
               <FaInstagram color="#efefef" size={26} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.linkedin.com/company/pfmp-advogados/"
+              href={SOCIAL_LINKS.linkedin}
             >
               <FaLinkedin color="#efefef" size={26} />
             </a>
-            <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
               <FaWhatsapp color="#efefef" size={26} />
             </a>
           </div>

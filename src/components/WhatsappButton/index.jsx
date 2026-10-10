@@ -2,14 +2,10 @@
 
 import { FaWhatsapp } from "react-icons/fa";
 import { useState, useEffect } from "react";
+import { WHATSAPP_URL } from "@/config/site";
 
 export default function WhatsAppButton() {
   const [isVisible, setIsVisible] = useState(false);
-  const phoneNumber = "31997127831";
-  const message = "Olá, gostaria de entrar em contato!";
-  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    message
-  )}`;
 
   useEffect(() => {
     const timer = setTimeout(() => setIsVisible(true), 500);
@@ -18,7 +14,7 @@ export default function WhatsAppButton() {
 
   return (
     <a
-      href={whatsappLink}
+      href={WHATSAPP_URL}
       target="_blank"
       rel="noopener noreferrer"
       style={{
