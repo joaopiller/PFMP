@@ -21,7 +21,8 @@ export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/company/pfmp-advogados/",
 };
 
-export const WHATSAPP_URL = `https://wa.me/${CONTACT.phone}?text=${encodeURIComponent(
+// wa.me exige o número no formato internacional (55 + DDD + número)
+export const WHATSAPP_URL = `https://wa.me/55${CONTACT.phone}?text=${encodeURIComponent(
   CONTACT.whatsappMessage
 )}`;
 
