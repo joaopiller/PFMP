@@ -6,24 +6,14 @@ import flaviaImg from "@/assets/images/flavia_perim.jpeg";
 import marchesiImg from "@/assets/images/joao_marchesi.jpeg";
 import nossa_equipe from "@/assets/images/equipe_banner.jpeg";
 import PageBanner from "@/components/PageBanner";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata = {
-  title: "Equipe | PFMP Advogados",
+export const metadata = buildMetadata({
+  title: "Equipe",
   description:
     "Conheça os advogados especialistas em Direito Tributário do escritório PFMP Advogados.",
-  alternates: {
-    canonical: "https://www.pfmpadv.com.br/equipe",
-  },
-  openGraph: {
-    title: "Equipe | PFMP Advogados",
-    description:
-      "Conheça os advogados especialistas em Direito Tributário do escritório PFMP Advogados.",
-    url: "https://www.pfmpadv.com.br/equipe",
-    siteName: "PFMP Advogados",
-    locale: "pt_BR",
-    type: "website",
-  },
-};
+  path: "/equipe",
+});
 
 export default function Equipe() {
   return (

@@ -1,5 +1,6 @@
 export const SITE_URL = "https://www.pfmpadv.com.br";
 export const SITE_NAME = "PFMP Advogados";
+export const SITE_TITLE = `${SITE_NAME} | Advocacia Tributária com Atuação Nacional`;
 export const SITE_DESCRIPTION =
   "Consultoria e defesa tributária para empresas e pessoas físicas, com soluções fiscais estratégicas, digitais e seguras em todo o Brasil.";
 

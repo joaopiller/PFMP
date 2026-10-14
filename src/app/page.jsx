@@ -4,24 +4,13 @@ import HomeEquipe from "@/components/HomeEquipe";
 import HomePublicacoes from "@/components/HomePublicacoes";
 import HomeQuemSomos from "@/components/HomeQuemSomos";
 import NossosDiferenciais from "@/components/NossosDiferenciais";
+import { buildMetadata } from "@/lib/metadata";
+import { SITE_DESCRIPTION } from "@/config/site";
 
-export const metadata = {
-  title: "PFMP Advogados",
-  description:
-    "Consultoria e defesa tributária para empresas e pessoas físicas, com soluções fiscais estratégicas, digitais e seguras em todo o Brasil.",
-  alternates: {
-    canonical: "https://www.pfmpadv.com.br",
-  },
-  openGraph: {
-    title: "PFMP Advogados",
-    description:
-      "Consultoria e defesa tributária para empresas e pessoas físicas, com soluções fiscais estratégicas, digitais e seguras em todo o Brasil.",
-    url: "https://www.pfmpadv.com.br",
-    siteName: "PFMP Advogados",
-    locale: "pt_BR",
-    type: "website",
-  },
-};
+export const metadata = buildMetadata({
+  description: SITE_DESCRIPTION,
+  path: "/",
+});
 
 export default function Home() {
   return (

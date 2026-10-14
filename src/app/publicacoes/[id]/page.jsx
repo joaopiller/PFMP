@@ -4,6 +4,7 @@ import publicacoes from "@/assets/images/banner_publicacoes.jpg";
 import styles from "./styles.module.css";
 import { FaCalendar } from "react-icons/fa";
 import { getAllPosts, getPostById } from "@/lib/posts";
+import { buildMetadata } from "@/lib/metadata";
 import { renderContent } from "@/utils/contentRenderer.jsx";
 import Image from "next/image";
 
@@ -17,28 +18,17 @@ export async function generateMetadata({ params }) {
 
   if (!post) {
     return {
-      title: "Publicação não encontrada | PFMP Advogados",
-      description: "A publicação solicitada não foi encontrada.",
+      title: "Publicação não encontrada",
       robots: { index: false, follow: false },
     };
   }
 
-  const canonicalUrl = `https://www.pfmpadv.com.br/publicacoes/${post.id}`;
-
-  return {
-    title: `${post.title} | PFMP Advogados`,
-    description: post.description ?? "Publicação do PFMP Advogados.",
-    alternates: { canonical: canonicalUrl },
-    openGraph: {
-      title: `${post.title} | PFMP Advogados`,
-      description: post.description ?? "",
-      url: canonicalUrl,
-      type: "article",
-      images: post.image ? [post.image] : [],
-      siteName: "PFMP Advogados",
-      locale: "pt_BR",
-    },
-  };
+  return buildMetadata({
+    title: post.title,
+    description: post.description,
+    path: `/publicacoes/${post.id}`,
+    openGraph: { type: "article" },
+  });
 }
 
 export default async function Publicacao({ params }) {

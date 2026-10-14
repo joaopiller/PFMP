@@ -8,24 +8,14 @@ import { TbBulb } from "react-icons/tb";
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { LuHandshake } from "react-icons/lu";
 import { GoPeople } from "react-icons/go";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata = {
-  title: "Quem Somos | PFMP Advogados",
+export const metadata = buildMetadata({
+  title: "Quem Somos",
   description:
     "Conheça o PFMP Advogados: nossa missão, visão, valores e o time por trás das soluções tributárias de alto impacto.",
-  alternates: {
-    canonical: "https://www.pfmpadv.com.br/quem-somos",
-  },
-  openGraph: {
-    title: "Quem Somos | PFMP Advogados",
-    description:
-      "Conheça o PFMP Advogados: nossa missão, visão, valores e o time por trás das soluções tributárias de alto impacto.",
-    url: "https://www.pfmpadv.com.br/quem-somos",
-    siteName: "PFMP Advogados",
-    locale: "pt_BR",
-    type: "website",
-  },
-};
+  path: "/quem-somos",
+});
 
 export default function QuemSomos() {
   return (
