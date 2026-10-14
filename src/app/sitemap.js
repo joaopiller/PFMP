@@ -1,4 +1,4 @@
-import posts from "@/data/posts";
+import { getAllPosts } from "@/lib/posts";
 import { SITE_URL } from "@/config/site";
 
 export default function sitemap() {
@@ -23,7 +23,7 @@ export default function sitemap() {
     };
   });
 
-  const postUrls = posts.map((post) => ({
+  const postUrls = getAllPosts().map((post) => ({
     url: `${SITE_URL}/publicacoes/${post.id}`,
     lastModified: now,
     changeFrequency: "monthly",

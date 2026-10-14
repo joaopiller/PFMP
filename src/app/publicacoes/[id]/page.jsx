@@ -1,21 +1,18 @@
-// app/publicacoes/[id]/page.jsx
 import { notFound } from "next/navigation";
 import PageBanner from "@/components/PageBanner";
 import publicacoes from "@/assets/images/banner_publicacoes.jpg";
 import styles from "./styles.module.css";
 import { FaCalendar } from "react-icons/fa";
-import posts from "@/data/posts.js";
+import { getAllPosts, getPostById } from "@/lib/posts";
 import { renderContent } from "@/utils/contentRenderer.jsx";
 import Image from "next/image";
 
 export async function generateStaticParams() {
-  return posts.map((p) => ({ id: String(p.id) }));
+  return getAllPosts().map((post) => ({ id: post.id }));
 }
 
 export async function generateMetadata({ params }) {
-  const key = decodeURIComponent(String(params.id)).trim().toLowerCase();
-  const post =
-    posts.find((p) => String(p.id).trim().toLowerCase() === key) ?? null;
+  const post = getPostById(params.id);
 
   if (!post) {
     return {
@@ -44,8 +41,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default function Publicacao({ params }) {
-  const key = decodeURIComponent(String(params.id)).trim().toLowerCase();
-  const post = posts.find((p) => String(p.id).trim().toLowerCase() === key);
+  const post = getPostById(params.id);
 
   if (!post) {
     notFound();
