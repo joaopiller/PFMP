@@ -12,7 +12,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const post = getPostById(params.id);
+  const { id } = await params;
+  const post = getPostById(id);
 
   if (!post) {
     return {
@@ -40,8 +41,9 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function Publicacao({ params }) {
-  const post = getPostById(params.id);
+export default async function Publicacao({ params }) {
+  const { id } = await params;
+  const post = getPostById(id);
 
   if (!post) {
     notFound();
