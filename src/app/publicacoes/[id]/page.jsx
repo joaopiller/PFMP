@@ -3,8 +3,8 @@ import PageBanner from "@/components/PageBanner";
 import publicacoes from "@/assets/images/banner_publicacoes.jpg";
 import styles from "./styles.module.css";
 import { FaCalendar } from "react-icons/fa";
-import { getAllPosts, getPostById } from "@/lib/posts";
-import { buildMetadata } from "@/lib/metadata";
+import { getAllPosts, getPostById, parsePostDate } from "@/lib/posts";
+import { buildMetadata, toOpenGraphImage } from "@/lib/metadata";
 import { renderContent } from "@/utils/contentRenderer.jsx";
 import Image from "next/image";
 
@@ -27,7 +27,12 @@ export async function generateMetadata({ params }) {
     title: post.title,
     description: post.description,
     path: `/publicacoes/${post.id}`,
-    openGraph: { type: "article" },
+    openGraph: {
+      type: "article",
+      publishedTime: parsePostDate(post.date).toISOString(),
+      authors: [post.authors],
+      images: [toOpenGraphImage(post.image, post.title)],
+    },
   });
 }
 

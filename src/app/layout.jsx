@@ -8,6 +8,7 @@ import {
   SITE_TITLE,
   SITE_URL,
 } from "@/config/site";
+import { DEFAULT_SHARE_IMAGE } from "@/lib/metadata";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -36,6 +37,7 @@ export const metadata = {
     siteName: SITE_NAME,
     locale: "pt_BR",
     type: "website",
+    images: [DEFAULT_SHARE_IMAGE],
   },
 };
 
