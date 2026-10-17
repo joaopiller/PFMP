@@ -4,7 +4,12 @@ import publicacoes from "@/assets/images/banner_publicacoes.jpg";
 import styles from "./styles.module.css";
 import { FaCalendar } from "react-icons/fa";
 import { getAllPosts, getPostById, parsePostDate } from "@/lib/posts";
-import { buildMetadata, toOpenGraphImage } from "@/lib/metadata";
+import {
+  articleJsonLd,
+  buildMetadata,
+  toOpenGraphImage,
+} from "@/lib/metadata";
+import JsonLd from "@/components/JsonLd";
 import { renderContent } from "@/utils/contentRenderer.jsx";
 import Image from "next/image";
 
@@ -46,6 +51,7 @@ export default async function Publicacao({ params }) {
 
   return (
     <>
+      <JsonLd data={articleJsonLd(post, parsePostDate(post.date))} />
       <PageBanner title="Publicações" image={publicacoes} />
       <section className={styles.publicacaoContainer}>
         <h2 className={styles.title}>{post.title}</h2>

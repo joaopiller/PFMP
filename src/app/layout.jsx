@@ -8,7 +8,8 @@ import {
   SITE_TITLE,
   SITE_URL,
 } from "@/config/site";
-import { DEFAULT_SHARE_IMAGE } from "@/lib/metadata";
+import { DEFAULT_SHARE_IMAGE, legalServiceJsonLd } from "@/lib/metadata";
+import JsonLd from "@/components/JsonLd";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -45,6 +46,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body>
+        <JsonLd data={legalServiceJsonLd()} />
         <Header />
         <main>{children}</main>
         <Footer />
