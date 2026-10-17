@@ -1,32 +1,21 @@
-import { getAllPosts } from "@/lib/posts";
-import { SITE_URL } from "@/config/site";
+import { getAllPosts, parsePostDate } from "@/lib/posts";
+import { NAV_LINKS, SITE_URL } from "@/config/site";
 
 export default function sitemap() {
-  const now = new Date().toISOString();
+  const now = new Date();
 
-  const staticPages = [
-    "", 
-    "equipe",
-    "quem-somos",
-    "areas-de-atuacao",
-    "publicacoes",
-  ];
-
-  const staticUrls = staticPages.map((path) => {
-    const url = path === "" ? SITE_URL : `${SITE_URL}/${path}`;
-    
-    return {
-      url: url,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: path === "" ? 1.0 : 0.9,
-    };
-  });
-
-  const postUrls = getAllPosts().map((post) => ({
-    url: `${SITE_URL}/publicacoes/${post.id}`,
+  const staticUrls = NAV_LINKS.map(({ href }) => ({
+    url: href === "/" ? SITE_URL : `${SITE_URL}${href}`,
     lastModified: now,
     changeFrequency: "monthly",
+    priority: href === "/" ? 1.0 : 0.9,
+  }));
+
+  const postUrls = getAllPosts().map((post) => ({
+    // encodeURI garante URLs válidas para ids com acento.
+    url: encodeURI(`${SITE_URL}/publicacoes/${post.id}`),
+    lastModified: parsePostDate(post.date),
+    changeFrequency: "yearly",
     priority: 0.8,
   }));
 
