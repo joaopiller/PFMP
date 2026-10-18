@@ -20,6 +20,11 @@
   overflow: hidden;
 }
 
+/* O input não tem outline próprio; o foco é indicado no contêiner */
+.searchContainer:focus-within {
+  box-shadow: 0 0 0 3px rgba(219, 159, 93, 0.45);
+}
+
 .searchInput {
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -31,12 +36,25 @@
   font-family: var(--font-scandia-regular);
 }
 
+/* Remove o "x" nativo do input de busca para manter o visual original */
+.searchInput::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
 .searchButton {
   background-color: #354f44;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
+}
+
+.emptyState {
+  margin: 3rem 0;
+  font-family: var(--font-scandia-regular);
+  font-size: 1.1rem;
+  color: #575656;
+  text-align: center;
 }
 
 .publicacoes {
@@ -121,6 +139,7 @@
   .publicacoesContainer {
     width: 85%;
     padding: 3rem 0;
+    scroll-margin-top: 1rem;
   }
 
   .searchContainer {

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { IoSearch } from "react-icons/io5";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
@@ -10,22 +10,26 @@ import styles from "./styles.module.css";
 
 const POSTS_PER_PAGE = 9;
 
+// Permite buscar "tributacao" e encontrar "Tributação".
+const normalize = (text = "") =>
+  text
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase();
+
 export default function PublicacoesClient({ posts }) {
   const [searchTerm, setSearchTerm] = useState("");
-  const [filteredPosts, setFilteredPosts] = useState(posts);
   const [currentPage, setCurrentPage] = useState(1);
+  const listRef = useRef(null);
 
-  const handleSearch = () => {
-    const filtered = posts.filter((post) =>
-      post.title.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredPosts = useMemo(() => {
+    const query = normalize(searchTerm.trim());
+    if (!query) return posts;
+
+    return posts.filter((post) =>
+      normalize(`${post.title} ${post.description}`).includes(query)
     );
-    setFilteredPosts(filtered);
-    setCurrentPage(1);
-  };
-
-  const handleKeyDown = (e) => {
-    if (e.key === "Enter") handleSearch();
-  };
+  }, [posts, searchTerm]);
 
   const totalPages = Math.ceil(filteredPosts.length / POSTS_PER_PAGE) || 1;
   const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
@@ -34,12 +38,15 @@ export default function PublicacoesClient({ posts }) {
     startIndex + POSTS_PER_PAGE
   );
 
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+    setCurrentPage(1);
+  };
+
   const handlePageChange = (newPage) => {
     if (newPage >= 1 && newPage <= totalPages) {
       setCurrentPage(newPage);
-      setTimeout(() => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }, 50);
+      listRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
 
@@ -53,62 +60,85 @@ export default function PublicacoesClient({ posts }) {
   };
 
   return (
-    <section className={styles.publicacoesContainer}>
-      <div className={styles.searchContainer}>
+    <section className={styles.publicacoesContainer} ref={listRef}>
+      <form
+        role="search"
+        className={styles.searchContainer}
+        onSubmit={(e) => e.preventDefault()}
+      >
+        <label htmlFor="busca-publicacoes" className="sr-only">
+          Pesquisar publicações
+        </label>
         <input
+          id="busca-publicacoes"
           placeholder="Pesquisar..."
           className={styles.searchInput}
-          type="text"
+          type="search"
           value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          onKeyDown={handleKeyDown}
+          onChange={handleSearchChange}
         />
-        <button className={styles.searchButton} onClick={handleSearch}>
+        <button
+          type="submit"
+          className={styles.searchButton}
+          aria-label="Pesquisar"
+        >
           <IoSearch color="#efefef" />
         </button>
-      </div>
+      </form>
 
-      <div className={styles.publicacoes}>
-        {currentPosts.map((post) => (
-          <CardPublicacao
-            key={post.id}
-            id={post.id}
-            image={post.image}
-            title={post.title}
-            description={post.description}
-          />
-        ))}
-      </div>
+      {filteredPosts.length === 0 ? (
+        <p className={styles.emptyState} role="status">
+          Nenhuma publicação encontrada para “{searchTerm.trim()}”.
+        </p>
+      ) : (
+        <div className={styles.publicacoes}>
+          {currentPosts.map((post) => (
+            <CardPublicacao
+              key={post.id}
+              id={post.id}
+              image={post.image}
+              title={post.title}
+              description={post.description}
+            />
+          ))}
+        </div>
+      )}
 
-      <div className={styles.pagination}>
-        <button
-          onClick={() => handlePageChange(currentPage - 1)}
-          disabled={currentPage === 1}
-          className={styles.pageArrow}
-        >
-          <IoIosArrowBack />
-        </button>
-
-        {getPageNumbers().map((pageNum) => (
+      {totalPages > 1 && (
+        <nav className={styles.pagination} aria-label="Paginação">
           <button
-            key={pageNum}
-            onClick={() => handlePageChange(pageNum)}
-            className={`${styles.pageNumber} ${
-              currentPage === pageNum ? styles.activePage : ""
-            }`}
+            onClick={() => handlePageChange(currentPage - 1)}
+            disabled={currentPage === 1}
+            className={styles.pageArrow}
+            aria-label="Página anterior"
           >
-            {pageNum}
+            <IoIosArrowBack />
           </button>
-        ))}
 
-        <button
-          onClick={() => handlePageChange(currentPage + 1)}
-          disabled={currentPage === totalPages}
-          className={styles.pageArrow}
-        >
-          <IoIosArrowForward />
-        </button>
-      </div>
+          {getPageNumbers().map((pageNum) => (
+            <button
+              key={pageNum}
+              onClick={() => handlePageChange(pageNum)}
+              className={`${styles.pageNumber} ${
+                currentPage === pageNum ? styles.activePage : ""
+              }`}
+              aria-label={`Página ${pageNum}`}
+              aria-current={currentPage === pageNum ? "page" : undefined}
+            >
+              {pageNum}
+            </button>
+          ))}
+
+          <button
+            onClick={() => handlePageChange(currentPage + 1)}
+            disabled={currentPage === totalPages}
+            className={styles.pageArrow}
+            aria-label="Próxima página"
+          >
+            <IoIosArrowForward />
+          </button>
+        </nav>
+      )}
     </section>
   );
 }
