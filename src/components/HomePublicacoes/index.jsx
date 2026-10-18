@@ -1,25 +1,18 @@
-"use client";
-
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import CardPublicacao from "@/components/CardPublicacao";
 import SectionTitle from "@/components/SectionTitle";
-import posts from "@/data/posts.js";
+import { getPostSummaries } from "@/lib/posts";
 import styles from "./styles.module.css";
 
 export default function HomePublicacoes() {
-  const router = useRouter();
-
-  const handleVerMaisClick = () => {
-    router.push("/publicacoes");
-    window.scrollTo(0, 0);
-  };
+  const latestPosts = getPostSummaries(3);
 
   return (
     <section className={styles.publicacoesSection}>
       <div className={styles.publicacoesContainer}>
         <SectionTitle lightTitle="Nossas" boldTitle="Publicações" />
         <div className={styles.publicacoes}>
-          {posts.slice(0, 3).map((post) => (
+          {latestPosts.map((post) => (
             <CardPublicacao
               key={post.id}
               id={post.id}
@@ -30,9 +23,9 @@ export default function HomePublicacoes() {
           ))}
         </div>
       </div>
-      <button onClick={handleVerMaisClick} className={styles.verMaisButton}>
+      <Link href="/publicacoes" className={styles.verMaisButton}>
         Ver mais publicações
-      </button>
+      </Link>
     </section>
   );
 }

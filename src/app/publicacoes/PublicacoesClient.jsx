@@ -5,13 +5,12 @@ import { IoSearch } from "react-icons/io5";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 import CardPublicacao from "@/components/CardPublicacao";
-import posts from "@/data/posts.js";
 
 import styles from "./styles.module.css";
 
 const POSTS_PER_PAGE = 9;
 
-export default function PublicacoesClient() {
+export default function PublicacoesClient({ posts }) {
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredPosts, setFilteredPosts] = useState(posts);
   const [currentPage, setCurrentPage] = useState(1);
