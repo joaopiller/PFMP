@@ -1,19 +1,9 @@
-"use client";
-
 import Image from "next/image";
-import { useRouter } from "next/navigation";
-import ExpandButton from "../ExpandButton";
+import ExpandButton from "@/components/ExpandButton";
 import homeQuemSomos from "@/assets/images/home_quem_somos.jpeg";
 import styles from "./styles.module.css";
 
 export default function HomeQuemSomos() {
-  const router = useRouter();
-
-  const handleExpandClick = () => {
-    router.push("/quem-somos");
-    window.scrollTo(0, 0);
-  };
-
   return (
     <section className={styles.quemSomosHome}>
       <div className={styles.quemSomosInfos}>
@@ -26,7 +16,7 @@ export default function HomeQuemSomos() {
             Tributário de verdade para gente de verdade.
           </span>
         </p>
-        <ExpandButton onClick={handleExpandClick} text="Saiba mais" />
+        <ExpandButton href="/quem-somos" text="Saiba mais" />
       </div>
       <Image
         className={styles.quemSomosImage}

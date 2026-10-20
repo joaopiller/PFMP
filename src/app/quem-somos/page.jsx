@@ -1,6 +1,6 @@
 import Image from "next/image";
 import PageBanner from "@/components/PageBanner";
-import VerEquipeButton from "./VerEquipeButton";
+import ExpandButton from "@/components/ExpandButton";
 import city from "@/assets/images/city.jpg";
 import equipeQuemSomos from "@/assets/images/equipe_quem_somos.jpeg";
 import styles from "./styles.module.css";
@@ -134,7 +134,7 @@ export default function QuemSomos() {
               de ensino mais renomadas do país.
             </span>
           </p>
-          <VerEquipeButton />
+          <ExpandButton href="/equipe" text="Ver equipe" />
         </div>
 
         <Image
