@@ -1,11 +1,8 @@
 import styles from "./styles.module.css";
 import CardMembro from "@/components/CardMembro";
-import victorImg from "@/assets/images/victor_h_piller.jpeg";
-import pedroImg from "@/assets/images/pedro_fonseca.jpeg";
-import flaviaImg from "@/assets/images/flavia_perim.jpeg";
-import marchesiImg from "@/assets/images/joao_marchesi.jpeg";
 import nossa_equipe from "@/assets/images/equipe_banner.jpeg";
 import PageBanner from "@/components/PageBanner";
+import equipeMembers from "@/data/equipeMembers";
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata = buildMetadata({
@@ -31,10 +28,14 @@ export default function Equipe() {
           soluções jurídicas alinhadas às demandas dos nossos clientes.
         </p>
         <div className={styles.equipeMembers}>
-          <CardMembro id="vhpiller" image={victorImg} name="Victor H. Piller" />
-          <CardMembro id="phfonseca" image={pedroImg} name="Pedro H. Fonseca" />
-          <CardMembro id="jmarchesi" image={marchesiImg} name="João Marchesi" />
-          <CardMembro id="fperim" image={flaviaImg} name="Flávia Perim" />
+          {equipeMembers.map((member) => (
+            <CardMembro
+              key={member.id}
+              id={member.id}
+              image={member.image}
+              name={member.shortName}
+            />
+          ))}
         </div>
       </section>
     </>

@@ -7,6 +7,7 @@ const equipeMembers = [
     {
         id: "vhpiller",
         name: "Victor Hugo Piller",
+        shortName: "Victor H. Piller",
         image: victorImg,
         role: "Sócio-fundador",
         phoneNumber: "(31) 99712-7831",
@@ -35,6 +36,7 @@ const equipeMembers = [
     {
         id: "phfonseca",
         name: "Pedro Henrique Fonseca",
+        shortName: "Pedro H. Fonseca",
         image: pedroImg,
         role: "Sócio-fundador",
         phoneNumber: "(31) 99712-7831",
@@ -47,6 +49,7 @@ const equipeMembers = [
     {
         id: "jmarchesi",
         name: "João Marchesi",
+        shortName: "João Marchesi",
         image: marchesiImg,
         role: "Sócio-fundador",
         phoneNumber: "(31) 99712-7831",
@@ -59,6 +62,7 @@ const equipeMembers = [
     {
         id: "fperim",
         name: "Flávia Perim",
+        shortName: "Flávia Perim",
         image: flaviaImg,
         role: "Sócia-fundadora",
         phoneNumber: "(31) 99712-7831",
