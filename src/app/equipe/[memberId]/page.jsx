@@ -1,61 +1,45 @@
-"use client";
-
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import PageBanner from "@/components/PageBanner";
 import nossa_equipe from "@/assets/images/equipe_banner.jpeg";
 import styles from "./styles.module.css";
 import { FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
-import { useState } from "react";
-import equipeMembers from "@/data/equipeMembers.js";
+import equipeMembers from "@/data/equipeMembers";
+import { buildMetadata, toOpenGraphImage } from "@/lib/metadata";
+import AdditionalInfo from "./AdditionalInfo";
 
-const renderTextWithLinks = (textItem) => {
-  if (typeof textItem === "string") return textItem;
+const getMember = (memberId) =>
+  equipeMembers.find((member) => member.id === memberId);
 
-  const { text, links } = textItem;
-  if (!links || Object.keys(links).length === 0) return text;
+export function generateStaticParams() {
+  return equipeMembers.map((member) => ({ memberId: member.id }));
+}
 
-  let renderedText = text;
-  const parts = [];
-  let lastIndex = 0;
+export async function generateMetadata({ params }) {
+  const { memberId } = await params;
+  const membro = getMember(memberId);
 
-  Object.entries(links).forEach(([linkText, url]) => {
-    const index = renderedText.indexOf(linkText);
-    if (index !== -1) {
-      if (index > lastIndex)
-        parts.push(renderedText.substring(lastIndex, index));
+  if (!membro) {
+    return { title: "Membro não encontrado", robots: { index: false } };
+  }
 
-      parts.push(
-        <a
-          key={url}
-          href={url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.linkDestaque}
-        >
-          {linkText}
-        </a>
-      );
-
-      lastIndex = index + linkText.length;
-    }
+  return buildMetadata({
+    title: membro.name,
+    description: `${membro.name}, ${membro.role.toLowerCase()} do PFMP Advogados. Atuação em ${membro.areas
+      .slice(0, 3)
+      .join(", ")}.`,
+    path: `/equipe/${membro.id}`,
+    openGraph: { images: [toOpenGraphImage(membro.image, membro.name)] },
   });
+}
 
-  if (lastIndex < renderedText.length)
-    parts.push(renderedText.substring(lastIndex));
-  return parts.length > 1 ? parts : text;
-};
-
-export default function MembroDetalhes({ params }) {
-  const { memberId } = params;
-  const membro = equipeMembers.find((m) => m.id === memberId);
-  const [showAdditionalInfo, setShowAdditionalInfo] = useState(false);
+export default async function MembroDetalhes({ params }) {
+  const { memberId } = await params;
+  const membro = getMember(memberId);
 
   if (!membro) {
     notFound();
   }
-
-  const toggleAdditionalInfo = () => setShowAdditionalInfo((prev) => !prev);
 
   return (
     <div>
@@ -122,24 +106,7 @@ export default function MembroDetalhes({ params }) {
             </ul>
           </div>
 
-          <div className={styles.membroDetalhesFormacaoAtuacao}>
-            <button
-              className={styles.informacoesAdicionaisButton}
-              onClick={toggleAdditionalInfo}
-            >
-              <span>{showAdditionalInfo ? "-" : "+"}</span>
-              Informações Adicionais
-            </button>
-            {showAdditionalInfo && (
-              <div className={styles.informacoesAdicionaisContent}>
-                <ul>
-                  {membro.additional.map((info, index) => (
-                    <li key={index}>{renderTextWithLinks(info)}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
+          <AdditionalInfo items={membro.additional} />
         </div>
       </section>
     </div>
