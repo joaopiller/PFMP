@@ -163,14 +163,13 @@ table {
   box-sizing: border-box;
 }
 
-/* Layout para footer sticky */
+/* Layout para footer sticky: o <main> cresce e empurra o rodapé para baixo */
 html,
 body {
-  height: 100%;
   background-color: #efefef;
 }
 
-#root {
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
