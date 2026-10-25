@@ -4,14 +4,13 @@ import { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/navigation";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
 import SectionTitle from "@/components/SectionTitle";
 import CardAreaDeAtuacao from "@/components/CardAreaDeAtuacao";
 import areasDeAtuacao from "@/data/areasDeAtuacao";
 import styles from "./styles.module.css";
 
-export default function HomeAreasDeAtuacao({ whiteBackground = false }) {
+export default function HomeAreasDeAtuacao() {
   const [swiperInstance, setSwiperInstance] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -48,10 +47,7 @@ export default function HomeAreasDeAtuacao({ whiteBackground = false }) {
   const goPrev = () => swiperInstance?.slidePrev();
 
   return (
-    <section
-      className={styles.areasDeAtuacaoSection}
-      style={{ backgroundColor: whiteBackground ? "#efefef" : "#e8e8e8" }}
-    >
+    <section className={styles.areasDeAtuacaoSection}>
       <div className={styles.areasDeAtuacaoContainer}>
         <SectionTitle lightTitle="Áreas de" boldTitle="Atuação" />
         <div className={styles.carouselWrapper}>

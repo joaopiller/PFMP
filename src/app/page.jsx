@@ -1,4 +1,4 @@
-import HomeAreasDeAtuacao from "@/components/HomeAreasDeAtuação";
+import HomeAreasDeAtuacao from "@/components/HomeAreasDeAtuacao";
 import HomeBanner from "@/components/HomeBanner";
 import HomeEquipe from "@/components/HomeEquipe";
 import HomePublicacoes from "@/components/HomePublicacoes";
