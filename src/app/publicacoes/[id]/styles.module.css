@@ -82,6 +82,24 @@
   line-height: 1.8rem;
 }
 
+.subtitle {
+  color: #354f44;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: var(--font-scandia-medium);
+  margin: 1rem 0;
+  line-height: 1.5rem;
+}
+
+.link {
+  color: #db9f5d;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 .signature {
   font-family: var(--font-scandia-medium);
   color: #575656;

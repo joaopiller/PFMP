@@ -10,7 +10,7 @@ import {
   toOpenGraphImage,
 } from "@/lib/metadata";
 import JsonLd from "@/components/JsonLd";
-import { renderContent } from "@/utils/contentRenderer.jsx";
+import { renderContent } from "@/utils/contentRenderer";
 import Image from "next/image";
 
 export async function generateStaticParams() {
@@ -82,13 +82,7 @@ export default async function Publicacao({ params }) {
         )}
 
         <div className={styles.content}>
-          {post.content
-            ? renderContent(post.content, styles)
-            : post.paragraphs?.map((paragraph, index) => (
-                <p key={index} className={styles.paragraph}>
-                  {paragraph}
-                </p>
-              ))}
+          {renderContent(post.content, styles)}
 
           <p className={styles.signature}>
             Conte com a equipe do PFMP Advogados para aprofundar seu
