@@ -11,7 +11,7 @@ export default function HomeBanner() {
           <h1 className={styles.boldTitle}>Advocacia Tributária</h1>
           <h1 className={styles.lightTitle}>com Atuação Nacional</h1>
         </div>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+        <div className={styles.ctaGroup}>
           <p className={styles.text}>
             Consultoria e defesa tributária para empresas e pessoas físicas, com
             soluções fiscais estratégicas, digitais e seguras em todo o Brasil.

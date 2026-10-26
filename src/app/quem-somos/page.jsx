@@ -53,10 +53,7 @@ export default function QuemSomos() {
             escritório de direito tributário preparado para defender seus
             direitos e buscar soluções. Somos o PFMP Advogados.
           </p>
-          <p
-            className={styles.quemSomosDescription}
-            style={{ fontFamily: "var(--font-scandia-medium)" }}
-          >
+          <p className={`${styles.quemSomosDescription} ${styles.slogan}`}>
             Tributário de verdade para gente de verdade.
           </p>
         </div>

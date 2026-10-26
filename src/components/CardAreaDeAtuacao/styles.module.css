@@ -16,6 +16,10 @@
   margin: 0 auto;
 }
 
+.noMargin {
+  margin: 0;
+}
+
 .areaDeAtuacaoCard:hover {
   background-color: #16211c;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);

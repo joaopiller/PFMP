@@ -54,12 +54,7 @@ export default function Footer() {
         <p>
           © 2025 PFMP Advogados | Todos os direitos reservados | Feito por{" "}
           <a
-            style={{
-              fontWeight: "bold",
-              cursor: "pointer",
-              color: "#203029",
-              textDecoration: "none",
-            }}
+            className={styles.creditLink}
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/joaopiller/"
