@@ -7,10 +7,10 @@ export default function HomeBanner() {
     <section className={styles.homeBanner}>
       <div className={styles.bannerBlur}></div>
       <div className={styles.bannerInfos}>
-        <div className={styles.titles}>
-          <h1 className={styles.boldTitle}>Advocacia Tributária</h1>
-          <h1 className={styles.lightTitle}>com Atuação Nacional</h1>
-        </div>
+        <h1 className={styles.titles}>
+          <span className={styles.boldTitle}>Advocacia Tributária</span>{" "}
+          <span className={styles.lightTitle}>com Atuação Nacional</span>
+        </h1>
         <div className={styles.ctaGroup}>
           <p className={styles.text}>
             Consultoria e defesa tributária para empresas e pessoas físicas, com

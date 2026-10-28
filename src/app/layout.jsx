@@ -47,8 +47,11 @@ export default function RootLayout({ children }) {
     <html lang="pt-BR">
       <body>
         <JsonLd data={legalServiceJsonLd()} />
+        <a href="#conteudo" className="skip-link">
+          Pular para o conteúdo
+        </a>
         <Header />
-        <main>{children}</main>
+        <main id="conteudo">{children}</main>
         <Footer />
         <WhatsAppButton />
       </body>

@@ -53,8 +53,14 @@
   color: #5f5e5e;
 }
 
-.navItem:hover::after {
+.navItem:hover::after,
+.navItem[aria-current="page"]::after {
   width: 100%;
+}
+
+.navItem[aria-current="page"],
+.mobileNavItem[aria-current="page"] {
+  color: #2a4033;
 }
 
 .contactButton {
