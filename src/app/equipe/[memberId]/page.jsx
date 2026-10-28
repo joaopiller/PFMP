@@ -57,11 +57,13 @@ export default async function MembroDetalhes({ params }) {
           <div className={styles.membroDetalhesContact}>
             <div className={styles.membroDetalhesContactInfo}>
               <div className={styles.membroDetalhesContactData}>
-                <FaPhoneAlt size={16} color="#db9f5d" />
-                <span>{membro.phoneNumber}</span>
+                <FaPhoneAlt size={16} color="#db9f5d" aria-hidden="true" />
+                <a href={`tel:+55${membro.phoneNumber.replace(/\D/g, "")}`}>
+                  {membro.phoneNumber}
+                </a>
               </div>
               <div className={styles.membroDetalhesContactData}>
-                <FaLinkedinIn size={16} color="#db9f5d" />
+                <FaLinkedinIn size={16} color="#db9f5d" aria-hidden="true" />
                 <a
                   href={membro.linkedinLink}
                   target="_blank"

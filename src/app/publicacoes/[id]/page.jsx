@@ -12,6 +12,7 @@ import {
 import JsonLd from "@/components/JsonLd";
 import { renderContent } from "@/utils/contentRenderer";
 import Image from "next/image";
+import Link from "next/link";
 
 export async function generateStaticParams() {
   return getAllPosts().map((post) => ({ id: post.id }));
@@ -90,6 +91,10 @@ export default async function Publicacao({ params }) {
             seu caso.
           </p>
         </div>
+
+        <Link href="/publicacoes" className={styles.backLink}>
+          Ver todas as publicações
+        </Link>
       </section>
     </>
   );

@@ -108,6 +108,23 @@
   margin-top: 1rem;
 }
 
+.backLink {
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  border: 3px solid #db9f5d;
+  color: #db9f5d;
+  font-size: 1.1rem;
+  font-family: var(--font-scandia-medium);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.backLink:hover {
+  background-color: #db9f5d;
+  color: #efefef;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
 @media (max-width: 768px) {
   .publicacaoContainer {
     width: 90%;
