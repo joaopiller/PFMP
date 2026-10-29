@@ -27,12 +27,18 @@ export default function Footer() {
 
         <div className={styles.footerInfo}>
           <h2>Contato</h2>
-          <p>Telefone: {CONTACT.phoneDisplay}</p>
+          <p>
+            Telefone:{" "}
+            <a href={`tel:+55${CONTACT.phone}`} className={styles.phoneLink}>
+              {CONTACT.phoneDisplay}
+            </a>
+          </p>
           <div className={styles.socialMedia}>
             <a
               target="_blank"
               rel="noopener noreferrer"
               href={SOCIAL_LINKS.instagram}
+              aria-label="Instagram do PFMP Advogados"
             >
               <FaInstagram color="#efefef" size={26} />
             </a>
@@ -40,10 +46,16 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               href={SOCIAL_LINKS.linkedin}
+              aria-label="LinkedIn do PFMP Advogados"
             >
               <FaLinkedin color="#efefef" size={26} />
             </a>
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp do PFMP Advogados"
+            >
               <FaWhatsapp color="#efefef" size={26} />
             </a>
           </div>
@@ -52,7 +64,7 @@ export default function Footer() {
 
       <div className={styles.footerBottom}>
         <p>
-          © 2025 PFMP Advogados | Todos os direitos reservados | Feito por{" "}
+          © {new Date().getFullYear()} PFMP Advogados | Todos os direitos reservados | Feito por{" "}
           <a
             className={styles.creditLink}
             target="_blank"
