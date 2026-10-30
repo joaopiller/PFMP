@@ -51,10 +51,18 @@ export default function HomeAreasDeAtuacao() {
       <div className={styles.areasDeAtuacaoContainer}>
         <SectionTitle lightTitle="Áreas de" boldTitle="Atuação" />
         <div className={styles.carouselWrapper}>
-          <button className={styles.customArrowPrev} onClick={goPrev}>
+          <button
+            className={styles.customArrowPrev}
+            onClick={goPrev}
+            aria-label="Área anterior"
+          >
             <SlArrowLeft size={35} />
           </button>
-          <button className={styles.customArrowNext} onClick={goNext}>
+          <button
+            className={styles.customArrowNext}
+            onClick={goNext}
+            aria-label="Próxima área"
+          >
             <SlArrowRight size={35} />
           </button>
 

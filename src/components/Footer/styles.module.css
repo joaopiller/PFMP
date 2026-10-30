@@ -95,7 +95,9 @@
         justify-content: center;
     }
 
+    /* Reserva espaço para o botão flutuante do WhatsApp não cobrir o texto */
     .footerBottom {
         line-height: 1.2rem;
+        padding: 0.5rem 5.5rem 0.5rem 1rem;
     }
 }

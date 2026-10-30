@@ -39,3 +39,13 @@
   color: #efefef;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+/* Em tablets, aproveita a largura para exibir dois cards por linha */
+@media (max-width: 900px) {
+  .publicacoesContainer {
+    width: 90%;
+  }
+
+  .publicacoes {
+    gap: 1.5rem;
+  }
+}
