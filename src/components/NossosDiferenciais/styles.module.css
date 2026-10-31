@@ -42,7 +42,7 @@
   align-items: center;
   gap: 3.5rem;
   flex-wrap: wrap;
-  padding: 1rem
+  padding: 1rem;
 }
 
 @media (max-width: 1475px) {
@@ -83,7 +83,7 @@
 
 @media (max-width: 1048px) {
   .differentials {
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
     gap: 2rem;
   }
 

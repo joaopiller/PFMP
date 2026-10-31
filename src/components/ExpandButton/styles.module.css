@@ -13,7 +13,7 @@
 }
 
 .buttonCircle {
-  background-color: #DB9F5D; 
+  background-color: #db9f5d;
   color: #efefef;
   width: 2.5rem;
   height: 2.5rem;
@@ -28,7 +28,7 @@
 }
 
 .buttonText {
-  margin-left: .75rem;
+  margin-left: 0.75rem;
   color: #575656;
   transition: color 0.5s ease;
   z-index: 1;
@@ -39,13 +39,13 @@
 }
 
 .expandButton::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 2.5rem;
-  background-color: #DB9F5D;
+  background-color: #db9f5d;
   border-radius: 999px;
   z-index: 0;
   transition: width 0.5s ease;
@@ -55,6 +55,6 @@
   width: 100%;
 }
 
-.expandButton:hover .buttonText { 
+.expandButton:hover .buttonText {
   color: #efefef;
 }

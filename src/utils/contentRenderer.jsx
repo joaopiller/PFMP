@@ -56,7 +56,9 @@ export function renderContent(content, styles) {
       case "ordered_list": {
         const List = item.type === "ordered_list" ? "ol" : "ul";
         const listClass =
-          item.type === "ordered_list" ? styles.orderedList : styles.unorderedList;
+          item.type === "ordered_list"
+            ? styles.orderedList
+            : styles.unorderedList;
 
         return (
           <List key={index} className={listClass}>

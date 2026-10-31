@@ -11,7 +11,8 @@ import { VscLaw } from "react-icons/vsc";
 const DIFERENCIAIS = [
   {
     title: "Comunicação simples",
-    description: "Nada de juridiquês. Aqui, você entende tudo do começo ao fim.",
+    description:
+      "Nada de juridiquês. Aqui, você entende tudo do começo ao fim.",
     icon: IoMdChatbubbles,
   },
   {
@@ -28,12 +29,14 @@ const DIFERENCIAIS = [
   },
   {
     title: "Foco no empresário",
-    description: "Falamos a sua língua e entendemos a rotina de quem empreende.",
+    description:
+      "Falamos a sua língua e entendemos a rotina de quem empreende.",
     icon: TbBriefcase2Filled,
   },
   {
     title: "Formação de ponta",
-    description: "Equipe formada pela UFMG com sólida base técnica e acadêmica.",
+    description:
+      "Equipe formada pela UFMG com sólida base técnica e acadêmica.",
     icon: RiBook2Fill,
   },
   {

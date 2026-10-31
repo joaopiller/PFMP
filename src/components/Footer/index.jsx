@@ -64,7 +64,8 @@ export default function Footer() {
 
       <div className={styles.footerBottom}>
         <p>
-          © {new Date().getFullYear()} PFMP Advogados | Todos os direitos reservados | Feito por{" "}
+          © {new Date().getFullYear()} PFMP Advogados | Todos os direitos
+          reservados | Feito por{" "}
           <a
             className={styles.creditLink}
             target="_blank"

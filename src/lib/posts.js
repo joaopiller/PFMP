@@ -33,12 +33,14 @@ export function getPostById(id) {
 // Apenas os campos usados nos cards, para não enviar o conteúdo completo
 // dos artigos para componentes client-side.
 export function getPostSummaries(limit) {
-  const summaries = sortedPosts.map(({ id, title, description, image, date }) => ({
-    id,
-    title,
-    description,
-    image,
-    date,
-  }));
+  const summaries = sortedPosts.map(
+    ({ id, title, description, image, date }) => ({
+      id,
+      title,
+      description,
+      image,
+      date,
+    })
+  );
   return limit ? summaries.slice(0, limit) : summaries;
 }

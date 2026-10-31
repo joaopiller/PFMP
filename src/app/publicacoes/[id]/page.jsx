@@ -4,11 +4,7 @@ import publicacoes from "@/assets/images/banner_publicacoes.jpg";
 import styles from "./styles.module.css";
 import { FaCalendar } from "react-icons/fa";
 import { getAllPosts, getPostById, parsePostDate } from "@/lib/posts";
-import {
-  articleJsonLd,
-  buildMetadata,
-  toOpenGraphImage,
-} from "@/lib/metadata";
+import { articleJsonLd, buildMetadata, toOpenGraphImage } from "@/lib/metadata";
 import JsonLd from "@/components/JsonLd";
 import { renderContent } from "@/utils/contentRenderer";
 import Image from "next/image";

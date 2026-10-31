@@ -8,12 +8,12 @@ O projeto tem como objetivo apresentar a identidade do escritório, suas áreas 
 
 Você pode conferir o site online através do link abaixo:
 
-🔗 **[Clique aqui para acessar o site]([(https://www.pfmpadv.com.br))**
+🔗 **[Clique aqui para acessar o site](<[(https://www.pfmpadv.com.br)>)**
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Next.js** (Framework React)
-* **JavaScript**
-* **CSS / Estilização**
+- **Next.js** (Framework React)
+- **JavaScript**
+- **CSS / Estilização**

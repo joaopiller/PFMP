@@ -12,10 +12,7 @@ const POSTS_PER_PAGE = 9;
 
 // Permite buscar "tributacao" e encontrar "Tributação".
 const normalize = (text = "") =>
-  text
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .toLowerCase();
+  text.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
 export default function PublicacoesClient({ posts }) {
   const [searchTerm, setSearchTerm] = useState("");
