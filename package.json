@@ -1,12 +1,17 @@
 {
-  "name": "pfmp-next",
+  "name": "pfmp-advogados",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "next": "15.5.7",
@@ -18,6 +23,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.5.7"
+    "eslint-config-next": "15.5.7",
+    "prettier": "3.6.2"
   }
 }
