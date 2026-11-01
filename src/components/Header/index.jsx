@@ -12,6 +12,7 @@ import { NAV_LINKS, WHATSAPP_URL } from "@/config/site";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
 
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
@@ -19,6 +20,13 @@ export default function Header() {
 
   const isActive = (href) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
+
+  useEffect(() => {
+    const handleScroll = () => setIsScrolled(window.scrollY > 24);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // Com o menu mobile aberto: trava o scroll da página e fecha com Esc.
   useEffect(() => {
@@ -37,7 +45,7 @@ export default function Header() {
   }, [isMenuOpen]);
 
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${isScrolled ? styles.scrolled : ""}`}>
       <Link href="/" className={styles.logoLink}>
         <Image
           className={styles.logo}

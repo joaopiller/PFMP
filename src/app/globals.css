@@ -169,6 +169,11 @@ body {
   background-color: #efefef;
 }
 
+/* Compensa o header fixo ao navegar para âncoras ou usar scrollIntoView */
+html {
+  scroll-padding-top: 6rem;
+}
+
 body {
   min-height: 100vh;
   display: flex;

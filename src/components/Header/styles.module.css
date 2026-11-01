@@ -3,11 +3,32 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.3rem 8rem;
-  background-color: #efefef;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 999;
   height: 15vh;
+  transition:
+    height 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+/* Fundo translúcido num pseudo-elemento: backdrop-filter direto no header
+   criaria um novo containing block e quebraria o menu mobile (position: fixed). */
+.header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: rgba(239, 239, 239, 0.86);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Ao rolar a página o header fica mais compacto */
+.scrolled {
+  height: 10vh;
+  min-height: 4.5rem;
+  box-shadow: 0 4px 20px rgba(32, 48, 41, 0.12);
 }
 
 .logoLink {
@@ -19,6 +40,11 @@
   cursor: pointer;
   width: 11rem;
   height: 2.8rem;
+  transition: transform 0.35s ease;
+}
+
+.scrolled .logo {
+  transform: scale(0.9);
 }
 
 .navBox {
@@ -84,7 +110,8 @@
 
 .contactButton:hover {
   background-color: #253830;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
 }
 
 .hamburger {
@@ -212,6 +239,10 @@
   .header {
     padding: 1.5rem 2rem;
     height: 10vh;
+  }
+
+  .scrolled {
+    height: 4.5rem;
   }
 
   .logo {
