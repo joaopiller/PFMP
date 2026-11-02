@@ -11,33 +11,42 @@
   position: relative;
 }
 
-/* Setas Customizadas */
-.customArrowPrev,
-.customArrowNext {
+/* Setas: centralizadas na altura dos cards (descontando a paginação) */
+.arrow {
   position: absolute;
-  top: 50%;
+  top: calc(50% - 1.25rem);
   transform: translateY(-50%);
   z-index: 10;
-  border: none;
+  width: 2.9rem;
+  height: 2.9rem;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
+  border: 1.5px solid rgba(53, 79, 68, 0.35);
+  background-color: #efefef;
   color: #354f44;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  background-color: transparent;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
-.customArrowPrev:hover,
-.customArrowNext:hover {
-  background-color: transparent;
+.arrow:hover {
+  background-color: #354f44;
+  border-color: #354f44;
+  color: #efefef;
+  box-shadow: 0 6px 16px rgba(32, 48, 41, 0.25);
 }
 
-.customArrowPrev {
-  left: 15px;
+.arrowPrev {
+  left: 0;
 }
 
-.customArrowNext {
-  right: 15px;
+.arrowNext {
+  right: 0;
 }
 
 .carouselWrapper {
@@ -55,6 +64,29 @@
   position: relative;
   margin: 0 auto;
   max-width: 1118px;
+}
+
+/* Espaço para a elevação dos cards no hover e para a paginação */
+.areasDeAtuacaoSlider :global(.swiper) {
+  padding: 0.75rem 0.25rem 2.75rem;
+}
+
+.areasDeAtuacaoSlider :global(.swiper-pagination-bullet) {
+  width: 8px;
+  height: 8px;
+  background-color: #354f44;
+  opacity: 0.25;
+  transition:
+    width 0.3s ease,
+    opacity 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.areasDeAtuacaoSlider :global(.swiper-pagination-bullet-active) {
+  width: 24px;
+  border-radius: 4px;
+  background-color: #db9f5d;
+  opacity: 1;
 }
 
 @media (max-width: 1501px) {
@@ -104,11 +136,7 @@
     max-width: none;
   }
 
-  .customArrowPrev {
-    display: none;
-  }
-
-  .customArrowNext {
+  .arrow {
     display: none;
   }
 

@@ -5,15 +5,55 @@
   justify-content: center;
   width: 16rem !important;
   height: 16rem;
-  border-radius: 6px;
+  border-radius: 10px;
   overflow: hidden;
   background-color: #203029;
   padding: 1.2rem;
   text-align: center;
   color: #efefef;
-  transition: all 0.5s ease;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease,
+    background-color 0.4s ease;
   gap: 0.6rem;
   margin: 0 auto;
+  position: relative;
+}
+
+/* Linha dourada que cresce no topo do card no hover */
+.areaDeAtuacaoCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background-color: #db9f5d;
+  transform: translateX(-50%);
+  transition: width 0.4s ease;
+}
+
+.areaDeAtuacaoCard:hover::before {
+  width: 100%;
+}
+
+.iconWrapper {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: rgba(219, 159, 93, 0.12);
+  transition:
+    transform 0.4s ease,
+    background-color 0.4s ease;
+}
+
+.areaDeAtuacaoCard:hover .iconWrapper {
+  transform: scale(1.06);
+  background-color: rgba(219, 159, 93, 0.2);
 }
 
 .noMargin {
@@ -21,8 +61,9 @@
 }
 
 .areaDeAtuacaoCard:hover {
-  background-color: #16211c;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background-color: #1b2923;
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(32, 48, 41, 0.3);
 }
 
 .areaDeAtuacaoCard h3 {

@@ -11,7 +11,9 @@ export default function CardAreaDeAtuacao({
     <div
       className={`${styles.areaDeAtuacaoCard} ${margin ? "" : styles.noMargin}`}
     >
-      {children}
+      <span className={styles.iconWrapper} aria-hidden="true">
+        {children}
+      </span>
       <h3>{title}</h3>
       {description && <p>{description}</p>}
     </div>

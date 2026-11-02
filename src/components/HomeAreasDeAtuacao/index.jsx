@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { A11y, Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
-import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
+import "swiper/css/pagination";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import SectionTitle from "@/components/SectionTitle";
 import CardAreaDeAtuacao from "@/components/CardAreaDeAtuacao";
 import areasDeAtuacao from "@/data/areasDeAtuacao";
@@ -12,36 +13,14 @@ import styles from "./styles.module.css";
 
 export default function HomeAreasDeAtuacao() {
   const [swiperInstance, setSwiperInstance] = useState(null);
-  const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
-    const checkMobile = () => window.innerWidth <= 834;
-    setIsMobile(checkMobile());
-
-    const handleResize = () => {
-      const mobile = checkMobile();
-      setIsMobile(mobile);
-
-      if (swiperInstance) {
-        if (mobile) swiperInstance.autoplay.start();
-        else swiperInstance.autoplay.stop();
-      }
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, [swiperInstance]);
-
+  // Respeita a preferência do sistema por menos movimento.
   useEffect(() => {
     if (!swiperInstance) return;
-    if (isMobile) {
-      swiperInstance.params.autoplay.delay = 5000;
-      swiperInstance.params.autoplay.disableOnInteraction = false;
-      swiperInstance.autoplay.start();
-    } else {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       swiperInstance.autoplay.stop();
     }
-  }, [swiperInstance, isMobile]);
+  }, [swiperInstance]);
 
   const goNext = () => swiperInstance?.slideNext();
   const goPrev = () => swiperInstance?.slidePrev();
@@ -52,38 +31,42 @@ export default function HomeAreasDeAtuacao() {
         <SectionTitle lightTitle="Áreas de" boldTitle="Atuação" />
         <div className={styles.carouselWrapper}>
           <button
-            className={styles.customArrowPrev}
+            className={`${styles.arrow} ${styles.arrowPrev}`}
             onClick={goPrev}
             aria-label="Área anterior"
           >
-            <SlArrowLeft size={35} />
+            <IoIosArrowBack size={22} />
           </button>
           <button
-            className={styles.customArrowNext}
+            className={`${styles.arrow} ${styles.arrowNext}`}
             onClick={goNext}
             aria-label="Próxima área"
           >
-            <SlArrowRight size={35} />
+            <IoIosArrowForward size={22} />
           </button>
 
           <div className={styles.areasDeAtuacaoSlider}>
             <Swiper
               onSwiper={setSwiperInstance}
-              modules={[Autoplay]}
+              modules={[A11y, Autoplay, Pagination]}
               loop
-              autoplay={false}
-              speed={850}
+              speed={700}
+              autoplay={{
+                delay: 5000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+              }}
+              pagination={{ clickable: true }}
+              a11y={{
+                prevSlideMessage: "Área anterior",
+                nextSlideMessage: "Próxima área",
+                paginationBulletMessage: "Ir para o grupo {{index}}",
+              }}
               spaceBetween={16}
               slidesPerView={1}
               slidesPerGroup={1}
               centeredSlides
               breakpoints={{
-                834: {
-                  slidesPerView: 1,
-                  slidesPerGroup: 1,
-                  spaceBetween: 16,
-                  centeredSlides: true,
-                },
                 835: {
                   slidesPerView: 2,
                   slidesPerGroup: 2,
@@ -111,7 +94,7 @@ export default function HomeAreasDeAtuacao() {
                     title={area.name}
                     description={area.description}
                   >
-                    <area.icon color="#db9f5d" size={85} />
+                    <area.icon color="#db9f5d" size={52} />
                   </CardAreaDeAtuacao>
                 </SwiperSlide>
               ))}
