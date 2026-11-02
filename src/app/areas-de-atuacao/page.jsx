@@ -25,7 +25,7 @@ export default function AreasDeAtuacao() {
         <div className={styles.areasDeAtuacaoCards}>
           {areasDeAtuacaoData.map((area) => (
             <CardAreaDeAtuacao
-              key={area.id}
+              key={area.name}
               title={area.name}
               description={area.description}
             >

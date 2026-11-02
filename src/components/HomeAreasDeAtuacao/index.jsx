@@ -105,7 +105,7 @@ export default function HomeAreasDeAtuacao() {
               }}
             >
               {areasDeAtuacao.map((area) => (
-                <SwiperSlide key={area.id}>
+                <SwiperSlide key={area.name}>
                   <CardAreaDeAtuacao
                     margin
                     title={area.name}
