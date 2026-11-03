@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 export default function HomeQuemSomos() {
   return (
     <section className={styles.quemSomosHome}>
-      <div className={styles.quemSomosInfos}>
+      <div className={styles.quemSomosInfos} data-reveal>
         <h2 className={styles.quemSomosTitle}>Somos o PFMP Advogados</h2>
         <p className={styles.quemSomosText}>
           <span>

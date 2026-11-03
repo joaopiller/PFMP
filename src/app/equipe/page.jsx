@@ -28,9 +28,11 @@ export default function Equipe() {
           soluções jurídicas alinhadas às demandas dos nossos clientes.
         </p>
         <div className={styles.equipeMembers}>
-          {equipeMembers.map((member) => (
+          {equipeMembers.map((member, index) => (
             <CardMembro
               key={member.id}
+              data-reveal
+              style={{ "--reveal-delay": `${index * 100}ms` }}
               id={member.id}
               image={member.image}
               name={member.shortName}

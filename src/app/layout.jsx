@@ -10,6 +10,7 @@ import {
 } from "@/config/site";
 import { DEFAULT_SHARE_IMAGE, legalServiceJsonLd } from "@/lib/metadata";
 import JsonLd from "@/components/JsonLd";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -54,6 +55,7 @@ export default function RootLayout({ children }) {
         <main id="conteudo">{children}</main>
         <Footer />
         <WhatsAppButton />
+        <ScrollReveal />
       </body>
     </html>
   );

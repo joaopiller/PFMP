@@ -270,3 +270,55 @@
     padding: 0.5rem 1rem;
   }
 }
+
+/* Animação de entrada do banner */
+@keyframes bannerPopIn {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bannerFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .bannerInfos {
+    animation: bannerPopIn 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
+  }
+
+  .boldTitle,
+  .lightTitle,
+  .text,
+  .button {
+    animation: bannerFadeUp 0.7s ease backwards;
+  }
+
+  .boldTitle {
+    animation-delay: 0.15s;
+  }
+
+  .lightTitle {
+    animation-delay: 0.25s;
+  }
+
+  .text {
+    animation-delay: 0.35s;
+  }
+
+  .button {
+    animation-delay: 0.45s;
+  }
+}

@@ -1,8 +1,13 @@
 import styles from "./styles.module.css";
 
-export default function Diferencial({ title, description, children }) {
+export default function Diferencial({
+  title,
+  description,
+  children,
+  ...props
+}) {
   return (
-    <div className={styles.differential}>
+    <div className={styles.differential} {...props}>
       <div className={styles.iconContainer}>
         <h3>{title}</h3>
         {children}

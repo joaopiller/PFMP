@@ -2,9 +2,15 @@ import Image from "next/image";
 import ExpandButton from "@/components/ExpandButton";
 import styles from "./styles.module.css";
 
-export default function CardPublicacao({ image, title, description, id }) {
+export default function CardPublicacao({
+  image,
+  title,
+  description,
+  id,
+  ...props
+}) {
   return (
-    <article className={styles.publicacaoCard}>
+    <article className={styles.publicacaoCard} {...props}>
       <Image
         className={styles.publicacaoImage}
         src={image}

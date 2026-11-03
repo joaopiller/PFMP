@@ -50,8 +50,14 @@ const DIFERENCIAIS = [
 function DiferenciaisList() {
   return (
     <div className={styles.differentials}>
-      {DIFERENCIAIS.map(({ title, description, icon: Icon }) => (
-        <Diferencial key={title} title={title} description={description}>
+      {DIFERENCIAIS.map(({ title, description, icon: Icon }, index) => (
+        <Diferencial
+          key={title}
+          title={title}
+          description={description}
+          data-reveal
+          style={{ "--reveal-delay": `${(index % 3) * 100}ms` }}
+        >
           <Icon color="#DB9F5D" size={22} aria-hidden="true" />
         </Diferencial>
       ))}

@@ -221,3 +221,29 @@ main {
 .skip-link:focus {
   top: 0;
 }
+
+/* Revelação ao rolar (ver components/ScrollReveal). A especificidade dupla
+   garante prioridade sobre as transições próprias dos componentes. */
+[data-reveal].reveal-pending {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+[data-reveal].reveal-in {
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}

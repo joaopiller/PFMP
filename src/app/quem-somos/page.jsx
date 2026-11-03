@@ -61,7 +61,7 @@ export default function QuemSomos() {
 
       <section className={styles.quemSomosMVV}>
         <div className={styles.quemSomosMVContainer}>
-          <div className={styles.quemSomosMVItem}>
+          <div className={styles.quemSomosMVItem} data-reveal>
             <h3>Missão</h3>
             <p>
               Nossa missão é defender os direitos dos contribuintes e garantir
@@ -70,7 +70,7 @@ export default function QuemSomos() {
               clientes.
             </p>
           </div>
-          <div className={styles.quemSomosMVItem}>
+          <div className={styles.quemSomosMVItem} data-reveal>
             <h3>Visão</h3>
             <p>
               Queremos ser o escritório de referência nacional em advocacia
@@ -85,14 +85,22 @@ export default function QuemSomos() {
       <section className={styles.quemSomosValores}>
         <h3>Valores</h3>
         <div className={styles.quemSomosValoresContainer}>
-          <div className={styles.quemSomosValoresItem}>
+          <div
+            className={styles.quemSomosValoresItem}
+            data-reveal
+            style={{ "--reveal-delay": "0ms" }}
+          >
             <IoChatbubblesOutline color="#db9f5d" size={80} />
             <div className={styles.quemSomosValoresText}>
               <h4>Comunicamos de forma clara</h4>
               <p>Juridiquês afasta, a gente simplifica.</p>
             </div>
           </div>
-          <div className={styles.quemSomosValoresItem}>
+          <div
+            className={styles.quemSomosValoresItem}
+            data-reveal
+            style={{ "--reveal-delay": "100ms" }}
+          >
             <LuHandshake color="#db9f5d" size={80} />
             <div className={styles.quemSomosValoresText}>
               <h4>Não vendemos promessas</h4>
@@ -102,14 +110,22 @@ export default function QuemSomos() {
               </p>
             </div>
           </div>
-          <div className={styles.quemSomosValoresItem}>
+          <div
+            className={styles.quemSomosValoresItem}
+            data-reveal
+            style={{ "--reveal-delay": "0ms" }}
+          >
             <TbBulb color="#db9f5d" size={80} />
             <div className={styles.quemSomosValoresText}>
               <h4>Pensamos em saídas</h4>
               <p>Apontar problemas não basta, é preciso buscar soluções.</p>
             </div>
           </div>
-          <div className={styles.quemSomosValoresItem}>
+          <div
+            className={styles.quemSomosValoresItem}
+            data-reveal
+            style={{ "--reveal-delay": "100ms" }}
+          >
             <GoPeople color="#db9f5d" size={80} />
             <div className={styles.quemSomosValoresText}>
               <h4>Escutamos com atenção</h4>
@@ -120,7 +136,7 @@ export default function QuemSomos() {
       </section>
 
       <section className={styles.quemSomosEquipe}>
-        <div className={styles.quemSomosEquipeInfos}>
+        <div className={styles.quemSomosEquipeInfos} data-reveal>
           <h2 className={styles.quemSomosEquipeTitle}>
             Conheça nosso time de especialistas
           </h2>

@@ -9,9 +9,11 @@ export default function HomeEquipe() {
       <div className={styles.equipeContainer}>
         <SectionTitle lightTitle="Nossa" boldTitle="Equipe" />
         <div className={styles.equipeMembers}>
-          {equipeMembers.map((member) => (
+          {equipeMembers.map((member, index) => (
             <CardMembro
               key={member.id}
+              data-reveal
+              style={{ "--reveal-delay": `${index * 100}ms` }}
               id={member.id}
               image={member.image}
               name={member.shortName}
