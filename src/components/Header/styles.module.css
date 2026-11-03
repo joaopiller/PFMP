@@ -7,9 +7,7 @@
   top: 0;
   z-index: 999;
   height: 15vh;
-  transition:
-    height 0.35s ease,
-    box-shadow 0.35s ease;
+  transition: box-shadow 0.35s ease;
 }
 
 /* Fundo translúcido num pseudo-elemento: backdrop-filter direto no header
@@ -25,10 +23,9 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-/* Ao rolar a página o header fica mais compacto */
+/* Ao rolar, apenas sombra e logo menor: alterar a altura empurraria o
+   conteúdo da página e causaria saltos na rolagem. */
 .scrolled {
-  height: 10vh;
-  min-height: 4.5rem;
   box-shadow: 0 4px 20px rgba(32, 48, 41, 0.12);
 }
 
@@ -240,10 +237,6 @@
   .header {
     padding: 1.5rem 2rem;
     height: 10vh;
-  }
-
-  .scrolled {
-    height: 4.5rem;
   }
 
   .logo {
